@@ -9,6 +9,7 @@ from collectors.gov_uk import collect_fcdo_advice
 from collectors.news_search import collect_news_searches
 from collectors.sa_government import collect_sa_government_news
 from collectors.traffic import collect_i_traffic
+from intelligence.business_impact import apply_business_impact
 from intelligence.classify import classify_items
 from intelligence.deduplicate import deduplicate_items
 from intelligence.normalise import normalise_items
@@ -61,24 +62,31 @@ def sort_items(
     items: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
     """
-    Sort the newest and most relevant items first.
+    Sort the most business-relevant items first.
+
+    Business impact is the main ranking factor.
+    General relevance and publication time are used when
+    stories have the same business impact score.
     """
 
     return sorted(
         items,
         key=lambda item: (
-            str(
-                item.get("published_timestamp")
-                or ""
+            int(
+                item.get("business_impact_score")
+                or 0
             ),
             int(
                 item.get("relevance_score")
                 or 0
             ),
+            str(
+                item.get("published_timestamp")
+                or ""
+            ),
         ),
         reverse=True,
     )
-
 
 def write_output(
     output: dict[str, Any],
@@ -173,12 +181,20 @@ def main() -> None:
         deduplicated_items
     )
 
-    final_items = sort_items(
+    business_scored_items = apply_business_impact(
         classified_items
     )
 
+    print(
+        f"After business impact scoring: "
+        f"{len(business_scored_items)}"
+    )
+
+    final_items = sort_items(
+        business_scored_items
+    )
+
     london_now = datetime.now()
-    
 
     output = {
         "metadata": {

@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "collection-engine test",
-    "generated_at": "2026-08-04T15:20:54.476206",
-    "generated_display": "04 Aug 2026, 15:20",
+    "generated_at": "2026-08-04T17:07:04.548944",
+    "generated_display": "04 Aug 2026, 17:07",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 71,
-    "final_item_count": 70,
+    "normalised_item_count": 73,
+    "final_item_count": 72,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -29,6 +29,28 @@
   },
   "items": [
     {
+      "title": "Chinese businesses urged to comply with SA labour laws or face consequences - Inside Politic",
+      "summary": "Chinese businesses urged to comply with SA labour laws or face consequences Inside Politic",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSzFrZXdKWERVVWJEM3loT1p4OW4xbEJjcVlaUUJpLVZoTWRjcHdkOW1kWm5vQTdkWWtLYnE1ai1SclVxVVQyUWlSZy1haWs0M2tCYVRIbWpfYWRNYWotemZCQ3U1V0ozdjluRF8yMHJzaTFzOTE4VUNEMUx6d0pyejU2cDRmQ0tOcXFIQ2Ezb0NqMmVBemVWak0zUjluZEpzWTRSN2ZrOA?oc=5",
+      "source": "Inside Politic",
+      "source_type": "news",
+      "location": "National",
+      "city_id": null,
+      "published": "Tue, 04 Aug 2026 15:06:11 GMT",
+      "event_date": "",
+      "collector": "news_search",
+      "raw_category": "Unclassified news",
+      "confidence": "Reported",
+      "published_timestamp": "2026-08-04T15:06:11+00:00",
+      "published_display": "04 Aug 2026, 15:06 UTC",
+      "category": "Economy and business",
+      "relevance_score": 35,
+      "relevance": "Low",
+      "business_impact_score": 17,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (17/100). The story is classified under economy and business."
+    },
+    {
       "title": "South Africa chasing after private investors with new R8 billion plan - businesstech.co.za",
       "summary": "South Africa chasing after private investors with new R8 billion plan businesstech.co.za",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON0xzNm52dGJpdXlJanIwZ2ZkY3lLOS1KYkwtVmR6V1ltYUFJb2RyOGNVb1dCbUJXMkN2UHFvMWRGYlNXSjl3WkRUcEthRm1fWGN5WWpxazk4VERQa2FFQjRlSlZwVkI2dVZsa1R3MEkxZ0dobTFyWHZvZEltRk5Hc0d4TFJ3S3RkUlo0THhQRGwyNnkybXBFWTJ1OXE0bjNhVEhPZ0sycF9RZnktaWNrWmNpWWpDZEtk?oc=5",
@@ -45,7 +67,10 @@
       "published_display": "04 Aug 2026, 13:12 UTC",
       "category": "Economy and business",
       "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 17,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (17/100). The story is classified under economy and business."
     },
     {
       "title": "South Africa wins Chinese backing for $122 billion energy expansion to rebuild manufacturing sector - Business Insider Africa",
@@ -64,7 +89,32 @@
       "published_display": "04 Aug 2026, 12:54 UTC",
       "category": "Economy and business",
       "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 27,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (27/100). Relevant indicators include energy. the story is classified under economy and business."
+    },
+    {
+      "title": "South Africa marks longest period without power cuts - APAnews - Agence de Presse Africaine",
+      "summary": "South Africa marks longest period without power cuts APAnews - Agence de Presse Africaine",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rV3ZUMEp3YkI1dzhfSUFxLU1YWk9UZjRaVE1WUXdfSWthc1J1dng4MzJ0MVVualg5X2pVR1laMHpWTEhHbHVFd0dlU0p4ZnN6aU51VWNGTVh0c0RuM1dNTy1fSHRINk5sUWRsRXd5cFM1Z1BGMEZZU25NS05TZw?oc=5",
+      "source": "APAnews - Agence de Presse Africaine",
+      "source_type": "news",
+      "location": "National",
+      "city_id": null,
+      "published": "Tue, 04 Aug 2026 12:12:42 GMT",
+      "event_date": "",
+      "collector": "news_search",
+      "raw_category": "Unclassified news",
+      "confidence": "Reported",
+      "published_timestamp": "2026-08-04T12:12:42+00:00",
+      "published_display": "04 Aug 2026, 12:12 UTC",
+      "category": "Infrastructure",
+      "relevance_score": 35,
+      "relevance": "Low",
+      "business_impact_score": 20,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (20/100). The story is classified under infrastructure."
     },
     {
       "title": "Financial Intelligence Centre Act: Consultation note to draft Directive 12 on the submission of risk management and compliance programmes",
@@ -83,7 +133,10 @@
       "published_display": "04 Aug 2026, 11:48 UTC",
       "category": "Government",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Competition Tribunal: Notification of decision to approve merger: 9 Mergers",
@@ -102,7 +155,10 @@
       "published_display": "04 Aug 2026, 11:43 UTC",
       "category": "Government",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Standards Act: Standards matters: Existing standards, new, amended and revised standards: Drafts for comments",
@@ -121,7 +177,10 @@
       "published_display": "04 Aug 2026, 11:36 UTC",
       "category": "Government",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Planned Electricity Outage for Sea Point, Camps Bay and Clifton - Smile 90.4FM",
@@ -140,7 +199,10 @@
       "published_display": "04 Aug 2026, 10:17 UTC",
       "category": "Infrastructure",
       "relevance_score": 51,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 42,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (42/100). Relevant indicators include electricity outage. the story is classified under infrastructure."
     },
     {
       "title": "Road Closures You Need To Know Ahead Of The 2026 Totalsports Women's Race in Cape Town - 2oceansvibe News",
@@ -159,7 +221,10 @@
       "published_display": "04 Aug 2026, 08:58 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 51,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 95,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (95/100). Relevant indicators include road closure, road closures, transport disruption. the story is classified under transport."
     },
     {
       "title": "Bank of America taps new Africa, Benelux Investment bank leads - Moneyweb",
@@ -178,7 +243,10 @@
       "published_display": "04 Aug 2026, 08:45 UTC",
       "category": "Economy and business",
       "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 29,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (29/100). Relevant indicators include investment. the story is classified under economy and business."
     },
     {
       "title": "Early Career Researchers Spring School 2026 in South Africa: Fully Funded Climate, Peace and Security Training at the University of Fort Hare - Global South Opportunities",
@@ -197,7 +265,32 @@
       "published_display": "04 Aug 2026, 07:20 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
+    },
+    {
+      "title": "Bank of America Taps New Africa, Benelux Investment Bank Leads - bloomberg.com",
+      "summary": "Bank of America Taps New Africa, Benelux Investment Bank Leads bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaXJHNlNTTmRseElWbHNjU2RqSnV3bWhYY1FvVGhCRzE0NlFfWGExVFRoU29GaF8zRDlLMXNJUkNpd3ZfVmZYZWU5cUEtWnNTWG5FSFpEX0lNeFE0d0NCeGtrclBDdWFyLU8wRXFkRlpUbkdsRDE5U25uaWlWRHpramdOZVVRQjVSaVB3U3lrTFVPbFkyZjBVUUZVd3BDcGlSM01WUEx0VmhsblozNllzQ0N3?oc=5",
+      "source": "bloomberg.com",
+      "source_type": "news",
+      "location": "National",
+      "city_id": null,
+      "published": "Tue, 04 Aug 2026 04:00:00 GMT",
+      "event_date": "",
+      "collector": "news_search",
+      "raw_category": "Unclassified news",
+      "confidence": "Reported",
+      "published_timestamp": "2026-08-04T04:00:00+00:00",
+      "published_display": "04 Aug 2026, 04:00 UTC",
+      "category": "Economy and business",
+      "relevance_score": 35,
+      "relevance": "Low",
+      "business_impact_score": 29,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (29/100). Relevant indicators include investment. the story is classified under economy and business."
     },
     {
       "title": "‘The dying squad’: Gqeberha’s elite Flying Squad down to one vehicle – and it has no tyres - News24",
@@ -207,16 +300,19 @@
       "source_type": "news",
       "location": "Gqeberha",
       "city_id": "gqeberha",
-      "published": "Tue, 04 Aug 2026 02:03:24 GMT",
+      "published": "Tue, 04 Aug 2026 02:52:49 GMT",
       "event_date": "",
       "collector": "news_search",
       "raw_category": "Unclassified news",
       "confidence": "Reported",
-      "published_timestamp": "2026-08-04T02:03:24+00:00",
-      "published_display": "04 Aug 2026, 02:03 UTC",
+      "published_timestamp": "2026-08-04T02:52:49+00:00",
+      "published_display": "04 Aug 2026, 02:52 UTC",
       "category": "Unclassified news",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
@@ -235,7 +331,32 @@
       "published_display": "04 Aug 2026, 01:05 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
+    },
+    {
+      "title": "Pretoria man shot multiple times during home invasion - The Citizen",
+      "summary": "Pretoria man shot multiple times during home invasion The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMXZ3b0FZY0JaVXpKR1pJalJZWldLUFB0czN0a1F5WFFNZ3hBUzdNSmJCMXNEMWRoWjdPeGc5NzlHVGpOWUtYNk1iSnFSQmc4ZGQ2M3haX1p5eTVndG9GcFVzZkQxRjZXRmdkSzBJVHNxRDFXbHdudG1YdWdHclBWa3pKT21aVHhncjR0ZWhvMEVlbjR4X2dQdnlMV196N1Z4cFNTTUlmUUljUERpMXEtRTBGOA?oc=5",
+      "source": "The Citizen",
+      "source_type": "news",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "published": "Tue, 04 Aug 2026 00:18:39 GMT",
+      "event_date": "",
+      "collector": "news_search",
+      "raw_category": "Unclassified news",
+      "confidence": "Reported",
+      "published_timestamp": "2026-08-04T00:18:39+00:00",
+      "published_display": "04 Aug 2026, 00:18 UTC",
+      "category": "Unclassified news",
+      "relevance_score": 45,
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Road Accident Fund Act: Adjustment of statutory limit in respect of claims for loss of income and loss of support (English/Afrikaans)",
@@ -254,7 +375,10 @@
       "published_display": "03 Aug 2026, 16:25 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 60,
+      "business_impact_level": "High",
+      "business_impact_explanation": "High business impact (60/100). Relevant indicators include transport disruption, road accident. the story is classified under transport."
     },
     {
       "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing: Mangaung Metropolitan Municipality",
@@ -273,7 +397,10 @@
       "published_display": "03 Aug 2026, 16:22 UTC",
       "category": "Politics and government",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 13,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (13/100). The story is classified under politics and government."
     },
     {
       "title": "Special Investigating Units and Special Tribunals Act: Referral of matters: Gauteng Provincial Department of Health",
@@ -292,7 +419,10 @@
       "published_display": "03 Aug 2026, 16:20 UTC",
       "category": "Government",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Project and Construction Management Professions: SACPCMP Council nominations",
@@ -311,7 +441,10 @@
       "published_display": "03 Aug 2026, 16:07 UTC",
       "category": "Government",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Merchandise Marks Act: Rugby Greatest Rivalry 2026 declared a protected event",
@@ -330,7 +463,10 @@
       "published_display": "03 Aug 2026, 15:53 UTC",
       "category": "Government",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Currency and Exchanges Act: Notice and order of forfeiture: Pabitha Trading Group (Pty) Limited",
@@ -349,7 +485,10 @@
       "published_display": "03 Aug 2026, 15:51 UTC",
       "category": "Economy and business",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 29,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (29/100). Relevant indicators include currency. the story is classified under economy and business."
     },
     {
       "title": "Table Mountain wildfire burns out after overnight firefighting operation in Cape Town - Cape Town ETC",
@@ -368,7 +507,10 @@
       "published_display": "03 Aug 2026, 15:30 UTC",
       "category": "Unclassified news",
       "relevance_score": 51,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 35,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (35/100). Relevant indicators include wildfire."
     },
     {
       "title": "Ramaphosa hails momentum in South Africa’s clean energy transition - Business Day",
@@ -387,26 +529,10 @@
       "published_display": "03 Aug 2026, 12:39 UTC",
       "category": "Economy and business",
       "relevance_score": 35,
-      "relevance": "Low"
-    },
-    {
-      "title": "There are 13 areas in South Africa where companies do not pay VAT - Daily Investor",
-      "summary": "There are 13 areas in South Africa where companies do not pay VAT Daily Investor",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZk1mTUxic1ZkTTlHbF81VVBMVDFYakFRS084alBXaGw3cjlIYWw4V3VLQW51UnkydHd3Wk9nUTM2Zkg0Nk93OTh4UldSbm1DSnZWTzkxSUtvQ2xhMmJ4LUgxNkR5RXJOVk5nWDhUc2JWMXZYaEtoRGF4QTBqTnlHaUxZanZjNEV5eFpwcGR0Nk5aYWd0MFdUM3pieGFUR2lO?oc=5",
-      "source": "Daily Investor",
-      "source_type": "news",
-      "location": "National",
-      "city_id": null,
-      "published": "Mon, 03 Aug 2026 11:09:07 GMT",
-      "event_date": "",
-      "collector": "news_search",
-      "raw_category": "Unclassified news",
-      "confidence": "Reported",
-      "published_timestamp": "2026-08-03T11:09:07+00:00",
-      "published_display": "03 Aug 2026, 11:09 UTC",
-      "category": "Unclassified news",
-      "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 27,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (27/100). Relevant indicators include energy. the story is classified under economy and business."
     },
     {
       "title": "MBASA MVENENE | South Africa’s youth must turn protest solidarity into ballot power - Sowetan",
@@ -425,7 +551,10 @@
       "published_display": "03 Aug 2026, 10:31 UTC",
       "category": "Protests and civil unrest",
       "relevance_score": 41,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 100,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (100/100). Relevant indicators include civil unrest, protest, protests. the story is classified under protests and civil unrest."
     },
     {
       "title": "Temporary road closures for the 2026 Totalsports Women’s Race in Cape Town - Cape Town ETC",
@@ -444,26 +573,10 @@
       "published_display": "03 Aug 2026, 10:13 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 51,
-      "relevance": "Medium"
-    },
-    {
-      "title": "Pretoria man shot multiple times during home invasion - The Citizen",
-      "summary": "Pretoria man shot multiple times during home invasion The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMXZ3b0FZY0JaVXpKR1pJalJZWldLUFB0czN0a1F5WFFNZ3hBUzdNSmJCMXNEMWRoWjdPeGc5NzlHVGpOWUtYNk1iSnFSQmc4ZGQ2M3haX1p5eTVndG9GcFVzZkQxRjZXRmdkSzBJVHNxRDFXbHdudG1YdWdHclBWa3pKT21aVHhncjR0ZWhvMEVlbjR4X2dQdnlMV196N1Z4cFNTTUlmUUljUERpMXEtRTBGOA?oc=5",
-      "source": "The Citizen",
-      "source_type": "news",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "published": "Mon, 03 Aug 2026 09:46:18 GMT",
-      "event_date": "",
-      "collector": "news_search",
-      "raw_category": "Unclassified news",
-      "confidence": "Reported",
-      "published_timestamp": "2026-08-03T09:46:18+00:00",
-      "published_display": "03 Aug 2026, 09:46 UTC",
-      "category": "Unclassified news",
-      "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 95,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (95/100). Relevant indicators include road closure, road closures, transport disruption. the story is classified under transport."
     },
     {
       "title": "Business can't stay silent as failing municipalities threaten investment, warns BLSA's Mavuso - Bizcommunity",
@@ -482,7 +595,10 @@
       "published_display": "03 Aug 2026, 08:50 UTC",
       "category": "Economy and business",
       "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 29,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (29/100). Relevant indicators include investment. the story is classified under economy and business."
     },
     {
       "title": "Bloemfontein Flying Squad nabs suspect in R500 000 tent theft - novanews.co.za",
@@ -501,7 +617,10 @@
       "published_display": "03 Aug 2026, 08:21 UTC",
       "category": "Security and crime",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 38,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (38/100). Relevant indicators include crime. the story is classified under security."
     },
     {
       "title": "AfDB invests $332m in Standard Bank to support SMEs in South Africa - Africa Business Communities",
@@ -520,7 +639,10 @@
       "published_display": "03 Aug 2026, 07:25 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
     },
     {
       "title": "Strike a Woman, Strike a Rock - infrastructurenews.co.za",
@@ -539,7 +661,10 @@
       "published_display": "03 Aug 2026, 06:55 UTC",
       "category": "Protests and civil unrest",
       "relevance_score": 41,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 100,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (100/100). Relevant indicators include civil unrest, protest, protests. the story is classified under protests and civil unrest."
     },
     {
       "title": "Aircraft deployed to battle fire at Table Mountain National Park - SABC News",
@@ -558,7 +683,10 @@
       "published_display": "03 Aug 2026, 06:28 UTC",
       "category": "Unclassified news",
       "relevance_score": 51,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Challenges in upgrading eThekwini's informal settlements highlighted - IOL",
@@ -577,7 +705,32 @@
       "published_display": "02 Aug 2026, 20:55 UTC",
       "category": "Unclassified news",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
+    },
+    {
+      "title": "The trade unionist who outsmarted Cyril Ramaphosa and built a R14.4 billion investment giant - Daily Investor",
+      "summary": "The trade unionist who outsmarted Cyril Ramaphosa and built a R14.4 billion investment giant Daily Investor",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSHEtZlAyWjJWZG1JdTRrRDYwZnhhM2dSVGRfeWJHODk0M1RzUkdJNmFfVzNTQmlIcnJDcVdadzRtNzE3RV9pdk5HZVBFTURaeURiWk5FQzVSUF9BRHpsQWUtc2NzM1VyZHE2Mk02akE1ZXpodmlyWUFRSGozM1pFUDJoY1B6SVpDOVBDQXZQNkMtdFotbGs1cDhoUDVzZEJOdWFFZ1BacXdVWS04Njd1LXdWRzRCTk9jcFQxaEdUMkhFbnpLeHpFckVrRnpIWVptM2c?oc=5",
+      "source": "Daily Investor",
+      "source_type": "news",
+      "location": "National",
+      "city_id": null,
+      "published": "Sun, 02 Aug 2026 14:01:36 GMT",
+      "event_date": "",
+      "collector": "news_search",
+      "raw_category": "Unclassified news",
+      "confidence": "Reported",
+      "published_timestamp": "2026-08-02T14:01:36+00:00",
+      "published_display": "02 Aug 2026, 14:01 UTC",
+      "category": "Economy and business",
+      "relevance_score": 35,
+      "relevance": "Low",
+      "business_impact_score": 29,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (29/100). Relevant indicators include investment. the story is classified under economy and business."
     },
     {
       "title": "Civil society groups plan nationwide protests to address housing and xenophobia - IOL",
@@ -596,7 +749,10 @@
       "published_display": "02 Aug 2026, 11:19 UTC",
       "category": "Protests and civil unrest",
       "relevance_score": 41,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 100,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (100/100). Relevant indicators include civil unrest, protest, protests. the story is classified under protests and civil unrest."
     },
     {
       "title": "Investment confidence key to unlocking South Africa's growth, KZN forum hears - businessreport.co.za",
@@ -615,7 +771,10 @@
       "published_display": "01 Aug 2026, 21:33 UTC",
       "category": "Economy and business",
       "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 29,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (29/100). Relevant indicators include investment. the story is classified under economy and business."
     },
     {
       "title": "Eskom working on restoring electricity supply disruption in Khayelitsha, Cape Town - novanews.co.za",
@@ -634,7 +793,10 @@
       "published_display": "01 Aug 2026, 15:58 UTC",
       "category": "Infrastructure",
       "relevance_score": 51,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 20,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (20/100). The story is classified under infrastructure."
     },
     {
       "title": "Temporary water supply disruption reported at Cape Town International Airport - novanews.co.za",
@@ -653,7 +815,10 @@
       "published_display": "01 Aug 2026, 14:15 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 41,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
     },
     {
       "title": "WATCH: Pretoria Road erosion, an expanding death trap - The Citizen",
@@ -672,7 +837,10 @@
       "published_display": "01 Aug 2026, 10:09 UTC",
       "category": "Unclassified news",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Business leaders warn of threat to the national economy in South Africa - businesstech.co.za",
@@ -691,7 +859,10 @@
       "published_display": "01 Aug 2026, 09:04 UTC",
       "category": "Economy and business",
       "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Low",
+      "business_impact_score": 17,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (17/100). The story is classified under economy and business."
     },
     {
       "title": "Tshwane loses millions due to underspending of infrastructure funds - Freedom Front Plus",
@@ -710,7 +881,10 @@
       "published_display": "01 Aug 2026, 07:44 UTC",
       "category": "Infrastructure",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 20,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (20/100). The story is classified under infrastructure."
     },
     {
       "title": "Ratepayers slam R11m Durban ICC upgrade - eNCA",
@@ -729,26 +903,10 @@
       "published_display": "01 Aug 2026, 07:07 UTC",
       "category": "Unclassified news",
       "relevance_score": 45,
-      "relevance": "Medium"
-    },
-    {
-      "title": "Why inefficient financial operations are becoming a major business risk in SA - thestar.co.za",
-      "summary": "Why inefficient financial operations are becoming a major business risk in SA thestar.co.za",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZF9FWG03T0M5Mm15M3NOSXg3NGI3UEsyVkZJbE9aVUtCdGZFN2FrUTNkYWhNQU5YdWJVZkR3Y0pSZG03aTY2VnVqSHNyNkM3QzJkaFVSeUZhdEtoNFVoYTdiV05UNjVKRE9BUDBUMTBadmxmbFoxR1VKa2VtSkc3MTRSMnBEX0V0S3JjXzdBSEhjNGJFOXpjTHhscjhjTXZlZTNCWHpjY0IyM3Y1UnpoaFRIZUJFSWhDclhGZnQtN2pySUVXVHZwdl9BWlFLbFVU?oc=5",
-      "source": "thestar.co.za",
-      "source_type": "news",
-      "location": "National",
-      "city_id": null,
-      "published": "Sat, 01 Aug 2026 01:53:12 GMT",
-      "event_date": "",
-      "collector": "news_search",
-      "raw_category": "Unclassified news",
-      "confidence": "Reported",
-      "published_timestamp": "2026-08-01T01:53:12+00:00",
-      "published_display": "01 Aug 2026, 01:53 UTC",
-      "category": "Economy and business",
-      "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "More Pretoria North residents sought for community safety patrols - The Citizen",
@@ -767,7 +925,10 @@
       "published_display": "01 Aug 2026, 00:48 UTC",
       "category": "Unclassified news",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "What the R75.3 billion eThekwini budget means for residents - thestar.co.za",
@@ -786,7 +947,10 @@
       "published_display": "31 Jul 2026, 20:03 UTC",
       "category": "Unclassified news",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 20,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (20/100). Relevant indicators include budget."
     },
     {
       "title": "Economic wrap-up for July 2026",
@@ -805,7 +969,10 @@
       "published_display": "31 Jul 2026, 12:17 UTC",
       "category": "Economy and business",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 17,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (17/100). The story is classified under economy and business."
     },
     {
       "title": "Missing Gqeberha teen found dead in boyfriend’s home as he ‘packs and leaves’ SA - News24",
@@ -824,13 +991,16 @@
       "published_display": "31 Jul 2026, 11:08 UTC",
       "category": "Unclassified news",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
-      "title": "Inaugural Western Cape Infrastructure Ministerial Roundtable a rousing success - Western Cape Government",
-      "summary": "Inaugural Western Cape Infrastructure Ministerial Roundtable a rousing success Western Cape Government",
+      "title": "Inaugural Western Cape Infrastructure Ministerial Roundtable a rousing success - westerncape.gov.za",
+      "summary": "Inaugural Western Cape Infrastructure Ministerial Roundtable a rousing success westerncape.gov.za",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN2p1TzFmVU5BVFNZdEhpUGYxSmtJQVdIWWwzTGVXZWNFaFBOMG85NkFNNnppZE5hRFVZUkRmejdpWWRHeU1LYjg1Q2swY1htUHJZMGJyaGRnUVpRcVpZalRoeUxqT1owVUhUc3ZnSGJtOWtDMFluOHZkWTEyNW4teE9BUnpTUlZldkQ5a3NXd1Y5QVZsN2tVc2xqVUNidGZ1SlVha3BTdjBJeFZtLVpfZ0U3eVNkVXJzXzg2WnVGTFVYZ3dXRktYMFNB?oc=5",
-      "source": "Western Cape Government",
+      "source": "westerncape.gov.za",
       "source_type": "news",
       "location": "Cape Town",
       "city_id": "cape-town",
@@ -841,15 +1011,18 @@
       "confidence": "Reported",
       "published_timestamp": "2026-07-31T10:25:13+00:00",
       "published_display": "31 Jul 2026, 10:25 UTC",
-      "category": "Politics and government",
+      "category": "Infrastructure",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 20,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (20/100). The story is classified under infrastructure."
     },
     {
-      "title": "eThekwini Municipality welcomes landmark conviction in R1 million electricity cable theft case - Sunday Tribune",
-      "summary": "eThekwini Municipality welcomes landmark conviction in R1 million electricity cable theft case Sunday Tribune",
+      "title": "eThekwini Municipality welcomes landmark conviction in R1 million electricity cable theft case - sundaytribune.co.za",
+      "summary": "eThekwini Municipality welcomes landmark conviction in R1 million electricity cable theft case sundaytribune.co.za",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYUZKenRtU21adDB0dFVsTE95THlYVXoyZzMxTFdJb2dvYUdUckdpRjdKWUgtRzZ5djR6SW95bkZ0R0M2RHlZOG9kb2NVbXIwcV9JTFVFNWtoYnlLbl9wdjU0Y28ybzVucE1SRHlySXpDQkNvbmNxbC1fRFo4N2tWXzBCZ19UMUlRSkVmMXZQdG92VVM3czNIQzdmZE90b3BvcDhmbE1vX3RRazhTR1lrTTdKT01sQVBGV1RTT2dNejBlTUo5Z3BUcXlsem1FUENHQ2xrZE13?oc=5",
-      "source": "Sunday Tribune",
+      "source": "sundaytribune.co.za",
       "source_type": "news",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
@@ -862,26 +1035,10 @@
       "published_display": "31 Jul 2026, 08:30 UTC",
       "category": "Infrastructure",
       "relevance_score": 45,
-      "relevance": "Medium"
-    },
-    {
-      "title": "South Africans lose hundreds of millions of rands to Morita Forestry investment scam - GroundUp",
-      "summary": "South Africans lose hundreds of millions of rands to Morita Forestry investment scam GroundUp",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONVhSYW9MMXlybVZXV3Z4ei1vQ0hyMUFJOFVnSFExbE1YY0xiVWNfWEl4WGlkVDRQQTZrTUpFc0Nob2pmNldmYUFvSEJOM1VLcGlHSnhNM182WEFUMXg0VnVuY21mUzBiNXlhNjA3b2MzS2RaQU44bVkzaEJwN0dkU0trMkxoRkJVNDJfbnpLXzMzZ3VmNTdXNjFoUXFncVRTb3YxWVROdDRaZEQ0SE95R3NNMA?oc=5",
-      "source": "GroundUp",
-      "source_type": "news",
-      "location": "National",
-      "city_id": null,
-      "published": "Fri, 31 Jul 2026 07:55:00 GMT",
-      "event_date": "",
-      "collector": "news_search",
-      "raw_category": "Unclassified news",
-      "confidence": "Reported",
-      "published_timestamp": "2026-07-31T07:55:00+00:00",
-      "published_display": "31 Jul 2026, 07:55 UTC",
-      "category": "Economy and business",
-      "relevance_score": 35,
-      "relevance": "Low"
+      "relevance": "Medium",
+      "business_impact_score": 15,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (15/100). The story is classified under infrastructure. the story appears to be a routine announcement with limited immediate operational impact."
     },
     {
       "title": "Freedom Front Plus seeks clarity on Tshwane’s handling of infrastructure damage - Freedom Front Plus",
@@ -900,7 +1057,32 @@
       "published_display": "31 Jul 2026, 07:11 UTC",
       "category": "Infrastructure",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 20,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (20/100). The story is classified under infrastructure."
+    },
+    {
+      "title": "Gauteng PKTT arrests suspect over killing of EFF Tshwane leader Monicca Dube - IOL",
+      "summary": "Gauteng PKTT arrests suspect over killing of EFF Tshwane leader Monicca Dube IOL",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTkR4SjFkY3AwRU4yMTZOSnFyMl9vLUpnVm41azBvZzduSXZLNjRrT2tCeWxPR0dfX3NxaU11MWFhbEtYb1dXVktUMVU4YzY5enpibTBjUHlqV0RKLXJxWXV2VUszQUZSWUVySzU1d2dlRHdLWEU2LWVLZ0lOVXRqSDRhTkdDUGQwMFlzYWZveU0ya2E1MWNXLXJWVnFHTHJSOEhmTEZqQ0ItRld4TUE5WkVZc0owSDRndW1PaHoyaGNNT3AyQ0Mw?oc=5",
+      "source": "IOL",
+      "source_type": "news",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "published": "Fri, 31 Jul 2026 07:03:02 GMT",
+      "event_date": "",
+      "collector": "news_search",
+      "raw_category": "Unclassified news",
+      "confidence": "Reported",
+      "published_timestamp": "2026-07-31T07:03:02+00:00",
+      "published_display": "31 Jul 2026, 07:03 UTC",
+      "category": "Unclassified news",
+      "relevance_score": 45,
+      "relevance": "Medium",
+      "business_impact_score": 5,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (5/100). No strong immediate business disruption indicators were found."
     },
     {
       "title": "Raphesu admits role in Crime Intelligence officials’ probe - SABC News",
@@ -919,7 +1101,10 @@
       "published_display": "31 Jul 2026, 06:23 UTC",
       "category": "Security and crime",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 38,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (38/100). Relevant indicators include crime. the story is classified under security."
     },
     {
       "title": "Security officer fights for life after Durban CBD shooting - The Witness | Your compass in the community",
@@ -938,7 +1123,10 @@
       "published_display": "31 Jul 2026, 06:21 UTC",
       "category": "Security and crime",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 73,
+      "business_impact_level": "High",
+      "business_impact_explanation": "High business impact (73/100). Relevant indicators include shooting, crime. the story is classified under security."
     },
     {
       "title": "Security guard critical after shooting on Durban's Avondale Road - ECR",
@@ -957,7 +1145,10 @@
       "published_display": "31 Jul 2026, 06:16 UTC",
       "category": "Security and crime",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 73,
+      "business_impact_level": "High",
+      "business_impact_explanation": "High business impact (73/100). Relevant indicators include shooting, crime. the story is classified under security."
     },
     {
       "title": "Cape Town Mayor announces SA-record infrastructure investment - Cape Business News",
@@ -976,7 +1167,10 @@
       "published_display": "31 Jul 2026, 05:03 UTC",
       "category": "Economy and business",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 29,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (29/100). Relevant indicators include investment. the story is classified under economy and business."
     },
     {
       "title": "Security officer fighting for life after Durban CBD shooting - The Citizen",
@@ -995,7 +1189,10 @@
       "published_display": "31 Jul 2026, 04:16 UTC",
       "category": "Security and crime",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 73,
+      "business_impact_level": "High",
+      "business_impact_explanation": "High business impact (73/100). Relevant indicators include shooting, crime. the story is classified under security."
     },
     {
       "title": "Durban Road Closures for the Totalsports Women's Race | Sunday 2 August 2026 - Time Out Worldwide",
@@ -1014,7 +1211,10 @@
       "published_display": "31 Jul 2026, 03:36 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 51,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 95,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (95/100). Relevant indicators include road closure, road closures, transport disruption. the story is classified under transport."
     },
     {
       "title": "Tshwane briefs Godongwana on big infrastructure plans as court weighs Mettler’s fate - TimesLIVE",
@@ -1033,7 +1233,10 @@
       "published_display": "31 Jul 2026, 02:31 UTC",
       "category": "Infrastructure",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 20,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (20/100). The story is classified under infrastructure."
     },
     {
       "title": "Minister urged to rescue collapsing Gqeberha metro - Mail & Guardian",
@@ -1052,7 +1255,10 @@
       "published_display": "30 Jul 2026, 22:45 UTC",
       "category": "Politics and government",
       "relevance_score": 45,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 13,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (13/100). The story is classified under politics and government."
     },
     {
       "title": "‘Gone! Durban’: Councillors Slam R9 Billion Transport Project After Decade of Delays and Empty Stations - IOL",
@@ -1071,7 +1277,10 @@
       "published_display": "30 Jul 2026, 18:49 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 51,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
     },
     {
       "title": "Population Growth in SA Remains Steady as Fertility Declines",
@@ -1090,7 +1299,10 @@
       "published_display": "30 Jul 2026, 09:07 UTC",
       "category": "Economy and business",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 17,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (17/100). The story is classified under economy and business."
     },
     {
       "title": "Inflation rises to a two-year high",
@@ -1109,7 +1321,10 @@
       "published_display": "22 Jul 2026, 08:18 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 60,
+      "business_impact_level": "High",
+      "business_impact_explanation": "High business impact (60/100). Relevant indicators include transport disruption, inflation. the story is classified under transport."
     },
     {
       "title": "Data on insolvencies now available",
@@ -1128,7 +1343,10 @@
       "published_display": "21 Jul 2026, 13:42 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
     },
     {
       "title": "Mbalo Brief Juyl2026",
@@ -1147,7 +1365,10 @@
       "published_display": "20 Jul 2026, 12:50 UTC",
       "category": "Protests and civil unrest",
       "relevance_score": 66,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 100,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (100/100). Relevant indicators include civil unrest, protest, protests. the story is classified under protests and civil unrest."
     },
     {
       "title": "Unpacking the finance, real estate and business services industry",
@@ -1166,7 +1387,10 @@
       "published_display": "15 Jul 2026, 08:31 UTC",
       "category": "Economy and business",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 17,
+      "business_impact_level": "Low",
+      "business_impact_explanation": "Low business impact (17/100). The story is classified under economy and business."
     },
     {
       "title": "Media Release",
@@ -1185,7 +1409,10 @@
       "published_display": "15 Jul 2026, 08:10 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
     },
     {
       "title": "Media Advisory",
@@ -1204,7 +1431,10 @@
       "published_display": "13 Jul 2026, 09:49 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
     },
     {
       "title": "Celebrating World Population Day in the context of 30 Years of Census",
@@ -1223,7 +1453,10 @@
       "published_display": "10 Jul 2026, 12:28 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 45,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (45/100). Relevant indicators include transport disruption. the story is classified under transport."
     },
     {
       "title": "Key shifts in the construction industry",
@@ -1242,7 +1475,10 @@
       "published_display": "10 Jul 2026, 08:29 UTC",
       "category": "Economy and business",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 41,
+      "business_impact_level": "Moderate",
+      "business_impact_explanation": "Moderate business impact (41/100). Relevant indicators include investment, economic growth. the story is classified under economy and business."
     },
     {
       "title": "FCDO advice: Safety and security",
@@ -1262,7 +1498,10 @@
       "published_display": "08 Jul 2026, 15:36 UTC",
       "category": "Security and crime",
       "relevance_score": 66,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 100,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (100/100). Relevant indicators include terrorism, travel advice, crime. the story is classified under security."
     },
     {
       "title": "FCDO advice: Getting help",
@@ -1282,67 +1521,10 @@
       "published_display": "08 Jul 2026, 15:36 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 66,
-      "relevance": "Medium"
-    },
-    {
-      "title": "South Africa travel advice",
-      "summary": "FCDO travel advice for South Africa. Includes safety and security, insurance, entry requirements and legal differences.",
-      "url": "https://www.gov.uk/foreign-travel-advice/south-africa",
-      "source": "UK Foreign, Commonwealth & Development Office",
-      "source_type": "official",
-      "location": "National",
-      "city_id": null,
-      "published": "2026-07-08T16:36:29+01:00",
-      "event_date": "2026-07-08T16:36:29+01:00",
-      "collector": "gov_uk",
-      "raw_category": "Official travel advice",
-      "confidence": "Confirmed",
-      "section": "Main travel advice",
-      "published_timestamp": "2026-07-08T15:36:29+00:00",
-      "published_display": "08 Jul 2026, 15:36 UTC",
-      "category": "Security and crime",
-      "relevance_score": 60,
-      "relevance": "Medium"
-    },
-    {
-      "title": "FCDO advice: Warnings and insurance",
-      "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities and expenses in an emergency. About FCDO travel advice The Foreign, Commonwealth & Development Office ( FCDO ) provides advice about risks of travel to help you make informed decisions. Find out more about FCDO travel advice . Get travel advice updates Sign up to get email notifications when this travel advice is updated. Follow FCDO : travel advice on X travel advice on Facebook Travel Aware on Instagram",
-      "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
-      "source": "UK Foreign, Commonwealth & Development Office",
-      "source_type": "official",
-      "location": "National",
-      "city_id": null,
-      "published": "2026-07-08T16:36:29+01:00",
-      "event_date": "2026-07-08T16:36:29+01:00",
-      "collector": "gov_uk",
-      "raw_category": "Official travel advice",
-      "confidence": "Confirmed",
-      "section": "Warnings and insurance",
-      "published_timestamp": "2026-07-08T15:36:29+00:00",
-      "published_display": "08 Jul 2026, 15:36 UTC",
-      "category": "Official travel advice",
-      "relevance_score": 60,
-      "relevance": "Medium"
-    },
-    {
-      "title": "FCDO advice: Entry requirements",
-      "summary": "This information is for people travelling on a full ‘British citizen’ passport from the UK. It is based on the UK government’s understanding of the current rules for the most common types of travel. The authorities in South Africa set and enforce entry rules. If you’re not sure how these requirements apply to you, contact the South African High Commission in the UK . Passport validity requirements Your passport must have an ‘expiry date’ at least 30 days after the date you leave South Africa and have at least 2 blank pages. Dual nationals When returning to the UK, British citizens must carry a valid British passport or certificate of entitlement . See Dual citizenship . South African-British dual nationals If you are a South African citizen aged 18 or over, you must use a South African passport to enter and exit South Africa. It is illegal to use another country’s passport. See the South African Department of Home Affairs for further information. Visa requirements You can visit South Africa without a visa for up to 90 days for business or tourism. Check the expiry date of your visa or entry stamp and ensure you do not overstay. For more information on visas, contact the South African High Commission . The Department of Home Affairs also has information on South Africa visas and immigration regulations . Travelling with children There are special requirements for travelling to South Africa with children aged 17 and under, and for unaccompanied children entering South Africa. T",
-      "url": "https://www.gov.uk/foreign-travel-advice/south-africa/entry-requirements",
-      "source": "UK Foreign, Commonwealth & Development Office",
-      "source_type": "official",
-      "location": "National",
-      "city_id": null,
-      "published": "2026-07-08T16:36:29+01:00",
-      "event_date": "2026-07-08T16:36:29+01:00",
-      "collector": "gov_uk",
-      "raw_category": "Official travel advice",
-      "confidence": "Confirmed",
-      "section": "Entry requirements",
-      "published_timestamp": "2026-07-08T15:36:29+00:00",
-      "published_display": "08 Jul 2026, 15:36 UTC",
-      "category": "Politics and government",
-      "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 85,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (85/100). Relevant indicators include transport disruption, travel advice, crime. the story is classified under transport."
     },
     {
       "title": "FCDO advice: Health",
@@ -1362,7 +1544,79 @@
       "published_display": "08 Jul 2026, 15:36 UTC",
       "category": "Road and transport disruption",
       "relevance_score": 60,
-      "relevance": "Medium"
+      "relevance": "Medium",
+      "business_impact_score": 100,
+      "business_impact_level": "Critical",
+      "business_impact_explanation": "Critical business impact (100/100). Relevant indicators include evacuation, transport disruption, travel advice. the story is classified under transport."
+    },
+    {
+      "title": "South Africa travel advice",
+      "summary": "FCDO travel advice for South Africa. Includes safety and security, insurance, entry requirements and legal differences.",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-africa",
+      "source": "UK Foreign, Commonwealth & Development Office",
+      "source_type": "official",
+      "location": "National",
+      "city_id": null,
+      "published": "2026-07-08T16:36:29+01:00",
+      "event_date": "2026-07-08T16:36:29+01:00",
+      "collector": "gov_uk",
+      "raw_category": "Official travel advice",
+      "confidence": "Confirmed",
+      "section": "Main travel advice",
+      "published_timestamp": "2026-07-08T15:36:29+00:00",
+      "published_display": "08 Jul 2026, 15:36 UTC",
+      "category": "Security and crime",
+      "relevance_score": 60,
+      "relevance": "Medium",
+      "business_impact_score": 63,
+      "business_impact_level": "High",
+      "business_impact_explanation": "High business impact (63/100). Relevant indicators include travel advice, crime. the story is classified under security."
+    },
+    {
+      "title": "FCDO advice: Entry requirements",
+      "summary": "This information is for people travelling on a full ‘British citizen’ passport from the UK. It is based on the UK government’s understanding of the current rules for the most common types of travel. The authorities in South Africa set and enforce entry rules. If you’re not sure how these requirements apply to you, contact the South African High Commission in the UK . Passport validity requirements Your passport must have an ‘expiry date’ at least 30 days after the date you leave South Africa and have at least 2 blank pages. Dual nationals When returning to the UK, British citizens must carry a valid British passport or certificate of entitlement . See Dual citizenship . South African-British dual nationals If you are a South African citizen aged 18 or over, you must use a South African passport to enter and exit South Africa. It is illegal to use another country’s passport. See the South African Department of Home Affairs for further information. Visa requirements You can visit South Africa without a visa for up to 90 days for business or tourism. Check the expiry date of your visa or entry stamp and ensure you do not overstay. For more information on visas, contact the South African High Commission . The Department of Home Affairs also has information on South Africa visas and immigration regulations . Travelling with children There are special requirements for travelling to South Africa with children aged 17 and under, and for unaccompanied children entering South Africa. T",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-africa/entry-requirements",
+      "source": "UK Foreign, Commonwealth & Development Office",
+      "source_type": "official",
+      "location": "National",
+      "city_id": null,
+      "published": "2026-07-08T16:36:29+01:00",
+      "event_date": "2026-07-08T16:36:29+01:00",
+      "collector": "gov_uk",
+      "raw_category": "Official travel advice",
+      "confidence": "Confirmed",
+      "section": "Entry requirements",
+      "published_timestamp": "2026-07-08T15:36:29+00:00",
+      "published_display": "08 Jul 2026, 15:36 UTC",
+      "category": "Politics and government",
+      "relevance_score": 60,
+      "relevance": "Medium",
+      "business_impact_score": 63,
+      "business_impact_level": "High",
+      "business_impact_explanation": "High business impact (63/100). Relevant indicators include travel advice, regulation, tourism. the story is classified under politics and government."
+    },
+    {
+      "title": "FCDO advice: Warnings and insurance",
+      "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities and expenses in an emergency. About FCDO travel advice The Foreign, Commonwealth & Development Office ( FCDO ) provides advice about risks of travel to help you make informed decisions. Find out more about FCDO travel advice . Get travel advice updates Sign up to get email notifications when this travel advice is updated. Follow FCDO : travel advice on X travel advice on Facebook Travel Aware on Instagram",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
+      "source": "UK Foreign, Commonwealth & Development Office",
+      "source_type": "official",
+      "location": "National",
+      "city_id": null,
+      "published": "2026-07-08T16:36:29+01:00",
+      "event_date": "2026-07-08T16:36:29+01:00",
+      "collector": "gov_uk",
+      "raw_category": "Official travel advice",
+      "confidence": "Confirmed",
+      "section": "Warnings and insurance",
+      "published_timestamp": "2026-07-08T15:36:29+00:00",
+      "published_display": "08 Jul 2026, 15:36 UTC",
+      "category": "Official travel advice",
+      "relevance_score": 60,
+      "relevance": "Medium",
+      "business_impact_score": 50,
+      "business_impact_level": "High",
+      "business_impact_explanation": "High business impact (50/100). Relevant indicators include travel advice. the story is classified under travel advice."
     }
   ]
 }
