@@ -1,4 +1,4 @@
-\
+
 const DATA_URL = "data/briefing.json";
 
 let appData = null;
