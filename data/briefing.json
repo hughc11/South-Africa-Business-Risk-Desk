@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "project": "South Africa Business Risk Desk",
+    "data_status": "demo",
+    "generated_display": "04 Aug 2026, 06:00",
+    "timezone": "Europe/London"
+  },
+  "national": {
+    "score": 64,
+    "level": "Elevated",
+    "seven_day_change": 4,
+    "summary": "Illustrative national assessment reflecting elevated security, protest and infrastructure disruption risks, with conditions varying significantly by city and journey.",
+    "components": [
+      {
+        "name": "Security",
+        "score": 72
+      },
+      {
+        "name": "Civil unrest",
+        "score": 60
+      },
+      {
+        "name": "Infrastructure",
+        "score": 58
+      },
+      {
+        "name": "Transport",
+        "score": 55
+      },
+      {
+        "name": "Business environment",
+        "score": 48
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "06 Jul",
+      "score": 57,
+      "explanation": "Stable national conditions in the demo dataset."
+    },
+    {
+      "date": "09 Jul",
+      "score": 58,
+      "explanation": "Minor increase in transport disruption."
+    },
+    {
+      "date": "12 Jul",
+      "score": 56,
+      "explanation": "Several short-lived disruptions were resolved."
+    },
+    {
+      "date": "15 Jul",
+      "score": 59,
+      "explanation": "Higher protest activity in Gauteng."
+    },
+    {
+      "date": "18 Jul",
+      "score": 61,
+      "explanation": "Infrastructure disruption affected two monitored cities."
+    },
+    {
+      "date": "21 Jul",
+      "score": 60,
+      "explanation": "Conditions stabilised across major business districts."
+    },
+    {
+      "date": "24 Jul",
+      "score": 62,
+      "explanation": "Additional road and public-transport disruption was recorded."
+    },
+    {
+      "date": "27 Jul",
+      "score": 61,
+      "explanation": "One high-impact incident was resolved."
+    },
+    {
+      "date": "30 Jul",
+      "score": 63,
+      "explanation": "Local demonstrations increased operational risk."
+    },
+    {
+      "date": "01 Aug",
+      "score": 65,
+      "explanation": "Security and infrastructure indicators deteriorated."
+    },
+    {
+      "date": "04 Aug",
+      "score": 64,
+      "explanation": "National score remains elevated, with mixed city-level conditions."
+    }
+  ],
+  "cities": [
+    {
+      "id": "johannesburg",
+      "name": "Johannesburg",
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "default_zoom": 11,
+      "score": 74,
+      "level": "High",
+      "summary": "Illustrative high-risk profile driven by security exposure, protest disruption and major-route sensitivity."
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "latitude": -33.9249,
+      "longitude": 18.4241,
+      "default_zoom": 11,
+      "score": 63,
+      "level": "Elevated",
+      "summary": "Illustrative elevated profile with strong variation between business, tourist and peripheral areas."
+    },
+    {
+      "id": "pretoria",
+      "name": "Pretoria / Tshwane",
+      "latitude": -25.7479,
+      "longitude": 28.2293,
+      "default_zoom": 11,
+      "score": 68,
+      "level": "Elevated",
+      "summary": "Illustrative profile influenced by demonstrations, government activity and transport disruption."
+    },
+    {
+      "id": "durban",
+      "name": "Durban / eThekwini",
+      "latitude": -29.8587,
+      "longitude": 31.0218,
+      "default_zoom": 11,
+      "score": 70,
+      "level": "High",
+      "summary": "Illustrative risk driven by transport, port, infrastructure and localised security concerns."
+    },
+    {
+      "id": "gqeberha",
+      "name": "Gqeberha",
+      "latitude": -33.9608,
+      "longitude": 25.6022,
+      "default_zoom": 11,
+      "score": 58,
+      "level": "Elevated",
+      "summary": "Illustrative moderate-to-elevated operating environment with localised infrastructure risks."
+    },
+    {
+      "id": "bloemfontein",
+      "name": "Bloemfontein",
+      "latitude": -29.0852,
+      "longitude": 26.1596,
+      "default_zoom": 11,
+      "score": 49,
+      "level": "Guarded",
+      "summary": "Illustrative guarded profile, with fewer active disruptions than larger metropolitan areas."
+    }
+  ],
+  "incidents": [
+    {
+      "title": "Planned central business district demonstration",
+      "location": "Johannesburg",
+      "type": "Protest",
+      "severity": "High",
+      "status": "Active",
+      "time_window": "08:00\u201315:00",
+      "summary": "Demo event representing possible rolling disruption around central routes and civic buildings.",
+      "action": "Avoid affected central routes and allow additional travel time.",
+      "confidence": "Illustrative",
+      "source": "Demo source"
+    },
+    {
+      "title": "Temporary arterial road closure",
+      "location": "Cape Town",
+      "type": "Road closure",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "Until 18:00",
+      "summary": "Demo road closure affecting one route into the central business area.",
+      "action": "Use the signed diversion and verify conditions before departure.",
+      "confidence": "Illustrative",
+      "source": "Demo source"
+    },
+    {
+      "title": "Municipal electricity interruption",
+      "location": "Pretoria / Tshwane",
+      "type": "Infrastructure",
+      "severity": "Medium",
+      "status": "Monitoring",
+      "time_window": "Expected daytime disruption",
+      "summary": "Demo infrastructure incident affecting local businesses and traffic signals.",
+      "action": "Confirm backup power and allow for junction delays.",
+      "confidence": "Illustrative",
+      "source": "Demo source"
+    },
+    {
+      "title": "Public transport service disruption",
+      "location": "Durban / eThekwini",
+      "type": "Transport",
+      "severity": "Low",
+      "status": "Resolved",
+      "time_window": "Morning peak",
+      "summary": "Demo transport disruption with residual congestion expected.",
+      "action": "Check current traffic conditions before travelling.",
+      "confidence": "Illustrative",
+      "source": "Demo source"
+    }
+  ],
+  "news": [
+    {
+      "title": "National business confidence remains sensitive to infrastructure conditions",
+      "location": "National",
+      "city_id": null,
+      "category": "Economy and business",
+      "relevance": "High",
+      "published": "04 Aug 2026",
+      "event_date": "03 Aug 2026",
+      "summary": "Illustrative national business story used to demonstrate the news interface.",
+      "source": "Demo publication",
+      "confidence": "Illustrative"
+    },
+    {
+      "title": "Government reviews transport resilience measures",
+      "location": "National",
+      "city_id": null,
+      "category": "Transport",
+      "relevance": "Medium",
+      "published": "04 Aug 2026",
+      "event_date": "04 Aug 2026",
+      "summary": "Illustrative story demonstrating how national transport developments will be summarised.",
+      "source": "Demo publication",
+      "confidence": "Illustrative"
+    },
+    {
+      "title": "Johannesburg businesses prepare for central demonstration",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Security and disruption",
+      "relevance": "High",
+      "published": "04 Aug 2026",
+      "event_date": "04 Aug 2026",
+      "summary": "Illustrative local reporting focused on business travel and operational consequences.",
+      "source": "Demo local publication",
+      "confidence": "Illustrative"
+    },
+    {
+      "title": "Cape Town route changes expected during maintenance works",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Transport",
+      "relevance": "Medium",
+      "published": "03 Aug 2026",
+      "event_date": "04 Aug 2026",
+      "summary": "Illustrative city story highlighting road access and journey-planning implications.",
+      "source": "Demo local publication",
+      "confidence": "Illustrative"
+    },
+    {
+      "title": "Tshwane firms assess local electricity interruption",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria",
+      "category": "Infrastructure",
+      "relevance": "High",
+      "published": "04 Aug 2026",
+      "event_date": "04 Aug 2026",
+      "summary": "Illustrative local infrastructure story relevant to meetings and business continuity.",
+      "source": "Demo local publication",
+      "confidence": "Illustrative"
+    },
+    {
+      "title": "Durban freight operators monitor residual transport delays",
+      "location": "Durban / eThekwini",
+      "city_id": "durban",
+      "category": "Supply chain",
+      "relevance": "Medium",
+      "published": "04 Aug 2026",
+      "event_date": "03 Aug 2026",
+      "summary": "Illustrative logistics story showing how port and freight reporting may appear.",
+      "source": "Demo local publication",
+      "confidence": "Illustrative"
+    }
+  ],
+  "conversation_brief": [
+    {
+      "topic": "Business climate",
+      "heading": "Discussing current conditions",
+      "context": "Economic and infrastructure performance can affect sectors differently.",
+      "starter": "How are current operating conditions affecting businesses in your sector?",
+      "avoid": "That every business or region is experiencing the same conditions."
+    },
+    {
+      "topic": "Politics",
+      "heading": "Approaching political developments",
+      "context": "Political subjects may be strongly felt and should not be approached through assumptions.",
+      "starter": "There seem to have been several important political developments recently. How are they being viewed in your industry?",
+      "avoid": "A person\u2019s political affiliation or position on a controversial issue."
+    },
+    {
+      "topic": "Infrastructure",
+      "heading": "Discussing practical disruption",
+      "context": "Service disruption can be addressed through its effect on business rather than blame.",
+      "starter": "Have recent infrastructure conditions changed how your organisation plans its day-to-day operations?",
+      "avoid": "That the person assigns responsibility to a particular party or institution."
+    }
+  ]
+}

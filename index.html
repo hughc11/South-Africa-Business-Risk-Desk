@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="South Africa Business Risk Desk for British business travellers." />
+  <title>South Africa Business Risk Desk</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIINfQ3lMZB9m3ZrS1m7aD5M5Y1Z9g9V8FQ="
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="flag-bar" aria-hidden="true">
+      <span class="flag-black"></span>
+      <span class="flag-yellow"></span>
+      <span class="flag-green"></span>
+      <span class="flag-white"></span>
+      <span class="flag-red"></span>
+      <span class="flag-blue"></span>
+    </div>
+
+    <div class="header-inner">
+      <div>
+        <p class="eyebrow">British Business Travel Intelligence</p>
+        <h1>South Africa Business Risk Desk</h1>
+        <p class="subtitle">
+          National, city and route-level risk information for British professionals.
+        </p>
+      </div>
+
+      <div class="update-panel">
+        <span class="status-dot" aria-hidden="true"></span>
+        <div>
+          <strong>Daily update target</strong>
+          <span>06:00 UK time</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="Primary navigation">
+    <a href="#overview">Overview</a>
+    <a href="#map-section">Risk Map</a>
+    <a href="#incidents">Disruptions</a>
+    <a href="#news">News</a>
+    <a href="#conversation">Conversation Brief</a>
+    <a href="#methodology">Methodology</a>
+  </nav>
+
+  <main>
+    <section id="overview" class="section-shell hero-grid">
+      <article class="panel national-risk-card">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">National assessment</p>
+            <h2>South Africa</h2>
+          </div>
+          <span id="national-risk-badge" class="risk-badge risk-elevated">Elevated</span>
+        </div>
+
+        <div class="risk-score-row">
+          <div>
+            <span id="national-risk-score" class="risk-score">64</span>
+            <span class="risk-score-max">/100</span>
+          </div>
+          <div class="trend-block">
+            <span id="risk-direction" class="trend trend-up">▲ 4</span>
+            <span>Seven-day movement</span>
+          </div>
+        </div>
+
+        <p id="national-summary" class="summary-text">
+          Demo assessment based on illustrative security, protest, infrastructure and business-disruption indicators.
+        </p>
+
+        <div class="risk-breakdown" id="risk-breakdown"></div>
+
+        <div class="data-warning">
+          <strong>Demo data:</strong> The current scores are placeholders while the automated collection engine is built.
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Thirty-day movement</p>
+            <h2>National risk timeline</h2>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="riskChart" aria-label="National risk timeline chart"></canvas>
+        </div>
+        <div id="timeline-explanation" class="timeline-note">
+          Select a point on the chart to view what changed.
+        </div>
+      </article>
+    </section>
+
+    <section class="section-shell metric-grid" aria-label="Key indicators">
+      <article class="metric-card">
+        <span class="metric-label">Active disruptions</span>
+        <strong id="active-disruptions">0</strong>
+        <span>Across monitored locations</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">Cities monitored</span>
+        <strong id="city-count">0</strong>
+        <span>Initial coverage</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">Highest-risk city</span>
+        <strong id="highest-risk-city">—</strong>
+        <span id="highest-risk-city-score">No data</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">Last generated</span>
+        <strong id="generated-time">—</strong>
+        <span>UK time</span>
+      </article>
+    </section>
+
+    <section id="map-section" class="section-shell">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Geographic intelligence</p>
+          <h2>Interactive risk map</h2>
+        </div>
+        <div class="map-controls">
+          <label for="city-selector">Focus on city</label>
+          <select id="city-selector">
+            <option value="national">National view</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="map-layout">
+        <div id="risk-map" aria-label="Interactive South Africa risk map"></div>
+
+        <aside class="panel map-side-panel">
+          <p class="eyebrow">Selected area</p>
+          <h3 id="selected-area-name">South Africa</h3>
+          <div id="selected-area-risk" class="selected-risk">National risk: 64/100</div>
+          <p id="selected-area-summary">
+            Select a city marker to review its current demo risk profile.
+          </p>
+
+          <div class="legend">
+            <h4>Risk scale</h4>
+            <div><span class="legend-dot low"></span>Low: 0–29</div>
+            <div><span class="legend-dot guarded"></span>Guarded: 30–49</div>
+            <div><span class="legend-dot elevated"></span>Elevated: 50–69</div>
+            <div><span class="legend-dot high"></span>High: 70–84</div>
+            <div><span class="legend-dot severe"></span>Severe: 85–100</div>
+          </div>
+
+          <div class="route-placeholder">
+            <h4>Route risk</h4>
+            <p>
+              Route-by-route scoring will be added after the geographic data and scoring methodology are validated.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="incidents" class="section-shell">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Operational disruption</p>
+          <h2>Protests, closures and active events</h2>
+        </div>
+
+        <div class="filter-row">
+          <select id="incident-city-filter" aria-label="Filter incidents by city">
+            <option value="all">All locations</option>
+          </select>
+          <select id="incident-type-filter" aria-label="Filter incidents by type">
+            <option value="all">All event types</option>
+            <option value="protest">Protest</option>
+            <option value="road closure">Road closure</option>
+            <option value="transport">Transport</option>
+            <option value="infrastructure">Infrastructure</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="incident-list" class="incident-grid"></div>
+    </section>
+
+    <section id="news" class="section-shell">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">National and local reporting</p>
+          <h2>News intelligence</h2>
+        </div>
+
+        <div class="news-controls">
+          <label for="news-location-selector">Choose coverage</label>
+          <select id="news-location-selector">
+            <option value="national">National news</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="news-layout">
+        <div>
+          <div class="category-tabs" id="news-category-tabs"></div>
+          <div id="news-list" class="news-list"></div>
+        </div>
+
+        <aside class="panel intelligence-note">
+          <p class="eyebrow">How stories are handled</p>
+          <h3>Intelligence-first news</h3>
+          <p>
+            The finished collection engine will remove duplicates, distinguish the publication date from the event date,
+            identify the affected location and rank stories by business relevance.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="conversation" class="section-shell">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Cultural and business preparation</p>
+          <h2>Business Conversation Brief</h2>
+        </div>
+      </div>
+
+      <div id="conversation-grid" class="conversation-grid"></div>
+    </section>
+
+    <section id="methodology" class="section-shell methodology-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Transparency</p>
+          <h2>Initial risk methodology</h2>
+        </div>
+      </div>
+
+      <div class="method-grid">
+        <article class="panel">
+          <h3>National score</h3>
+          <p>
+            Combines security, political stability, civil unrest, infrastructure, transport and business-operating conditions.
+          </p>
+        </article>
+        <article class="panel">
+          <h3>City score</h3>
+          <p>
+            Uses local incidents, recent reporting, transport conditions and infrastructure disruption.
+          </p>
+        </article>
+        <article class="panel">
+          <h3>Confidence</h3>
+          <p>
+            Every final assessment will show whether information is confirmed, probable or unverified.
+          </p>
+        </article>
+        <article class="panel">
+          <h3>Important limitation</h3>
+          <p>
+            This platform will support business decisions but will never claim that an individual road or district is guaranteed safe.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>South Africa Business Risk Desk — prototype foundation</p>
+    <p>Not a substitute for official travel advice, professional security support or emergency services.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="app.js"></script>
+</body>
+</html>
