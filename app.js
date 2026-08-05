@@ -1,5 +1,5 @@
 
-const DATA_URL = "data/briefing_dashboard_test.json";
+const DATA_URL = "data/briefing.json";
 
 let appData = null;
 let map = null;

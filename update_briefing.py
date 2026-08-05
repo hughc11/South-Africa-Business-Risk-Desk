@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from collectors.gov_uk import collect_fcdo_advice
 from collectors.news_search import collect_news_searches
@@ -13,8 +14,12 @@ from intelligence.business_impact import apply_business_impact
 from intelligence.classify import classify_items
 from intelligence.deduplicate import deduplicate_items
 from intelligence.normalise import normalise_items
+from intelligence.output_formatter import format_dashboard_output
 from intelligence.risk_engine import calculate_national_risk
-from settings import OUTPUT_FILE, PROJECT_NAME, TIMEZONE
+from settings import PROJECT_NAME, TIMEZONE
+
+
+LIVE_OUTPUT_FILE = "data/briefing.json"
 
 
 def run_collector(
@@ -24,7 +29,7 @@ def run_collector(
     """
     Run one collector safely.
 
-    If the collector fails, the rest of the engine continues.
+    If one collector fails, the rest of the engine continues.
     """
 
     print(f"\nCollecting: {label}")
@@ -37,12 +42,10 @@ def run_collector(
             f"from {label}."
         )
 
-        result = {
+        return items, {
             "status": "success",
             "item_count": len(items),
         }
-
-        return items, result
 
     except Exception as exc:
         print(
@@ -50,13 +53,11 @@ def run_collector(
             f"{label}. Error: {exc}"
         )
 
-        result = {
+        return [], {
             "status": "failed",
             "item_count": 0,
             "error": str(exc),
         }
-
-        return [], result
 
 
 def sort_items(
@@ -64,39 +65,28 @@ def sort_items(
 ) -> list[dict[str, Any]]:
     """
     Sort the most business-relevant items first.
-
-    Business impact is the main ranking factor.
-    General relevance and publication time are used when
-    stories have the same business impact score.
     """
 
     return sorted(
         items,
         key=lambda item: (
-            int(
-                item.get("business_impact_score")
-                or 0
-            ),
-            int(
-                item.get("relevance_score")
-                or 0
-            ),
-            str(
-                item.get("published_timestamp")
-                or ""
-            ),
+            int(item.get("business_impact_score") or 0),
+            int(item.get("relevance_score") or 0),
+            str(item.get("published_timestamp") or ""),
         ),
         reverse=True,
     )
 
+
 def write_output(
     output: dict[str, Any],
+    output_file: str,
 ) -> None:
     """
-    Save the collection result as formatted JSON.
+    Save formatted dashboard data as JSON.
     """
 
-    output_path = Path(OUTPUT_FILE)
+    output_path = Path(output_file)
 
     output_path.parent.mkdir(
         parents=True,
@@ -115,12 +105,12 @@ def write_output(
 
 def main() -> None:
     """
-    Run the complete first-stage collection engine.
+    Run the complete intelligence pipeline and update the live dashboard file.
     """
 
     print("=" * 68)
     print(PROJECT_NAME)
-    print("Collection engine test run")
+    print("Live intelligence update")
     print("=" * 68)
 
     collectors = [
@@ -146,7 +136,6 @@ def main() -> None:
     collector_results: dict[str, Any] = {}
 
     for label, collector in collectors:
-
         items, result = run_collector(
             label,
             collector,
@@ -199,14 +188,19 @@ def main() -> None:
         final_items
     )
 
-    london_now = datetime.now()
+    try:
+        local_now = datetime.now(
+            ZoneInfo(TIMEZONE)
+        )
+    except Exception:
+        local_now = datetime.now()
 
-    output = {
+    backend_output = {
         "metadata": {
             "project": PROJECT_NAME,
-            "data_status": "collection-engine test",
-            "generated_at": london_now.isoformat(),
-            "generated_display": london_now.strftime(
+            "data_status": "live intelligence",
+            "generated_at": local_now.isoformat(),
+            "generated_display": local_now.strftime(
                 "%d %b %Y, %H:%M"
             ),
             "timezone": TIMEZONE,
@@ -217,24 +211,34 @@ def main() -> None:
             "final_item_count": len(
                 final_items
             ),
-            "collector_results": (
-                collector_results
-            ),
+            "collector_results": collector_results,
         },
         "national_risk": national_risk,
         "items": final_items,
     }
 
-    write_output(output)
+    dashboard_output = format_dashboard_output(
+        backend_output
+    )
 
-    print(
-        f"\nTest output written to: "
-        f"{OUTPUT_FILE}"
+    write_output(
+        dashboard_output,
+        LIVE_OUTPUT_FILE,
     )
 
     print(
-        "\nThe live file data/briefing.json "
-        "was not changed."
+        f"\nLive dashboard data written to: "
+        f"{LIVE_OUTPUT_FILE}"
+    )
+
+    print(
+        f"National risk score: "
+        f"{dashboard_output['national']['score']}/100"
+    )
+
+    print(
+        f"Generated date: "
+        f"{dashboard_output['metadata']['generated_display']}"
     )
 
 
