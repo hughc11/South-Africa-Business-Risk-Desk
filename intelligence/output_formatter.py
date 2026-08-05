@@ -736,7 +736,7 @@ def format_dashboard_output(
     )
 
     metadata["data_status"] = (
-        "live intelligence test"
+        "live intelligence"
     )
 
     items = backend_output.get(

@@ -1,13 +1,13 @@
 {
   "metadata": {
     "project": "South Africa Business Risk Desk",
-    "data_status": "live intelligence test",
-    "generated_at": "2026-08-05T10:38:33.531551",
-    "generated_display": "05 Aug 2026, 10:38",
+    "data_status": "live intelligence",
+    "generated_at": "2026-08-05T11:34:10.623412",
+    "generated_display": "05 Aug 2026, 11:34",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 68,
-    "final_item_count": 67,
+    "normalised_item_count": 65,
+    "final_item_count": 64,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -43,7 +43,7 @@
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 24
       },
       {
         "name": "Transport",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 32,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by unclassified news, road and transport disruption."
+      "score": 28,
+      "level": "Low",
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -398,21 +398,7 @@
       "business_impact_score": 46
     },
     {
-      "title": "Table Mountain wildfire burns out after overnight firefighting operation in Cape Town - Cape Town ETC",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Unclassified news",
-      "relevance": "Moderate",
-      "published": "03 Aug 2026, 15:30 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as serious disruptive incident, with localised (cape town) scope and limited immediate disruption. Duration is extended; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "Cape Town ETC",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUHNHRE5KaXUxbjV3bVdxeHdKcXFmNV80Ti1JT0J4WktXOC1IYThWd1VVRTZvWWk2dUJNbWxBNG5zdVBSR1BpNEVYSkxrUk9xMHZDLWhiSk16VXpOeTVNLVIyS3JETkQwd0RUUEV1WEMya3F2cjBYR1h6cWx2TnhJVl9mc3dkRnJOUWoxU0M2NzdhaklBMDlSMVlzLVl6V1VxekZ4Vm05ZXhPWVE1QjBibnVuRUNlYW50bjBn?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Vandals target Polokwane traffic lights, stop signs - The Citizen",
+      "title": "Vandals target Polokwane traffic lights, stop signs - citizen.co.za",
       "location": "Polokwane",
       "city_id": "polokwane",
       "category": "Road and transport disruption",
@@ -420,7 +406,7 @@
       "published": "05 Aug 2026, 06:28 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (polokwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
+      "source": "citizen.co.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeFpwTzBSQzlNUHd4VDZ6RUxHMUFiVzVQZWxmT2RBenRSNUU0R3k0MTlKaHIzWGNfQUthWWxkVmlKTklndFZoMk1LWHNRZTlSQUhtelVtYmpXWS1DcXhsTW9VdmJrWEhnNHNYbEViN1o5NUhtUmJzM0o3RGZ2MXpxWGxmUWlUVlZpSjcxQ0g3Vk9laUUtTXFBSlp4djNpLUhaRURYc29kRFhLZkZJMk5MMENpc1JsYW9pWVRoUnpRNXR1dk9XR1U4?oc=5",
       "business_impact_score": 44
@@ -440,7 +426,7 @@
       "business_impact_score": 44
     },
     {
-      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
+      "title": "UPDATE: Traffic backed-up from Richmond Road - citizen.co.za",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
@@ -448,23 +434,23 @@
       "published": "04 Aug 2026, 01:05 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
+      "source": "citizen.co.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "Cape Town Airport resumes normal operations after Kenya Airways runway disruption - IOL",
+      "title": "Cape Town airport reopens runway after Kenya Airways tyre failure - IOL",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "04 Aug 2026, 19:21 UTC",
+      "published": "05 Aug 2026, 08:41 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
       "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ0ozeWRzQnBOVzVVQ2otOVgtSzhIYmZKVVhaT2poOVVxSDVYV2RZeEJyT29yenRucElWZlpwTmE5aGpudk4yRTNja3hmbjRROUM5ckxhV0lBY0pwMGcwVy1JTTktdFgzd3FWZ3dqYlZBM0VkWFZidDhzeDJWbS1OUmk3R2ZNY01zZ1p1TWVZcndkVVBqemFPQ0V5amFSaEM2RTlRMndfem9SNnNhbFNBM044TlFMeHdoT1Ata0ZvVGV0cl9tSHhuRA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY0JlNFNjQlVUdll4T3ZQTTFmNEVpbTBTNmlmb2I4dUhIeF9MQk5GTTljSDhqcm8wX3NLa3BKM0phVGxLcWwwWDNwNGMzVlZLZ3JLaElBakVVRHZwNXJrV2Nad05JaXoyZE96SkdVbTU0NlFsY09MbTFWOU1welc4dnBLVVkzR0pqTWVtdDV5S2hQZmxHQXVyT2ZybkYxZzlRT2FrNQ?oc=5",
       "business_impact_score": 44
     },
     {
@@ -622,7 +608,7 @@
       "business_impact_score": 32
     },
     {
-      "title": "Three suspects nabbed for alleged cable theft in Pretoria North - The Citizen",
+      "title": "Three suspects nabbed for alleged cable theft in Pretoria North - citizen.co.za",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
       "category": "Security and crime",
@@ -630,7 +616,7 @@
       "published": "04 Aug 2026, 20:10 UTC",
       "event_date": "",
       "summary": "Guarded business impact (29/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
-      "source": "The Citizen",
+      "source": "citizen.co.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGx6X0lpb3o5QzBJb0VhWU5DU2RvUm5FcVUtNHJBWXBSWVdJMjZsb3N4aVZSUjRZUnNmZ0wtTndBY01QMGVQeGJwSURmaHZpbTNpSmY0UEdEUlp0c3VuUTAtNk9leGszZDJMNmpDcmphSG9VcEw1WFI4ZDd3VTVTZi11eTlsS1l4bzhQSE90RV80LTh6Z01wMWdXbDNLWmtaWmtzMkpWeE1SZWJqbW50YUk1V3BXQ3NVbzBJNUdQY0U?oc=5",
       "business_impact_score": 29
@@ -790,20 +776,6 @@
       "business_impact_score": 27
     },
     {
-      "title": "Aircraft deployed to battle fire at Table Mountain National Park - SABC News",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Unclassified news",
-      "relevance": "Guarded",
-      "published": "03 Aug 2026, 06:28 UTC",
-      "event_date": "",
-      "summary": "Guarded business impact (26/100). Assessed as no clear immediate threat, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "SABC News",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLXUtTE5PS2tTZTRpM0Y0WS1PZ21BNmFiNkktZEZ1RWhzckp3U215YUNNMGs4Vmp4eHJBVUpvMXVqUy1rVXVvS3hEUmVPVFFlN0czMk5mR3E4bFFPSVNfMDl1WFBIZUY2UThJdVloeW1mLV91Q3pVVUpVS0pscU9ZeG9zZ1BCeEx4TzU5UmY0OEY0SW0yZVhQWW5XWTFITVh5?oc=5",
-      "business_impact_score": 26
-    },
-    {
       "title": "‘The dying squad’: Gqeberha’s elite Flying Squad down to one vehicle – and it has no tyres - News24",
       "location": "Gqeberha",
       "city_id": "gqeberha",
@@ -837,7 +809,7 @@
       "city_id": null,
       "category": "Unclassified news",
       "relevance": "Guarded",
-      "published": "05 Aug 2026, 03:02 UTC",
+      "published": "05 Aug 2026, 03:32 UTC",
       "event_date": "",
       "summary": "Guarded business impact (26/100). Assessed as no clear immediate threat, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
       "source": "News24",
@@ -857,6 +829,20 @@
       "source": "Statistics South Africa",
       "confidence": "Confirmed",
       "url": "https://www.statssa.gov.za/?p=19701",
+      "business_impact_score": 25
+    },
+    {
+      "title": "Aircraft deployed to battle fire at Table Mountain National Park - sabcnews.com",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Unclassified news",
+      "relevance": "Guarded",
+      "published": "03 Aug 2026, 06:28 UTC",
+      "event_date": "",
+      "summary": "Guarded business impact (25/100). Assessed as no clear immediate threat, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "sabcnews.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLXUtTE5PS2tTZTRpM0Y0WS1PZ21BNmFiNkktZEZ1RWhzckp3U215YUNNMGs4Vmp4eHJBVUpvMXVqUy1rVXVvS3hEUmVPVFFlN0czMk5mR3E4bFFPSVNfMDl1WFBIZUY2UThJdVloeW1mLV91Q3pVVUpVS0pscU9ZeG9zZ1BCeEx4TzU5UmY0OEY0SW0yZVhQWW5XWTFITVh5?oc=5",
       "business_impact_score": 25
     },
     {
@@ -902,7 +888,7 @@
       "business_impact_score": 25
     },
     {
-      "title": "WATCH: Pretoria Road erosion, an expanding death trap - The Citizen",
+      "title": "WATCH: Pretoria Road erosion, an expanding death trap - citizen.co.za",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
       "category": "Unclassified news",
@@ -910,7 +896,7 @@
       "published": "01 Aug 2026, 10:09 UTC",
       "event_date": "",
       "summary": "Guarded business impact (25/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "The Citizen",
+      "source": "citizen.co.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWWZTMWFNaUFwb241U25acXpXMTNsOW1sanQtWGM0M082TmdSRlUzWmVuaXE4WjNaUllGT2kwUVhENThNU2R4YVBpZmlVUDhHVFVJMG9pSlp3aU9tREpCSmFNd3lqbVlncnRIMTJ4ckhzZGZhb3FsRFJYaVpENGF2MlBBN0RRU3R5WkVTdWdJeGxkRXVTVy1PMUVjR0N1US1pd1AxWnlacTdobFdJaWhWRklnUXVhSzA?oc=5",
       "business_impact_score": 25
@@ -944,7 +930,7 @@
       "business_impact_score": 25
     },
     {
-      "title": "More Pretoria North residents sought for community safety patrols - The Citizen",
+      "title": "More Pretoria North residents sought for community safety patrols - citizen.co.za",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
       "category": "Unclassified news",
@@ -952,7 +938,7 @@
       "published": "01 Aug 2026, 00:48 UTC",
       "event_date": "",
       "summary": "Guarded business impact (25/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "The Citizen",
+      "source": "citizen.co.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYVh5T3VBQnZIVUxJRl81YmV5Q3p3ZkdacjE4YlRtcDJQNV9vRi1uQkVnNHFFdW0wb21ESHNzeER0LURTd08wMlJfSjQzV3R2OWRMSFpQVGhqcTRacVdaT0ExYzllR3RqaDhRUlEyNU1FVlZwbWRERzY1cGQ0TEJYRHYzOXpiRGQzUTJOQjdPNEhndlFpT2NtNGxQYUtCTTU4SVhoX3NLUXM2TXBxVzhPYUhqbFJYTnlyclduQlBfOHJyU1E?oc=5",
       "business_impact_score": 25
@@ -969,34 +955,6 @@
       "source": "thestar.co.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZmM0MF9wWlNBQU9rZ2J4R2ZqT09QN1FnMmg3ekhVUUZ4UFQzZDBjdFZqVVpyM1FSeHMxMmNTR0NBWG55N2lwUGlkNE1ycUZOVExHeUN6VzE1NTUtUzRHbnJWejVTSTl1S2Qwa29yQmZfNVNLSmhyMTFlYlY5dWdkNkYydWpGYm9GSmdvQzJ5a2xfTlVkTFlVNlU2YzB4VXIzQXNUTVFEUFFnMUw2MmdDdVpqUkxiakRnbU9hdmc2T0o2dw?oc=5",
-      "business_impact_score": 25
-    },
-    {
-      "title": "Inaugural Western Cape Infrastructure Ministerial Roundtable a rousing success - Western Cape Government",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Politics and government",
-      "relevance": "Guarded",
-      "published": "31 Jul 2026, 10:25 UTC",
-      "event_date": "",
-      "summary": "Guarded business impact (25/100). Assessed as no clear immediate threat, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "Western Cape Government",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN2p1TzFmVU5BVFNZdEhpUGYxSmtJQVdIWWwzTGVXZWNFaFBOMG85NkFNNnppZE5hRFVZUkRmejdpWWRHeU1LYjg1Q2swY1htUHJZMGJyaGRnUVpRcVpZalRoeUxqT1owVUhUc3ZnSGJtOWtDMFluOHZkWTEyNW4teE9BUnpTUlZldkQ5a3NXd1Y5QVZsN2tVc2xqVUNidGZ1SlVha3BTdjBJeFZtLVpfZ0U3eVNkVXJzXzg2WnVGTFVYZ3dXRktYMFNB?oc=5",
-      "business_impact_score": 25
-    },
-    {
-      "title": "Cape Town’s record R12.24bn infrastructure spend hailed as model for SA - The Citizen",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Infrastructure",
-      "relevance": "Guarded",
-      "published": "31 Jul 2026, 10:06 UTC",
-      "event_date": "",
-      "summary": "Guarded business impact (25/100). Assessed as no clear immediate threat, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "The Citizen",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ3lpYkpDbDZTUUx3d21kRWtxYUZMWVhUc2FFNHE5SHkxUkRGRDhMZ3pqSkRYX1hCakpMTkQ1ZUk5RDI3Z2Z1ZkF1endZRld1c2dOTzN4dmRLTTBYYmo4UzJnY2JYSU1ETkRIM1BMYkJOTnNIM3ZnMTMtQzNmYlhTOU53UUpEVDFQRlR1VjNmR0hQVl9HQ1V1bHNZMzE0aF9HRzNpeGxvUmNpY2FBN20wM2s1TDZkZw?oc=5",
       "business_impact_score": 25
     },
     {
@@ -1039,6 +997,20 @@
       "source": "Bizcommunity",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSDlWSDFmNTZQRy1LNUZXbi1Fc01zOGhRTzdvZ0hnNFE1Z25TUzRXbktfM3FpblhYN2p5V3RtbjNWcFRTVEpENVJkQTV0VExlV1IwREN5RXF2TXRUYmlkdG4tWDlrN0tnWDNhdmRxMXFBS0x0R0VVQTZ2WmR4SUtJa19WNGVRd2lqNmFGOVBRU2tTZGE0TnJZLVZiRS14UUpURUV3bXJfbUJRb21jRWtnUFpDblRlZHFRemk2dDlUUEVha2JOZS10aThwbjRoMDA?oc=5",
+      "business_impact_score": 25
+    },
+    {
+      "title": "The trade unionist who outsmarted Cyril Ramaphosa and built a R14.4 billion investment giant - Daily Investor",
+      "location": "National",
+      "city_id": null,
+      "category": "Economy and business",
+      "relevance": "Guarded",
+      "published": "02 Aug 2026, 14:01 UTC",
+      "event_date": "",
+      "summary": "Guarded business impact (25/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is business environment relevance. Calibration applied: local impact ceiling.",
+      "source": "Daily Investor",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSHEtZlAyWjJWZG1JdTRrRDYwZnhhM2dSVGRfeWJHODk0M1RzUkdJNmFfVzNTQmlIcnJDcVdadzRtNzE3RV9pdk5HZVBFTURaeURiWk5FQzVSUF9BRHpsQWUtc2NzM1VyZHE2Mk02akE1ZXpodmlyWUFRSGozM1pFUDJoY1B6SVpDOVBDQXZQNkMtdFotbGs1cDhoUDVzZEJOdWFFZ1BacXdVWS04Njd1LXdWRzRCTk9jcFQxaEdUMkhFbnpLeHpFckVrRnpIWVptM2c?oc=5",
       "business_impact_score": 25
     },
     {
@@ -1165,20 +1137,6 @@
       "source": "Energy for Growth Hub",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOd3QxbWFnbUZ3ekZCdUFkMUV2VVJkS2phNG9wZkpnOWNCX054bkc0VTF4cGhBZklHd0ROY3JOUkcwMVRNejdPVGNFOVpIMzItVnFEZktlLXZsekRNZWNIeGk5VkxKSUFOTlZZa3pGVVlVczkwWmlLZ2lFR3Y2am9XTEJNTjlTaERETU9BaHBQOVpmakdTd3N5NGJGV2JpOVpjd1oySk0wWjVBRUJ1ZWt3UzJfaXdtVzVDYzJxelBqOFF5OHF1cVlTSWVmdHlwN0VwTnNPcFRDN2d1TEFYSWc4MmdXTkZ5emM3dXozRDlEd0pya19iVnRtNHFZZEJLT2FyREwxaWVSYmtrREE?oc=5",
-      "business_impact_score": 23
-    },
-    {
-      "title": "There are 13 areas in South Africa where companies do not pay VAT - Daily Investor",
-      "location": "National",
-      "city_id": null,
-      "category": "Unclassified news",
-      "relevance": "Guarded",
-      "published": "03 Aug 2026, 11:09 UTC",
-      "event_date": "",
-      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "Daily Investor",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZk1mTUxic1ZkTTlHbF81VVBMVDFYakFRS084alBXaGw3cjlIYWw4V3VLQW51UnkydHd3Wk9nUTM2Zkg0Nk93OTh4UldSbm1DSnZWTzkxSUtvQ2xhMmJ4LUgxNkR5RXJOVk5nWDhUc2JWMXZYaEtoRGF4QTBqTnlHaUxZanZjNEV5eFpwcGR0Nk5aYWd0MFdUM3pieGFUR2lO?oc=5",
       "business_impact_score": 23
     },
     {
