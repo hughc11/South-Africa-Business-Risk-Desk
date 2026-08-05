@@ -1,0 +1,634 @@
+:root {
+  --sa-green: #007749;
+  --sa-red: #de3831;
+  --sa-blue: #001489;
+  --sa-yellow: #ffb81c;
+  --sa-black: #111111;
+  --sa-white: #ffffff;
+
+  --background: #f4f7f6;
+  --surface: #ffffff;
+  --surface-soft: #edf4f1;
+  --text: #17211f;
+  --muted: #62706c;
+  --border: #d6e0dc;
+  --shadow: 0 12px 32px rgba(17, 38, 32, 0.09);
+
+  --risk-low: #2e8b57;
+  --risk-guarded: #e0a800;
+  --risk-elevated: #e87524;
+  --risk-high: #c92a2a;
+  --risk-severe: #721c24;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+.site-header {
+  background:
+    linear-gradient(135deg, rgba(0, 119, 73, 0.96), rgba(0, 20, 137, 0.93)),
+    var(--sa-green);
+  color: white;
+}
+
+.flag-bar {
+  display: grid;
+  grid-template-columns: 1fr 0.36fr 1.1fr 0.22fr 0.9fr 0.9fr;
+  height: 8px;
+}
+
+.flag-black { background: var(--sa-black); }
+.flag-yellow { background: var(--sa-yellow); }
+.flag-green { background: var(--sa-green); }
+.flag-white { background: var(--sa-white); }
+.flag-red { background: var(--sa-red); }
+.flag-blue { background: var(--sa-blue); }
+
+.header-inner {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 48px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 760px;
+  margin-bottom: 8px;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.02;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: clamp(1.55rem, 3vw, 2.25rem);
+}
+
+h3 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  margin-bottom: 0;
+  max-width: 720px;
+  color: rgba(255,255,255,0.88);
+  font-size: 1.06rem;
+}
+
+.eyebrow {
+  margin-bottom: 6px;
+  color: var(--sa-green);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.site-header .eyebrow {
+  color: var(--sa-yellow);
+}
+
+.update-panel {
+  min-width: 220px;
+  padding: 16px 18px;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.12);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  backdrop-filter: blur(6px);
+}
+
+.update-panel span {
+  display: block;
+  color: rgba(255,255,255,0.82);
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--sa-yellow);
+  box-shadow: 0 0 0 7px rgba(255,184,28,0.16);
+}
+
+.main-nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(255,255,255,0.95);
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  overflow-x: auto;
+  backdrop-filter: blur(12px);
+}
+
+.main-nav a {
+  padding: 15px 14px;
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.main-nav a:hover {
+  color: var(--sa-green);
+}
+
+main {
+  padding: 34px 0 72px;
+}
+
+.section-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto 34px;
+}
+
+.hero-grid,
+.map-layout,
+.news-layout {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 22px;
+}
+
+.panel,
+.metric-card,
+.incident-card,
+.news-card,
+.conversation-card {
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.panel {
+  padding: 24px;
+}
+
+.national-risk-card {
+  border-top: 5px solid var(--sa-green);
+}
+
+.panel-heading,
+.section-heading,
+.risk-score-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.section-heading {
+  margin-bottom: 18px;
+  align-items: end;
+}
+
+.risk-badge,
+.severity-badge,
+.news-tag {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.risk-badge {
+  padding: 8px 12px;
+  color: white;
+}
+
+.risk-low { background: var(--risk-low); }
+.risk-guarded { background: var(--risk-guarded); color: #2b2200; }
+.risk-elevated { background: var(--risk-elevated); }
+.risk-high { background: var(--risk-high); }
+.risk-severe { background: var(--risk-severe); }
+
+.risk-score-row {
+  margin: 22px 0 16px;
+  align-items: end;
+}
+
+.risk-score {
+  font-size: clamp(3.5rem, 8vw, 6rem);
+  line-height: 0.9;
+  font-weight: 850;
+  letter-spacing: -0.06em;
+}
+
+.risk-score-max {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.trend-block {
+  text-align: right;
+}
+
+.trend-block span {
+  display: block;
+}
+
+.trend {
+  font-size: 1.35rem;
+  font-weight: 850;
+}
+
+.trend-up { color: var(--risk-high); }
+.trend-down { color: var(--risk-low); }
+.trend-flat { color: var(--muted); }
+
+.summary-text {
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+.risk-breakdown {
+  margin: 22px 0;
+  display: grid;
+  gap: 12px;
+}
+
+.breakdown-row {
+  display: grid;
+  grid-template-columns: 150px 1fr 42px;
+  gap: 12px;
+  align-items: center;
+  font-size: 0.88rem;
+}
+
+.breakdown-bar {
+  height: 9px;
+  border-radius: 999px;
+  background: #e8eeeb;
+  overflow: hidden;
+}
+
+.breakdown-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--sa-green), var(--sa-yellow), var(--sa-red));
+}
+
+.data-warning {
+  padding: 14px 15px;
+  border-left: 4px solid var(--sa-yellow);
+  border-radius: 10px;
+  background: #fff7df;
+  font-size: 0.9rem;
+}
+
+.chart-wrap {
+  height: 330px;
+}
+
+.timeline-note {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.metric-card {
+  padding: 20px;
+}
+
+.metric-card strong,
+.metric-card span {
+  display: block;
+}
+
+.metric-card strong {
+  margin: 5px 0 2px;
+  font-size: 1.7rem;
+}
+
+.metric-card > span:last-child,
+.metric-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.metric-label {
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.map-controls,
+.news-controls,
+.filter-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+select {
+  min-height: 42px;
+  padding: 0 38px 0 13px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: white;
+  color: var(--text);
+}
+
+#risk-map {
+  min-height: 590px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.map-side-panel {
+  min-height: 590px;
+}
+
+.selected-risk {
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--surface-soft);
+  font-weight: 800;
+}
+
+.legend {
+  margin-top: 28px;
+}
+
+.legend > div {
+  margin: 8px 0;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: var(--muted);
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.legend-dot.low { background: var(--risk-low); }
+.legend-dot.guarded { background: var(--risk-guarded); }
+.legend-dot.elevated { background: var(--risk-elevated); }
+.legend-dot.high { background: var(--risk-high); }
+.legend-dot.severe { background: var(--risk-severe); }
+
+.route-placeholder {
+  margin-top: 28px;
+  padding: 16px;
+  border: 1px dashed var(--sa-blue);
+  border-radius: 14px;
+  background: #f2f4ff;
+}
+
+.incident-grid,
+.conversation-grid,
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.incident-card,
+.news-card,
+.conversation-card {
+  padding: 20px;
+}
+
+.incident-meta,
+.news-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 13px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.severity-badge,
+.news-tag {
+  padding: 5px 9px;
+}
+
+.severity-high {
+  background: #ffe3e3;
+  color: #9d1c1c;
+}
+
+.severity-medium {
+  background: #fff2cc;
+  color: #765500;
+}
+
+.severity-low {
+  background: #dff3e8;
+  color: #17613d;
+}
+
+.news-layout {
+  grid-template-columns: 1fr 320px;
+}
+
+.category-tabs {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.category-button {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: white;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.category-button.active {
+  border-color: var(--sa-green);
+  background: var(--sa-green);
+  color: white;
+}
+
+.news-list {
+  display: grid;
+  gap: 14px;
+}
+
+.news-tag {
+  background: #e8eefc;
+  color: var(--sa-blue);
+}
+
+.news-card a {
+  color: var(--sa-blue);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.intelligence-note {
+  align-self: start;
+  border-top: 5px solid var(--sa-blue);
+}
+
+.conversation-card {
+  border-top: 5px solid var(--sa-yellow);
+}
+
+.sentence-starter,
+.avoid-box {
+  margin-top: 13px;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.sentence-starter {
+  background: #e9f7f1;
+  color: #13573a;
+}
+
+.avoid-box {
+  background: #fff0ef;
+  color: #81231f;
+}
+
+.method-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.methodology-section {
+  padding-top: 12px;
+}
+
+footer {
+  padding: 34px 16px;
+  background: var(--sa-black);
+  color: rgba(255,255,255,0.78);
+  text-align: center;
+}
+
+footer p {
+  margin: 4px 0;
+}
+
+.empty-state {
+  padding: 28px;
+  border: 1px dashed var(--border);
+  border-radius: 16px;
+  background: white;
+  color: var(--muted);
+}
+
+@media (max-width: 900px) {
+  .header-inner,
+  .hero-grid,
+  .map-layout,
+  .news-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .header-inner {
+    display: grid;
+  }
+
+  .metric-grid,
+  .method-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .incident-grid,
+  .conversation-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #risk-map,
+  .map-side-panel {
+    min-height: 470px;
+  }
+}
+
+@media (max-width: 620px) {
+  .header-inner {
+    padding: 34px 0;
+  }
+
+  .panel-heading,
+  .section-heading,
+  .risk-score-row {
+    display: grid;
+  }
+
+  .trend-block {
+    text-align: left;
+  }
+
+  .metric-grid,
+  .method-grid,
+  .incident-grid,
+  .conversation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading {
+    align-items: stretch;
+  }
+
+  .map-controls,
+  .news-controls,
+  .filter-row {
+    display: grid;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  #risk-map {
+    min-height: 420px;
+  }
+}
