@@ -142,23 +142,36 @@ function renderTimeline() {
 }
 
 function initialiseMap() {
+  const southAfricaBounds = L.latLngBounds(
+    [-35.3, 16.2],
+    [-22.0, 33.2]
+  );
+
   map = L.map("risk-map", {
-    minZoom: 4,
-    maxZoom: 17
-  }).setView([-30.5595, 22.9375], 5);
+    minZoom: 5,
+    maxZoom: 17,
+    maxBounds: southAfricaBounds,
+    maxBoundsViscosity: 1.0,
+    zoomControl: true
+  });
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "&copy; OpenStreetMap contributors"
+    attribution: "&copy; OpenStreetMap contributors",
+    noWrap: true,
+    bounds: southAfricaBounds
   }).addTo(map);
 
   cityMarkers = appData.cities.map(city => {
-    const marker = L.circleMarker([city.latitude, city.longitude], {
-      radius: scoreToRadius(city.score),
-      color: riskColour(city.score),
-      fillColor: riskColour(city.score),
-      fillOpacity: 0.78,
-      weight: 2
-    }).addTo(map);
+    const marker = L.circleMarker(
+      [city.latitude, city.longitude],
+      {
+        radius: scoreToRadius(city.score),
+        color: riskColour(city.score),
+        fillColor: riskColour(city.score),
+        fillOpacity: 0.78,
+        weight: 2
+      }
+    ).addTo(map);
 
     marker.bindPopup(`
       <strong>${escapeHtml(city.name)}</strong><br>
@@ -167,14 +180,23 @@ function initialiseMap() {
     `);
 
     marker.on("click", () => updateSelectedArea(city));
-    return { city, marker };
+
+    return {
+      city,
+      marker
+    };
   });
 
-  const southAfricaBounds = L.latLngBounds(
-    [-35.2, 16.0],
-    [-22.0, 33.5]
-  );
-  map.fitBounds(southAfricaBounds);
+  map.fitBounds(southAfricaBounds, {
+    padding: [10, 10]
+  });
+
+  setTimeout(() => {
+    map.invalidateSize();
+    map.fitBounds(southAfricaBounds, {
+      padding: [10, 10]
+    });
+  }, 200);
 }
 
 function populateSelectors() {
