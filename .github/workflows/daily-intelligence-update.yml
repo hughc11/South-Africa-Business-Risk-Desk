@@ -29,7 +29,7 @@ jobs:
           fi
 
       - name: Generate live intelligence briefing
-        run: python update_briefing_live.py
+        run: python update_briefing.py
 
       - name: Check for updated briefing
         id: changes
