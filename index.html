@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="South Africa Business Risk Desk for British business travellers." />
+  <meta
+    name="description"
+    content="South Africa Business Risk Desk for British business travellers."
+  />
   <title>South Africa Business Risk Desk</title>
 
   <link
@@ -12,9 +15,12 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""
   />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+
   <header class="site-header">
     <div class="flag-bar" aria-hidden="true">
       <span class="flag-black"></span>
@@ -26,324 +32,1105 @@
     </div>
 
     <div class="header-inner">
+
       <div>
-        <p class="eyebrow">British Business Travel Intelligence</p>
-        <h1>South Africa Business Risk Desk</h1>
+        <p class="eyebrow">
+          British Business Travel Intelligence
+        </p>
+
+        <h1>
+          South Africa Business Risk Desk
+        </h1>
+
         <p class="subtitle">
-          National, city and route-level risk information for British professionals.
+          National, city and route-level risk information
+          for British professionals.
         </p>
       </div>
 
       <div class="update-panel">
-        <span class="status-dot" aria-hidden="true"></span>
+        <span
+          class="status-dot"
+          aria-hidden="true"
+        ></span>
+
         <div>
-          <strong>Daily update target</strong>
-          <span>06:00 UK time</span>
+          <strong>
+            Daily update target
+          </strong>
+
+          <span>
+            06:00 UK time
+          </span>
         </div>
       </div>
+
     </div>
   </header>
 
-  <nav class="main-nav" aria-label="Primary navigation">
-    <a href="#overview">Overview</a>
-    <a href="#map-section">Risk Map</a>
-    <a href="#incidents">Disruptions</a>
-    <a href="#news">News</a>
-    <a href="#conversation">Conversation Brief</a>
-    <a href="#methodology">Methodology</a>
+
+  <nav
+    class="main-nav"
+    aria-label="Primary navigation"
+  >
+    <a href="#overview">
+      Overview
+    </a>
+
+    <a href="#map-section">
+      Risk Map
+    </a>
+
+    <a href="#travel-advice">
+      Travel Advice
+    </a>
+
+    <a href="#incidents">
+      Operational Notices
+    </a>
+
+    <a href="#conversation">
+      Conversation Brief
+    </a>
+
+    <a href="#methodology">
+      Methodology
+    </a>
   </nav>
 
+
   <main>
-    <section id="overview" class="section-shell hero-grid">
-      <article class="panel national-risk-card">
+
+    <!-- =====================================================
+         NATIONAL OVERVIEW
+         ===================================================== -->
+
+    <section
+      id="overview"
+      class="section-shell hero-grid"
+    >
+
+      <article
+        class="panel national-risk-card"
+      >
+
         <div class="panel-heading">
+
           <div>
-            <p class="eyebrow">National assessment</p>
-            <h2>South Africa</h2>
+            <p class="eyebrow">
+              National assessment
+            </p>
+
+            <h2>
+              South Africa
+            </h2>
           </div>
-          <span id="national-risk-badge" class="risk-badge risk-elevated">Elevated</span>
+
+          <span
+            id="national-risk-badge"
+            class="risk-badge risk-elevated"
+          >
+            Elevated
+          </span>
+
         </div>
+
 
         <div class="risk-score-row">
+
           <div>
-            <span id="national-risk-score" class="risk-score">64</span>
-            <span class="risk-score-max">/100</span>
+
+            <span
+              id="national-risk-score"
+              class="risk-score"
+            >
+              64
+            </span>
+
+            <span class="risk-score-max">
+              /100
+            </span>
+
           </div>
+
+
           <div class="trend-block">
-            <span id="risk-direction" class="trend trend-up">▲ 4</span>
-            <span>Seven-day movement</span>
+
+            <span
+              id="risk-direction"
+              class="trend trend-up"
+            >
+              ▲ 4
+            </span>
+
+            <span>
+              Seven-day movement
+            </span>
+
           </div>
+
         </div>
 
-        <p id="national-summary" class="summary-text">
-          Demo assessment based on illustrative security, protest, infrastructure and business-disruption indicators.
+
+        <p
+          id="national-summary"
+          class="summary-text"
+        >
+          Current national operational assessment.
         </p>
 
-        <div class="risk-breakdown" id="risk-breakdown"></div>
 
-        <div class="data-warning">
-          <strong>Demo data:</strong> The current scores are placeholders while the automated collection engine is built.
-        </div>
+        <div
+          class="risk-breakdown"
+          id="risk-breakdown"
+        ></div>
+
       </article>
+
 
       <article class="panel">
+
         <div class="panel-heading">
+
           <div>
-            <p class="eyebrow">Thirty-day movement</p>
-            <h2>National risk timeline</h2>
+
+            <p class="eyebrow">
+              Thirty-day movement
+            </p>
+
+            <h2>
+              National risk timeline
+            </h2>
+
           </div>
+
         </div>
+
+
         <div class="chart-wrap">
-          <canvas id="riskChart" aria-label="National risk timeline chart"></canvas>
+
+          <canvas
+            id="riskChart"
+            aria-label="National risk timeline chart"
+          ></canvas>
+
         </div>
-        <div id="timeline-explanation" class="timeline-note">
+
+
+        <div
+          id="timeline-explanation"
+          class="timeline-note"
+        >
           Select a point on the chart to view what changed.
         </div>
+
       </article>
+
     </section>
 
-    <section class="section-shell metric-grid" aria-label="Key indicators">
+
+    <!-- =====================================================
+         KEY INDICATORS
+         ===================================================== -->
+
+    <section
+      class="section-shell metric-grid"
+      aria-label="Key indicators"
+    >
+
       <article class="metric-card">
-        <span class="metric-label">Active disruptions</span>
-        <strong id="active-disruptions">0</strong>
-        <span>Across monitored locations</span>
+
+        <span class="metric-label">
+          Active disruptions
+        </span>
+
+        <strong id="active-disruptions">
+          0
+        </strong>
+
+        <span>
+          Current operational notices
+        </span>
+
       </article>
+
+
       <article class="metric-card">
-        <span class="metric-label">Cities monitored</span>
-        <strong id="city-count">0</strong>
-        <span>Initial coverage</span>
+
+        <span class="metric-label">
+          Cities monitored
+        </span>
+
+        <strong id="city-count">
+          0
+        </strong>
+
+        <span>
+          Current city coverage
+        </span>
+
       </article>
+
+
       <article class="metric-card">
-        <span class="metric-label">Highest-risk city</span>
-        <strong id="highest-risk-city">—</strong>
-        <span id="highest-risk-city-score">No data</span>
+
+        <span class="metric-label">
+          Highest-risk city
+        </span>
+
+        <strong id="highest-risk-city">
+          —
+        </strong>
+
+        <span id="highest-risk-city-score">
+          No data
+        </span>
+
       </article>
+
+
       <article class="metric-card">
-        <span class="metric-label">Last generated</span>
-        <strong id="generated-time">—</strong>
-        <span>UK time</span>
+
+        <span class="metric-label">
+          Last generated
+        </span>
+
+        <strong id="generated-time">
+          —
+        </strong>
+
+        <span>
+          UK time
+        </span>
+
       </article>
+
     </section>
 
-    <section id="map-section" class="section-shell operational-map-section">
-      <div class="section-heading operational-map-heading">
+
+    <!-- =====================================================
+         OPERATIONAL RISK MAP
+         ===================================================== -->
+
+    <section
+      id="map-section"
+      class="section-shell operational-map-section"
+    >
+
+      <div
+        class="section-heading operational-map-heading"
+      >
+
         <div>
-          <p class="eyebrow">Geographic intelligence</p>
-          <h2>Operational Risk Map</h2>
-          <p class="section-intro">
-            City-level operational exposure for British business travellers, using the live intelligence assessment.
+
+          <p class="eyebrow">
+            Geographic intelligence
           </p>
+
+          <h2>
+            Operational Risk Map
+          </h2>
+
+          <p class="section-intro">
+            City-level operational exposure for British
+            business travellers, using the live intelligence
+            assessment.
+          </p>
+
         </div>
+
 
         <div class="map-controls">
-          <label for="city-selector">Location focus</label>
+
+          <label for="city-selector">
+            Location focus
+          </label>
+
           <select id="city-selector">
-            <option value="national">National view</option>
+
+            <option value="national">
+              National view
+            </option>
+
           </select>
+
         </div>
+
       </div>
 
-      <div class="map-layer-bar" aria-label="Operational map layers">
+
+      <div
+        class="map-layer-bar"
+        aria-label="Operational map layers"
+      >
+
         <div class="map-layer-label">
-          <span class="map-live-dot" aria-hidden="true"></span>
+
+          <span
+            class="map-live-dot"
+            aria-hidden="true"
+          ></span>
+
           Intelligence layers
+
         </div>
+
 
         <div class="map-layer-tabs">
-          <button class="map-layer-tab active" type="button" data-layer="cities">Cities</button>
-          <button class="map-layer-tab future" type="button" disabled>Provinces <span>Future</span></button>
-          <button class="map-layer-tab future" type="button" disabled>Airports <span>Future</span></button>
-          <button class="map-layer-tab future" type="button" disabled>Ports <span>Future</span></button>
-          <button class="map-layer-tab future" type="button" disabled>Routes <span>Future</span></button>
-          <button class="map-layer-tab future" type="button" disabled>Disruptions <span>Future</span></button>
+
+          <button
+            class="map-layer-tab active"
+            type="button"
+            data-layer="cities"
+          >
+            Cities
+          </button>
+
+
+          <button
+            class="map-layer-tab future"
+            type="button"
+            disabled
+          >
+            Provinces
+            <span>
+              Future
+            </span>
+          </button>
+
+
+          <button
+            class="map-layer-tab future"
+            type="button"
+            disabled
+          >
+            Airports
+            <span>
+              Future
+            </span>
+          </button>
+
+
+          <button
+            class="map-layer-tab future"
+            type="button"
+            disabled
+          >
+            Ports
+            <span>
+              Future
+            </span>
+          </button>
+
+
+          <button
+            class="map-layer-tab future"
+            type="button"
+            disabled
+          >
+            Routes
+            <span>
+              Future
+            </span>
+          </button>
+
+
+          <button
+            class="map-layer-tab future"
+            type="button"
+            disabled
+          >
+            Disruptions
+            <span>
+              Future
+            </span>
+          </button>
+
         </div>
+
       </div>
+
 
       <div class="operational-map-layout">
+
+
         <div class="operational-map-frame">
+
+
           <div class="map-frame-header">
+
             <div>
-              <span class="map-frame-kicker">South Africa</span>
-              <strong>Current operational exposure</strong>
+
+              <span class="map-frame-kicker">
+                South Africa
+              </span>
+
+              <strong>
+                Current operational exposure
+              </strong>
+
             </div>
-            <button id="map-reset-button" class="map-reset-button" type="button">National view</button>
+
+
+            <button
+              id="map-reset-button"
+              class="map-reset-button"
+              type="button"
+            >
+              National view
+            </button>
+
           </div>
 
-          <div id="risk-map" aria-label="Interactive South Africa operational risk map"></div>
 
-          <div class="map-risk-key" aria-label="Risk scale">
-            <span><i class="risk-key-dot low"></i>Low</span>
-            <span><i class="risk-key-dot guarded"></i>Guarded</span>
-            <span><i class="risk-key-dot elevated"></i>Elevated</span>
-            <span><i class="risk-key-dot high"></i>High</span>
-            <span><i class="risk-key-dot severe"></i>Severe</span>
+          <div
+            id="risk-map"
+            aria-label="Interactive South Africa operational risk map"
+          ></div>
+
+
+          <div
+            class="map-risk-key"
+            aria-label="Risk scale"
+          >
+
+            <span>
+              <i class="risk-key-dot low"></i>
+              Low
+            </span>
+
+            <span>
+              <i class="risk-key-dot guarded"></i>
+              Guarded
+            </span>
+
+            <span>
+              <i class="risk-key-dot elevated"></i>
+              Elevated
+            </span>
+
+            <span>
+              <i class="risk-key-dot high"></i>
+              High
+            </span>
+
+            <span>
+              <i class="risk-key-dot severe"></i>
+              Severe
+            </span>
+
           </div>
+
 
           <div class="map-source-note">
-            Select an intelligence node for the latest city assessment.
+            Select an intelligence node for the latest
+            city assessment.
           </div>
+
         </div>
 
-        <aside class="panel map-intelligence-panel" aria-live="polite">
+
+        <aside
+          class="panel map-intelligence-panel"
+          aria-live="polite"
+        >
+
           <div class="map-panel-topline">
-            <p class="eyebrow">Location intelligence</p>
-            <span id="selected-area-status" class="map-status-chip">National</span>
+
+            <p class="eyebrow">
+              Location intelligence
+            </p>
+
+            <span
+              id="selected-area-status"
+              class="map-status-chip"
+            >
+              National
+            </span>
+
           </div>
 
-          <h3 id="selected-area-name">South Africa</h3>
+
+          <h3 id="selected-area-name">
+            South Africa
+          </h3>
+
 
           <div class="map-score-block">
+
             <div>
-              <span class="map-score-label">Risk score</span>
-              <strong id="selected-area-score" class="map-score-value">—</strong>
+
+              <span class="map-score-label">
+                Risk score
+              </span>
+
+              <strong
+                id="selected-area-score"
+                class="map-score-value"
+              >
+                —
+              </strong>
+
             </div>
-            <div id="selected-area-risk" class="selected-risk">National assessment</div>
+
+
+            <div
+              id="selected-area-risk"
+              class="selected-risk"
+            >
+              National assessment
+            </div>
+
           </div>
 
+
           <div class="map-intel-section">
-            <span class="map-intel-label">Current assessment</span>
+
+            <span class="map-intel-label">
+              Current assessment
+            </span>
+
             <p id="selected-area-summary">
-              Select a city intelligence node to review the current operational risk assessment.
+              Select a city intelligence node to review
+              the current operational risk assessment.
             </p>
+
           </div>
 
+
           <div class="map-intel-section">
-            <span class="map-intel-label">Business implication</span>
+
+            <span class="map-intel-label">
+              Business implication
+            </span>
+
             <p id="selected-area-action">
-              Use the national assessment as the baseline and review city-level exposure before travel.
+              Use the national assessment as the baseline
+              and review city-level exposure before travel.
             </p>
+
           </div>
+
 
           <div class="map-intel-grid">
-            <div><span>Monitored cities</span><strong id="map-monitored-cities">—</strong></div>
-            <div><span>Active disruptions</span><strong id="map-active-disruptions">—</strong></div>
-            <div><span>Last generated</span><strong id="map-generated-time">—</strong></div>
+
+            <div>
+
+              <span>
+                Monitored cities
+              </span>
+
+              <strong id="map-monitored-cities">
+                —
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <span>
+                Active disruptions
+              </span>
+
+              <strong id="map-active-disruptions">
+                —
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <span>
+                Last generated
+              </span>
+
+              <strong id="map-generated-time">
+                —
+              </strong>
+
+            </div>
+
           </div>
+
 
           <div class="map-panel-footer">
-            <span class="map-live-dot" aria-hidden="true"></span>
+
+            <span
+              class="map-live-dot"
+              aria-hidden="true"
+            ></span>
+
             Live briefing data
+
           </div>
+
         </aside>
+
       </div>
+
     </section>
 
 
-    <section id="incidents" class="section-shell">
+    <!-- =====================================================
+         UK GOVERNMENT TRAVEL ADVICE
+         ===================================================== -->
+
+    <section
+      id="travel-advice"
+      class="section-shell"
+    >
+
       <div class="section-heading">
+
         <div>
-          <p class="eyebrow">Operational disruption</p>
-          <h2>Protests, closures and active events</h2>
+
+          <p class="eyebrow">
+            Official UK guidance
+          </p>
+
+          <h2>
+            UK Government Travel Advice
+          </h2>
+
+          <p class="section-intro">
+            Current FCDO guidance for British travellers
+            visiting South Africa.
+          </p>
+
         </div>
+
+      </div>
+
+
+      <article
+        id="travel-advice-panel"
+        class="panel travel-advice-panel"
+      >
+
+        <div class="travel-advice-header">
+
+          <div>
+
+            <span class="official-source-label">
+              GOV.UK · FCDO
+            </span>
+
+            <h3 id="travel-advice-title">
+              South Africa travel advice
+            </h3>
+
+          </div>
+
+
+          <span
+            id="travel-advice-status"
+            class="official-status-badge"
+          >
+            Official source
+          </span>
+
+        </div>
+
+
+        <div class="travel-advice-body">
+
+          <div class="travel-advice-summary">
+
+            <span class="intel-label">
+              Current advice
+            </span>
+
+            <p id="travel-advice-summary">
+              Loading latest UK Government travel advice...
+            </p>
+
+          </div>
+
+
+          <div class="travel-advice-meta">
+
+            <div>
+
+              <span>
+                Last updated
+              </span>
+
+              <strong id="travel-advice-updated">
+                —
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <span>
+                Last checked
+              </span>
+
+              <strong id="travel-advice-checked">
+                —
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <span>
+                Confidence
+              </span>
+
+              <strong id="travel-advice-confidence">
+                Confirmed
+              </strong>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="travel-advice-footer">
+
+          <a
+            id="travel-advice-link"
+            class="official-link"
+            href="https://www.gov.uk/foreign-travel-advice/south-africa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View full GOV.UK travel advice
+            <span aria-hidden="true">
+              ↗
+            </span>
+          </a>
+
+        </div>
+
+      </article>
+
+    </section>
+
+
+    <!-- =====================================================
+         ACTIVE OPERATIONAL NOTICES
+         ===================================================== -->
+
+    <section
+      id="incidents"
+      class="section-shell"
+    >
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="eyebrow">
+            Immediate operational awareness
+          </p>
+
+          <h2>
+            Active Operational Notices
+          </h2>
+
+          <p class="section-intro">
+            Current and imminent events with a realistic
+            impact on business travel, transport or movement.
+          </p>
+
+        </div>
+
 
         <div class="filter-row">
-          <select id="incident-city-filter" aria-label="Filter incidents by city">
-            <option value="all">All locations</option>
+
+          <select
+            id="incident-city-filter"
+            aria-label="Filter operational notices by city"
+          >
+
+            <option value="all">
+              All locations
+            </option>
+
           </select>
-          <select id="incident-type-filter" aria-label="Filter incidents by type">
-            <option value="all">All event types</option>
-            <option value="protest">Protest</option>
-            <option value="road closure">Road closure</option>
-            <option value="transport">Transport</option>
-            <option value="infrastructure">Infrastructure</option>
+
+
+          <select
+            id="incident-type-filter"
+            aria-label="Filter operational notices by type"
+          >
+
+            <option value="all">
+              All notices
+            </option>
+
+            <option value="road closure">
+              Road closures
+            </option>
+
+            <option value="demonstration">
+              Demonstrations
+            </option>
+
+            <option value="sport">
+              Sport
+            </option>
+
+            <option value="music">
+              Music
+            </option>
+
           </select>
+
         </div>
+
       </div>
 
-      <div id="incident-list" class="incident-grid"></div>
+
+      <div
+        class="operational-notice-toolbar"
+      >
+
+        <div class="operational-notice-types">
+
+          <span class="notice-type-pill road">
+            Road closures
+          </span>
+
+          <span class="notice-type-pill demonstration">
+            Demonstrations
+          </span>
+
+          <span class="notice-type-pill sport">
+            Sport
+          </span>
+
+          <span class="notice-type-pill music">
+            Music
+          </span>
+
+        </div>
+
+
+        <div class="notice-freshness">
+
+          <span
+            class="map-live-dot"
+            aria-hidden="true"
+          ></span>
+
+          Current and imminent only
+
+        </div>
+
+      </div>
+
+
+      <div
+        id="incident-list"
+        class="incident-grid operational-notice-grid"
+      ></div>
+
     </section>
 
-    <section id="news" class="section-shell">
+
+    <!-- =====================================================
+         BUSINESS CONVERSATION BRIEF
+         ===================================================== -->
+
+    <section
+      id="conversation"
+      class="section-shell"
+    >
+
       <div class="section-heading">
+
         <div>
-          <p class="eyebrow">National and local reporting</p>
-          <h2>News intelligence</h2>
-        </div>
 
-        <div class="news-controls">
-          <label for="news-location-selector">Choose coverage</label>
-          <select id="news-location-selector">
-            <option value="national">National news</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="news-layout">
-        <div>
-          <div class="category-tabs" id="news-category-tabs"></div>
-          <div id="news-list" class="news-list"></div>
-        </div>
-
-        <aside class="panel intelligence-note">
-          <p class="eyebrow">How stories are handled</p>
-          <h3>Intelligence-first news</h3>
-          <p>
-            The finished collection engine will remove duplicates, distinguish the publication date from the event date,
-            identify the affected location and rank stories by business relevance.
+          <p class="eyebrow">
+            Cultural and business preparation
           </p>
-        </aside>
+
+          <h2>
+            Business Conversation Brief
+          </h2>
+
+        </div>
+
       </div>
+
+
+      <div
+        id="conversation-grid"
+        class="conversation-grid"
+      ></div>
+
     </section>
 
-    <section id="conversation" class="section-shell">
+
+    <!-- =====================================================
+         METHODOLOGY
+         ===================================================== -->
+
+    <section
+      id="methodology"
+      class="section-shell methodology-section"
+    >
+
       <div class="section-heading">
+
         <div>
-          <p class="eyebrow">Cultural and business preparation</p>
-          <h2>Business Conversation Brief</h2>
+
+          <p class="eyebrow">
+            Transparency
+          </p>
+
+          <h2>
+            Risk methodology
+          </h2>
+
         </div>
+
       </div>
 
-      <div id="conversation-grid" class="conversation-grid"></div>
-    </section>
-
-    <section id="methodology" class="section-shell methodology-section">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Transparency</p>
-          <h2>Initial risk methodology</h2>
-        </div>
-      </div>
 
       <div class="method-grid">
+
+
         <article class="panel">
-          <h3>National score</h3>
+
+          <h3>
+            National score
+          </h3>
+
           <p>
-            Combines security, political stability, civil unrest, infrastructure, transport and business-operating conditions.
+            Combines security, political stability,
+            civil unrest, infrastructure, transport
+            and business-operating conditions.
           </p>
+
         </article>
+
+
         <article class="panel">
-          <h3>City score</h3>
+
+          <h3>
+            City score
+          </h3>
+
           <p>
-            Uses local incidents, recent reporting, transport conditions and infrastructure disruption.
+            Uses local incidents, recent reporting,
+            transport conditions and infrastructure
+            disruption.
           </p>
+
         </article>
+
+
         <article class="panel">
-          <h3>Confidence</h3>
+
+          <h3>
+            Operational notices
+          </h3>
+
           <p>
-            Every final assessment will show whether information is confirmed, probable or unverified.
+            Displays only current or imminent road
+            closures, demonstrations, major sporting
+            fixtures and significant music events.
           </p>
+
         </article>
+
+
         <article class="panel">
-          <h3>Important limitation</h3>
+
+          <h3>
+            Important limitation
+          </h3>
+
           <p>
-            This platform will support business decisions but will never claim that an individual road or district is guaranteed safe.
+            This platform supports business decisions
+            but does not replace official travel advice,
+            professional security support or emergency
+            services.
           </p>
+
         </article>
+
+
       </div>
+
     </section>
+
+
+    <!-- =====================================================
+         TEMPORARY COMPATIBILITY ELEMENTS
+         =====================================================
+
+         These are hidden only so the existing app.js continues
+         to run until the next replacement app.js is installed.
+
+         They will no longer be used once the new JavaScript
+         file is added.
+         ===================================================== -->
+
+    <section
+      id="news"
+      hidden
+      aria-hidden="true"
+    >
+
+      <select id="news-location-selector">
+
+        <option value="national">
+          National news
+        </option>
+
+      </select>
+
+
+      <div id="news-category-tabs"></div>
+
+      <div id="news-list"></div>
+
+    </section>
+
+
   </main>
 
+
   <footer>
-    <p>South Africa Business Risk Desk — prototype foundation</p>
-    <p>Not a substitute for official travel advice, professional security support or emergency services.</p>
+
+    <p>
+      South Africa Business Risk Desk
+    </p>
+
+    <p>
+      Business travel intelligence platform.
+      Not a substitute for official travel advice,
+      professional security support or emergency services.
+    </p>
+
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"
+  ></script>
+
+
   <script
     src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""
   ></script>
+
+
   <script src="app.js"></script>
+
 </body>
 </html>

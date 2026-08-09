@@ -1,26 +1,36 @@
 """
 Format backend intelligence for the South Africa Business Risk Desk website.
 
-The collection engine produces:
-
+The backend produces:
 - metadata
 - national_risk
 - items
 
 The website expects:
-
 - metadata
 - national
 - timeline
 - cities
+- travel_advice
 - incidents
 - news
 - conversation_brief
+
+Version 2 output principles:
+- Keep FCDO travel advice separate from operational notices.
+- Operational notices are current or imminent only.
+- Operational notices are limited to:
+    - road closures / significant traffic disruption
+    - demonstrations / protests
+    - major sports matches
+    - major music events
+- Ordinary news must never appear as an operational notice.
+- General news must be recent and materially business-relevant.
 """
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 
@@ -142,18 +152,85 @@ COMPONENT_DEFINITIONS = [
 ]
 
 
-INCIDENT_CATEGORIES = {
-    "protests and civil unrest",
-    "security and crime",
-    "crime and security",
-    "road and transport disruption",
-    "transport",
-    "infrastructure",
-    "energy",
-    "health",
-    "weather",
-    "travel advice",
+ROAD_KEYWORDS = {
+    "road closure",
+    "road closed",
+    "road closures",
+    "roads closed",
+    "lane closure",
+    "lane closed",
+    "lane closures",
+    "traffic closure",
+    "traffic disruption",
+    "traffic delays",
+    "traffic delay",
+    "route closed",
+    "route closure",
+    "motorway closure",
+    "highway closure",
+    "bridge closed",
+    "street closed",
+    "roadworks",
+    "collision",
+    "crash",
+    "accident",
+    "traffic backed up",
+    "traffic backed-up",
 }
+
+
+PROTEST_KEYWORDS = {
+    "protest",
+    "protests",
+    "demonstration",
+    "demonstrations",
+    "march",
+    "marches",
+    "strike",
+    "strikes",
+    "picket",
+    "picketing",
+    "civil unrest",
+}
+
+
+SPORT_KEYWORDS = {
+    "rugby",
+    "football",
+    "soccer",
+    "cricket",
+    "fixture",
+    "stadium",
+    "springboks",
+    "bafana bafana",
+    "proteas",
+    "premiership",
+    "united rugby championship",
+    "currie cup",
+    "test match",
+    "international match",
+    "league match",
+}
+
+
+MUSIC_KEYWORDS = {
+    "concert",
+    "music festival",
+    "live music",
+    "tour date",
+    "arena concert",
+    "live performance",
+    "gig",
+}
+
+
+FCDO_PREFERRED_SECTIONS = (
+    "warnings and insurance",
+    "safety and security",
+    "getting help",
+    "entry requirements",
+    "health",
+)
 
 
 def _safe_int(value: Any) -> int:
@@ -189,7 +266,7 @@ def _risk_level(score: int) -> str:
 
 def _severity_level(score: int) -> str:
     """
-    Convert a business impact score into an incident severity.
+    Convert a business-impact score into an operational severity.
     """
 
     if score >= 70:
@@ -209,6 +286,213 @@ def _normalise_category(value: Any) -> str:
     return str(value or "").strip().lower()
 
 
+def _normalise_text(value: Any) -> str:
+    """
+    Convert text into a simple lowercase comparison string.
+    """
+
+    return " ".join(
+        str(value or "").lower().split()
+    )
+
+
+def _combined_text(
+    item: dict[str, Any],
+) -> str:
+    """
+    Combine useful text fields for keyword matching.
+    """
+
+    return " ".join(
+        [
+            _normalise_text(
+                item.get("title")
+            ),
+            _normalise_text(
+                item.get("summary")
+            ),
+            _normalise_text(
+                item.get("category")
+            ),
+            _normalise_text(
+                item.get("raw_category")
+            ),
+            _normalise_text(
+                item.get("section")
+            ),
+        ]
+    )
+
+
+def _contains_any(
+    text: str,
+    keywords: set[str],
+) -> bool:
+    """
+    Check whether a text contains any supplied keyword.
+    """
+
+    return any(
+        keyword in text
+        for keyword in keywords
+    )
+
+
+def _parse_datetime(
+    value: Any,
+) -> datetime | None:
+    """
+    Parse the date formats used by the collection engine.
+    """
+
+    raw = str(value or "").strip()
+
+    if not raw:
+        return None
+
+    candidates = [raw]
+
+    if raw.endswith("Z"):
+        candidates.append(
+            raw[:-1] + "+00:00"
+        )
+
+    for candidate in candidates:
+
+        try:
+            parsed = datetime.fromisoformat(
+                candidate
+            )
+
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(
+                    tzinfo=timezone.utc
+                )
+
+            return parsed.astimezone(
+                timezone.utc
+            )
+
+        except ValueError:
+            pass
+
+    formats = (
+        "%a, %d %b %Y %H:%M:%S %Z",
+        "%a, %d %b %Y %H:%M:%S GMT",
+        "%d %b %Y, %H:%M UTC",
+        "%Y-%m-%d",
+    )
+
+    for fmt in formats:
+
+        try:
+            parsed = datetime.strptime(
+                raw,
+                fmt,
+            )
+
+            return parsed.replace(
+                tzinfo=timezone.utc
+            )
+
+        except ValueError:
+            continue
+
+    return None
+
+
+def _item_datetime(
+    item: dict[str, Any],
+    key: str,
+) -> datetime | None:
+    """
+    Extract either the publication date or event date.
+    """
+
+    if key == "published":
+
+        values = (
+            item.get(
+                "published_timestamp"
+            ),
+            item.get(
+                "published"
+            ),
+            item.get(
+                "published_display"
+            ),
+        )
+
+    else:
+
+        values = (
+            item.get(
+                "event_date"
+            ),
+            item.get(
+                "event_timestamp"
+            ),
+        )
+
+    for value in values:
+
+        parsed = _parse_datetime(
+            value
+        )
+
+        if parsed is not None:
+            return parsed
+
+    return None
+
+
+def _is_fcdo_item(
+    item: dict[str, Any],
+) -> bool:
+    """
+    Identify official UK FCDO travel-advice material.
+    """
+
+    source = _normalise_text(
+        item.get("source")
+    )
+
+    collector = _normalise_text(
+        item.get("collector")
+    )
+
+    raw_category = _normalise_text(
+        item.get("raw_category")
+    )
+
+    return (
+        "foreign, commonwealth & development office"
+        in source
+        or "fcdo" in source
+        or collector == "gov_uk"
+        or "official travel advice"
+        in raw_category
+    )
+
+
+def _analysis_items(
+    items: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """
+    Remove FCDO pages from dashboard risk-display calculations.
+
+    FCDO pages are authoritative travel guidance rather than
+    individual live incidents. They are therefore presented in
+    their own dedicated travel-advice section.
+    """
+
+    return [
+        item
+        for item in items
+        if not _is_fcdo_item(item)
+    ]
+
+
 def _average_top_scores(
     items: list[dict[str, Any]],
     maximum_items: int = 5,
@@ -220,14 +504,18 @@ def _average_top_scores(
     scores = sorted(
         (
             _safe_int(
-                item.get("business_impact_score")
+                item.get(
+                    "business_impact_score"
+                )
             )
             for item in items
         ),
         reverse=True,
     )
 
-    selected_scores = scores[:maximum_items]
+    selected_scores = scores[
+        :maximum_items
+    ]
 
     if not selected_scores:
         return 0
@@ -242,12 +530,15 @@ def _build_components(
     items: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
     """
-    Build the national risk breakdown bars.
+    Build the national-risk breakdown bars.
     """
 
-    components: list[dict[str, Any]] = []
+    components: list[
+        dict[str, Any]
+    ] = []
 
     for definition in COMPONENT_DEFINITIONS:
+
         matching_items = [
             item
             for item in items
@@ -263,7 +554,9 @@ def _build_components(
 
         components.append(
             {
-                "name": definition["name"],
+                "name": (
+                    definition["name"]
+                ),
                 "score": score,
             }
         )
@@ -276,23 +569,25 @@ def _item_matches_city(
     city: dict[str, Any],
 ) -> bool:
     """
-    Check whether a story belongs to a configured city.
+    Check whether an intelligence item belongs to a configured city.
     """
 
-    item_city_id = str(
-        item.get("city_id") or ""
-    ).strip().lower()
+    item_city_id = _normalise_text(
+        item.get("city_id")
+    )
 
     if item_city_id == city["id"]:
         return True
 
-    location = str(
-        item.get("location") or ""
-    ).strip().lower()
+    location = _normalise_text(
+        item.get("location")
+    )
 
     return any(
-        city_name.lower() in location
-        for city_name in city["location_names"]
+        city_name.lower()
+        in location
+        for city_name
+        in city["location_names"]
     )
 
 
@@ -301,12 +596,15 @@ def _build_cities(
     national_score: int,
 ) -> list[dict[str, Any]]:
     """
-    Build city risk cards and map markers.
+    Build city-risk information used by the map.
     """
 
-    cities: list[dict[str, Any]] = []
+    cities: list[
+        dict[str, Any]
+    ] = []
 
     for city in CITY_DEFINITIONS:
+
         city_items = [
             item
             for item in items
@@ -317,30 +615,43 @@ def _build_cities(
         ]
 
         if city_items:
-            city_score = _average_top_scores(
-                city_items,
-                maximum_items=5,
+
+            city_score = (
+                _average_top_scores(
+                    city_items,
+                    maximum_items=5,
+                )
             )
 
-            strongest_categories: list[str] = []
+            strongest_categories: list[
+                str
+            ] = []
 
             for item in sorted(
                 city_items,
-                key=lambda story: _safe_int(
-                    story.get(
-                        "business_impact_score"
+                key=lambda story: (
+                    _safe_int(
+                        story.get(
+                            "business_impact_score"
+                        )
                     )
                 ),
                 reverse=True,
             ):
+
                 category = str(
                     item.get(
                         "category",
                         "Current incidents",
                     )
-                )
+                ).strip()
 
-                if category not in strongest_categories:
+                if (
+                    category
+                    and category
+                    not in strongest_categories
+                ):
+
                     strongest_categories.append(
                         category
                     )
@@ -350,27 +661,40 @@ def _build_cities(
             )
 
             summary = (
-                f"Current city risk is being driven by "
+                "Current city risk is being "
+                "driven by "
                 f"{category_text.lower()}."
             )
+
         else:
+
             city_score = max(
                 10,
-                round(national_score * 0.55),
+                round(
+                    national_score * 0.55
+                ),
             )
 
             summary = (
-                "No strong city-specific incidents were identified "
-                "in the current collection period."
+                "No strong city-specific "
+                "incidents were identified "
+                "in the current collection "
+                "period."
             )
 
         cities.append(
             {
                 "id": city["id"],
                 "name": city["name"],
-                "latitude": city["latitude"],
-                "longitude": city["longitude"],
-                "default_zoom": city["default_zoom"],
+                "latitude": (
+                    city["latitude"]
+                ),
+                "longitude": (
+                    city["longitude"]
+                ),
+                "default_zoom": (
+                    city["default_zoom"]
+                ),
                 "score": city_score,
                 "level": _risk_level(
                     city_score
@@ -382,162 +706,666 @@ def _build_cities(
     return cities
 
 
-def _incident_type(category: str) -> str:
+def _build_travel_advice(
+    items: list[dict[str, Any]],
+    generated_at: str,
+) -> dict[str, Any]:
     """
-    Convert a category into a concise incident type.
-    """
-
-    category_lower = category.lower()
-
-    if "protest" in category_lower:
-        return "Protest"
-
-    if "security" in category_lower or "crime" in category_lower:
-        return "Security"
-
-    if "transport" in category_lower or "road" in category_lower:
-        return "Transport"
-
-    if "infrastructure" in category_lower or "energy" in category_lower:
-        return "Infrastructure"
-
-    if "weather" in category_lower:
-        return "Weather"
-
-    if "health" in category_lower:
-        return "Health"
-
-    if "travel advice" in category_lower:
-        return "Travel advice"
-
-    return category
-
-
-def _suggested_action(category: str) -> str:
-    """
-    Produce a simple business-travel action.
+    Build a dedicated UK Government Travel Advice object.
     """
 
-    category_lower = category.lower()
+    fcdo_items = [
+        item
+        for item in items
+        if _is_fcdo_item(item)
+    ]
 
-    if "protest" in category_lower:
-        return (
-            "Avoid affected areas, confirm meeting access "
-            "and allow additional travel time."
+    if not fcdo_items:
+
+        return {
+            "available": False,
+            "source": (
+                "UK Foreign, Commonwealth "
+                "& Development Office"
+            ),
+            "status": (
+                "Advice unavailable in "
+                "current collection"
+            ),
+            "last_updated": "",
+            "last_checked": generated_at,
+            "summary": (
+                "The current collection did "
+                "not return FCDO travel advice. "
+                "Check GOV.UK before travel."
+            ),
+            "url": (
+                "https://www.gov.uk/"
+                "foreign-travel-advice/"
+                "south-africa"
+            ),
+            "confidence": (
+                "Official source"
+            ),
+        }
+
+    def priority(
+        item: dict[str, Any],
+    ) -> tuple[int, datetime]:
+
+        section = _normalise_text(
+            item.get("section")
         )
 
-    if "security" in category_lower or "crime" in category_lower:
-        return (
-            "Review local security arrangements and avoid "
-            "unnecessary travel near the reported area."
+        title = _normalise_text(
+            item.get("title")
         )
 
-    if "transport" in category_lower or "road" in category_lower:
-        return (
-            "Check the route before departure and allow "
-            "additional journey time."
+        section_rank = len(
+            FCDO_PREFERRED_SECTIONS
         )
 
-    if "infrastructure" in category_lower or "energy" in category_lower:
-        return (
-            "Confirm backup arrangements and check whether "
-            "the disruption affects the destination."
+        for (
+            index,
+            preferred,
+        ) in enumerate(
+            FCDO_PREFERRED_SECTIONS
+        ):
+
+            if (
+                preferred in section
+                or preferred in title
+            ):
+
+                section_rank = index
+                break
+
+        published = _item_datetime(
+            item,
+            "published",
         )
 
-    if "weather" in category_lower:
+        if published is None:
+            published = datetime(
+                1970,
+                1,
+                1,
+                tzinfo=timezone.utc,
+            )
+
         return (
-            "Check local conditions and confirm that planned "
-            "transport remains operational."
+            -section_rank,
+            published,
         )
 
-    if "health" in category_lower:
-        return (
-            "Review official health guidance before travel "
-            "or attending affected locations."
+    selected = max(
+        fcdo_items,
+        key=priority,
+    )
+
+    summary = str(
+        selected.get("summary")
+        or ""
+    ).strip()
+
+    if len(summary) > 520:
+
+        summary = (
+            summary[:517].rstrip()
+            + "..."
         )
 
-    if "travel advice" in category_lower:
+    latest_dates = [
+        _item_datetime(
+            item,
+            "published",
+        )
+        for item in fcdo_items
+    ]
+
+    latest_dates = [
+        date
+        for date in latest_dates
+        if date is not None
+    ]
+
+    latest_update = (
+        max(latest_dates)
+        if latest_dates
+        else None
+    )
+
+    if latest_update:
+
+        last_updated = (
+            latest_update.strftime(
+                "%d %b %Y, %H:%M UTC"
+            )
+        )
+
+    else:
+
+        last_updated = str(
+            selected.get(
+                "published_display"
+            )
+            or ""
+        )
+
+    return {
+        "available": True,
+        "source": (
+            "UK Foreign, Commonwealth "
+            "& Development Office"
+        ),
+        "status": (
+            "Official travel advice available"
+        ),
+        "section": (
+            selected.get("section")
+            or "South Africa travel advice"
+        ),
+        "last_updated": (
+            last_updated
+        ),
+        "last_checked": (
+            generated_at
+        ),
+        "summary": (
+            summary
+            or (
+                "Official FCDO travel advice "
+                "was collected successfully."
+            )
+        ),
+        "url": (
+            selected.get("url")
+            or (
+                "https://www.gov.uk/"
+                "foreign-travel-advice/"
+                "south-africa"
+            )
+        ),
+        "confidence": "Confirmed",
+    }
+
+
+def _operational_type(
+    item: dict[str, Any],
+) -> str | None:
+    """
+    Determine whether an item belongs in the very selective
+    Active Operational Notices section.
+    """
+
+    text = _combined_text(
+        item
+    )
+
+    category = _normalise_category(
+        item.get("category")
+    )
+
+    # IMPORTANT:
+    # Do not classify every transport story as a road closure.
+    # It must contain explicit road/traffic-disruption language.
+
+    if _contains_any(
+        text,
+        ROAD_KEYWORDS,
+    ):
+        return "Road closure"
+
+    if (
+        _contains_any(
+            text,
+            PROTEST_KEYWORDS,
+        )
+        or category
+        == "protests and civil unrest"
+    ):
+        return "Demonstration"
+
+    if _contains_any(
+        text,
+        SPORT_KEYWORDS,
+    ):
+        return "Sport"
+
+    if _contains_any(
+        text,
+        MUSIC_KEYWORDS,
+    ):
+        return "Music"
+
+    return None
+
+
+def _is_current_operational_item(
+    item: dict[str, Any],
+    now_utc: datetime,
+) -> bool:
+    """
+    Enforce strict freshness rules for operational notices.
+    """
+
+    notice_type = _operational_type(
+        item
+    )
+
+    if (
+        notice_type is None
+        or _is_fcdo_item(item)
+    ):
+        return False
+
+    published = _item_datetime(
+        item,
+        "published",
+    )
+
+    event_date = _item_datetime(
+        item,
+        "event",
+    )
+
+    text = _combined_text(
+        item
+    )
+
+    # ---------------------------------------------------------
+    # ROAD CLOSURES
+    #
+    # Only current / very recent road disruption should survive.
+    # ---------------------------------------------------------
+
+    if notice_type == "Road closure":
+
+        if event_date is not None:
+
+            return (
+                now_utc
+                - timedelta(hours=12)
+                <= event_date
+                <= now_utc
+                + timedelta(days=3)
+            )
+
+        if published is None:
+            return False
+
+        current_language = any(
+            phrase in text
+            for phrase in (
+                "closed",
+                "closure",
+                "ongoing",
+                "today",
+                "currently",
+                "traffic",
+                "roadworks",
+                "delays",
+                "backed up",
+                "backed-up",
+            )
+        )
+
         return (
-            "Review the latest official travel advice before "
-            "making or changing travel plans."
+            current_language
+            and (
+                now_utc
+                - timedelta(hours=48)
+                <= published
+                <= now_utc
+                + timedelta(hours=2)
+            )
+        )
+
+    # ---------------------------------------------------------
+    # DEMONSTRATIONS
+    #
+    # Only active events or credible imminent events.
+    # ---------------------------------------------------------
+
+    if notice_type == "Demonstration":
+
+        if event_date is not None:
+
+            return (
+                now_utc
+                - timedelta(hours=12)
+                <= event_date
+                <= now_utc
+                + timedelta(hours=72)
+            )
+
+        if published is None:
+            return False
+
+        imminent_language = any(
+            phrase in text
+            for phrase in (
+                "today",
+                "tomorrow",
+                "planned",
+                "scheduled",
+                "ongoing",
+                "currently",
+                "march",
+                "protest",
+                "demonstration",
+                "strike",
+            )
+        )
+
+        return (
+            imminent_language
+            and (
+                now_utc
+                - timedelta(hours=36)
+                <= published
+                <= now_utc
+                + timedelta(hours=2)
+            )
+        )
+
+    # ---------------------------------------------------------
+    # SPORT / MUSIC
+    #
+    # These must have an actual event date.
+    # Past-event reporting is excluded.
+    # ---------------------------------------------------------
+
+    if notice_type in {
+        "Sport",
+        "Music",
+    }:
+
+        if event_date is None:
+            return False
+
+        return (
+            now_utc
+            - timedelta(hours=4)
+            <= event_date
+            <= now_utc
+            + timedelta(days=7)
+        )
+
+    return False
+
+
+def _time_window(
+    item: dict[str, Any],
+    notice_type: str,
+) -> str:
+    """
+    Produce concise date/time text for an operational notice.
+    """
+
+    event_date = _item_datetime(
+        item,
+        "event",
+    )
+
+    if event_date is not None:
+
+        if notice_type in {
+            "Sport",
+            "Music",
+        }:
+
+            return event_date.strftime(
+                "%d %b %Y, %H:%M"
+            )
+
+        return event_date.strftime(
+            "%d %b %Y"
+        )
+
+    return str(
+        item.get(
+            "published_display"
+        )
+        or item.get(
+            "published"
+        )
+        or "Current"
+    )
+
+
+def _notice_status(
+    item: dict[str, Any],
+    notice_type: str,
+    now_utc: datetime,
+) -> str:
+    """
+    Label an operational notice Active or Upcoming.
+    """
+
+    event_date = _item_datetime(
+        item,
+        "event",
+    )
+
+    if notice_type in {
+        "Sport",
+        "Music",
+    }:
+        return "Upcoming"
+
+    if (
+        event_date is not None
+        and event_date
+        > now_utc
+        + timedelta(hours=2)
+    ):
+        return "Upcoming"
+
+    return "Active"
+
+
+def _suggested_action(
+    notice_type: str,
+) -> str:
+    """
+    Provide short business-travel advice for each notice type.
+    """
+
+    if notice_type == "Demonstration":
+
+        return (
+            "Avoid the affected area, "
+            "confirm meeting access and "
+            "allow additional travel time."
+        )
+
+    if notice_type == "Road closure":
+
+        return (
+            "Check the route before departure "
+            "and allow additional journey time."
+        )
+
+    if notice_type == "Sport":
+
+        return (
+            "Expect congestion around the venue "
+            "and major approach roads. Avoid "
+            "time-critical vehicle movements "
+            "close to the event."
+        )
+
+    if notice_type == "Music":
+
+        return (
+            "Expect heavier traffic and transport "
+            "demand near the venue. Allow extra "
+            "journey time and pre-book transport "
+            "where practical."
         )
 
     return (
-        "Review the report and confirm whether it affects "
-        "planned business activity."
+        "Check the latest local "
+        "conditions before travel."
     )
 
 
 def _build_incidents(
     items: list[dict[str, Any]],
+    generated_at: str,
 ) -> list[dict[str, Any]]:
     """
-    Convert the strongest operational stories into incident cards.
+    Build the selective Active Operational Notices feed.
     """
 
-    relevant_items = [
+    now_utc = (
+        _parse_datetime(
+            generated_at
+        )
+        or datetime.now(
+            timezone.utc
+        )
+    )
+
+    eligible = [
         item
         for item in items
-        if (
-            _normalise_category(
-                item.get("category")
-            )
-            in INCIDENT_CATEGORIES
-            and _safe_int(
-                item.get("business_impact_score")
-            ) >= 25
+        if _is_current_operational_item(
+            item,
+            now_utc,
         )
     ]
 
+    def rank(
+        item: dict[str, Any],
+    ) -> tuple[int, int, float]:
+
+        notice_type = (
+            _operational_type(item)
+            or ""
+        )
+
+        type_priority = {
+            "Road closure": 4,
+            "Demonstration": 3,
+            "Sport": 2,
+            "Music": 1,
+        }.get(
+            notice_type,
+            0,
+        )
+
+        impact = _safe_int(
+            item.get(
+                "business_impact_score"
+            )
+        )
+
+        event_date = _item_datetime(
+            item,
+            "event",
+        )
+
+        if event_date is None:
+
+            event_date = _item_datetime(
+                item,
+                "published",
+            )
+
+        if event_date is None:
+
+            event_date = datetime(
+                1970,
+                1,
+                1,
+                tzinfo=timezone.utc,
+            )
+
+        return (
+            type_priority,
+            impact,
+            event_date.timestamp(),
+        )
+
     ranked_items = sorted(
-        relevant_items,
-        key=lambda item: _safe_int(
-            item.get("business_impact_score")
-        ),
+        eligible,
+        key=rank,
         reverse=True,
     )
 
-    incidents: list[dict[str, Any]] = []
+    incidents: list[
+        dict[str, Any]
+    ] = []
 
-    for item in ranked_items[:10]:
-        score = _safe_int(
-            item.get("business_impact_score")
+    for item in ranked_items[:8]:
+
+        notice_type = (
+            _operational_type(item)
         )
 
-        category = str(
+        if notice_type is None:
+            continue
+
+        score = _safe_int(
             item.get(
-                "category",
-                "Current incident",
+                "business_impact_score"
             )
         )
+
+        summary = str(
+            item.get("summary")
+            or ""
+        ).strip()
+
+        if len(summary) > 300:
+
+            summary = (
+                summary[:297].rstrip()
+                + "..."
+            )
 
         incidents.append(
             {
                 "title": item.get(
                     "title",
-                    "Untitled incident",
+                    "Operational notice",
                 ),
                 "location": item.get(
                     "location",
                     "National",
                 ),
-                "type": _incident_type(
-                    category
+                "type": notice_type,
+                "severity": (
+                    _severity_level(
+                        score
+                    )
                 ),
-                "severity": _severity_level(
-                    score
+                "status": (
+                    _notice_status(
+                        item,
+                        notice_type,
+                        now_utc,
+                    )
                 ),
-                "status": "Active",
-                "time_window": item.get(
-                    "published_display",
-                    "Current reporting period",
+                "time_window": (
+                    _time_window(
+                        item,
+                        notice_type,
+                    )
                 ),
-                "summary": item.get(
-                    "summary",
-                    "No summary available.",
+                "summary": (
+                    summary
+                    or (
+                        "No additional "
+                        "detail available."
+                    )
                 ),
-                "action": _suggested_action(
-                    category
+                "action": (
+                    _suggested_action(
+                        notice_type
+                    )
                 ),
                 "confidence": item.get(
                     "confidence",
@@ -547,6 +1375,13 @@ def _build_incidents(
                     "source",
                     "Unknown source",
                 ),
+                "url": item.get(
+                    "url",
+                    "",
+                ),
+                "business_impact_score": (
+                    score
+                ),
             }
         )
 
@@ -555,14 +1390,82 @@ def _build_incidents(
 
 def _build_news(
     items: list[dict[str, Any]],
+    generated_at: str,
 ) -> list[dict[str, Any]]:
     """
-    Convert collected stories into the website news format.
+    Build a much tighter general-intelligence feed.
+
+    Rules:
+    - FCDO advice is excluded because it has its own section.
+    - Items must have a publication date.
+    - Items older than 48 hours are excluded.
+    - Unclassified / entertainment / generic sports stories are excluded.
+    - Weakly relevant material is excluded.
+    - Maximum ten stories.
     """
 
-    news: list[dict[str, Any]] = []
+    now_utc = (
+        _parse_datetime(
+            generated_at
+        )
+        or datetime.now(
+            timezone.utc
+        )
+    )
+
+    news: list[
+        dict[str, Any]
+    ] = []
 
     for item in items:
+
+        if _is_fcdo_item(item):
+            continue
+
+        published = _item_datetime(
+            item,
+            "published",
+        )
+
+        if published is None:
+            continue
+
+        if (
+            published
+            < now_utc
+            - timedelta(hours=48)
+        ):
+            continue
+
+        impact = _safe_int(
+            item.get(
+                "business_impact_score"
+            )
+        )
+
+        relevance = _safe_int(
+            item.get(
+                "relevance_score"
+            )
+        )
+
+        category = _normalise_category(
+            item.get("category")
+        )
+
+        if category in {
+            "unclassified news",
+            "entertainment",
+            "sport",
+        }:
+            continue
+
+        if (
+            impact < 35
+            and relevance < 55
+        ):
+            continue
+
         news.append(
             {
                 "title": item.get(
@@ -578,7 +1481,7 @@ def _build_news(
                 ),
                 "category": item.get(
                     "category",
-                    "Unclassified news",
+                    "Business intelligence",
                 ),
                 "relevance": item.get(
                     "business_impact_level",
@@ -618,16 +1521,21 @@ def _build_news(
                     "",
                 ),
                 "business_impact_score": (
-                    _safe_int(
-                        item.get(
-                            "business_impact_score"
-                        )
-                    )
+                    impact
                 ),
             }
         )
 
-    return news
+    news.sort(
+        key=lambda story: (
+            story[
+                "business_impact_score"
+            ]
+        ),
+        reverse=True,
+    )
+
+    return news[:10]
 
 
 def _build_timeline(
@@ -636,86 +1544,127 @@ def _build_timeline(
     generated_at: str,
 ) -> list[dict[str, Any]]:
     """
-    Create the first timeline point.
+    Create the current timeline point.
 
-    A full historical timeline will be created after the historical
-    database is added.
+    A complete historical timeline can later use the planned
+    historical intelligence database.
     """
 
     try:
-        parsed_date = datetime.fromisoformat(
-            generated_at
+
+        parsed_date = (
+            datetime.fromisoformat(
+                generated_at
+            )
         )
 
-        display_date = parsed_date.strftime(
-            "%d %b"
+        display_date = (
+            parsed_date.strftime(
+                "%d %b"
+            )
         )
-    except (TypeError, ValueError):
-        display_date = datetime.now().strftime(
-            "%d %b"
+
+    except (
+        TypeError,
+        ValueError,
+    ):
+
+        display_date = (
+            datetime.now().strftime(
+                "%d %b"
+            )
         )
 
     return [
         {
             "date": display_date,
             "score": national_score,
-            "explanation": national_summary,
+            "explanation": (
+                national_summary
+            ),
         }
     ]
 
 
-def _build_conversation_brief() -> list[dict[str, str]]:
+def _build_conversation_brief(
+) -> list[dict[str, str]]:
     """
-    Provide safe Version 1 business conversation guidance.
+    Provide neutral business-conversation guidance.
     """
 
     return [
         {
-            "topic": "Business climate",
-            "heading": "Discussing current operating conditions",
+            "topic": (
+                "Business climate"
+            ),
+            "heading": (
+                "Discussing current "
+                "operating conditions"
+            ),
             "context": (
-                "Economic and infrastructure conditions can affect "
-                "industries and locations differently."
+                "Economic and infrastructure "
+                "conditions can affect industries "
+                "and locations differently."
             ),
             "starter": (
-                "How are current operating conditions affecting "
-                "businesses in your sector?"
+                "How are current operating "
+                "conditions affecting businesses "
+                "in your sector?"
             ),
             "avoid": (
-                "Assuming every company or region is experiencing "
-                "the same conditions."
+                "Assuming every company or "
+                "region is experiencing the "
+                "same conditions."
             ),
         },
         {
-            "topic": "Infrastructure",
-            "heading": "Discussing practical disruption",
+            "topic": (
+                "Infrastructure"
+            ),
+            "heading": (
+                "Discussing practical "
+                "disruption"
+            ),
             "context": (
-                "Service disruption can be discussed through its "
-                "business effects rather than political blame."
+                "Service disruption can be "
+                "discussed through its business "
+                "effects rather than political "
+                "blame."
             ),
             "starter": (
-                "Have recent infrastructure conditions changed how "
-                "your organisation plans day-to-day operations?"
+                "Have recent infrastructure "
+                "conditions changed how your "
+                "organisation plans day-to-day "
+                "operations?"
             ),
             "avoid": (
-                "Assuming who the other person blames for a local "
-                "service problem."
+                "Assuming who the other person "
+                "blames for a local service "
+                "problem."
             ),
         },
         {
-            "topic": "Current affairs",
-            "heading": "Approaching sensitive developments",
+            "topic": (
+                "Current affairs"
+            ),
+            "heading": (
+                "Approaching sensitive "
+                "developments"
+            ),
             "context": (
-                "Political and social issues may be strongly felt, "
-                "so neutral and open questions are safer."
+                "Political and social issues "
+                "may be strongly felt, so neutral "
+                "and open questions are safer."
             ),
             "starter": (
-                "Which recent developments are having the greatest "
-                "effect on your industry?"
+                "Which recent developments are "
+                "having the greatest effect on "
+                "your industry?"
             ),
             "avoid": (
-                "Assuming a person's political affiliation or view "
-                "on a controversial issue."
+                "Assuming a person's political "
+                "affiliation or view on a "
+                "controversial issue."
             ),
         },
     ]
@@ -735,31 +1684,42 @@ def format_dashboard_output(
         )
     )
 
-    metadata["data_status"] = (
-        "live intelligence"
-    )
+    metadata[
+        "data_status"
+    ] = "live intelligence"
 
     items = backend_output.get(
         "items",
         [],
     )
 
-    if not isinstance(items, list):
+    if not isinstance(
+        items,
+        list,
+    ):
         items = []
 
-    national_risk = backend_output.get(
-        "national_risk",
-        {},
+    national_risk = (
+        backend_output.get(
+            "national_risk",
+            {},
+        )
     )
 
-    national_score = _safe_int(
-        national_risk.get("score")
+    national_score = (
+        _safe_int(
+            national_risk.get(
+                "score"
+            )
+        )
     )
 
     national_level = str(
         national_risk.get(
             "level",
-            _risk_level(national_score),
+            _risk_level(
+                national_score
+            ),
         )
     )
 
@@ -767,7 +1727,8 @@ def format_dashboard_output(
         national_risk.get(
             "summary",
             (
-                f"{national_level} national business risk "
+                f"{national_level} "
+                "national business risk "
                 f"({national_score}/100)."
             ),
         )
@@ -780,32 +1741,83 @@ def format_dashboard_output(
         )
     )
 
+    analysis_items = (
+        _analysis_items(
+            items
+        )
+    )
+
     return {
         "metadata": metadata,
+
         "national": {
-            "score": national_score,
-            "level": national_level,
+            "score": (
+                national_score
+            ),
+            "level": (
+                national_level
+            ),
             "seven_day_change": 0,
-            "summary": national_summary,
-            "components": _build_components(
-                items
+            "summary": (
+                national_summary
+            ),
+            "components": (
+                _build_components(
+                    analysis_items
+                )
             ),
         },
-        "timeline": _build_timeline(
-            national_score=national_score,
-            national_summary=national_summary,
-            generated_at=generated_at,
+
+        "timeline": (
+            _build_timeline(
+                national_score=(
+                    national_score
+                ),
+                national_summary=(
+                    national_summary
+                ),
+                generated_at=(
+                    generated_at
+                ),
+            )
         ),
-        "cities": _build_cities(
-            items=items,
-            national_score=national_score,
+
+        "cities": (
+            _build_cities(
+                items=analysis_items,
+                national_score=(
+                    national_score
+                ),
+            )
         ),
-        "incidents": _build_incidents(
-            items
+
+        "travel_advice": (
+            _build_travel_advice(
+                items=items,
+                generated_at=(
+                    generated_at
+                ),
+            )
         ),
-        "news": _build_news(
-            items
+
+        "incidents": (
+            _build_incidents(
+                items=analysis_items,
+                generated_at=(
+                    generated_at
+                ),
+            )
         ),
+
+        "news": (
+            _build_news(
+                items=analysis_items,
+                generated_at=(
+                    generated_at
+                ),
+            )
+        ),
+
         "conversation_brief": (
             _build_conversation_brief()
         ),
