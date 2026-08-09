@@ -1,4 +1,3 @@
-
 const DATA_URL = "data/briefing.json";
 
 let appData = null;
@@ -85,7 +84,8 @@ function renderMetrics() {
   document.getElementById("highest-risk-city-score").textContent =
     `${highest.level} — ${highest.score}/100`;
 
-  document.getElementById("generated-time").textContent = appData.metadata.generated_display;
+  document.getElementById("generated-time").textContent =
+    appData.metadata.generated_display;
 }
 
 function renderTimeline() {
@@ -133,6 +133,7 @@ function renderTimeline() {
         if (!elements.length) return;
 
         const selected = appData.timeline[elements[0].index];
+
         document.getElementById("timeline-explanation").innerHTML =
           `<strong>${escapeHtml(selected.date)} — ${selected.score}/100:</strong>
            ${escapeHtml(selected.explanation)}`;
@@ -143,43 +144,79 @@ function renderTimeline() {
 
 function initialiseMap() {
   const southAfricaBounds = L.latLngBounds(
-    [-35.3, 16.2],
-    [-22.0, 33.2]
+    [-35.4, 16.0],
+    [-22.0, 33.4]
   );
 
   map = L.map("risk-map", {
     minZoom: 5,
-    maxZoom: 17,
-    maxBounds: southAfricaBounds,
-    maxBoundsViscosity: 1.0,
-    zoomControl: true
+    maxZoom: 14,
+    maxBounds: southAfricaBounds.pad(0.18),
+    maxBoundsViscosity: 0.92,
+    zoomControl: true,
+    attributionControl: true
   });
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "&copy; OpenStreetMap contributors",
-    noWrap: true,
-    bounds: southAfricaBounds
-  }).addTo(map);
+  L.tileLayer(
+    "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+    {
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+      subdomains: "abcd",
+      maxZoom: 20
+    }
+  ).addTo(map);
+
+  map.fitBounds(southAfricaBounds, {
+    padding: [26, 26]
+  });
 
   cityMarkers = appData.cities.map(city => {
-    const marker = L.circleMarker(
+    const colour = riskColour(city.score);
+
+    const icon = L.divIcon({
+      className: "intelligence-node-wrapper",
+      html: `
+        <button
+          class="intelligence-node ${riskClass(city.score)}"
+          type="button"
+          aria-label="${escapeHtml(city.name)}: ${escapeHtml(city.level)} risk, ${city.score} out of 100"
+          style="--node-risk-colour:${colour}"
+        >
+          <span class="intelligence-node-ring"></span>
+          <span class="intelligence-node-core">
+            <strong>${city.score}</strong>
+          </span>
+          <span class="intelligence-node-label">
+            ${escapeHtml(city.name)}
+          </span>
+        </button>
+      `,
+      iconSize: [138, 52],
+      iconAnchor: [26, 26]
+    });
+
+    const marker = L.marker(
       [city.latitude, city.longitude],
       {
-        radius: scoreToRadius(city.score),
-        color: riskColour(city.score),
-        fillColor: riskColour(city.score),
-        fillOpacity: 0.78,
-        weight: 2
+        icon,
+        keyboard: true,
+        riseOnHover: true,
+        title: `${city.name}: ${city.level} risk`
       }
     ).addTo(map);
 
-    marker.bindPopup(`
-      <strong>${escapeHtml(city.name)}</strong><br>
-      ${escapeHtml(city.level)} risk — ${city.score}/100<br>
-      <small>${escapeHtml(city.summary)}</small>
-    `);
+    marker.on("click", () => selectMapCity(city, true));
 
-    marker.on("click", () => updateSelectedArea(city));
+    marker.bindTooltip(
+      `<strong>${escapeHtml(city.name)}</strong><br>
+       ${escapeHtml(city.level)} — ${city.score}/100`,
+      {
+        direction: "top",
+        offset: [0, -20],
+        className: "intelligence-tooltip",
+        opacity: 1
+      }
+    );
 
     return {
       city,
@@ -187,234 +224,609 @@ function initialiseMap() {
     };
   });
 
-  map.fitBounds(southAfricaBounds, {
-    padding: [10, 10]
-  });
+  const resetButton = document.getElementById("map-reset-button");
+
+  if (resetButton) {
+    resetButton.addEventListener("click", resetMapToNational);
+  }
+
+  updateSelectedArea(null);
 
   setTimeout(() => {
     map.invalidateSize();
-    map.fitBounds(southAfricaBounds, {
-      padding: [10, 10]
-    });
-  }, 200);
+  }, 150);
+}
+
+function selectMapCity(city, moveMap = true) {
+  if (!city) return;
+
+  if (moveMap) {
+    map.flyTo(
+      [city.latitude, city.longitude],
+      Math.min(city.default_zoom || 9, 10),
+      {
+        duration: 0.85
+      }
+    );
+  }
+
+  updateSelectedArea(city);
+  updateSelectedMarker(city.id);
+
+  const selector = document.getElementById("city-selector");
+
+  if (selector) {
+    selector.value = city.id;
+  }
+}
+
+function updateSelectedMarker(selectedCityId) {
+  cityMarkers.forEach(({ city, marker }) => {
+    const element = marker.getElement();
+
+    if (!element) return;
+
+    const node = element.querySelector(".intelligence-node");
+
+    if (!node) return;
+
+    node.classList.toggle(
+      "selected",
+      city.id === selectedCityId
+    );
+  });
+}
+
+function resetMapToNational() {
+  const southAfricaBounds = L.latLngBounds(
+    [-35.4, 16.0],
+    [-22.0, 33.4]
+  );
+
+  map.fitBounds(southAfricaBounds, {
+    padding: [26, 26]
+  });
+
+  updateSelectedMarker(null);
+  updateSelectedArea(null);
+
+  const selector = document.getElementById("city-selector");
+
+  if (selector) {
+    selector.value = "national";
+  }
 }
 
 function populateSelectors() {
-  const citySelector = document.getElementById("city-selector");
-  const incidentFilter = document.getElementById("incident-city-filter");
-  const newsSelector = document.getElementById("news-location-selector");
+  const citySelector =
+    document.getElementById("city-selector");
+
+  const incidentFilter =
+    document.getElementById("incident-city-filter");
+
+  const newsSelector =
+    document.getElementById("news-location-selector");
 
   appData.cities.forEach(city => {
     citySelector.insertAdjacentHTML(
       "beforeend",
-      `<option value="${escapeHtml(city.id)}">${escapeHtml(city.name)}</option>`
+      `<option value="${escapeHtml(city.id)}">
+        ${escapeHtml(city.name)}
+      </option>`
     );
 
     incidentFilter.insertAdjacentHTML(
       "beforeend",
-      `<option value="${escapeHtml(city.name)}">${escapeHtml(city.name)}</option>`
+      `<option value="${escapeHtml(city.name)}">
+        ${escapeHtml(city.name)}
+      </option>`
     );
 
     newsSelector.insertAdjacentHTML(
       "beforeend",
-      `<option value="${escapeHtml(city.id)}">${escapeHtml(city.name)} local news</option>`
+      `<option value="${escapeHtml(city.id)}">
+        ${escapeHtml(city.name)} local news
+      </option>`
     );
   });
 
-  citySelector.addEventListener("change", handleCitySelection);
-  incidentFilter.addEventListener("change", renderIncidents);
-  document.getElementById("incident-type-filter").addEventListener("change", renderIncidents);
-  newsSelector.addEventListener("change", () => {
-    currentNewsCategory = "All";
-    renderNews();
-  });
+  citySelector.addEventListener(
+    "change",
+    handleCitySelection
+  );
+
+  incidentFilter.addEventListener(
+    "change",
+    renderIncidents
+  );
+
+  document
+    .getElementById("incident-type-filter")
+    .addEventListener(
+      "change",
+      renderIncidents
+    );
+
+  newsSelector.addEventListener(
+    "change",
+    () => {
+      currentNewsCategory = "All";
+      renderNews();
+    }
+  );
 }
 
 function handleCitySelection(event) {
   if (event.target.value === "national") {
-    map.fitBounds(L.latLngBounds([-35.2, 16.0], [-22.0, 33.5]));
-    updateSelectedArea(null);
+    resetMapToNational();
     return;
   }
 
-  const city = appData.cities.find(item => item.id === event.target.value);
+  const city = appData.cities.find(
+    item => item.id === event.target.value
+  );
+
   if (!city) return;
 
-  map.flyTo([city.latitude, city.longitude], city.default_zoom || 11, {
-    duration: 1.1
-  });
-
-  updateSelectedArea(city);
-
-  const markerEntry = cityMarkers.find(entry => entry.city.id === city.id);
-  if (markerEntry) markerEntry.marker.openPopup();
+  selectMapCity(city, true);
 }
 
 function updateSelectedArea(city) {
-  const name = document.getElementById("selected-area-name");
-  const risk = document.getElementById("selected-area-risk");
-  const summary = document.getElementById("selected-area-summary");
+  const name =
+    document.getElementById("selected-area-name");
+
+  const risk =
+    document.getElementById("selected-area-risk");
+
+  const score =
+    document.getElementById("selected-area-score");
+
+  const summary =
+    document.getElementById("selected-area-summary");
+
+  const action =
+    document.getElementById("selected-area-action");
+
+  const status =
+    document.getElementById("selected-area-status");
+
+  const monitoredCities =
+    document.getElementById("map-monitored-cities");
+
+  const activeDisruptions =
+    document.getElementById("map-active-disruptions");
+
+  const generatedTime =
+    document.getElementById("map-generated-time");
+
+  if (monitoredCities) {
+    monitoredCities.textContent =
+      appData.cities.length;
+  }
+
+  if (activeDisruptions) {
+    activeDisruptions.textContent =
+      appData.incidents.filter(
+        item => item.status === "Active"
+      ).length;
+  }
+
+  if (generatedTime) {
+    generatedTime.textContent =
+      appData.metadata.generated_display || "—";
+  }
 
   if (!city) {
     name.textContent = "South Africa";
-    risk.textContent = `National risk: ${appData.national.score}/100`;
-    summary.textContent = appData.national.summary;
+
+    score.textContent =
+      appData.national.score;
+
+    risk.textContent =
+      `${appData.national.level} national risk`;
+
+    risk.className =
+      `selected-risk ${riskClass(appData.national.score)}`;
+
+    summary.textContent =
+      appData.national.summary;
+
+    action.textContent =
+      buildBusinessImplication(
+        appData.national.score,
+        null
+      );
+
+    status.textContent = "National";
+    status.className = "map-status-chip";
+
     return;
   }
 
   name.textContent = city.name;
-  risk.textContent = `${city.level} risk: ${city.score}/100`;
-  summary.textContent = city.summary;
 
-  document.getElementById("city-selector").value = city.id;
+  score.textContent = city.score;
+
+  risk.textContent =
+    `${city.level} risk`;
+
+  risk.className =
+    `selected-risk ${riskClass(city.score)}`;
+
+  summary.textContent =
+    city.summary;
+
+  action.textContent =
+    buildBusinessImplication(
+      city.score,
+      city.name
+    );
+
+  status.textContent =
+    city.level;
+
+  status.className =
+    `map-status-chip ${riskClass(city.score)}`;
+}
+
+function buildBusinessImplication(
+  score,
+  cityName
+) {
+  const locationText = cityName
+    ? ` for travel in ${cityName}`
+    : " for travel across South Africa";
+
+  if (score >= 85) {
+    return `Severe operational exposure${locationText}. Review whether travel is essential, obtain current security advice and maintain contingency arrangements.`;
+  }
+
+  if (score >= 70) {
+    return `High operational exposure${locationText}. Review movement plans, allow additional journey time and confirm local security and transport arrangements before departure.`;
+  }
+
+  if (score >= 50) {
+    return `Elevated operational exposure${locationText}. Maintain situational awareness, confirm transport arrangements and monitor disruption before key movements.`;
+  }
+
+  if (score >= 30) {
+    return `Guarded operating conditions${locationText}. Normal business travel remains possible, but local disruption should be checked before departure.`;
+  }
+
+  return `Lower current operational exposure${locationText}. Continue routine precautions and monitor the live briefing for changes.`;
 }
 
 function renderIncidents() {
-  const selectedCity = document.getElementById("incident-city-filter").value;
-  const selectedType = document.getElementById("incident-type-filter").value.toLowerCase();
+  const selectedCity =
+    document.getElementById(
+      "incident-city-filter"
+    ).value;
 
-  const incidents = appData.incidents.filter(incident => {
-    const cityMatches = selectedCity === "all" || incident.location === selectedCity;
-    const typeMatches = selectedType === "all" || incident.type.toLowerCase() === selectedType;
-    return cityMatches && typeMatches;
-  });
+  const selectedType =
+    document.getElementById(
+      "incident-type-filter"
+    ).value.toLowerCase();
 
-  const list = document.getElementById("incident-list");
+  const incidents =
+    appData.incidents.filter(
+      incident => {
+        const cityMatches =
+          selectedCity === "all" ||
+          incident.location === selectedCity;
+
+        const typeMatches =
+          selectedType === "all" ||
+          incident.type.toLowerCase() ===
+            selectedType;
+
+        return cityMatches && typeMatches;
+      }
+    );
+
+  const list =
+    document.getElementById("incident-list");
 
   if (!incidents.length) {
-    list.innerHTML = `<div class="empty-state">No incidents match the selected filters.</div>`;
+    list.innerHTML =
+      `<div class="empty-state">
+        No incidents match the selected filters.
+      </div>`;
+
     return;
   }
 
-  list.innerHTML = incidents.map(incident => `
-    <article class="incident-card">
-      <div class="panel-heading">
-        <span class="severity-badge ${severityClass(incident.severity)}">
-          ${escapeHtml(incident.severity)}
-        </span>
-        <span class="news-tag">${escapeHtml(incident.status)}</span>
-      </div>
-      <h3>${escapeHtml(incident.title)}</h3>
-      <div class="incident-meta">
-        <span>${escapeHtml(incident.location)}</span>
-        <span>${escapeHtml(incident.type)}</span>
-        <span>${escapeHtml(incident.time_window)}</span>
-      </div>
-      <p>${escapeHtml(incident.summary)}</p>
-      <p><strong>Suggested action:</strong> ${escapeHtml(incident.action)}</p>
-      <div class="incident-meta">
-        <span>Confidence: ${escapeHtml(incident.confidence)}</span>
-        <span>Source: ${escapeHtml(incident.source)}</span>
-      </div>
-    </article>
-  `).join("");
+  list.innerHTML =
+    incidents.map(
+      incident => `
+        <article class="incident-card">
+          <div class="panel-heading">
+            <span class="severity-badge ${severityClass(incident.severity)}">
+              ${escapeHtml(incident.severity)}
+            </span>
+
+            <span class="news-tag">
+              ${escapeHtml(incident.status)}
+            </span>
+          </div>
+
+          <h3>${escapeHtml(incident.title)}</h3>
+
+          <div class="incident-meta">
+            <span>${escapeHtml(incident.location)}</span>
+            <span>${escapeHtml(incident.type)}</span>
+            <span>${escapeHtml(incident.time_window)}</span>
+          </div>
+
+          <p>
+            ${escapeHtml(incident.summary)}
+          </p>
+
+          <p>
+            <strong>Suggested action:</strong>
+            ${escapeHtml(incident.action)}
+          </p>
+
+          <div class="incident-meta">
+            <span>
+              Confidence:
+              ${escapeHtml(incident.confidence)}
+            </span>
+
+            <span>
+              Source:
+              ${escapeHtml(incident.source)}
+            </span>
+          </div>
+        </article>
+      `
+    ).join("");
 }
 
 function renderNews() {
-  const location = document.getElementById("news-location-selector").value;
-  const filteredByLocation = appData.news.filter(story =>
-    location === "national" ? story.location === "National" : story.city_id === location
-  );
+  const location =
+    document.getElementById(
+      "news-location-selector"
+    ).value;
 
-  const categories = ["All", ...new Set(filteredByLocation.map(story => story.category))];
-  const categoryTabs = document.getElementById("news-category-tabs");
+  const filteredByLocation =
+    appData.news.filter(
+      story =>
+        location === "national"
+          ? story.location === "National"
+          : story.city_id === location
+    );
 
-  categoryTabs.innerHTML = categories.map(category => `
-    <button
-      class="category-button ${category === currentNewsCategory ? "active" : ""}"
-      data-category="${escapeHtml(category)}"
-      type="button"
-    >
-      ${escapeHtml(category)}
-    </button>
-  `).join("");
+  const categories = [
+    "All",
+    ...new Set(
+      filteredByLocation.map(
+        story => story.category
+      )
+    )
+  ];
 
-  categoryTabs.querySelectorAll("button").forEach(button => {
-    button.addEventListener("click", () => {
-      currentNewsCategory = button.dataset.category;
-      renderNews();
+  const categoryTabs =
+    document.getElementById(
+      "news-category-tabs"
+    );
+
+  categoryTabs.innerHTML =
+    categories.map(
+      category => `
+        <button
+          class="category-button ${
+            category === currentNewsCategory
+              ? "active"
+              : ""
+          }"
+          data-category="${escapeHtml(category)}"
+          type="button"
+        >
+          ${escapeHtml(category)}
+        </button>
+      `
+    ).join("");
+
+  categoryTabs
+    .querySelectorAll("button")
+    .forEach(button => {
+      button.addEventListener(
+        "click",
+        () => {
+          currentNewsCategory =
+            button.dataset.category;
+
+          renderNews();
+        }
+      );
     });
-  });
 
-  const finalStories = filteredByLocation.filter(story =>
-    currentNewsCategory === "All" || story.category === currentNewsCategory
-  );
+  const finalStories =
+    filteredByLocation.filter(
+      story =>
+        currentNewsCategory === "All" ||
+        story.category === currentNewsCategory
+    );
 
-  const newsList = document.getElementById("news-list");
+  const newsList =
+    document.getElementById("news-list");
 
   if (!finalStories.length) {
-    newsList.innerHTML = `<div class="empty-state">No demo stories are available for this selection.</div>`;
+    newsList.innerHTML =
+      `<div class="empty-state">
+        No demo stories are available for this selection.
+      </div>`;
+
     return;
   }
 
-  newsList.innerHTML = finalStories.map(story => `
-    <article class="news-card">
-      <div class="panel-heading">
-        <span class="news-tag">${escapeHtml(story.category)}</span>
-        <span class="severity-badge ${severityClass(story.relevance)}">
-          ${escapeHtml(story.relevance)} relevance
-        </span>
-      </div>
-      <h3>${escapeHtml(story.title)}</h3>
-      <div class="news-meta">
-        <span>${escapeHtml(story.location)}</span>
-        <span>Published: ${escapeHtml(story.published)}</span>
-        <span>Event date: ${escapeHtml(story.event_date)}</span>
-      </div>
-      <p>${escapeHtml(story.summary)}</p>
-      <div class="news-meta">
-        <span>Source: ${escapeHtml(story.source)}</span>
-        <span>Confidence: ${escapeHtml(story.confidence)}</span>
-      </div>
-    </article>
-  `).join("");
+  newsList.innerHTML =
+    finalStories.map(
+      story => `
+        <article class="news-card">
+          <div class="panel-heading">
+            <span class="news-tag">
+              ${escapeHtml(story.category)}
+            </span>
+
+            <span class="severity-badge ${severityClass(story.relevance)}">
+              ${escapeHtml(story.relevance)}
+              relevance
+            </span>
+          </div>
+
+          <h3>
+            ${escapeHtml(story.title)}
+          </h3>
+
+          <div class="news-meta">
+            <span>
+              ${escapeHtml(story.location)}
+            </span>
+
+            <span>
+              Published:
+              ${escapeHtml(story.published)}
+            </span>
+
+            <span>
+              Event date:
+              ${escapeHtml(story.event_date)}
+            </span>
+          </div>
+
+          <p>
+            ${escapeHtml(story.summary)}
+          </p>
+
+          <div class="news-meta">
+            <span>
+              Source:
+              ${escapeHtml(story.source)}
+            </span>
+
+            <span>
+              Confidence:
+              ${escapeHtml(story.confidence)}
+            </span>
+          </div>
+        </article>
+      `
+    ).join("");
 }
 
 function renderConversationBrief() {
-  const grid = document.getElementById("conversation-grid");
+  const grid =
+    document.getElementById(
+      "conversation-grid"
+    );
 
-  grid.innerHTML = appData.conversation_brief.map(item => `
-    <article class="conversation-card">
-      <span class="news-tag">${escapeHtml(item.topic)}</span>
-      <h3>${escapeHtml(item.heading)}</h3>
-      <p>${escapeHtml(item.context)}</p>
-      <div class="sentence-starter">
-        <strong>Neutral sentence starter</strong><br>
-        “${escapeHtml(item.starter)}”
-      </div>
-      <div class="avoid-box">
-        <strong>Avoid assuming</strong><br>
-        ${escapeHtml(item.avoid)}
-      </div>
-    </article>
-  `).join("");
+  grid.innerHTML =
+    appData.conversation_brief.map(
+      item => `
+        <article class="conversation-card">
+          <span class="news-tag">
+            ${escapeHtml(item.topic)}
+          </span>
+
+          <h3>
+            ${escapeHtml(item.heading)}
+          </h3>
+
+          <p>
+            ${escapeHtml(item.context)}
+          </p>
+
+          <div class="sentence-starter">
+            <strong>
+              Neutral sentence starter
+            </strong>
+            <br>
+            “${escapeHtml(item.starter)}”
+          </div>
+
+          <div class="avoid-box">
+            <strong>
+              Avoid assuming
+            </strong>
+            <br>
+            ${escapeHtml(item.avoid)}
+          </div>
+        </article>
+      `
+    ).join("");
 }
 
 function scoreToRadius(score) {
-  return Math.max(8, Math.min(19, score / 4.8));
+  return Math.max(
+    8,
+    Math.min(
+      19,
+      score / 4.8
+    )
+  );
 }
 
 function riskColour(score) {
-  if (score >= 85) return "#721c24";
-  if (score >= 70) return "#c92a2a";
-  if (score >= 50) return "#e87524";
-  if (score >= 30) return "#e0a800";
+  if (score >= 85) {
+    return "#721c24";
+  }
+
+  if (score >= 70) {
+    return "#c92a2a";
+  }
+
+  if (score >= 50) {
+    return "#e87524";
+  }
+
+  if (score >= 30) {
+    return "#e0a800";
+  }
+
   return "#2e8b57";
 }
 
 function riskClass(score) {
-  if (score >= 85) return "risk-severe";
-  if (score >= 70) return "risk-high";
-  if (score >= 50) return "risk-elevated";
-  if (score >= 30) return "risk-guarded";
+  if (score >= 85) {
+    return "risk-severe";
+  }
+
+  if (score >= 70) {
+    return "risk-high";
+  }
+
+  if (score >= 50) {
+    return "risk-elevated";
+  }
+
+  if (score >= 30) {
+    return "risk-guarded";
+  }
+
   return "risk-low";
 }
 
 function severityClass(value) {
-  const normalised = String(value).toLowerCase();
+  const normalised =
+    String(value).toLowerCase();
 
-  if (["high", "severe"].includes(normalised)) return "severity-high";
-  if (["medium", "moderate", "elevated"].includes(normalised)) return "severity-medium";
+  if (
+    ["high", "severe"].includes(normalised)
+  ) {
+    return "severity-high";
+  }
+
+  if (
+    [
+      "medium",
+      "moderate",
+      "elevated"
+    ].includes(normalised)
+  ) {
+    return "severity-medium";
+  }
+
   return "severity-low";
 }
 

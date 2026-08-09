@@ -9,7 +9,7 @@
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIINfQ3lMZB9m3ZrS1m7aD5M5Y1Z9g9V8FQ="
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""
   />
   <link rel="stylesheet" href="styles.css" />
@@ -125,49 +125,109 @@
       </article>
     </section>
 
-    <section id="map-section" class="section-shell">
-      <div class="section-heading">
+    <section id="map-section" class="section-shell operational-map-section">
+      <div class="section-heading operational-map-heading">
         <div>
           <p class="eyebrow">Geographic intelligence</p>
-          <h2>Interactive risk map</h2>
+          <h2>Operational Risk Map</h2>
+          <p class="section-intro">
+            City-level operational exposure for British business travellers, using the live intelligence assessment.
+          </p>
         </div>
+
         <div class="map-controls">
-          <label for="city-selector">Focus on city</label>
+          <label for="city-selector">Location focus</label>
           <select id="city-selector">
             <option value="national">National view</option>
           </select>
         </div>
       </div>
 
-      <div class="map-layout">
-        <div id="risk-map" aria-label="Interactive South Africa risk map"></div>
+      <div class="map-layer-bar" aria-label="Operational map layers">
+        <div class="map-layer-label">
+          <span class="map-live-dot" aria-hidden="true"></span>
+          Intelligence layers
+        </div>
 
-        <aside class="panel map-side-panel">
-          <p class="eyebrow">Selected area</p>
-          <h3 id="selected-area-name">South Africa</h3>
-          <div id="selected-area-risk" class="selected-risk">National risk: 64/100</div>
-          <p id="selected-area-summary">
-            Select a city marker to review its current demo risk profile.
-          </p>
+        <div class="map-layer-tabs">
+          <button class="map-layer-tab active" type="button" data-layer="cities">Cities</button>
+          <button class="map-layer-tab future" type="button" disabled>Provinces <span>Future</span></button>
+          <button class="map-layer-tab future" type="button" disabled>Airports <span>Future</span></button>
+          <button class="map-layer-tab future" type="button" disabled>Ports <span>Future</span></button>
+          <button class="map-layer-tab future" type="button" disabled>Routes <span>Future</span></button>
+          <button class="map-layer-tab future" type="button" disabled>Disruptions <span>Future</span></button>
+        </div>
+      </div>
 
-          <div class="legend">
-            <h4>Risk scale</h4>
-            <div><span class="legend-dot low"></span>Low: 0–29</div>
-            <div><span class="legend-dot guarded"></span>Guarded: 30–49</div>
-            <div><span class="legend-dot elevated"></span>Elevated: 50–69</div>
-            <div><span class="legend-dot high"></span>High: 70–84</div>
-            <div><span class="legend-dot severe"></span>Severe: 85–100</div>
+      <div class="operational-map-layout">
+        <div class="operational-map-frame">
+          <div class="map-frame-header">
+            <div>
+              <span class="map-frame-kicker">South Africa</span>
+              <strong>Current operational exposure</strong>
+            </div>
+            <button id="map-reset-button" class="map-reset-button" type="button">National view</button>
           </div>
 
-          <div class="route-placeholder">
-            <h4>Route risk</h4>
-            <p>
-              Route-by-route scoring will be added after the geographic data and scoring methodology are validated.
+          <div id="risk-map" aria-label="Interactive South Africa operational risk map"></div>
+
+          <div class="map-risk-key" aria-label="Risk scale">
+            <span><i class="risk-key-dot low"></i>Low</span>
+            <span><i class="risk-key-dot guarded"></i>Guarded</span>
+            <span><i class="risk-key-dot elevated"></i>Elevated</span>
+            <span><i class="risk-key-dot high"></i>High</span>
+            <span><i class="risk-key-dot severe"></i>Severe</span>
+          </div>
+
+          <div class="map-source-note">
+            Select an intelligence node for the latest city assessment.
+          </div>
+        </div>
+
+        <aside class="panel map-intelligence-panel" aria-live="polite">
+          <div class="map-panel-topline">
+            <p class="eyebrow">Location intelligence</p>
+            <span id="selected-area-status" class="map-status-chip">National</span>
+          </div>
+
+          <h3 id="selected-area-name">South Africa</h3>
+
+          <div class="map-score-block">
+            <div>
+              <span class="map-score-label">Risk score</span>
+              <strong id="selected-area-score" class="map-score-value">—</strong>
+            </div>
+            <div id="selected-area-risk" class="selected-risk">National assessment</div>
+          </div>
+
+          <div class="map-intel-section">
+            <span class="map-intel-label">Current assessment</span>
+            <p id="selected-area-summary">
+              Select a city intelligence node to review the current operational risk assessment.
             </p>
+          </div>
+
+          <div class="map-intel-section">
+            <span class="map-intel-label">Business implication</span>
+            <p id="selected-area-action">
+              Use the national assessment as the baseline and review city-level exposure before travel.
+            </p>
+          </div>
+
+          <div class="map-intel-grid">
+            <div><span>Monitored cities</span><strong id="map-monitored-cities">—</strong></div>
+            <div><span>Active disruptions</span><strong id="map-active-disruptions">—</strong></div>
+            <div><span>Last generated</span><strong id="map-generated-time">—</strong></div>
+          </div>
+
+          <div class="map-panel-footer">
+            <span class="map-live-dot" aria-hidden="true"></span>
+            Live briefing data
           </div>
         </aside>
       </div>
     </section>
+
 
     <section id="incidents" class="section-shell">
       <div class="section-heading">
