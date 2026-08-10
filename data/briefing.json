@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-10T11:46:11.743061+01:00",
-    "generated_display": "10 Aug 2026, 11:46",
+    "generated_at": "2026-08-10T12:24:19.179727+01:00",
+    "generated_display": "10 Aug 2026, 12:24",
     "timezone": "Europe/London",
     "raw_item_count": 601,
-    "normalised_item_count": 68,
-    "final_item_count": 65,
+    "normalised_item_count": 67,
+    "final_item_count": 64,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-10T11:46:11.743061+01:00",
+    "last_checked": "2026-08-10T12:24:19.179727+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -196,7 +196,7 @@
       "city_id": "east-london",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "10 Aug 2026, 06:10 UTC",
+      "published": "10 Aug 2026, 06:20 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (east london) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "Global South Opportunities",
