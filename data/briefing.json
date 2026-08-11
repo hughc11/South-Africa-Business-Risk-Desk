@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-10T12:24:19.179727+01:00",
-    "generated_display": "10 Aug 2026, 12:24",
+    "generated_at": "2026-08-11T10:44:34.910065+01:00",
+    "generated_display": "11 Aug 2026, 10:44",
     "timezone": "Europe/London",
     "raw_item_count": 601,
-    "normalised_item_count": 67,
-    "final_item_count": 64,
+    "normalised_item_count": 65,
+    "final_item_count": 63,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,14 +28,14 @@
     }
   },
   "national": {
-    "score": 68,
+    "score": 67,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 30
+        "score": 31
       },
       {
         "name": "Civil unrest",
@@ -43,7 +43,7 @@
       },
       {
         "name": "Infrastructure",
-        "score": 28
+        "score": 25
       },
       {
         "name": "Transport",
@@ -51,15 +51,15 @@
       },
       {
         "name": "Business environment",
-        "score": 25
+        "score": 26
       }
     ]
   },
   "timeline": [
     {
-      "date": "10 Aug",
-      "score": 68,
-      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "11 Aug",
+      "score": 67,
+      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 37,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 26,
+      "level": "Low",
+      "summary": "Current city risk is being driven by infrastructure, unclassified news."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 37,
+      "score": 35,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "summary": "Current city risk is being driven by road and transport disruption, economy and business."
     },
     {
       "id": "pretoria-tshwane",
@@ -91,7 +91,7 @@
       "default_zoom": 11,
       "score": 29,
       "level": "Low",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 40,
+      "score": 35,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 27,
+      "score": 29,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "Current city risk is being driven by security and crime."
     },
     {
       "id": "east-london",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 50,
-      "level": "Elevated",
-      "summary": "Current city risk is being driven by road and transport disruption."
+      "score": 43,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by road and transport disruption, economy and business."
     }
   ],
   "travel_advice": {
@@ -140,63 +140,35 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-10T12:24:19.179727+01:00",
+    "last_checked": "2026-08-11T10:44:34.910065+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "From Protest to Power: Women’s Vote Poised to Reshape Local Elections Trajectory - theafrican.co.za",
+      "title": "Seventy years after South Africa’s women’s march, the struggle is not over - aljazeera.com",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "09 Aug 2026, 04:11 UTC",
-      "summary": "From Protest to Power: Women’s Vote Poised to Reshape Local Elections Trajectory theafrican.co.za",
+      "time_window": "11 Aug 2026, 00:32 UTC",
+      "summary": "Seventy years after South Africa’s women’s march, the struggle is not over aljazeera.com",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "theafrican.co.za",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLTZ5OXpwTDZkRUJHZWpUZ25qTnZkQXdpRHAtcnJrMkYwZGZSR1NyRkVCV0JJZG1XUHRhV0Fmc1FDMlVMWk9mOVFkRjMzVlF0bTE1d25FT3VIQVBQSGFxZXBkQnV5bVZiTEJWRkdVXzE4QTZNS2NocGRZRHktS0xfS2ltV0htRVB4TXJKblRYcklIS0hIQ1B1cmQzZ3VoT05Kbjh3bVZ4WkFNS0Fkb3NDMlhDSlM3anVpLUdPYUtn?oc=5",
-      "business_impact_score": 47
-    },
-    {
-      "title": "South Africa marks 70th anniversary of historic Women's March - Xinhua",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "09 Aug 2026, 14:27 UTC",
-      "summary": "South Africa marks 70th anniversary of historic Women's March Xinhua",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Xinhua",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORVptczNZUDlTYUtEWE0yZS02blNqcENseWZTMEV0WGdxajlhR1l3bWYzV182Um1YWUIyWWRxVWVGTncwdFdCQ0F2d0pnY0pSZ3FZUFQ4aDVucjZZTlhvYVdNMnp5b194Y0lQbnd6bnYzOFJndUVMQTRGMXVxQzRlQ3lIOEZ4dw?oc=5",
+      "source": "aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmpRS0hFNXRZQ0R6bUcwYzZVelAxR3BtLUFUY08zOC03ZmVqdzBEYnhxR01oM3RaZjc1RUpQVFBFa3VvVDNuek5MNXpWMFZickstY05abF9rRWFKa3JKbGFPUVdCTTJnWnBTcTJ5VGpHRVN2VWdmQXctZUdtRXphNVVJT3V1V19kOUJ4aG82cU1ZbEljbnlXWVh2QVo1YWZ5RGFkbW1iWHZmdV9MNVhjUDNGVlZneHfSAbwBQVVfeXFMUExJc3RrZU1qam1QQVU3X3ZWWXQxanotdnNsSkNFeGtiWUVxRXU3Y01PXzZqRzVsRDF0VGVpQkxqME9EXy1zSm9oTnpmeUhDMThjTG1iUG0yNHVMcGFia3NFTmNkSVZlX1E4YkozakJGWnd1VmRrRVJHTm9tdUxsUzFFR2xmMHpLVE9PTjhwRHNsc2QyOUR5cWNiMzNqaFFLT2ZYSXJHdHVwZmkwZGpqLS1TUG44SkJWM1NlRlg?oc=5",
       "business_impact_score": 41
     }
   ],
   "news": [
-    {
-      "title": "From Protest to Power: Women’s Vote Poised to Reshape Local Elections Trajectory - theafrican.co.za",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "09 Aug 2026, 04:11 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "theafrican.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLTZ5OXpwTDZkRUJHZWpUZ25qTnZkQXdpRHAtcnJrMkYwZGZSR1NyRkVCV0JJZG1XUHRhV0Fmc1FDMlVMWk9mOVFkRjMzVlF0bTE1d25FT3VIQVBQSGFxZXBkQnV5bVZiTEJWRkdVXzE4QTZNS2NocGRZRHktS0xfS2ltV0htRVB4TXJKblRYcklIS0hIQ1B1cmQzZ3VoT05Kbjh3bVZ4WkFNS0Fkb3NDMlhDSlM3anVpLUdPYUtn?oc=5",
-      "business_impact_score": 47
-    },
     {
       "title": "CGIAR Climate, Peace and Security Spring School 2026 Opens Applications for South African Researchers - Apply By 14 August 2026 - Global South Opportunities",
       "location": "East London",
       "city_id": "east-london",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "10 Aug 2026, 06:20 UTC",
+      "published": "10 Aug 2026, 05:55 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (east london) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "Global South Opportunities",
@@ -205,17 +177,17 @@
       "business_impact_score": 44
     },
     {
-      "title": "South Africa marks 70th anniversary of historic Women's March - Xinhua",
+      "title": "Seventy years after South Africa’s women’s march, the struggle is not over - aljazeera.com",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "09 Aug 2026, 14:27 UTC",
+      "published": "11 Aug 2026, 00:32 UTC",
       "event_date": "",
       "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "Xinhua",
+      "source": "aljazeera.com",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORVptczNZUDlTYUtEWE0yZS02blNqcENseWZTMEV0WGdxajlhR1l3bWYzV182Um1YWUIyWWRxVWVGTncwdFdCQ0F2d0pnY0pSZ3FZUFQ4aDVucjZZTlhvYVdNMnp5b194Y0lQbnd6bnYzOFJndUVMQTRGMXVxQzRlQ3lIOEZ4dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmpRS0hFNXRZQ0R6bUcwYzZVelAxR3BtLUFUY08zOC03ZmVqdzBEYnhxR01oM3RaZjc1RUpQVFBFa3VvVDNuek5MNXpWMFZickstY05abF9rRWFKa3JKbGFPUVdCTTJnWnBTcTJ5VGpHRVN2VWdmQXctZUdtRXphNVVJT3V1V19kOUJ4aG82cU1ZbEljbnlXWVh2QVo1YWZ5RGFkbW1iWHZmdV9MNVhjUDNGVlZneHfSAbwBQVVfeXFMUExJc3RrZU1qam1QQVU3X3ZWWXQxanotdnNsSkNFeGtiWUVxRXU3Y01PXzZqRzVsRDF0VGVpQkxqME9EXy1zSm9oTnpmeUhDMThjTG1iUG0yNHVMcGFia3NFTmNkSVZlX1E4YkozakJGWnd1VmRrRVJHTm9tdUxsUzFFR2xmMHpLVE9PTjhwRHNsc2QyOUR5cWNiMzNqaFFLT2ZYSXJHdHVwZmkwZGpqLS1TUG44SkJWM1NlRlg?oc=5",
       "business_impact_score": 41
     }
   ],
