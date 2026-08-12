@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-11T10:44:34.910065+01:00",
-    "generated_display": "11 Aug 2026, 10:44",
+    "generated_at": "2026-08-12T10:49:21.513053+01:00",
+    "generated_display": "12 Aug 2026, 10:49",
     "timezone": "Europe/London",
     "raw_item_count": 601,
-    "normalised_item_count": 65,
-    "final_item_count": 63,
+    "normalised_item_count": 71,
+    "final_item_count": 68,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,14 +28,14 @@
     }
   },
   "national": {
-    "score": 67,
+    "score": 66,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 31
+        "score": 32
       },
       {
         "name": "Civil unrest",
@@ -43,7 +43,7 @@
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 26
       },
       {
         "name": "Transport",
@@ -51,15 +51,15 @@
       },
       {
         "name": "Business environment",
-        "score": 26
+        "score": 27
       }
     ]
   },
   "timeline": [
     {
-      "date": "11 Aug",
-      "score": 67,
-      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "12 Aug",
+      "score": 66,
+      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 26,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure, unclassified news."
+      "score": 30,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,7 +79,7 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 35,
+      "score": 38,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, economy and business."
     },
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 29,
+      "score": 28,
       "level": "Low",
       "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 35,
+      "score": 37,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
+      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
     {
       "id": "gqeberha",
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 37,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 29,
-      "level": "Low",
-      "summary": "Current city risk is being driven by security and crime."
+      "score": 36,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "east-london",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 43,
+      "score": 39,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, economy and business."
     }
@@ -140,55 +140,111 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-11T10:44:34.910065+01:00",
+    "last_checked": "2026-08-12T10:49:21.513053+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Seventy years after South Africa’s women’s march, the struggle is not over - aljazeera.com",
+      "title": "SADC Summit: Walnut Road closed near Durban ICC - IOL",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "11 Aug 2026, 12:21 UTC",
+      "summary": "SADC Summit: Walnut Road closed near Durban ICC IOL",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdHRLeENwWHlSTGQ0bjZPZGRmRDg2dTZlYUZkcFlFT2NYZlJDT05GZGVMUTVTT1hULXFqalBwVU55Q21SZUZvSERRNUhfQTNpeGhMeWE4YXpfMjZFbkFuRTY4Ukh1bDJ6Rmt6YUZlR1RGNzZKeldBN0Y4cGZHSXp2ZEZyNW5MejlQS1Jvc29oWmh3RHd5?oc=5",
+      "business_impact_score": 24
+    },
+    {
+      "title": "DA marks Women’s Day with silent protest on gender-based violence - dagauteng.org.za",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "11 Aug 2026, 00:32 UTC",
-      "summary": "Seventy years after South Africa’s women’s march, the struggle is not over aljazeera.com",
+      "time_window": "11 Aug 2026, 10:23 UTC",
+      "summary": "DA marks Women’s Day with silent protest on gender-based violence dagauteng.org.za",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmpRS0hFNXRZQ0R6bUcwYzZVelAxR3BtLUFUY08zOC03ZmVqdzBEYnhxR01oM3RaZjc1RUpQVFBFa3VvVDNuek5MNXpWMFZickstY05abF9rRWFKa3JKbGFPUVdCTTJnWnBTcTJ5VGpHRVN2VWdmQXctZUdtRXphNVVJT3V1V19kOUJ4aG82cU1ZbEljbnlXWVh2QVo1YWZ5RGFkbW1iWHZmdV9MNVhjUDNGVlZneHfSAbwBQVVfeXFMUExJc3RrZU1qam1QQVU3X3ZWWXQxanotdnNsSkNFeGtiWUVxRXU3Y01PXzZqRzVsRDF0VGVpQkxqME9EXy1zSm9oTnpmeUhDMThjTG1iUG0yNHVMcGFia3NFTmNkSVZlX1E4YkozakJGWnd1VmRrRVJHTm9tdUxsUzFFR2xmMHpLVE9PTjhwRHNsc2QyOUR5cWNiMzNqaFFLT2ZYSXJHdHVwZmkwZGpqLS1TUG44SkJWM1NlRlg?oc=5",
-      "business_impact_score": 41
+      "source": "dagauteng.org.za",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb085cFRYMGFZVTZKakVpanFSaGIyNVFWSnZTdHl1cmJtLWxJNFVXZFdwaUxxTU9RV2VCS29BSVpWWHRCYXdWYmo4dG1MU00zSEYtc1JHVzNLb20yRDJnTk1PMkpyRmM1SkJBMDZIdHY0YnlkUE5QME0wQlBCZkNDTkRGVFg5SkRtNVZkWGFSbklvelBia0xEZVVSWVpwdw?oc=5",
+      "business_impact_score": 46
     }
   ],
   "news": [
     {
-      "title": "CGIAR Climate, Peace and Security Spring School 2026 Opens Applications for South African Researchers - Apply By 14 August 2026 - Global South Opportunities",
-      "location": "East London",
-      "city_id": "east-london",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "10 Aug 2026, 05:55 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (east london) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Global South Opportunities",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zTE5SSzV1ek5kR1ZQR1FndDB6Sk5wN0ZYdHBqUm1JUXdKVkRaRjQ4TFd2R0Z4LS14UXBVM0pqSVFTX2xUeEJDUlJJUjNzQnVGdElzb0d4QWowbW1kUVVxY1NUOHFPcVlzSjRXeW13?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Seventy years after South Africa’s women’s march, the struggle is not over - aljazeera.com",
+      "title": "DA marks Women’s Day with silent protest on gender-based violence - dagauteng.org.za",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "11 Aug 2026, 00:32 UTC",
+      "published": "11 Aug 2026, 10:23 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "aljazeera.com",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "dagauteng.org.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmpRS0hFNXRZQ0R6bUcwYzZVelAxR3BtLUFUY08zOC03ZmVqdzBEYnhxR01oM3RaZjc1RUpQVFBFa3VvVDNuek5MNXpWMFZickstY05abF9rRWFKa3JKbGFPUVdCTTJnWnBTcTJ5VGpHRVN2VWdmQXctZUdtRXphNVVJT3V1V19kOUJ4aG82cU1ZbEljbnlXWVh2QVo1YWZ5RGFkbW1iWHZmdV9MNVhjUDNGVlZneHfSAbwBQVVfeXFMUExJc3RrZU1qam1QQVU3X3ZWWXQxanotdnNsSkNFeGtiWUVxRXU3Y01PXzZqRzVsRDF0VGVpQkxqME9EXy1zSm9oTnpmeUhDMThjTG1iUG0yNHVMcGFia3NFTmNkSVZlX1E4YkozakJGWnd1VmRrRVJHTm9tdUxsUzFFR2xmMHpLVE9PTjhwRHNsc2QyOUR5cWNiMzNqaFFLT2ZYSXJHdHVwZmkwZGpqLS1TUG44SkJWM1NlRlg?oc=5",
-      "business_impact_score": 41
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb085cFRYMGFZVTZKakVpanFSaGIyNVFWSnZTdHl1cmJtLWxJNFVXZFdwaUxxTU9RV2VCS29BSVpWWHRCYXdWYmo4dG1MU00zSEYtc1JHVzNLb20yRDJnTk1PMkpyRmM1SkJBMDZIdHY0YnlkUE5QME0wQlBCZkNDTkRGVFg5SkRtNVZkWGFSbklvelBia0xEZVVSWVpwdw?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Controversial Durban businessman arrested on alleged human trafficking charges - Tabloid Newspapers",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "12 Aug 2026, 08:41 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Tabloid Newspapers",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONkMyWE1WdUlKRkl1NmRnSEZzbFlONEZDdWR2WV9HanU4cWQ1NTkwTmhsb3R0ZjhEX2hkeVRZeU9jeWZ3Um9mWGRGQkRHb0dmdVNwQ1lVR0J0S0ZlY2tYdHlYbERrblBpRmFtWmZsMzZDejlyOW5RVndwU1dpQTFYMEhmTXhhclMwd2w2VVJEY1VMcm1lckFobUY0UXh0MEo3YnFUSW1ZdWgxZw?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "UPDATE | Crime Intelligence linked businessman faces trafficking and sexual assault charges - IOL",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "12 Aug 2026, 07:16 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcUItN1VzT3BTUjBuQlRVMlQ2Tml4T2NONU85WlVEWlc1a1hPbVNnRU9LTUowMC1YZkdCTGRGUVRkbHY4T2NlUENrVHhiVGhiOFVtX29SbERoVFlIdlNBbG1PTHhSMFhhN0F2NERQZ1F2cVdhbk9LMF8tX2kxTHg3bkxwanQ0dVQxcENRZlpqLUtpcTRXclUzRVdEbG92djd0SE1VVDlZRmcyWmd0bHRMcEpiOHpaNDdkR2pGX3FvNWlhMk5zWVIwZHRjbzM3QQ?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Cold front strains Joburg’s electricity supply - Moneyweb",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "11 Aug 2026, 17:14 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (johannesburg) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Moneyweb",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeHQ3eUVpOEluNXpXZUcyUzVwOVkwY1dFNHFMSmJnYlVfOVhrR0JYSnVxWWJpOXZ5SzZoWi1kTjVpbUVQRXZ4SGF5b1MxNDh4YVlTN3puSkZVaXNuRDY5djJIM25WZ2o1RHN2ZVpBWG5EenJVa0NidkpuZzV3WEdLRjVFRDdROWdWYzl3Y3prbXJienF0YkE?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "MEDIA RELEASE",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "11 Aug 2026, 09:17 UTC",
+      "event_date": "Tue, 11 Aug 2026 09:17:58 +0000",
+      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=19804",
+      "business_impact_score": 23
     }
   ],
   "conversation_brief": [
