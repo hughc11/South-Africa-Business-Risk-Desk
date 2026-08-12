@@ -38,6 +38,7 @@ async function initialiseApp() {
 
     renderTravelAdvice();
     renderIncidents();
+    renderDailyLanguageBrief();
     renderConversationBrief();
 
   } catch (error) {
@@ -957,8 +958,6 @@ function handleCitySelection(
     true
   );
 }
-
-
 /* =========================================================
    UK GOVERNMENT TRAVEL ADVICE
    ========================================================= */
@@ -1370,6 +1369,153 @@ function renderIncidents() {
         `;
       }
     ).join("");
+}
+
+
+/* =========================================================
+   DAILY BUSINESS LANGUAGE BRIEF
+   ========================================================= */
+
+
+function renderDailyLanguageBrief() {
+  const brief =
+    appData.daily_language_brief || {};
+
+
+  const afrikaans =
+    brief.afrikaans || {};
+
+  const isixhosa =
+    brief.isixhosa || {};
+
+
+  const setText = (
+    id,
+    value,
+    fallback = "—"
+  ) => {
+    const element =
+      document.getElementById(id);
+
+    if (!element) {
+      return;
+    }
+
+    element.textContent =
+      value || fallback;
+  };
+
+
+  setText(
+    "afrikaans-word",
+    afrikaans.word,
+    "Unavailable"
+  );
+
+  setText(
+    "afrikaans-english",
+    afrikaans.english
+  );
+
+  setText(
+    "afrikaans-pronunciation",
+    afrikaans.pronunciation
+  );
+
+  setText(
+    "afrikaans-example",
+    afrikaans.example
+  );
+
+  setText(
+    "afrikaans-example-english",
+    afrikaans.example_english
+  );
+
+  setText(
+    "afrikaans-use-note",
+    afrikaans.use_note
+  );
+
+
+  setText(
+    "isixhosa-word",
+    isixhosa.word,
+    "Unavailable"
+  );
+
+  setText(
+    "isixhosa-english",
+    isixhosa.english
+  );
+
+  setText(
+    "isixhosa-pronunciation",
+    isixhosa.pronunciation
+  );
+
+  setText(
+    "isixhosa-example",
+    isixhosa.example
+  );
+
+  setText(
+    "isixhosa-example-english",
+    isixhosa.example_english
+  );
+
+  setText(
+    "isixhosa-use-note",
+    isixhosa.use_note
+  );
+
+
+  const dateElement =
+    document.getElementById(
+      "language-brief-date"
+    );
+
+
+  if (dateElement) {
+    dateElement.textContent =
+      formatLanguageBriefDate(
+        brief.date
+      );
+  }
+}
+
+
+function formatLanguageBriefDate(
+  value
+) {
+  if (!value) {
+    return "Daily rotation";
+  }
+
+
+  const parsed =
+    new Date(
+      `${value}T12:00:00`
+    );
+
+
+  if (
+    Number.isNaN(
+      parsed.getTime()
+    )
+  ) {
+    return value;
+  }
+
+
+  return parsed.toLocaleDateString(
+    "en-GB",
+    {
+      day: "2-digit",
+      month: "short",
+      year: "numeric"
+    }
+  );
 }
 
 

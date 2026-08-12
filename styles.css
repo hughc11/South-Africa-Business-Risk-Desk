@@ -815,8 +815,6 @@ main {
       var(--brand-gold)
     );
 }
-
-
 /* =========================================================
    RISK BADGES
    ========================================================= */
@@ -1827,7 +1825,6 @@ select option {
 
   font-weight: 800;
 }
-
 .intelligence-node-label {
   position: absolute;
 
@@ -2668,6 +2665,307 @@ select option {
 
 
 /* =========================================================
+   DAILY BUSINESS LANGUAGE BRIEF
+   ========================================================= */
+
+.language-brief-status {
+  display: flex;
+
+  gap: 8px;
+
+  align-items: center;
+
+  color:
+    var(--text-faint);
+
+  font-size: 0.62rem;
+
+  font-weight: 680;
+
+  letter-spacing: 0.04em;
+
+  text-transform: uppercase;
+
+  white-space: nowrap;
+}
+
+.language-brief-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 14px;
+}
+
+.language-card {
+  position: relative;
+
+  min-height: 330px;
+
+  padding: 0;
+
+  border-color:
+    rgba(213, 173, 69, 0.17);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(213, 173, 69, 0.035),
+      transparent 45%
+    ),
+    var(--surface);
+
+  box-shadow:
+    var(--shadow-sm);
+
+  transition:
+    border-color var(--transition),
+    background var(--transition),
+    box-shadow var(--transition);
+}
+
+.language-card:hover {
+  border-color:
+    rgba(213, 173, 69, 0.28);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(213, 173, 69, 0.05),
+      transparent 48%
+    ),
+    var(--surface-strong);
+
+  box-shadow:
+    var(--shadow-md);
+}
+
+.language-card::after {
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 3px;
+
+  background:
+    linear-gradient(
+      180deg,
+      var(--brand-gold),
+      var(--brand-green-dark)
+    );
+
+  content: "";
+}
+
+.language-card[data-language="isixhosa"]::after {
+  background:
+    linear-gradient(
+      180deg,
+      var(--brand-green-light),
+      var(--brand-green-dark)
+    );
+}
+
+.language-card-header {
+  min-height: 112px;
+
+  padding:
+    22px 24px 19px;
+
+  border-bottom:
+    1px solid var(--border);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  align-items: flex-start;
+}
+
+.language-label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color:
+    var(--brand-gold);
+
+  font-size: 0.62rem;
+
+  font-weight: 820;
+
+  letter-spacing: 0.13em;
+
+  text-transform: uppercase;
+}
+
+.language-card[data-language="isixhosa"]
+.language-label {
+  color:
+    var(--brand-green-light);
+}
+
+.language-card h3 {
+  margin: 0;
+
+  color:
+    #fff;
+
+  font-size:
+    clamp(1.7rem, 3vw, 2.45rem);
+
+  font-weight: 570;
+
+  letter-spacing:
+    -0.045em;
+
+  line-height: 1;
+}
+
+.language-pronunciation {
+  max-width: 180px;
+
+  padding:
+    6px 9px;
+
+  border:
+    1px solid var(--border);
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+
+  color:
+    var(--text-muted);
+
+  font-size: 0.61rem;
+
+  font-weight: 650;
+
+  line-height: 1.3;
+
+  text-align: right;
+}
+
+.language-translation,
+.language-example,
+.language-use-note {
+  padding:
+    16px 24px;
+}
+
+.language-example,
+.language-use-note {
+  border-top:
+    1px solid var(--border);
+}
+
+.language-translation {
+  display: grid;
+
+  grid-template-columns:
+    100px
+    minmax(0, 1fr);
+
+  gap: 20px;
+
+  align-items: center;
+}
+
+.language-translation
+.intel-label {
+  margin-bottom: 0;
+}
+
+.language-translation strong {
+  color:
+    var(--text-primary);
+
+  font-size: 1rem;
+
+  font-weight: 620;
+}
+
+.language-example p,
+.language-use-note p {
+  margin-bottom: 0;
+}
+
+.language-example-primary {
+  color:
+    var(--text-primary);
+
+  font-size: 0.86rem;
+
+  font-weight: 570;
+
+  line-height: 1.55;
+}
+
+.language-example-translation {
+  margin-top: 5px;
+
+  color:
+    var(--text-muted);
+
+  font-size: 0.72rem;
+
+  font-style: italic;
+
+  line-height: 1.55;
+}
+
+.language-use-note p {
+  color:
+    var(--text-secondary);
+
+  font-size: 0.75rem;
+
+  line-height: 1.62;
+}
+
+.language-brief-footer {
+  margin-top: 10px;
+
+  padding:
+    9px 2px 0;
+
+  border-top:
+    1px solid var(--border);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  align-items: center;
+
+  color:
+    var(--text-faint);
+
+  font-size: 0.6rem;
+
+  font-weight: 650;
+}
+
+.language-brief-date {
+  color:
+    var(--text-muted);
+
+  font-variant-numeric:
+    tabular-nums;
+}
+/* =========================================================
    CONVERSATION BRIEF
    ========================================================= */
 
@@ -2891,6 +3189,14 @@ footer p {
       );
   }
 
+  .language-brief-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
   .travel-advice-body {
     grid-template-columns:
       1fr;
@@ -2966,6 +3272,15 @@ footer p {
     grid-template-columns:
       1fr;
   }
+
+  .language-brief-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+  .language-card {
+    min-height: auto;
+  }
 }
 
 
@@ -2995,7 +3310,8 @@ footer p {
 
   .metric-grid,
   .method-grid,
-  .conversation-grid {
+  .conversation-grid,
+  .language-brief-grid {
     grid-template-columns:
       1fr;
   }
@@ -3039,6 +3355,33 @@ footer p {
 
   .filter-row select {
     width: 100%;
+  }
+
+  .language-card-header {
+    flex-direction: column;
+
+    gap: 12px;
+  }
+
+  .language-pronunciation {
+    max-width: none;
+
+    text-align: left;
+  }
+
+  .language-translation {
+    grid-template-columns:
+      1fr;
+
+    gap: 6px;
+  }
+
+  .language-brief-footer {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 4px;
   }
 }
 
@@ -3086,5 +3429,18 @@ footer p {
     width: 100%;
 
     margin-left: 0;
+  }
+
+  .language-card-header,
+  .language-translation,
+  .language-example,
+  .language-use-note {
+    padding-left: 18px;
+
+    padding-right: 18px;
+  }
+
+  .language-card h3 {
+    font-size: 1.8rem;
   }
 }
