@@ -14,6 +14,7 @@ The website expects:
 - travel_advice
 - incidents
 - news
+- daily_language_brief
 - conversation_brief
 
 Version 2 output principles:
@@ -223,6 +224,309 @@ MUSIC_KEYWORDS = {
     "gig",
 }
 
+
+
+# ---------------------------------------------------------------------------
+# DAILY BUSINESS LANGUAGE BRIEF
+#
+# Curated rather than generated live so the dashboard remains deterministic,
+# reliable and independent of external APIs. The formatter selects one entry
+# from each language using the briefing date.
+# ---------------------------------------------------------------------------
+
+AFRIKAANS_BUSINESS_LANGUAGE = [
+    {
+        "word": "Dankie",
+        "english": "Thank you",
+        "pronunciation": "DAHN-kee",
+        "example": "Dankie vir jou tyd.",
+        "example_english": "Thank you for your time.",
+        "use_note": "A simple, widely useful expression of thanks after a meeting, introduction or assistance.",
+    },
+    {
+        "word": "Baie dankie",
+        "english": "Thank you very much",
+        "pronunciation": "BY-uh DAHN-kee",
+        "example": "Baie dankie vir die vergadering.",
+        "example_english": "Thank you very much for the meeting.",
+        "use_note": "A warmer form of thanks that remains appropriate in professional and hospitality settings.",
+    },
+    {
+        "word": "Asseblief",
+        "english": "Please",
+        "pronunciation": "AH-suh-bleef",
+        "example": "Koffie, asseblief.",
+        "example_english": "Coffee, please.",
+        "use_note": "Useful for polite requests; courtesy is important when dealing with colleagues, hosts and service staff.",
+    },
+    {
+        "word": "Goeiedag",
+        "english": "Good day / Hello",
+        "pronunciation": "KHOO-ee-dakh",
+        "example": "Goeiedag. Dis goed om jou te ontmoet.",
+        "example_english": "Good day. It is good to meet you.",
+        "use_note": "A useful professional greeting, particularly when meeting someone for the first time.",
+    },
+    {
+        "word": "Goeiemôre",
+        "english": "Good morning",
+        "pronunciation": "KHOO-ee-MOR-ruh",
+        "example": "Goeiemôre. Hoe gaan dit?",
+        "example_english": "Good morning. How are you?",
+        "use_note": "A polite way to open an early meeting or workplace conversation.",
+    },
+    {
+        "word": "Vergadering",
+        "english": "Meeting",
+        "pronunciation": "fur-KHAH-duh-ring",
+        "example": "Hoe laat begin die vergadering?",
+        "example_english": "What time does the meeting start?",
+        "use_note": "Core workplace vocabulary and useful when confirming schedules or meeting arrangements.",
+    },
+    {
+        "word": "Besigheid",
+        "english": "Business",
+        "pronunciation": "buh-SAY-khite",
+        "example": "Ons praat oor besigheid.",
+        "example_english": "We are talking about business.",
+        "use_note": "A common general term for business and commercial discussion.",
+    },
+    {
+        "word": "Ooreenkoms",
+        "english": "Agreement / Deal",
+        "pronunciation": "OO-ruhn-koms",
+        "example": "Ons het 'n ooreenkoms.",
+        "example_english": "We have an agreement.",
+        "use_note": "Useful in negotiation and commercial discussions; context determines whether it means an agreement or deal.",
+    },
+    {
+        "word": "Kontrak",
+        "english": "Contract",
+        "pronunciation": "KON-trak",
+        "example": "Ons bespreek die kontrak.",
+        "example_english": "We are discussing the contract.",
+        "use_note": "Straightforward commercial vocabulary that may be recognised easily by English speakers.",
+    },
+    {
+        "word": "Kollega",
+        "english": "Colleague",
+        "pronunciation": "koo-LEH-khah",
+        "example": "Laat ek jou aan my kollega voorstel.",
+        "example_english": "Let me introduce you to my colleague.",
+        "use_note": "Useful when making introductions in meetings or workplace settings.",
+    },
+    {
+        "word": "Kantoor",
+        "english": "Office",
+        "pronunciation": "kahn-TOOR",
+        "example": "Ons ontmoet by die kantoor.",
+        "example_english": "We are meeting at the office.",
+        "use_note": "Useful for confirming a workplace or meeting location.",
+    },
+    {
+        "word": "Afspraak",
+        "english": "Appointment",
+        "pronunciation": "AHF-sprahk",
+        "example": "Ek sien uit na ons afspraak.",
+        "example_english": "I am looking forward to our appointment.",
+        "use_note": "Useful when arranging or referring to a scheduled professional meeting.",
+    },
+    {
+        "word": "Skedule",
+        "english": "Schedule",
+        "pronunciation": "skuh-DOO-luh",
+        "example": "Hoe besig is jou skedule?",
+        "example_english": "How busy is your schedule?",
+        "use_note": "Practical vocabulary for arranging meetings and discussing availability.",
+    },
+    {
+        "word": "Begin",
+        "english": "Begin / Start",
+        "pronunciation": "buh-KHIN",
+        "example": "Sal ons begin?",
+        "example_english": "Shall we begin?",
+        "use_note": "A concise and useful phrase for opening a meeting once everyone is ready.",
+    },
+    {
+        "word": "Saamstem",
+        "english": "Agree",
+        "pronunciation": "SAHM-stem",
+        "example": "Ek stem saam.",
+        "example_english": "I agree.",
+        "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely.",
+    },
+    {
+        "word": "Voorstel",
+        "english": "Suggestion / Proposal",
+        "pronunciation": "FOOR-stel",
+        "example": "Wat stel jy voor?",
+        "example_english": "What do you suggest?",
+        "use_note": "Useful for inviting another person's recommendation during a discussion or negotiation.",
+    },
+    {
+        "word": "Verslag",
+        "english": "Report",
+        "pronunciation": "fur-SLAKH",
+        "example": "Ek het die verslag nodig.",
+        "example_english": "I need the report.",
+        "use_note": "Common workplace vocabulary for written reporting and business information.",
+    },
+    {
+        "word": "Aanbieding",
+        "english": "Presentation",
+        "pronunciation": "AHN-bee-ding",
+        "example": "Dankie vir die aanbieding.",
+        "example_english": "Thank you for the presentation.",
+        "use_note": "Useful around briefings, pitches and formal business presentations.",
+    },
+    {
+        "word": "Adviseur",
+        "english": "Adviser",
+        "pronunciation": "at-fuh-SUR",
+        "example": "Sy is ons adviseur.",
+        "example_english": "She is our adviser.",
+        "use_note": "Useful when describing professional roles in consulting or business discussions.",
+    },
+    {
+        "word": "Produktief",
+        "english": "Productive",
+        "pronunciation": "pro-duk-TEEF",
+        "example": "Dit was baie produktief.",
+        "example_english": "That was very productive.",
+        "use_note": "A positive, professional way to describe a useful meeting or discussion.",
+    },
+]
+
+ISIXHOSA_BUSINESS_LANGUAGE = [
+    {
+        "word": "Enkosi",
+        "english": "Thank you",
+        "pronunciation": "en-KOH-see",
+        "example": "Enkosi.",
+        "example_english": "Thank you.",
+        "use_note": "One of the most useful isiXhosa expressions for polite professional, hospitality and everyday interaction.",
+    },
+    {
+        "word": "Molo",
+        "english": "Hello (one person)",
+        "pronunciation": "MOH-loh",
+        "example": "Molo.",
+        "example_english": "Hello.",
+        "use_note": "Use when greeting one person; a simple local greeting can be a respectful way to begin an interaction.",
+    },
+    {
+        "word": "Molweni",
+        "english": "Hello (several people)",
+        "pronunciation": "moh-LWEH-nee",
+        "example": "Molweni.",
+        "example_english": "Hello, everyone.",
+        "use_note": "The plural greeting, useful when entering a meeting or greeting a group.",
+    },
+    {
+        "word": "Wamkelekile",
+        "english": "Welcome",
+        "pronunciation": "wahm-keh-LEH-kee-leh",
+        "example": "Wamkelekile.",
+        "example_english": "Welcome.",
+        "use_note": "Useful in hospitality and welcoming contexts; the exact form can vary with who is being addressed.",
+    },
+    {
+        "word": "Unjani?",
+        "english": "How are you? (one person)",
+        "pronunciation": "oon-JAH-nee",
+        "example": "Molo, unjani?",
+        "example_english": "Hello, how are you?",
+        "use_note": "A friendly follow-up to a greeting when speaking to one person.",
+    },
+    {
+        "word": "Ninjani?",
+        "english": "How are you? (several people)",
+        "pronunciation": "neen-JAH-nee",
+        "example": "Molweni, ninjani?",
+        "example_english": "Hello, how are you all?",
+        "use_note": "The plural form, useful when greeting a small group or team.",
+    },
+    {
+        "word": "Ndiphilile",
+        "english": "I am well",
+        "pronunciation": "n-dee-pee-LEE-leh",
+        "example": "Ndiphilile, enkosi.",
+        "example_english": "I am well, thank you.",
+        "use_note": "A useful response when someone asks how you are.",
+    },
+    {
+        "word": "Igama",
+        "english": "Name",
+        "pronunciation": "ee-GAH-mah",
+        "example": "Lithini igama lakho?",
+        "example_english": "What is your name?",
+        "use_note": "Useful in introductions; the full phrase is more practical than using the noun on its own.",
+    },
+    {
+        "word": "Ewe",
+        "english": "Yes",
+        "pronunciation": "EH-weh",
+        "example": "Ewe.",
+        "example_english": "Yes.",
+        "use_note": "A basic affirmative response useful in everyday interaction.",
+    },
+    {
+        "word": "Hayi",
+        "english": "No",
+        "pronunciation": "HAH-yee",
+        "example": "Hayi.",
+        "example_english": "No.",
+        "use_note": "A basic negative response; tone and context remain important in professional interaction.",
+    },
+    {
+        "word": "Uxolo",
+        "english": "Excuse me / Sorry",
+        "pronunciation": "oo-KHOH-loh",
+        "example": "Uxolo.",
+        "example_english": "Excuse me / Sorry.",
+        "use_note": "Useful for politely getting attention or apologising in everyday interaction.",
+    },
+    {
+        "word": "Sala kakuhle",
+        "english": "Goodbye (to one person staying)",
+        "pronunciation": "SAH-lah kah-KOO-hleh",
+        "example": "Sala kakuhle.",
+        "example_english": "Goodbye.",
+        "use_note": "Traditionally said by the person leaving to one person who is staying.",
+    },
+    {
+        "word": "Hamba kakuhle",
+        "english": "Goodbye (to one person leaving)",
+        "pronunciation": "HAHM-bah kah-KOO-hleh",
+        "example": "Hamba kakuhle.",
+        "example_english": "Go well / Goodbye.",
+        "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously.",
+    },
+    {
+        "word": "Kulungile",
+        "english": "It is okay / All right",
+        "pronunciation": "koo-loon-GEE-leh",
+        "example": "Kulungile.",
+        "example_english": "All right.",
+        "use_note": "A useful acknowledgement in everyday conversation.",
+    },
+    {
+        "word": "Nceda",
+        "english": "Please / Help",
+        "pronunciation": "n-CEH-dah",
+        "example": "Nceda.",
+        "example_english": "Please / Help.",
+        "use_note": "A useful polite or assistance-related expression; the precise meaning depends on the sentence around it.",
+    },
+    {
+        "word": "Ndiyabulela",
+        "english": "I thank you",
+        "pronunciation": "n-dee-yah-boo-LEH-lah",
+        "example": "Ndiyabulela.",
+        "example_english": "I thank you.",
+        "use_note": "A fuller expression of gratitude that can add warmth to a courteous interaction.",
+    },
+]
 
 FCDO_PREFERRED_SECTIONS = (
     "warnings and insurance",
@@ -1586,6 +1890,56 @@ def _build_timeline(
     ]
 
 
+
+def _build_daily_language_brief(
+    generated_at: str,
+) -> dict[str, Any]:
+    """
+    Select one curated Afrikaans entry and one curated isiXhosa entry.
+
+    Selection is deterministic: the same briefing date always produces the
+    same pair, while the pair advances automatically when the date changes.
+    No external API or manual daily edit is required.
+    """
+
+    briefing_datetime = _parse_datetime(
+        generated_at
+    )
+
+    if briefing_datetime is None:
+        briefing_datetime = datetime.now(
+            timezone.utc
+        )
+
+    briefing_date = briefing_datetime.date()
+    day_number = briefing_date.toordinal()
+
+    afrikaans_index = (
+        day_number
+        % len(AFRIKAANS_BUSINESS_LANGUAGE)
+    )
+
+    isixhosa_index = (
+        (day_number * 7)
+        % len(ISIXHOSA_BUSINESS_LANGUAGE)
+    )
+
+    return {
+        "date": briefing_date.isoformat(),
+        "afrikaans": dict(
+            AFRIKAANS_BUSINESS_LANGUAGE[
+                afrikaans_index
+            ]
+        ),
+        "isixhosa": dict(
+            ISIXHOSA_BUSINESS_LANGUAGE[
+                isixhosa_index
+            ]
+        ),
+        "rotation": "daily",
+        "source_type": "curated",
+    }
+
 def _build_conversation_brief(
 ) -> list[dict[str, str]]:
     """
@@ -1812,6 +2166,14 @@ def format_dashboard_output(
         "news": (
             _build_news(
                 items=analysis_items,
+                generated_at=(
+                    generated_at
+                ),
+            )
+        ),
+
+        "daily_language_brief": (
+            _build_daily_language_brief(
                 generated_at=(
                     generated_at
                 ),
