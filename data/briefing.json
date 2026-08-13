@@ -8,6 +8,7 @@
     "raw_item_count": 611,
     "normalised_item_count": 82,
     "final_item_count": 78,
+
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -79,9 +80,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 27,
+      "score": 28,
       "level": "Low",
-      "summary": "Current city risk is being driven by economy and business, unclassified news."
+      "summary": "Current city risk is being driven by economy and business."
     },
     {
       "id": "pretoria-tshwane",
@@ -100,6 +101,7 @@
       "longitude": 31.0218,
       "default_zoom": 11,
       "score": 34,
+
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
@@ -141,12 +143,28 @@
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
     "last_checked": "2026-08-13T16:18:51.228940",
+
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
+      "title": "SADC Summit: Walnut Road closed near Durban ICC - IOL",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "11 Aug 2026, 12:25 UTC",
+      "summary": "SADC Summit: Walnut Road closed near Durban ICC IOL",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdHRLeENwWHlSTGQ0bjZPZGRmRDg2dTZlYUZkcFlFT2NYZlJDT05GZGVMUTVTT1hULXFqalBwVU55Q21SZUZvSERRNUhfQTNpeGhMeWE4YXpfMjZFbkFuRTY4Ukh1bDJ6Rmt6YUZlR1RGNzZKeldBN0Y4cGZHSXp2ZEZyNW5MejlQS1Jvc29oWmh3RHd5?oc=5",
+      "business_impact_score": 24
+    },
+    {
+
       "title": "South Africa anti-immigration protest: 'We neva receive any request' - Nigeria react to South Africa request for pay back ova repatriated citizens - BBC",
       "location": "National",
       "type": "Demonstration",
@@ -167,11 +185,27 @@
       "severity": "Medium",
       "status": "Active",
       "time_window": "13 Aug 2026, 01:14 UTC",
+
       "summary": "City on edge as full-blown municipal strike looms The Witness | Your compass in the community",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
       "source": "The Witness | Your compass in the community",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMXB1aGtvMVZCU3ZGUDlycWloNGdOTW4wUVdCM2p0MU5CeEFCRHhWVk5WNmt4YlBDbFRLc1dQVWZtR1R3UGZqUW9pRFR6eno4TnFDaVdkNzhTZDliLXJKTXNhYXMwZ1FCY0dNY05ZcXBGbUczUUpyRkJ6QlJSbEw0aDJURlRzNVlOQVF3Rm5uS2NoUQ?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "NUM to oppose Eskom unbundling in court; threatens strike action - Polity.org.za",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "12 Aug 2026, 09:21 UTC",
+      "summary": "NUM to oppose Eskom unbundling in court; threatens strike action Polity.org.za",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Polity.org.za",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcTN0ZFBReGZpODFQLWN2X3pTdGhQMEdkMHBVMGV4ZGpZM3JpSDEzcElZLXFmcTdhS0NDSzQ2OHVKNGZzZVd0Q2U0VXV1SGZxckx4QWc0RXNMdDQxakFvZktiSG5uNjJ5U0NrNVBjRzV5Q1hRV1NnYjhISXljbURnSktZdGVPLTQ4NWotY0dpUy1IRjlNWFluYVJGNGs4TDItczdTUnNhRkx1UHg3?oc=5",
+
       "business_impact_score": 46
     }
   ],
@@ -211,12 +245,42 @@
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
       "published": "13 Aug 2026, 01:14 UTC",
+
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "The Witness | Your compass in the community",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMXB1aGtvMVZCU3ZGUDlycWloNGdOTW4wUVdCM2p0MU5CeEFCRHhWVk5WNmt4YlBDbFRLc1dQVWZtR1R3UGZqUW9pRFR6eno4TnFDaVdkNzhTZDliLXJKTXNhYXMwZ1FCY0dNY05ZcXBGbUczUUpyRkJ6QlJSbEw0aDJURlRzNVlOQVF3Rm5uS2NoUQ?oc=5",
       "business_impact_score": 46
+    },
+    {
+      "title": "NUM to oppose Eskom unbundling in court; threatens strike action - Polity.org.za",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "12 Aug 2026, 09:21 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Polity.org.za",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcTN0ZFBReGZpODFQLWN2X3pTdGhQMEdkMHBVMGV4ZGpZM3JpSDEzcElZLXFmcTdhS0NDSzQ2OHVKNGZzZVd0Q2U0VXV1SGZxckx4QWc0RXNMdDQxakFvZktiSG5uNjJ5U0NrNVBjRzV5Q1hRV1NnYjhISXljbURnSktZdGVPLTQ4NWotY0dpUy1IRjlNWFluYVJGNGs4TDItczdTUnNhRkx1UHg3?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "UPDATE | Crime-Intelligence linked businessman faces trafficking and sexual assault charges - IOL",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "12 Aug 2026, 07:16 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcUItN1VzT3BTUjBuQlRVMlQ2Tml4T2NONU85WlVEWlc1a1hPbVNnRU9LTUowMC1YZkdCTGRGUVRkbHY4T2NlUENrVHhiVGhiOFVtX29SbERoVFlIdlNBbG1PTHhSMFhhN0F2NERQZ1F2cVdhbk9LMF8tX2kxTHg3bkxwanQ0dVQxcENRZlpqLUtpcTRXclUzRVdEbG92djd0SE1VVDlZRmcyWmd0bHRMcEpiOHpaNDdkR2pGX3FvNWlhMk5zWVIwZHRjbzM3QQ?oc=5",
+      "business_impact_score": 44
+
     },
     {
       "title": "How eThekwini is tackling traffic signal vandalism with innovative solutions - Sunday Tribune",
@@ -233,12 +297,28 @@
       "business_impact_score": 44
     },
     {
+      "title": "Cold front strains electricity supply in Joburg - GroundUp",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "11 Aug 2026, 12:07 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (johannesburg) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "GroundUp",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdXZNeVdNakg4el9ncmxPdGtZaEs5S3NubVYycGxIUFMtNXBkN3ZzRmM0LUhGZ2VhQlJpNU5tUEFCTXVTNGxvVTlHRExQYnVhRVY1eHoyUlFPUmJGeUJQT0ZYTzZON1pHVVJ2a3M2WWl6UHBpT085NlhBSkV1ZE1NMl9DUjRFM0VJSGIxZXNncjBOUEE?oc=5",
+      "business_impact_score": 44
+    },
+    {
+
       "title": "Cape Town airport reopens runway after Kenya Airways tyre failure - IOL",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
       "published": "13 Aug 2026, 10:05 UTC",
+
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
       "source": "IOL",
@@ -261,6 +341,7 @@
       "business_impact_score": 42
     },
     {
+
       "title": "Cold front strains Joburg’s electricity supply - Moneyweb",
       "location": "National",
       "city_id": null,
@@ -315,6 +396,7 @@
       "confidence": "Confirmed",
       "url": "https://www.gov.za/documents/notices/diplomatic-immunities-and-privileges-act-notice-sadc-be-held-ethekwini-kwazulu",
       "business_impact_score": 27
+
     }
   ],
   "daily_language_brief": {
