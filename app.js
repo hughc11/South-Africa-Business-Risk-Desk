@@ -201,12 +201,28 @@ function renderMetrics() {
   }
 
 
+  const generatedDisplay =
+  appData.metadata.generated_display ||
+  appData.metadata.generated_at ||
+  "—";
+
+
+document.getElementById(
+  "generated-time"
+).textContent =
+  generatedDisplay;
+
+
+const headerGeneratedTime =
   document.getElementById(
-    "generated-time"
-  ).textContent =
-    appData.metadata.generated_display ||
-    appData.metadata.generated_at ||
-    "—";
+    "header-generated-time"
+  );
+
+
+if (headerGeneratedTime) {
+  headerGeneratedTime.textContent =
+    `Last updated ${generatedDisplay}`;
+}
 }
 
 
