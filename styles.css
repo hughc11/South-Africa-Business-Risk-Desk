@@ -3444,3 +3444,561 @@ footer p {
     font-size: 1.8rem;
   }
 }
+
+/* =========================================================
+   BUSINESS TRAVEL STATUS
+   Company Release
+   ========================================================= */
+
+.business-status-panel {
+  position: relative;
+
+  padding: 0;
+
+  border:
+    1px solid rgba(57, 184, 131, 0.22);
+
+  border-radius:
+    var(--radius-lg);
+
+  background:
+    radial-gradient(
+      circle at 94% 8%,
+      rgba(57, 184, 131, 0.08),
+      transparent 20rem
+    ),
+    linear-gradient(
+      120deg,
+      rgba(17, 132, 91, 0.055),
+      transparent 48%
+    ),
+    var(--surface);
+
+  box-shadow:
+    var(--glow-green),
+    var(--shadow-md);
+
+  overflow: hidden;
+}
+
+
+.business-status-panel::after {
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 3px;
+
+  background:
+    linear-gradient(
+      180deg,
+      var(--brand-green-light),
+      var(--brand-green-dark)
+    );
+
+  content: "";
+
+  pointer-events: none;
+}
+
+
+.business-status-header {
+  padding:
+    22px 25px 18px;
+
+  border-bottom:
+    1px solid var(--border);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 24px;
+
+  align-items: flex-start;
+}
+
+
+.business-status-heading {
+  display: flex;
+
+  gap: 14px;
+
+  align-items: center;
+}
+
+
+.business-status-icon {
+  width: 40px;
+  height: 40px;
+
+  flex:
+    0 0 40px;
+
+  border:
+    1px solid
+    rgba(57, 184, 131, 0.26);
+
+  border-radius:
+    9px;
+
+  background:
+    rgba(57, 184, 131, 0.075);
+
+  display: grid;
+
+  place-items: center;
+
+  color:
+    #8ad9b4;
+
+  font-size:
+    1rem;
+
+  font-weight:
+    850;
+
+  box-shadow:
+    0 0 0 5px
+    rgba(57, 184, 131, 0.025);
+}
+
+
+.business-status-header .eyebrow {
+  margin-bottom: 4px;
+}
+
+
+.business-status-header h3 {
+  margin: 0;
+
+  font-size:
+    clamp(
+      1.15rem,
+      2vw,
+      1.45rem
+    );
+
+  font-weight: 620;
+
+  letter-spacing:
+    -0.03em;
+
+  line-height: 1.2;
+}
+
+
+.business-status-level {
+  min-height: 29px;
+
+  padding:
+    6px 10px;
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    999px;
+
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  font-size:
+    0.59rem;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    0.065em;
+
+  line-height:
+    1;
+
+  text-transform:
+    uppercase;
+
+  white-space:
+    nowrap;
+}
+
+
+.business-status-level.risk-low {
+  border-color:
+    rgba(62, 183, 126, 0.29);
+
+  background:
+    rgba(62, 183, 126, 0.08);
+
+  color:
+    #86d8af;
+}
+
+
+.business-status-level.risk-guarded {
+  border-color:
+    rgba(208, 173, 69, 0.28);
+
+  background:
+    rgba(208, 173, 69, 0.075);
+
+  color:
+    #e4c76c;
+}
+
+
+.business-status-level.risk-elevated {
+  border-color:
+    rgba(223, 136, 62, 0.3);
+
+  background:
+    rgba(223, 136, 62, 0.08);
+
+  color:
+    #eeaa70;
+}
+
+
+.business-status-level.risk-high {
+  border-color:
+    rgba(217, 86, 79, 0.3);
+
+  background:
+    rgba(217, 86, 79, 0.075);
+
+  color:
+    #ed8a84;
+}
+
+
+.business-status-level.risk-severe {
+  border-color:
+    rgba(180, 58, 65, 0.35);
+
+  background:
+    rgba(180, 58, 65, 0.1);
+
+  color:
+    #e67c81;
+}
+
+
+.business-status-body {
+  padding:
+    23px 25px 24px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.35fr)
+    minmax(340px, 0.65fr);
+
+  gap: 34px;
+
+  align-items: stretch;
+}
+
+
+.business-status-assessment {
+  min-width: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+
+.business-status-label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color:
+    var(--brand-gold);
+
+  font-size:
+    0.61rem;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    0.11em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.business-status-assessment > p {
+  max-width:
+    720px;
+
+  margin: 0;
+
+  color:
+    var(--text-secondary);
+
+  font-size:
+    0.84rem;
+
+  line-height:
+    1.72;
+}
+
+
+.business-status-metrics {
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    var(--radius-md);
+
+  background:
+    rgba(0, 0, 0, 0.12);
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  overflow: hidden;
+}
+
+
+.business-status-metric {
+  min-height: 76px;
+
+  padding:
+    14px 15px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+
+.business-status-metric:nth-child(even) {
+  border-left:
+    1px solid var(--border);
+}
+
+
+.business-status-metric:nth-child(n + 3) {
+  border-top:
+    1px solid var(--border);
+}
+
+
+.business-status-metric span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color:
+    var(--text-faint);
+
+  font-size:
+    0.55rem;
+
+  font-weight:
+    760;
+
+  letter-spacing:
+    0.075em;
+
+  line-height:
+    1.35;
+
+  text-transform:
+    uppercase;
+}
+
+
+.business-status-metric strong {
+  display: block;
+
+  color:
+    var(--text-primary);
+
+  font-size:
+    0.74rem;
+
+  font-weight:
+    650;
+
+  line-height:
+    1.4;
+}
+
+
+.business-status-score {
+  color:
+    #ffffff !important;
+
+  font-size:
+    1.05rem !important;
+
+  font-weight:
+    680 !important;
+
+  letter-spacing:
+    -0.025em;
+}
+
+
+.business-status-footer {
+  min-height: 43px;
+
+  padding:
+    11px 25px;
+
+  border-top:
+    1px solid var(--border);
+
+  background:
+    rgba(0, 0, 0, 0.075);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  align-items: center;
+}
+
+
+.business-status-live {
+  display: flex;
+
+  gap: 8px;
+
+  align-items: center;
+
+  color:
+    var(--text-faint);
+
+  font-size:
+    0.6rem;
+
+  font-weight:
+    700;
+
+  letter-spacing:
+    0.045em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.business-status-updated {
+  color:
+    var(--text-faint);
+
+  font-size:
+    0.59rem;
+
+  text-align:
+    right;
+}
+
+
+/* =========================================================
+   BUSINESS TRAVEL STATUS
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .business-status-body {
+    grid-template-columns:
+      1fr;
+
+    gap: 22px;
+  }
+
+
+  .business-status-metrics {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 620px) {
+
+  .business-status-header {
+    padding:
+      19px 18px 16px;
+
+    flex-direction:
+      column;
+
+    gap: 15px;
+  }
+
+
+  .business-status-heading {
+    align-items:
+      flex-start;
+  }
+
+
+  .business-status-body {
+    padding:
+      20px 18px;
+  }
+
+
+  .business-status-metrics {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .business-status-metric:nth-child(even) {
+    border-left: 0;
+  }
+
+
+  .business-status-metric:nth-child(n + 2) {
+    border-top:
+      1px solid var(--border);
+  }
+
+
+  .business-status-footer {
+    padding:
+      11px 18px;
+
+    align-items:
+      flex-start;
+
+    flex-direction:
+      column;
+
+    gap: 5px;
+  }
+
+
+  .business-status-updated {
+    text-align:
+      left;
+  }
+}

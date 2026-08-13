@@ -31,6 +31,7 @@ async function initialiseApp() {
 
     renderNationalOverview();
     renderMetrics();
+    renderBusinessTravelStatus();
     renderTimeline();
 
     initialiseMap();
@@ -207,6 +208,216 @@ function renderMetrics() {
     appData.metadata.generated_at ||
     "—";
 }
+
+
+/* =========================================================
+   BUSINESS TRAVEL STATUS
+   ========================================================= */
+
+
+function renderBusinessTravelStatus() {
+  const national =
+    appData.national || {};
+
+  const incidents =
+    Array.isArray(appData.incidents)
+      ? appData.incidents
+      : [];
+
+  const activeIncidents =
+    incidents.filter(
+      item =>
+        item.status === "Active" ||
+        item.status === "Upcoming"
+    );
+
+  const advice =
+    appData.travel_advice || {};
+
+  const metadata =
+    appData.metadata || {};
+
+  const score =
+    Number(national.score || 0);
+
+  const level =
+    national.level || "Unknown";
+
+  const cities =
+    Array.isArray(appData.cities)
+      ? appData.cities.length
+      : 0;
+
+
+  const titleElement =
+    document.getElementById(
+      "business-status-title"
+    );
+
+  const summaryElement =
+    document.getElementById(
+      "business-status-summary"
+    );
+
+  const iconElement =
+    document.getElementById(
+      "business-status-icon"
+    );
+
+  const scoreElement =
+    document.getElementById(
+      "business-status-score"
+    );
+
+  const levelElement =
+    document.getElementById(
+      "business-status-level"
+    );
+
+  const disruptionsElement =
+    document.getElementById(
+      "business-status-disruptions"
+    );
+
+  const fcdoElement =
+    document.getElementById(
+      "business-status-fcdo"
+    );
+
+  const citiesElement =
+    document.getElementById(
+      "business-status-cities"
+    );
+
+  const updatedElement =
+    document.getElementById(
+      "business-status-updated"
+    );
+
+
+  if (!titleElement) {
+    return;
+  }
+
+
+  let title =
+    "Operations possible with routine precautions";
+
+  let summary =
+    "Business travel remains broadly viable. " +
+    "Continue normal journey planning and monitor " +
+    "current operational notices before movement.";
+
+  let icon =
+    "✓";
+
+
+  if (score >= 85) {
+    title =
+      "Travel requires senior-level review";
+
+    summary =
+      "Severe operational exposure is indicated. " +
+      "Review whether travel is essential, obtain current " +
+      "security advice and maintain contingency arrangements.";
+
+    icon =
+      "!";
+  } else if (score >= 70) {
+    title =
+      "Operations possible with heightened precautions";
+
+    summary =
+      "Business travel may remain viable, but movement plans " +
+      "should be reviewed carefully. Confirm local security, " +
+      "transport and contingency arrangements before departure.";
+
+    icon =
+      "!";
+  } else if (score >= 50) {
+    title =
+      "Operations possible with elevated precautions";
+
+    summary =
+      "Routine business travel remains viable. Review city-level " +
+      "conditions, current operational notices and FCDO guidance " +
+      "before key movements.";
+
+    icon =
+      "✓";
+  } else if (score >= 30) {
+    title =
+      "Operations broadly normal with local checks";
+
+    summary =
+      "Operating conditions are generally manageable. Continue " +
+      "routine precautions and check local disruption before travel.";
+
+    icon =
+      "✓";
+  }
+
+
+  titleElement.textContent =
+    title;
+
+  summaryElement.textContent =
+    summary;
+
+  iconElement.textContent =
+    icon;
+
+
+  if (scoreElement) {
+    scoreElement.textContent =
+      `${score}/100`;
+  }
+
+
+  if (levelElement) {
+    levelElement.textContent =
+      level;
+
+    levelElement.className =
+      `business-status-level ${riskClass(score)}`;
+  }
+
+
+  if (disruptionsElement) {
+    disruptionsElement.textContent =
+      activeIncidents.length === 1
+        ? "1 current notice"
+        : `${activeIncidents.length} current notices`;
+  }
+
+
+  if (fcdoElement) {
+    fcdoElement.textContent =
+      advice.available === false
+        ? "Check GOV.UK"
+        : (
+            advice.status ||
+            "Official advice monitored"
+          );
+  }
+
+
+  if (citiesElement) {
+    citiesElement.textContent =
+      cities === 1
+        ? "1 city"
+        : `${cities} cities`;
+  }
+
+
+  if (updatedElement) {
+    updatedElement.textContent =
+      metadata.generated_display ||
+      metadata.generated_at ||
+      "—";
+  }
+}
+
 
 
 /* =========================================================
@@ -509,9 +720,7 @@ function initialiseMap() {
     document.getElementById(
       "map-reset-button"
     );
-
-
-  if (resetButton) {
+      if (resetButton) {
     resetButton.addEventListener(
       "click",
       resetMapToNational
@@ -958,6 +1167,8 @@ function handleCitySelection(
     true
   );
 }
+
+
 /* =========================================================
    UK GOVERNMENT TRAVEL ADVICE
    ========================================================= */
@@ -1370,8 +1581,6 @@ function renderIncidents() {
       }
     ).join("");
 }
-
-
 /* =========================================================
    DAILY BUSINESS LANGUAGE BRIEF
    ========================================================= */

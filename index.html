@@ -313,6 +313,143 @@
 
 
     <!-- =====================================================
+         BUSINESS TRAVEL STATUS
+         ===================================================== -->
+
+    <section
+      id="business-status"
+      class="section-shell"
+    >
+
+      <article class="panel business-status-panel">
+
+        <div class="business-status-main">
+
+          <div class="business-status-heading">
+
+            <div class="business-status-live">
+
+              <span
+                class="map-live-dot"
+                aria-hidden="true"
+              ></span>
+
+              Live operational assessment
+
+            </div>
+
+            <p class="eyebrow">
+              Business Travel Status
+            </p>
+
+            <div class="business-status-title-row">
+
+              <span
+                id="business-status-icon"
+                class="business-status-icon"
+                aria-hidden="true"
+              >
+                ✓
+              </span>
+
+              <div>
+
+                <h2 id="business-status-title">
+                  Assessing current operating conditions...
+                </h2>
+
+                <p id="business-status-summary">
+                  Current business travel guidance is being
+                  generated from the live national assessment.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="business-status-score">
+
+            <span>
+              National risk
+            </span>
+
+            <strong id="business-status-score">
+              —
+            </strong>
+
+            <span id="business-status-level">
+              —
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="business-status-indicators">
+
+          <div>
+
+            <span>
+              Operational notices
+            </span>
+
+            <strong id="business-status-disruptions">
+              —
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              UK travel advice
+            </span>
+
+            <strong id="business-status-fcdo">
+              Monitored
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              Geographic coverage
+            </span>
+
+            <strong id="business-status-cities">
+              —
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              Intelligence updated
+            </span>
+
+            <strong id="business-status-updated">
+              —
+            </strong>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    </section>
+
+
+    <!-- =====================================================
          OPERATIONAL RISK MAP
          ===================================================== -->
 
@@ -381,73 +518,12 @@
 
 
         <div class="map-layer-tabs">
-
-          <button
+                    <button
             class="map-layer-tab active"
             type="button"
             data-layer="cities"
           >
             Cities
-          </button>
-
-
-          <button
-            class="map-layer-tab future"
-            type="button"
-            disabled
-          >
-            Provinces
-            <span>
-              Future
-            </span>
-          </button>
-
-
-          <button
-            class="map-layer-tab future"
-            type="button"
-            disabled
-          >
-            Airports
-            <span>
-              Future
-            </span>
-          </button>
-
-
-          <button
-            class="map-layer-tab future"
-            type="button"
-            disabled
-          >
-            Ports
-            <span>
-              Future
-            </span>
-          </button>
-
-
-          <button
-            class="map-layer-tab future"
-            type="button"
-            disabled
-          >
-            Routes
-            <span>
-              Future
-            </span>
-          </button>
-
-
-          <button
-            class="map-layer-tab future"
-            type="button"
-            disabled
-          >
-            Disruptions
-            <span>
-              Future
-            </span>
           </button>
 
         </div>
@@ -895,9 +971,7 @@
       </div>
 
 
-      <div
-        class="operational-notice-toolbar"
-      >
+      <div class="operational-notice-toolbar">
 
         <div class="operational-notice-types">
 
@@ -938,8 +1012,7 @@
         id="incident-list"
         class="incident-grid operational-notice-grid"
       ></div>
-
-    </section>
+          </section>
 
 
     <!-- =====================================================
@@ -1308,13 +1381,6 @@
 
     <!-- =====================================================
          TEMPORARY COMPATIBILITY ELEMENTS
-         =====================================================
-
-         These are hidden only so the existing app.js continues
-         to run until the next replacement app.js is installed.
-
-         They will no longer be used once the new JavaScript
-         file is added.
          ===================================================== -->
 
     <section
