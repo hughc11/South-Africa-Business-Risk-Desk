@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-15T08:47:42.499126+01:00",
-    "generated_display": "15 Aug 2026, 08:47",
+    "generated_at": "2026-08-16T08:50:02.376797+01:00",
+    "generated_display": "16 Aug 2026, 08:50",
     "timezone": "Europe/London",
-    "raw_item_count": 611,
-    "normalised_item_count": 95,
-    "final_item_count": 91,
+    "raw_item_count": 601,
+    "normalised_item_count": 84,
+    "final_item_count": 82,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,7 +15,7 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 20
+        "item_count": 10
       },
       "National and city news": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 68,
+    "score": 67,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
@@ -39,11 +39,11 @@
       },
       {
         "name": "Civil unrest",
-        "score": 47
+        "score": 48
       },
       {
         "name": "Infrastructure",
-        "score": 26
+        "score": 29
       },
       {
         "name": "Transport",
@@ -51,15 +51,15 @@
       },
       {
         "name": "Business environment",
-        "score": 28
+        "score": 27
       }
     ]
   },
   "timeline": [
     {
-      "date": "15 Aug",
-      "score": 68,
-      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "16 Aug",
+      "score": 67,
+      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 21,
+      "score": 28,
       "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure."
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 26,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news, economy and business."
+      "score": 33,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
     {
       "id": "pretoria-tshwane",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 44,
+      "score": 42,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
+      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
     {
       "id": "gqeberha",
@@ -131,7 +131,7 @@
       "default_zoom": 11,
       "score": 26,
       "level": "Low",
-      "summary": "Current city risk is being driven by economy and business, infrastructure."
+      "summary": "Current city risk is being driven by infrastructure."
     }
   ],
   "travel_advice": {
@@ -140,25 +140,39 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-15T08:47:42.499126+01:00",
+    "last_checked": "2026-08-16T08:50:02.376797+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
+      "title": "SADC summit: motorists warned of major road closures in Durban - The Witness | Your compass in the community",
       "location": "Durban / eThekwini",
       "type": "Road closure",
-      "severity": "Medium",
+      "severity": "Low",
       "status": "Active",
-      "time_window": "13 Aug 2026, 11:17 UTC",
-      "summary": "UPDATE: Traffic backed-up from Richmond Road The Citizen",
+      "time_window": "16 Aug 2026, 00:00 UTC",
+      "summary": "SADC summit: motorists warned of major road closures in Durban The Witness | Your compass in the community",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
-      "source": "The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
-      "business_impact_score": 44
+      "source": "The Witness | Your compass in the community",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNW1jUWVub05yNmNXbU1UUlNpU3Ewem1BTU4tdFFUZDJvaV9MLUREbDhBcjBMVmk0VVc2WjJTSnZqRlZfY0p2dFhMX3F0eU80VVUtdmZpWThPRVdkQVVNT0djcjJQWlhlS2w1czZhTEUwSzl3NTNKRUxLdmFFQmJMRUtKUjc4elREMHJIUktNRTJ4b0Q3RTYtX01EZTh0QUp4S3c?oc=5",
+      "business_impact_score": 32
+    },
+    {
+      "title": "Durban motorists warned of road closures ahead of SADC summit - SABC News",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "15 Aug 2026, 19:24 UTC",
+      "summary": "Durban motorists warned of road closures ahead of SADC summit SABC News",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "SABC News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GSGZZNTNhX2lDenZ0Y2JEdGR6X3NWZC1TbndISGY1emRkcVVua0ljRWNiQ1Jxdlk4U25veWNqazJzMjUzTXltNXZOLTE4NmNkR2JEVnFEWQ?oc=5",
+      "business_impact_score": 32
     },
     {
       "title": "Temporary road closures to allow for annual race - Tabloid Newspapers",
@@ -175,46 +189,18 @@
       "business_impact_score": 32
     },
     {
-      "title": "Savage Athletic Club Race Road Closures in Durban | 16 August - Time Out Worldwide",
-      "location": "Durban / eThekwini",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "14 Aug 2026, 04:47 UTC",
-      "summary": "Savage Athletic Club Race Road Closures in Durban | 16 August Time Out Worldwide",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "Time Out Worldwide",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWVpzWDhFUE9ObnZnNU5POXZ5c1QwcDk5cy1MV1l0Mk9UdU9UbmpzWFR0SGdMTmlBZzd2YUY4WGVTS0VBV0dfTVp0R3ZDaFlTRFJod2dvTXVpakpKeWN0VmR2NHRBbk56b1lDU1UxZU5lR1g5RmM1aEFsWXNVcURXTnd0LVdTT1kzd09JMy1sT0I2S09YNjVUM0pHR1VfNmFNRFhsQlVIOFhJb29EUE12bmxCa2sxWklXUm1GeA?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "Protest as Communication for Development and Social Change in South Africa: The Healthcare Access Dilemma - link.springer.com",
-      "location": "National",
+      "title": "R300 protest action: Motorists warned of delays near Hindle Road - Cape Town ETC",
+      "location": "Cape Town",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "15 Aug 2026, 00:07 UTC",
-      "summary": "Protest as Communication for Development and Social Change in South Africa: The Healthcare Access Dilemma link.springer.com",
+      "time_window": "15 Aug 2026, 12:06 UTC",
+      "summary": "R300 protest action: Motorists warned of delays near Hindle Road Cape Town ETC",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "link.springer.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02X2wzdlFNWnNvLXBhMW9uLVNZYkd3bHVjVTEza0xkenNoYmVQQkwwN3RVR1RLdFVFNV90V2hYVzNxVUtiUDZjemJoOTlFdUhCVk5maW1FbXhGYlVla1lfUGtBZC1GWnk3MXpUSE5B?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Life’s a Beech: Andersen Global and Beech strike collaboration agreement - African Law & Business",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "14 Aug 2026, 16:40 UTC",
-      "summary": "Life’s a Beech: Andersen Global and Beech strike collaboration agreement African Law & Business",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "African Law & Business",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUlpjN2JxTEFjMnJUSnZXZ3g3c3UxN2EwaVdfWHg3cWpNLXIxbHBZZ2NfZThZanpPYUhqd2tKVktMT2pISzQxUnlkRzhZTl93dzIxdERWdkw5RjlSMUFRNTBCVTZVdGkxSkQ2UUo4aGNKOEVyOUF5QXNHdUpscXR6d0lVaF9rMXExbkxyQzJzd3ZiWlFwZXFTRnZZangzTzQxU0t2bmhSM19EdDhScXFkUw?oc=5",
-      "business_impact_score": 46
+      "source": "Cape Town ETC",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMDZfeEpIRU56QWR6dDZ4SVZMeWJHNEw2Tk51eXpDNUlQRGtEZUIyNEFRSFpDY1I4U0U5eFhHN0Qzb1lESHcwTGZEUExtdkdpVE5BQkFfaG9abUlVUy1SbVltdTJEa0YwVFBNU3dDajUyQlpRSWxQSjg0ZXVXZjQxNkZhbWdBUk1yVFJ1aE1iaC1FMmI4YUxmRDdDSkdkdw?oc=5",
+      "business_impact_score": 47
     }
   ],
   "news": [
@@ -233,18 +219,18 @@
       "business_impact_score": 51
     },
     {
-      "title": "Protest as Communication for Development and Social Change in South Africa: The Healthcare Access Dilemma - link.springer.com",
-      "location": "National",
-      "city_id": null,
+      "title": "R300 protest action: Motorists warned of delays near Hindle Road - Cape Town ETC",
+      "location": "Cape Town",
+      "city_id": "cape-town",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "15 Aug 2026, 00:07 UTC",
+      "published": "15 Aug 2026, 12:06 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "link.springer.com",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Cape Town ETC",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02X2wzdlFNWnNvLXBhMW9uLVNZYkd3bHVjVTEza0xkenNoYmVQQkwwN3RVR1RLdFVFNV90V2hYVzNxVUtiUDZjemJoOTlFdUhCVk5maW1FbXhGYlVla1lfUGtBZC1GWnk3MXpUSE5B?oc=5",
-      "business_impact_score": 46
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMDZfeEpIRU56QWR6dDZ4SVZMeWJHNEw2Tk51eXpDNUlQRGtEZUIyNEFRSFpDY1I4U0U5eFhHN0Qzb1lESHcwTGZEUExtdkdpVE5BQkFfaG9abUlVUy1SbVltdTJEa0YwVFBNU3dDajUyQlpRSWxQSjg0ZXVXZjQxNkZhbWdBUk1yVFJ1aE1iaC1FMmI4YUxmRDdDSkdkdw?oc=5",
+      "business_impact_score": 47
     },
     {
       "title": "Life’s a Beech: Andersen Global and Beech strike collaboration agreement - African Law & Business",
@@ -261,93 +247,79 @@
       "business_impact_score": 46
     },
     {
-      "title": "Second Durban North trafficking suspect to appear in court - The Citizen",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
+      "title": "Cape Town gangs turn suburban homes into human trafficking hubs - independentonsaturday.co.za",
+      "location": "Cape Town",
+      "city_id": "cape-town",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "14 Aug 2026, 09:05 UTC",
+      "published": "15 Aug 2026, 00:21 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "independentonsaturday.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLVlVTWV3QUI0eWUtZVRXV25mT3RhNVNlQktrRll2NEYzQzdrdEdiTFV5NVFRamFxMDBzeGdmVEFoTmVObW44enJiYlNOX3dCSjRlY2dYWHg4TzFjdElQeEVoZGltMjF0alZxdDVSanJ3SjJpRFdwMFBEdlpGcFJHLXhDcW1pSXo1MXpKdUNYMDdKa2IwYmVmcG5tNTBWazFrOGY1a1NscW9peGlOa2xoZGpCbEJPRGFnMzFsVjNmd0wtcjk4TWtjTEV0Um5nTE95SW54RA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWGVVYWlBN0JVMHJwMmJtYTNGTU1wTTFQbnVtelYwUDZYMWliRFU5Z1hBN2oxcmNLSEpraEJ1Y2R5MTJtRk9WalJLS0Vtam5WS0JwM1ZvbHlXcWt2N0ZScGp1cGNzbG9kNl9ZWlcyRWlOaGZsaWxWdk5fWGJVd1luWC1nR0EwT1U0Q181aVJtcXhjNUpuTktITjVuMGxpOG0ySFIxMnFsR05RWV81NVZHUnp3emdURndmLTg1VVliT2VoY3lKNFg3ZnJBa1lXQQ?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "Human trafficking case: Man hands himself in! - snl24.com",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "14 Aug 2026, 08:00 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "snl24.com",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGN2SFZIbUZTZGEyanUwUVkyV2xGQV9OMWh1dUJWNW41dkpFVHQ1ZzJMenh2RUNSLV9UaENGanh2WXFfUkpvSHhpRkJXaWQ4OXN4eDFqQmtIRXN3dmpoMTJoMzZ4SmdDcDc1NDBKY1ZzeGk3R1ZwWXJ0c0lPQTd2NW1n?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "13 Aug 2026, 11:17 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Protesting farmers say JSE trading systems cost producers and consumers - Daily Maverick",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "13 Aug 2026, 18:10 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is indirect traveller relevance.",
-      "source": "Daily Maverick",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY2pSUG11dFMwZzVrNlhOQm9qS0tPenl6eldHRTJrYlFDbWtvYzRyZFNmOXVYM3IxTXlIU0gyNmVTZ095Z1dfUGpUZjdSS3ZJN1ZkSjhFVzNIWkI5SDdjN1NibWhBUk5BdFVtamd1UVVzUXNXTml1RFdwUWVHSEFiUHZDOGduY0g1cmd3WWIwZ1RyQkJnN1Nyc19KaUstc2NvQ3h2Tkdwa19WTFdTdlE?oc=5",
-      "business_impact_score": 43
-    },
-    {
-      "title": "Gender Gaps Persist in South Africa’s Labour Market",
+      "title": "Cape Town airport reopens runway after Kenya Airways tyre failure - IOL",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "13 Aug 2026, 08:20 UTC",
-      "event_date": "Thu, 13 Aug 2026 08:20:08 +0000",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Statistics South Africa",
-      "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=19808",
+      "published": "16 Aug 2026, 01:47 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY0JlNFNjQlVUdll4T3ZQTTFmNEVpbTBTNmlmb2I4dUhIeF9MQk5GTTljSDhqcm8wX3NLa3BKM0phVGxLcWwwWDNwNGMzVlZLZ3JLaElBakVVRHZwNXJrV2Nad05JaXoyZE96SkdVbTU0NlFsY09MbTFWOU1welc4dnBLVVkzR0pqTWVtdDV5S2hQZmxHQXVyT2ZybkYxZzlRT2FrNQ?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Nationals of 4 African countries in US face deportation risk as Trump ends temporary protection - Business Insider Africa",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "16 Aug 2026, 05:00 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is short-term; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Business Insider Africa",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUmlhd19UaE5leTRsRkFMSTJRUXJuQVRiUlBDZWY5bDVkMmNVenpiOGVISFlpMGE3dlJST3UzUkQ1LVV1ZUR2MkRiTXhfMTBuLU5DeXVEY0FsaUoxNDczTkR2TjI5TEZHNDUwYlRIR0VfcEFld01WZ2gxVDRCUF9RUGNrQzZMSFRwa0dyblFpU0sxbnJrMEJZNWZKTzkwY0tiaXVFd29QNzM4cU1LZWRmWWF5ZXF4RXlsQXhYX0o1Y1kta1Y5NHJNbnVmLVZEbDNaSFk1ZWRiOWRIbEE?oc=5",
       "business_impact_score": 42
+    },
+    {
+      "title": "Load shedding is over, so why did 397 schools lose power? - IOL",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "16 Aug 2026, 01:11 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (41/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN0V0WHhCN3RleHliaDhBWXVZYUxEdy1CQ05YMXZ4SlFIOVlfcl9MR3ZWV0JYQWhpTkRxWTBhMkNzc0NuUXFucnJZdFh4MGRrc281TlRuVWY3Q0VwZEE3ajZ0RWdsdGdzdEs4clI2eE1XRmJkLURUei1vMVpuSGNvRDhVSUN0Vm81VnY4azY5QVNIYl9aLVlHUHlEbzNyVi0zRWhya0dR?oc=5",
+      "business_impact_score": 41
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-15",
+    "date": "2026-08-16",
     "afrikaans": {
-      "word": "Goeiedag",
-      "english": "Good day / Hello",
-      "pronunciation": "KHOO-ee-dakh",
-      "example": "Goeiedag. Dis goed om jou te ontmoet.",
-      "example_english": "Good day. It is good to meet you.",
-      "use_note": "A useful professional greeting, particularly when meeting someone for the first time."
+      "word": "Goeiemôre",
+      "english": "Good morning",
+      "pronunciation": "KHOO-ee-MOR-ruh",
+      "example": "Goeiemôre. Hoe gaan dit?",
+      "example_english": "Good morning. How are you?",
+      "use_note": "A polite way to open an early meeting or workplace conversation."
     },
     "isixhosa": {
-      "word": "Ninjani?",
-      "english": "How are you? (several people)",
-      "pronunciation": "neen-JAH-nee",
-      "example": "Molweni, ninjani?",
-      "example_english": "Hello, how are you all?",
-      "use_note": "The plural form, useful when greeting a small group or team."
+      "word": "Hamba kakuhle",
+      "english": "Goodbye (to one person leaving)",
+      "pronunciation": "HAHM-bah kah-KOO-hleh",
+      "example": "Hamba kakuhle.",
+      "example_english": "Go well / Goodbye.",
+      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
     },
     "rotation": "daily",
     "source_type": "curated"
