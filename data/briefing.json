@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-18T09:05:14.244146+01:00",
-    "generated_display": "18 Aug 2026, 09:05",
+    "generated_at": "2026-08-19T09:06:18.040734+01:00",
+    "generated_display": "19 Aug 2026, 09:06",
     "timezone": "Europe/London",
-    "raw_item_count": 601,
-    "normalised_item_count": 81,
-    "final_item_count": 76,
+    "raw_item_count": 611,
+    "normalised_item_count": 86,
+    "final_item_count": 81,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,7 +15,7 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 10
+        "item_count": 20
       },
       "National and city news": {
         "status": "success",
@@ -47,17 +47,17 @@
       },
       {
         "name": "Transport",
-        "score": 43
+        "score": 44
       },
       {
         "name": "Business environment",
-        "score": 26
+        "score": 28
       }
     ]
   },
   "timeline": [
     {
-      "date": "18 Aug",
+      "date": "19 Aug",
       "score": 69,
       "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 35,
+      "score": 40,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "summary": "Current city risk is being driven by protests and civil unrest, infrastructure."
     },
     {
       "id": "pretoria-tshwane",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 42,
+      "score": 39,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
     {
       "id": "gqeberha",
@@ -140,140 +140,42 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-18T09:05:14.244146+01:00",
+    "last_checked": "2026-08-19T09:06:18.040734+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Meta title: Durban Road Closures Today: SADC Summit Traffic Guide - Time Out Worldwide",
-      "location": "Durban / eThekwini",
-      "type": "Road closure",
-      "severity": "Low",
+      "title": "Violent protest forces CPUT to close all campuses - enca.com",
+      "location": "Cape Town",
+      "type": "Demonstration",
+      "severity": "Medium",
       "status": "Active",
-      "time_window": "17 Aug 2026, 04:09 UTC",
-      "summary": "Meta title: Durban Road Closures Today: SADC Summit Traffic Guide Time Out Worldwide",
-      "action": "Check the route before departure and allow additional journey time.",
+      "time_window": "18 Aug 2026, 17:07 UTC",
+      "summary": "Violent protest forces CPUT to close all campuses enca.com",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Time Out Worldwide",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmk0VEFGSENIREhGdEN6TFJYbXFXTnNpX1lMMUVtOE1RR2IxX2lFQTdpYmR5c2EyMHhHTURvOHZoZ3JFMFpNbUNZQXdqRUtmbVlkOEF2RGVyUmdydVRoWVVHRG9JSW44aTYyaXBrUF9BVGJ6MUlyMjl2bjNaQ0I2aldrT1hKdmw3Z2U2SWh6clNiaFk?oc=5",
-      "business_impact_score": 32
+      "source": "enca.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EbUUwdmtDcnBBZFZ4ZldXMWRlNkFlXzdBMmxYeFhmSjBmWlpTM1lPcUdoaHR0ZF81dlA2d3Y5RGJ4dGsybV9oVXktQkFQNXlXUndIV29mNDRmVERJek5mcUFHakQ0bmZTdDFselVweFEySFBYMk9KejVldHA?oc=5",
+      "business_impact_score": 47
     },
     {
-      "title": "SADC summit: motorists warned of major road closures in Durban - The Witness | Your compass in the community",
-      "location": "Durban / eThekwini",
-      "type": "Road closure",
-      "severity": "Low",
+      "title": "WATCH | Samwu keeps pressure on Msunduzi as strike continues - The Witness | Your compass in the community",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
       "status": "Active",
-      "time_window": "16 Aug 2026, 10:15 UTC",
-      "summary": "SADC summit: motorists warned of major road closures in Durban The Witness | Your compass in the community",
-      "action": "Check the route before departure and allow additional journey time.",
+      "time_window": "19 Aug 2026, 06:10 UTC",
+      "summary": "WATCH | Samwu keeps pressure on Msunduzi as strike continues The Witness | Your compass in the community",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
       "source": "The Witness | Your compass in the community",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNW1jUWVub05yNmNXbU1UUlNpU3Ewem1BTU4tdFFUZDJvaV9MLUREbDhBcjBMVmk0VVc2WjJTSnZqRlZfY0p2dFhMX3F0eU80VVUtdmZpWThPRVdkQVVNT0djcjJQWlhlS2w1czZhTEUwSzl3NTNKRUxLdmFFQmJMRUtKUjc4elREMHJIUktNRTJ4b0Q3RTYtX01EZTh0QUp4S3c?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "Cops out in numbers as March and March protesters gather ahead of SADC Summit protest - News24",
-      "location": "Durban / eThekwini",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "17 Aug 2026, 11:29 UTC",
-      "summary": "Cops out in numbers as March and March protesters gather ahead of SADC Summit protest News24",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "News24",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUTJ0b2hNX201N0Z2aXpwWHMySlI2V0ttajNJS1gwTXF1VEdyMElqNExTYUE2QTZ5eTZlaXhGRUZLSFIyNXlvYWJ0dUdfVE9xVWZUZWdoalhPVHdPTTc0cUdHeTdEZGtXZTVBWDZKbUpTdDc2OVBXcGt4LTNucEt1bG04aVhSb194SnZFVEdNX2N1SWFKV0JuZTc4Z19aNTRyRVRUYWZ2eWVUM0IzZTVsUndlakE0LXAxMF9VN2ZsWHp6cTl2RGtwUlJSYlFTY0pyQk9pSmVn?oc=5",
-      "business_impact_score": 49
-    },
-    {
-      "title": "'Come fetch your people': March and March holds Durban protest outside SADC summit - EWN",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "17 Aug 2026, 12:25 UTC",
-      "summary": "'Come fetch your people': March and March holds Durban protest outside SADC summit EWN",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa2xwSDhlQUtMTER2ZTZKVFlHelZYUmV4Zk1nRGdLdU1YTEdnd1JvYVB1YnJES2ZEMWJ2SVowMEFFM2JtZjRYeGUyZUNhWTR5ZGVVejFldmpmMjBFSWVwdHVwWTdvbUVDRzV1aHhKbGNiY0J0X0NqSjB1NnFIb2pQakE3a25wWHlQSFZadE1WM3Z4MkxPUk1hYlFlYUJzRmFOYk95bg?oc=5",
-      "business_impact_score": 48
-    },
-    {
-      "title": "March and March deadline for illegal migrants to leave South Africa: Anti-immigration group give anoda deadline for illegal immigrants to leave, protest outside SADC summit for Durban - BBC",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "17 Aug 2026, 11:02 UTC",
-      "summary": "March and March deadline for illegal migrants to leave South Africa: Anti-immigration group give anoda deadline for illegal immigrants to leave, protest outside SADC summit for Durban BBC",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8waGI3Zm9GZHhoU1pRRkdjY3czZHIyVnpKTmY2Uy1qQVhtY3BWS2JVeWpqQlRCZ244Q1QtdmxJTVFpZ3FPZDRXajZEb1lGRklvZHVPRkRvbl9GR2Yz0gFiQVVfeXFMTTlHeklnSGpRNV82QTJkeDdBLWpqSXk2ZHhuS0o1cWlqZGN5Nk1iVnU5WXhqeEE4VG9ZTDNTU1MzMkdBREFuQ21tbjg2V2swdmVnSXhOWEpXTlQ3T3JFM1gxMHc?oc=5",
-      "business_impact_score": 48
-    },
-    {
-      "title": "‘It’s time to fetch your people’: March and March to protest at SADC summit - IOL",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "17 Aug 2026, 05:24 UTC",
-      "summary": "‘It’s time to fetch your people’: March and March to protest at SADC summit IOL",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "IOL",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcVBXSm9WV2NQYjVkYWczSDcwYkZzRndYWEp2STNKTUJRS2JjYmRrR1llcmpmTkx4anU1dDV1OTA4UFVtYzRVd2puM0lXWmVzZGEzcE1BRE1zU0tiYzhteWRnWWJJRUxiRnc1VXhoSUgtNlNzbnoyNzczVVhRZTYzRjI0SHlnNGVKRU9RckdUU1lPUWdNblV0UVRYVXc1WXFTS0kwSzVKVzdZMnk2d1VvWm02STV1SzVmNWd3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWE00OE1oWXRaTWJCWUM2czdjMnBTQUZHZFJYblN1Nno2bjNGOVotN0c3ZnFCYnptNmFqa19BYU9qOXBpX01xZHl0UTItOEJqOW1FMUdGbFF6TGZwTXBkZ1FJM0hodDNyYXZfNHp1UzlWVUg3ZUtWZHVvSGE0LTk0Z1RzVkxybE9GVjU5SnhlM1QzSlJGdUE?oc=5",
       "business_impact_score": 46
-    },
-    {
-      "title": "March and March slams Ramaphosa’s immigration statement - sabcnews.com",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "17 Aug 2026, 18:13 UTC",
-      "summary": "March and March slams Ramaphosa’s immigration statement sabcnews.com",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "sabcnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CTDM3UElzd3BtX3RTaEs1WmJyVVd3STA5cjZqM3NjeWsyZ2FnQlRwMnQtdXFJNktFYXBMaGNOdnVxc3FPTk92cklsaEVHUWZtOEdlaWlKRQ?oc=5",
-      "business_impact_score": 41
-    },
-    {
-      "title": "March and March targets SADC summit - eNCA",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "17 Aug 2026, 05:06 UTC",
-      "summary": "March and March targets SADC summit eNCA",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "eNCA",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1nTlo5UlFFVlNBZkg4UFdRVDJlY2hZQXpzS2NnUzJBQVNtaVFwMHowLUU1Nzc2Z2l6M0ZPMTB2b0RSMG9qMHM1Rm4yaXN3dGVUTGpibVJpRm9oRTZuc0JsTkxWam0yenpfY1MxRDJMblVkWW1aY0VIVGdyRDNpdw?oc=5",
-      "business_impact_score": 41
     }
   ],
   "news": [
-    {
-      "title": "Cops out in numbers as March and March protesters gather ahead of SADC Summit protest - News24",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "17 Aug 2026, 11:29 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "News24",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUTJ0b2hNX201N0Z2aXpwWHMySlI2V0ttajNJS1gwTXF1VEdyMElqNExTYUE2QTZ5eTZlaXhGRUZLSFIyNXlvYWJ0dUdfVE9xVWZUZWdoalhPVHdPTTc0cUdHeTdEZGtXZTVBWDZKbUpTdDc2OVBXcGt4LTNucEt1bG04aVhSb194SnZFVEdNX2N1SWFKV0JuZTc4Z19aNTRyRVRUYWZ2eWVUM0IzZTVsUndlakE0LXAxMF9VN2ZsWHp6cTl2RGtwUlJSYlFTY0pyQk9pSmVn?oc=5",
-      "business_impact_score": 49
-    },
     {
       "title": "'Come fetch your people': March and March holds Durban protest outside SADC summit - EWN",
       "location": "National",
@@ -303,31 +205,59 @@
       "business_impact_score": 48
     },
     {
-      "title": "‘It’s time to fetch your people’: March and March to protest at SADC summit - IOL",
-      "location": "National",
-      "city_id": null,
+      "title": "Violent protest forces CPUT to close all campuses - enca.com",
+      "location": "Cape Town",
+      "city_id": "cape-town",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "17 Aug 2026, 05:24 UTC",
+      "published": "18 Aug 2026, 17:07 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "IOL",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "enca.com",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcVBXSm9WV2NQYjVkYWczSDcwYkZzRndYWEp2STNKTUJRS2JjYmRrR1llcmpmTkx4anU1dDV1OTA4UFVtYzRVd2puM0lXWmVzZGEzcE1BRE1zU0tiYzhteWRnWWJJRUxiRnc1VXhoSUgtNlNzbnoyNzczVVhRZTYzRjI0SHlnNGVKRU9RckdUU1lPUWdNblV0UVRYVXc1WXFTS0kwSzVKVzdZMnk2d1VvWm02STV1SzVmNWd3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EbUUwdmtDcnBBZFZ4ZldXMWRlNkFlXzdBMmxYeFhmSjBmWlpTM1lPcUdoaHR0ZF81dlA2d3Y5RGJ4dGsybV9oVXktQkFQNXlXUndIV29mNDRmVERJek5mcUFHakQ0bmZTdDFselVweFEySFBYMk9KejVldHA?oc=5",
+      "business_impact_score": 47
+    },
+    {
+      "title": "International Trade Administration Commission of South Africa: Notice of initiation of a sunset review of the antidumping duties on imports of frozen bone-in portions of fowls of the species Gallus Domesticus Originating in or imported from Germany, the N",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "17 Aug 2026, 13:07 UTC",
+      "event_date": "Mon, 17 Aug 2026 13:07:02 +0000",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/international-trade-administration-commission-south-africa-notice-initiation",
       "business_impact_score": 46
     },
     {
-      "title": "What happens after the protest ends? - sundayworld.co.za",
+      "title": "National Environmental Management: Waste Act: Consultation on applications received for the exclusion of a waste stream or a portion of waste stream from the definition of waste for beneficial use: Comments invited",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "17 Aug 2026, 13:03 UTC",
+      "event_date": "Mon, 17 Aug 2026 13:03:50 +0000",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/national-environmental-management-waste-act-consultation-applications-received-0",
+      "business_impact_score": 46
+    },
+    {
+      "title": "WATCH | Samwu keeps pressure on Msunduzi as strike continues - The Witness | Your compass in the community",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "16 Aug 2026, 19:15 UTC",
+      "published": "19 Aug 2026, 06:10 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "sundayworld.co.za",
+      "source": "The Witness | Your compass in the community",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DMUtBRkJMMzVQTFYxM3BoXzFXMkt3VVhrZlk5el9iVVZVdTEta05JQWp2WkstdzRfRmh6NTdnRmgyNzZpNmpPaDRObTZnbzgtdm5UZUdJYWhWdHp1aXlrZTFiU2xNbGx4WnA4eXJDS05VYlFGWVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWE00OE1oWXRaTWJCWUM2czdjMnBTQUZHZFJYblN1Nno2bjNGOVotN0c3ZnFCYnptNmFqa19BYU9qOXBpX01xZHl0UTItOEJqOW1FMUdGbFF6TGZwTXBkZ1FJM0hodDNyYXZfNHp1UzlWVUg3ZUtWZHVvSGE0LTk0Z1RzVkxybE9GVjU5SnhlM1QzSlJGdUE?oc=5",
       "business_impact_score": 46
     },
     {
@@ -345,51 +275,65 @@
       "business_impact_score": 44
     },
     {
-      "title": "March and March slams Ramaphosa’s immigration statement - sabcnews.com",
+      "title": "March and March slams Ramaphosa’s immigration statement - SABC News",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
       "published": "17 Aug 2026, 18:13 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "sabcnews.com",
+      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is indirect traveller relevance.",
+      "source": "SABC News",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CTDM3UElzd3BtX3RTaEs1WmJyVVd3STA5cjZqM3NjeWsyZ2FnQlRwMnQtdXFJNktFYXBMaGNOdnVxc3FPTk92cklsaEVHUWZtOEdlaWlKRQ?oc=5",
-      "business_impact_score": 41
+      "business_impact_score": 43
     },
     {
-      "title": "March and March targets SADC summit - eNCA",
+      "title": "Absa Group reports 4 percent rise in revenue in H1 2026 - Africa Business Communities",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "19 Aug 2026, 07:23 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Africa Business Communities",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQzR6WG83S0Y4b25MOVEtWnp3RlBqWktGbHhuT1F0Wi0zTDlWS3RqZnBwazB5cm5KZEJlNy1HWlJ0WFdKNHQ3NnkyMjZRc25ONFZHRXZrZWhJalVlN0NIZkdoWmlVc210Ulgta3dwcVFZVEs2cU1LaFhmc0dYWjZlMkZPaE55dFBHQ0Y5MGMxS0c5R05rbmxNRTAwUXA1QQ?oc=5",
+      "business_impact_score": 42
+    },
+    {
+      "title": "March and March demonstrate at SADC Summit demanding action on illegal migration - enca.com",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "17 Aug 2026, 05:06 UTC",
+      "published": "17 Aug 2026, 17:29 UTC",
       "event_date": "",
       "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "eNCA",
+      "source": "enca.com",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1nTlo5UlFFVlNBZkg4UFdRVDJlY2hZQXpzS2NnUzJBQVNtaVFwMHowLUU1Nzc2Z2l6M0ZPMTB2b0RSMG9qMHM1Rm4yaXN3dGVUTGpibVJpRm9oRTZuc0JsTkxWam0yenpfY1MxRDJMblVkWW1aY0VIVGdyRDNpdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdW56aDZ2OUVpWXY2eUpoR0h2b0ZfWkJWR0hrTXFQQ1JxcUwzTExrOFA0STBrM2dwN1ZPR2hMNTVxTGJObHg0R1ZEeGVFS0tyM0lsaEJ6V1l6V3A1dzFicERwZ1JITXJhZmt6ZXVGeDhZMHpZUXIwU21mLW15ZjRsYWxoQUFtbDBJSTI5dWVKSUpPOGRpQmtVWXVfRWdvNU5ZQVU2RUNtVGt6d1VkelZLQy1n?oc=5",
       "business_impact_score": 41
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-18",
+    "date": "2026-08-19",
     "afrikaans": {
-      "word": "Besigheid",
-      "english": "Business",
-      "pronunciation": "buh-SAY-khite",
-      "example": "Ons praat oor besigheid.",
-      "example_english": "We are talking about business.",
-      "use_note": "A common general term for business and commercial discussion."
+      "word": "Ooreenkoms",
+      "english": "Agreement / Deal",
+      "pronunciation": "OO-ruhn-koms",
+      "example": "Ons het 'n ooreenkoms.",
+      "example_english": "We have an agreement.",
+      "use_note": "Useful in negotiation and commercial discussions; context determines whether it means an agreement or deal."
     },
     "isixhosa": {
-      "word": "Uxolo",
-      "english": "Excuse me / Sorry",
-      "pronunciation": "oo-KHOH-loh",
-      "example": "Uxolo.",
-      "example_english": "Excuse me / Sorry.",
-      "use_note": "Useful for politely getting attention or apologising in everyday interaction."
+      "word": "Molo",
+      "english": "Hello (one person)",
+      "pronunciation": "MOH-loh",
+      "example": "Molo.",
+      "example_english": "Hello.",
+      "use_note": "Use when greeting one person; a simple local greeting can be a respectful way to begin an interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
