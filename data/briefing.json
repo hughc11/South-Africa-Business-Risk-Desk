@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-21T09:10:15.242269+01:00",
-    "generated_display": "21 Aug 2026, 09:10",
+    "generated_at": "2026-08-22T08:01:45.661655+01:00",
+    "generated_display": "22 Aug 2026, 08:01",
     "timezone": "Europe/London",
-    "raw_item_count": 601,
-    "normalised_item_count": 77,
-    "final_item_count": 74,
+    "raw_item_count": 611,
+    "normalised_item_count": 87,
+    "final_item_count": 85,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,7 +15,7 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 10
+        "item_count": 20
       },
       "National and city news": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 68,
+    "score": 69,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
@@ -39,7 +39,7 @@
       },
       {
         "name": "Civil unrest",
-        "score": 47
+        "score": 48
       },
       {
         "name": "Infrastructure",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Transport",
-        "score": 45
+        "score": 48
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "21 Aug",
-      "score": 68,
-      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "22 Aug",
+      "score": 69,
+      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 20,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure."
+      "score": 32,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "cape-town",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 35,
+      "score": 34,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, politics and government."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 33,
+      "score": 44,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
     {
       "id": "gqeberha",
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-21T09:10:15.242269+01:00",
+    "last_checked": "2026-08-22T08:01:45.661655+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -161,18 +161,32 @@
       "business_impact_score": 54
     },
     {
-      "title": "Msunduzi service delivery halted as municipal workers continue labour strike - EWN",
+      "title": "Tensions rise in Durban CBD as anti-illegal immigration protests continue - IOL",
+      "location": "Durban / eThekwini",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "21 Aug 2026, 13:24 UTC",
+      "summary": "Tensions rise in Durban CBD as anti-illegal immigration protests continue IOL",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUndDdV9pRHd5eE53YTRNdXRLRF9wTjktbXFFOVFLaVBicURJdEItYXVSbzA2T3JYenpESkRfTjRqU24xNndONWVtbXQ1Tk9IdEI3UTg3UzFGTlVhQmJlUFF1WmhUbERKOHAwY0FXeDZ1dWs3WGppZ0wxeWxnWkxzWUphWHFhcEd5VE1VeGF4ZzFIMHF2cjZMcDd1VXR1MUNTSEdkWmJNeDVvSmdHV1lka0Q0djg3OHlyeWZJQjhoc0syZVR2R05ISDV5RVJFQzNp?oc=5",
+      "business_impact_score": 53
+    },
+    {
+      "title": "SA’s beleaguered sugar industry hit by strike - Farmer's Weekly SA",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "21 Aug 2026, 06:32 UTC",
-      "summary": "Msunduzi service delivery halted as municipal workers continue labour strike EWN",
+      "time_window": "22 Aug 2026, 03:00 UTC",
+      "summary": "SA’s beleaguered sugar industry hit by strike Farmer's Weekly SA",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc3JRUmdfenRtWEU4VmpWN1dob1RqenAtcy11XzlPc2loUXdJbTZ1U3BLNU9lREJHbHJRUUM0MjRDYTk2Yk12RWVYXzV4Q2ZqdkZZeUVWSl9fVTM1VUQxRUZONG9MQ1Z1aE1VYjlYcFZ3YV9JV09ycks1ZjZFNzd3ZFNJMFF5NG1QaU9iZE52ZWpEWXQya3hXREg5WEdMcTcwREgxdktZcUJsN1NOUmc?oc=5",
-      "business_impact_score": 48
+      "source": "Farmer's Weekly SA",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLVFBVUsyVFVsSnlvMEFWUFNEUmcyVS1YRnh6bmpia0o4VTZNWDVnV1JUaFZmanB2SjFxdUJBX3BZRDlCbjlKWE5CRmQ3dGV0MVFLc3dhc0lST1FvU0xNWHVpT0xyQm1vMFZIWGM5Nl9LRFFIWEkxNDZzWVdxbjJKbXZvOUROVTVvdUpLN2VDT3BTNVRZNUhxWmQyckk1eXo0eGc?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "South Africa: Msunduzi Strike Disrupts Service Delivery - South African News Briefs - August 21, 2026 - allAfrica.com",
@@ -205,6 +219,20 @@
       "business_impact_score": 54
     },
     {
+      "title": "Tensions rise in Durban CBD as anti-illegal immigration protests continue - IOL",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "21 Aug 2026, 13:24 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUndDdV9pRHd5eE53YTRNdXRLRF9wTjktbXFFOVFLaVBicURJdEItYXVSbzA2T3JYenpESkRfTjRqU24xNndONWVtbXQ1Tk9IdEI3UTg3UzFGTlVhQmJlUFF1WmhUbERKOHAwY0FXeDZ1dWs3WGppZ0wxeWxnWkxzWUphWHFhcEd5VE1VeGF4ZzFIMHF2cjZMcDd1VXR1MUNTSEdkWmJNeDVvSmdHV1lka0Q0djg3OHlyeWZJQjhoc0syZVR2R05ISDV5RVJFQzNp?oc=5",
+      "business_impact_score": 53
+    },
+    {
       "title": "Kidnapping victims rescued from suspected hijackers in Pretoria - The Citizen",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
@@ -219,18 +247,18 @@
       "business_impact_score": 51
     },
     {
-      "title": "Msunduzi service delivery halted as municipal workers continue labour strike - EWN",
+      "title": "SA’s beleaguered sugar industry hit by strike - Farmer's Weekly SA",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "21 Aug 2026, 06:32 UTC",
+      "published": "22 Aug 2026, 03:00 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "EWN",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Farmer's Weekly SA",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc3JRUmdfenRtWEU4VmpWN1dob1RqenAtcy11XzlPc2loUXdJbTZ1U3BLNU9lREJHbHJRUUM0MjRDYTk2Yk12RWVYXzV4Q2ZqdkZZeUVWSl9fVTM1VUQxRUZONG9MQ1Z1aE1VYjlYcFZ3YV9JV09ycks1ZjZFNzd3ZFNJMFF5NG1QaU9iZE52ZWpEWXQya3hXREg5WEdMcTcwREgxdktZcUJsN1NOUmc?oc=5",
-      "business_impact_score": 48
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLVFBVUsyVFVsSnlvMEFWUFNEUmcyVS1YRnh6bmpia0o4VTZNWDVnV1JUaFZmanB2SjFxdUJBX3BZRDlCbjlKWE5CRmQ3dGV0MVFLc3dhc0lST1FvU0xNWHVpT0xyQm1vMFZIWGM5Nl9LRFFIWEkxNDZzWVdxbjJKbXZvOUROVTVvdUpLN2VDT3BTNVRZNUhxWmQyckk1eXo0eGc?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "South Africa: Msunduzi Strike Disrupts Service Delivery - South African News Briefs - August 21, 2026 - allAfrica.com",
@@ -247,17 +275,17 @@
       "business_impact_score": 46
     },
     {
-      "title": "Cape Town airport reopens runway after Kenya Airways tyre failure - IOL",
-      "location": "National",
-      "city_id": null,
+      "title": "Power cuts to hit these Joburg areas, including major transport hub, next week - The Citizen",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "20 Aug 2026, 01:03 UTC",
+      "published": "21 Aug 2026, 10:12 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
-      "source": "IOL",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (johannesburg) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY0JlNFNjQlVUdll4T3ZQTTFmNEVpbTBTNmlmb2I4dUhIeF9MQk5GTTljSDhqcm8wX3NLa3BKM0phVGxLcWwwWDNwNGMzVlZLZ3JLaElBakVVRHZwNXJrV2Nad05JaXoyZE96SkdVbTU0NlFsY09MbTFWOU1welc4dnBLVVkzR0pqTWVtdDV5S2hQZmxHQXVyT2ZybkYxZzlRT2FrNQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV2dZVVRpWEp6NVV5SWp3WTZVVFdYcG5pb1hkNGVnR1hTa1BNWUkySDNJdktLNklfZkFKZjVfZzhUTEI2YTFYdDdWc1J5TmxxY2ozajRNd19JaloyN2RFbU1Cc2VkQUxHcnlXWWROWEs4eGtxQnQyVjE3aWZVamc0aFAtOGZHcUV0aG5IdFFjRlhKcERRWjFTY3ItYzhRVVRzdERhc3NPNA?oc=5",
       "business_impact_score": 44
     },
     {
@@ -275,37 +303,51 @@
       "business_impact_score": 43
     },
     {
-      "title": "SA and Zimbabwe to discuss trade barriers - Freight News",
+      "title": "Zimbabwe President pledges to remove trade barriers, support SA investors - Channel Africa",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "19 Aug 2026, 12:00 UTC",
+      "published": "21 Aug 2026, 17:29 UTC",
       "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Freight News",
+      "source": "Channel Africa",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQME5YRnVyNS0xNGxMZlFqQmRqcXc5MUQwNk5PREpwUFhiWmRnTG9rMEMwelp4SzhSWnNJemxQbVFqWDdablBEMVF3YzNEZW41SEwwc2JnWkFLUlhjSGFXSmlueUl5MHN1dkRMWG5SNXN0akdXWVV6bEx2MHRoUFFrX3JHSk1Ydw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdTVnZ2YtXzNfRGFKUmllakRydU1odXlFTmQwczFCRzFfMEtaNC1YQ3AxajdwMEpvTEE5NDhpOE0yX0JxRS1XQUQwZG5CazJZWVRKVktGQlZJS1NEYnlGNHl2SFZITWJyc1I1b3hSUm1HYjRHdXRYaWVkNUFyYUdVeUdvUElSRWIwUHdqN3c1dVRSdGhsdXBPbkdMRk9EeTZtSHhLcHZtLXNmVGlmOGk0WVduQmxaYXc5UUZtU1NYV0trQQ?oc=5",
       "business_impact_score": 42
+    },
+    {
+      "title": "Electricity Sector Market Transformation Position Paper, 2026: Public Comments invited",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Guarded",
+      "published": "21 Aug 2026, 12:38 UTC",
+      "event_date": "Fri, 21 Aug 2026 12:38:11 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/electricity-sector-market-transformation-position-paper-2026-public-comments",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-21",
+    "date": "2026-08-22",
     "afrikaans": {
-      "word": "Kollega",
-      "english": "Colleague",
-      "pronunciation": "koo-LEH-khah",
-      "example": "Laat ek jou aan my kollega voorstel.",
-      "example_english": "Let me introduce you to my colleague.",
-      "use_note": "Useful when making introductions in meetings or workplace settings."
+      "word": "Kantoor",
+      "english": "Office",
+      "pronunciation": "kahn-TOOR",
+      "example": "Ons ontmoet by die kantoor.",
+      "example_english": "We are meeting at the office.",
+      "use_note": "Useful for confirming a workplace or meeting location."
     },
     "isixhosa": {
-      "word": "Ndiyabulela",
-      "english": "I thank you",
-      "pronunciation": "n-dee-yah-boo-LEH-lah",
-      "example": "Ndiyabulela.",
-      "example_english": "I thank you.",
-      "use_note": "A fuller expression of gratitude that can add warmth to a courteous interaction."
+      "word": "Ndiphilile",
+      "english": "I am well",
+      "pronunciation": "n-dee-pee-LEE-leh",
+      "example": "Ndiphilile, enkosi.",
+      "example_english": "I am well, thank you.",
+      "use_note": "A useful response when someone asks how you are."
     },
     "rotation": "daily",
     "source_type": "curated"
