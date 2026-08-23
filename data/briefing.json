@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-22T08:01:45.661655+01:00",
-    "generated_display": "22 Aug 2026, 08:01",
+    "generated_at": "2026-08-23T08:04:16.635566+01:00",
+    "generated_display": "23 Aug 2026, 08:04",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 87,
-    "final_item_count": 85,
+    "normalised_item_count": 81,
+    "final_item_count": 80,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,14 +28,14 @@
     }
   },
   "national": {
-    "score": 69,
+    "score": 68,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 37
+        "score": 34
       },
       {
         "name": "Civil unrest",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "22 Aug",
-      "score": 69,
-      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "23 Aug",
+      "score": 68,
+      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 32,
+      "score": 44,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "summary": "Current city risk is being driven by road and transport disruption."
     },
     {
       "id": "cape-town",
@@ -79,8 +79,8 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 50,
-      "level": "Elevated",
+      "score": 48,
+      "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
     {
@@ -89,8 +89,8 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 34,
-      "level": "Guarded",
+      "score": 29,
+      "level": "Low",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 44,
+      "score": 41,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -140,39 +140,53 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-22T08:01:45.661655+01:00",
+    "last_checked": "2026-08-23T08:04:16.635566+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Major road closures in Cape Town CBD ahead of SONA: Here are the affected routes - weekendargus.co.za",
-      "location": "Cape Town",
+      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
+      "location": "Durban / eThekwini",
       "type": "Road closure",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "20 Aug 2026, 11:26 UTC",
-      "summary": "Major road closures in Cape Town CBD ahead of SONA: Here are the affected routes weekendargus.co.za",
+      "time_window": "22 Aug 2026, 05:00 UTC",
+      "summary": "UPDATE: Traffic backed-up from Richmond Road The Citizen",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
-      "source": "weekendargus.co.za",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44eVJhVnNnQjR6T2ZOYW5ZcGxHQWtSaVR5VjdDTndZSWNvYnV5bURlQUhhaEdXdldjZnJGbWItTTI2ejlxeFRxZWhoWHRyZnBpVWprUmc1NmdCOTVRdndrS2o5WTgyS0JEVnNzS3hzaw?oc=5",
-      "business_impact_score": 54
+      "source": "The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
+      "business_impact_score": 44
     },
     {
-      "title": "Tensions rise in Durban CBD as anti-illegal immigration protests continue - IOL",
-      "location": "Durban / eThekwini",
+      "title": "South Africa anti immigrants protest: SA police sentence undocumented foreign nationals to prison and Home Affairs to deport illegal foreigners for criminal offence - BBC",
+      "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "21 Aug 2026, 13:24 UTC",
-      "summary": "Tensions rise in Durban CBD as anti-illegal immigration protests continue IOL",
+      "time_window": "22 Aug 2026, 14:16 UTC",
+      "summary": "South Africa anti immigrants protest: SA police sentence undocumented foreign nationals to prison and Home Affairs to deport illegal foreigners for criminal offence BBC",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "IOL",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUndDdV9pRHd5eE53YTRNdXRLRF9wTjktbXFFOVFLaVBicURJdEItYXVSbzA2T3JYenpESkRfTjRqU24xNndONWVtbXQ1Tk9IdEI3UTg3UzFGTlVhQmJlUFF1WmhUbERKOHAwY0FXeDZ1dWs3WGppZ0wxeWxnWkxzWUphWHFhcEd5VE1VeGF4ZzFIMHF2cjZMcDd1VXR1MUNTSEdkWmJNeDVvSmdHV1lka0Q0djg3OHlyeWZJQjhoc0syZVR2R05ISDV5RVJFQzNp?oc=5",
-      "business_impact_score": 53
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kQVh6RUNVZVBiazk0Y1pVWF9hRmoxWllFRkllUy1jX0JCSi0tN1lqeXZ6M2dmZC1Zc2xCempaUV9vTl9KREFpbGdPdXRVbExQU1ZZNndLN1lfa3Et0gFiQVVfeXFMTWItaHNiMGsySG1vLXYxeVdqdEpTUGVsZW03REhPcEZ6bmkwU21xVjNJVlpYX191WDVWdE11Zk5XdW1TQjRkVVR0WVY0RmdXZVp6RE1RRG1LN2dIaU1nc0prSXc?oc=5",
+      "business_impact_score": 48
+    },
+    {
+      "title": "Rugby diplomacy: Protest in the morning, rugby in the afternoon. The great rivalry effect - News24",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "22 Aug 2026, 08:04 UTC",
+      "summary": "Rugby diplomacy: Protest in the morning, rugby in the afternoon. The great rivalry effect News24",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "News24",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdXhmcVZjMjFmcURhQUhiQmx6STlfRmRaTUxoTVowQmgzSTlBTm1WLVNEcDVxc2plazlfbDd3OEZDVkx3QUdBMWNYZ3k1M0pjOFhqUEdPMC10cU13Z0FnMHhRaUdPZGY5VGRWYTdXVXMwWV9jZHh5bUVsV0Ztd1Byb0d6US1MMHd1OVlUc3RjYWhuUkZGS2NDQnItOEJ6U2hhWUxKMkNjbkNiMTZCTEl0NTB3Z01vbUQ4ZzhfMk1FanJfR1B2MXRoOTVheXhHTG9yaEdEcmp5aGU?oc=5",
+      "business_impact_score": 48
     },
     {
       "title": "SA’s beleaguered sugar industry hit by strike - Farmer's Weekly SA",
@@ -187,44 +201,16 @@
       "source": "Farmer's Weekly SA",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLVFBVUsyVFVsSnlvMEFWUFNEUmcyVS1YRnh6bmpia0o4VTZNWDVnV1JUaFZmanB2SjFxdUJBX3BZRDlCbjlKWE5CRmQ3dGV0MVFLc3dhc0lST1FvU0xNWHVpT0xyQm1vMFZIWGM5Nl9LRFFIWEkxNDZzWVdxbjJKbXZvOUROVTVvdUpLN2VDT3BTNVRZNUhxWmQyckk1eXo0eGc?oc=5",
       "business_impact_score": 46
-    },
-    {
-      "title": "South Africa: Msunduzi Strike Disrupts Service Delivery - South African News Briefs - August 21, 2026 - allAfrica.com",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "21 Aug 2026, 06:54 UTC",
-      "summary": "South Africa: Msunduzi Strike Disrupts Service Delivery - South African News Briefs - August 21, 2026 allAfrica.com",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "allAfrica.com",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XQVZZbXJVXzR1a3RQWEZaUWtQVmlpQURoT2U1UHROdFNJME80TV9hVEJCa3RIOTljR05jNzVhUlpOMUNreHlVc2dsenQ0b053WnZvbXppMlZWZUU?oc=5",
-      "business_impact_score": 46
     }
   ],
   "news": [
-    {
-      "title": "Major road closures in Cape Town CBD ahead of SONA: Here are the affected routes - weekendargus.co.za",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "20 Aug 2026, 11:26 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (54/100). Assessed as limited disruption, with city scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "weekendargus.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44eVJhVnNnQjR6T2ZOYW5ZcGxHQWtSaVR5VjdDTndZSWNvYnV5bURlQUhhaEdXdldjZnJGbWItTTI2ejlxeFRxZWhoWHRyZnBpVWprUmc1NmdCOTVRdndrS2o5WTgyS0JEVnNzS3hzaw?oc=5",
-      "business_impact_score": 54
-    },
     {
       "title": "Tensions rise in Durban CBD as anti-illegal immigration protests continue - IOL",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "21 Aug 2026, 13:24 UTC",
+      "published": "21 Aug 2026, 13:30 UTC",
       "event_date": "",
       "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "IOL",
@@ -233,18 +219,32 @@
       "business_impact_score": 53
     },
     {
-      "title": "Kidnapping victims rescued from suspected hijackers in Pretoria - The Citizen",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "category": "Security and crime",
+      "title": "South Africa anti immigrants protest: SA police sentence undocumented foreign nationals to prison and Home Affairs to deport illegal foreigners for criminal offence - BBC",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "20 Aug 2026, 13:32 UTC",
+      "published": "22 Aug 2026, 14:16 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (51/100). Assessed as major safety threat, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "BBC",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjJCVVhubVhNTnEyRHlEaGIyYjRucmttMmRKSmk0RDl6VGtaMUQyWDhJSk9yb0pQa2hTamstbG5IdWdlS3FPRnVWcmtNV2libDBfNzRlTnYzVEIteF9wZVNiQ3BsUFZ6cUJkckdrMkIxZlZua0hnM01nSE16ZDBCNmRPUzlxYUJJMy00LTlNUDNGaExmMlZRMGYwYnlWczJObTNlUnRxM2pXRkdnOXFGRDdvX1VkUF8tMXNXSkxlSmU?oc=5",
-      "business_impact_score": 51
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kQVh6RUNVZVBiazk0Y1pVWF9hRmoxWllFRkllUy1jX0JCSi0tN1lqeXZ6M2dmZC1Zc2xCempaUV9vTl9KREFpbGdPdXRVbExQU1ZZNndLN1lfa3Et0gFiQVVfeXFMTWItaHNiMGsySG1vLXYxeVdqdEpTUGVsZW03REhPcEZ6bmkwU21xVjNJVlpYX191WDVWdE11Zk5XdW1TQjRkVVR0WVY0RmdXZVp6RE1RRG1LN2dIaU1nc0prSXc?oc=5",
+      "business_impact_score": 48
+    },
+    {
+      "title": "Rugby diplomacy: Protest in the morning, rugby in the afternoon. The great rivalry effect - News24",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "22 Aug 2026, 08:04 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "News24",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdXhmcVZjMjFmcURhQUhiQmx6STlfRmRaTUxoTVowQmgzSTlBTm1WLVNEcDVxc2plazlfbDd3OEZDVkx3QUdBMWNYZ3k1M0pjOFhqUEdPMC10cU13Z0FnMHhRaUdPZGY5VGRWYTdXVXMwWV9jZHh5bUVsV0Ztd1Byb0d6US1MMHd1OVlUc3RjYWhuUkZGS2NDQnItOEJ6U2hhWUxKMkNjbkNiMTZCTEl0NTB3Z01vbUQ4ZzhfMk1FanJfR1B2MXRoOTVheXhHTG9yaEdEcmp5aGU?oc=5",
+      "business_impact_score": 48
     },
     {
       "title": "SA’s beleaguered sugar industry hit by strike - Farmer's Weekly SA",
@@ -261,18 +261,32 @@
       "business_impact_score": 46
     },
     {
-      "title": "South Africa: Msunduzi Strike Disrupts Service Delivery - South African News Briefs - August 21, 2026 - allAfrica.com",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
+      "title": "Cape Town gangs turn suburban homes into human trafficking hubs - Sunday Tribune",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "21 Aug 2026, 06:54 UTC",
+      "published": "22 Aug 2026, 08:17 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "allAfrica.com",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Sunday Tribune",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XQVZZbXJVXzR1a3RQWEZaUWtQVmlpQURoT2U1UHROdFNJME80TV9hVEJCa3RIOTljR05jNzVhUlpOMUNreHlVc2dsenQ0b053WnZvbXppMlZWZUU?oc=5",
-      "business_impact_score": 46
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUWpIdXVaS1d3NHpFZlJaaU1vWm9oaEZTdTBicHNGbW9GSllQQjljU3hseXctLTRZN0lsZ3paU3Bvd2NsbnB1NENmOHB0M2lhVS0tRHNJU1dKT2F5YTZvdVN0bnY1cTVZRU1oUE5wSWItOFpYVC1JMXVTbUl4eVpqcVJ5cF9rbGNMZ2ZPYTlwYk1rd1k4c2xTX2N6ejhDOWtuRlVXYmF1RkVvMHo4a3FhbHZ6eGNOT2UxVGdaQXdhSVZUS0U?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "22 Aug 2026, 05:00 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
+      "business_impact_score": 44
     },
     {
       "title": "Power cuts to hit these Joburg areas, including major transport hub, next week - The Citizen",
@@ -289,32 +303,18 @@
       "business_impact_score": 44
     },
     {
-      "title": "Armed robbery suspect killed in Pretoria security shoot-out - LNN - Network News - The Citizen",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "category": "Security and crime",
-      "relevance": "Moderate",
-      "published": "20 Aug 2026, 10:32 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as material incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
-      "source": "The Citizen",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVnp4eVhORXVUODZFOVZ0OV91a3hNZzNOVHdWcndsQV8wN0ViZUZCYkx2anZYclFrWFkwOG8wRFFiMUVXSlpGWlplOTVFamZLblN1UkZueWhSLWJVNE53clo3WU9OTmdwdTZwX3REampCVG9TUmtySjExdzh2SFZMdUFLSUUyT3BKQUpxOUZ2REkyV2lzVFF0RkdNY0pNX3JWZ0Q3NmNjcDNQbEFkNGJGNA?oc=5",
-      "business_impact_score": 43
-    },
-    {
-      "title": "Zimbabwe President pledges to remove trade barriers, support SA investors - Channel Africa",
+      "title": "Cape Town airport reopens runway after Kenya Airways tyre failure - IOL",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "21 Aug 2026, 17:29 UTC",
+      "published": "23 Aug 2026, 00:57 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Channel Africa",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
+      "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdTVnZ2YtXzNfRGFKUmllakRydU1odXlFTmQwczFCRzFfMEtaNC1YQ3AxajdwMEpvTEE5NDhpOE0yX0JxRS1XQUQwZG5CazJZWVRKVktGQlZJS1NEYnlGNHl2SFZITWJyc1I1b3hSUm1HYjRHdXRYaWVkNUFyYUdVeUdvUElSRWIwUHdqN3c1dVRSdGhsdXBPbkdMRk9EeTZtSHhLcHZtLXNmVGlmOGk0WVduQmxaYXc5UUZtU1NYV0trQQ?oc=5",
-      "business_impact_score": 42
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY0JlNFNjQlVUdll4T3ZQTTFmNEVpbTBTNmlmb2I4dUhIeF9MQk5GTTljSDhqcm8wX3NLa3BKM0phVGxLcWwwWDNwNGMzVlZLZ3JLaElBakVVRHZwNXJrV2Nad05JaXoyZE96SkdVbTU0NlFsY09MbTFWOU1welc4dnBLVVkzR0pqTWVtdDV5S2hQZmxHQXVyT2ZybkYxZzlRT2FrNQ?oc=5",
+      "business_impact_score": 44
     },
     {
       "title": "Electricity Sector Market Transformation Position Paper, 2026: Public Comments invited",
@@ -332,22 +332,22 @@
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-22",
+    "date": "2026-08-23",
     "afrikaans": {
-      "word": "Kantoor",
-      "english": "Office",
-      "pronunciation": "kahn-TOOR",
-      "example": "Ons ontmoet by die kantoor.",
-      "example_english": "We are meeting at the office.",
-      "use_note": "Useful for confirming a workplace or meeting location."
+      "word": "Afspraak",
+      "english": "Appointment",
+      "pronunciation": "AHF-sprahk",
+      "example": "Ek sien uit na ons afspraak.",
+      "example_english": "I am looking forward to our appointment.",
+      "use_note": "Useful when arranging or referring to a scheduled professional meeting."
     },
     "isixhosa": {
-      "word": "Ndiphilile",
-      "english": "I am well",
-      "pronunciation": "n-dee-pee-LEE-leh",
-      "example": "Ndiphilile, enkosi.",
-      "example_english": "I am well, thank you.",
-      "use_note": "A useful response when someone asks how you are."
+      "word": "Kulungile",
+      "english": "It is okay / All right",
+      "pronunciation": "koo-loon-GEE-leh",
+      "example": "Kulungile.",
+      "example_english": "All right.",
+      "use_note": "A useful acknowledgement in everyday conversation."
     },
     "rotation": "daily",
     "source_type": "curated"
