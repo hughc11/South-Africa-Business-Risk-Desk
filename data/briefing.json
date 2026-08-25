@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-24T08:31:29.565773+01:00",
-    "generated_display": "24 Aug 2026, 08:31",
+    "generated_at": "2026-08-25T08:15:44.502152+01:00",
+    "generated_display": "25 Aug 2026, 08:15",
     "timezone": "Europe/London",
-    "raw_item_count": 601,
-    "normalised_item_count": 67,
-    "final_item_count": 67,
+    "raw_item_count": 26,
+    "normalised_item_count": 26,
+    "final_item_count": 25,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,11 +15,11 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 10
+        "item_count": 20
       },
       "National and city news": {
         "status": "success",
-        "item_count": 585
+        "item_count": 0
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 68,
+    "score": 61,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (61/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 35
+        "score": 0
       },
       {
         "name": "Civil unrest",
-        "score": 48
+        "score": 45
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 28
       },
       {
         "name": "Transport",
-        "score": 46
+        "score": 40
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "24 Aug",
-      "score": 68,
-      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "25 Aug",
+      "score": 61,
+      "explanation": "High national business risk (61/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 44,
+      "score": 34,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 49,
+      "score": 34,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 30,
+      "score": 34,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 46,
+      "score": 34,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 26,
-      "level": "Low",
-      "summary": "Current city risk is being driven by economy and business."
+      "score": 34,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "bloemfontein",
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "score": 34,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "east-london",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 37,
+      "score": 34,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-24T08:31:29.565773+01:00",
+    "last_checked": "2026-08-25T08:15:44.502152+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -148,93 +148,37 @@
   "incidents": [],
   "news": [
     {
-      "title": "South Africa anti immigrants protest: SA police sentence undocumented foreign nationals to prison and Home Affairs to deport illegal foreigners for criminal offence - BBC",
+      "title": "Women in agriculture: Six key facts",
       "location": "National",
       "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "22 Aug 2026, 14:16 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "BBC",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kQVh6RUNVZVBiazk0Y1pVWF9hRmoxWllFRkllUy1jX0JCSi0tN1lqeXZ6M2dmZC1Zc2xCempaUV9vTl9KREFpbGdPdXRVbExQU1ZZNndLN1lfa3Et0gFiQVVfeXFMTWItaHNiMGsySG1vLXYxeVdqdEpTUGVsZW03REhPcEZ6bmkwU21xVjNJVlpYX191WDVWdE11Zk5XdW1TQjRkVVR0WVY0RmdXZVp6RE1RRG1LN2dIaU1nc0prSXc?oc=5",
-      "business_impact_score": 48
-    },
-    {
-      "title": "Rugby diplomacy: Protest in the morning, rugby in the afternoon. The great rivalry effect - News24",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "22 Aug 2026, 08:04 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "News24",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdXhmcVZjMjFmcURhQUhiQmx6STlfRmRaTUxoTVowQmgzSTlBTm1WLVNEcDVxc2plazlfbDd3OEZDVkx3QUdBMWNYZ3k1M0pjOFhqUEdPMC10cU13Z0FnMHhRaUdPZGY5VGRWYTdXVXMwWV9jZHh5bUVsV0Ztd1Byb0d6US1MMHd1OVlUc3RjYWhuUkZGS2NDQnItOEJ6U2hhWUxKMkNjbkNiMTZCTEl0NTB3Z01vbUQ4ZzhfMk1FanJfR1B2MXRoOTVheXhHTG9yaEdEcmp5aGU?oc=5",
-      "business_impact_score": 48
-    },
-    {
-      "title": "Strong winds uproot trees, disrupt traffic across eThekwini - The Witness | Your compass in the community",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "23 Aug 2026, 05:51 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Witness | Your compass in the community",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFMzeFFNQ3dkOWFIQk1lRldKbUFrRC1zaks3SURSSFkzN3MxOU1ZZlJfV1p5bkMyY2xaZFBKazRGN3BlSXJjXy1jbHdLVE8ydzE2aDJsRHduMnkyd1o2WGZDbWtsWExNdkJLNENqNTJoeHIxT2xCeXozcmdtcGE3LXpYd3diancyRjRlRGFRSm4wRm52ZE1QZm5pY3RmZw?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Cape Town gangs turn suburban homes into human trafficking hubs - thepost.co.za",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "22 Aug 2026, 21:31 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "thepost.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVlZXNUhTMlEzRmtwbl9tMGVaaEpmSkljT01iTzBHakRqWkdBRkNidkxKWGs4aUVMWmxnaGtlQkZ3NnJkUDJHaTZUUUN3aTQxNE8zSlF0ZjQtV2NPdHY2ZVhtTURsYXRQeFF4bjlmNkhYRDA3QWl0bWxQdDliRF81STRPekk0TExydndZT0kxR2k2NXc2U1RYb3JhRUhWd3daZXFBOFBRVEIyd1dLTExwNVFIbFZJdFY3aVVF?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Another security guard killed in Durban business robbery - Sunday Tribune",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Security and crime",
-      "relevance": "Moderate",
-      "published": "23 Aug 2026, 05:21 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as material incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
-      "source": "Sunday Tribune",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGdmcGdlMDhhTk1kazR5Rzc2TlA3UGI0OVJXM3g3ZEZhU21aSWpyTHZiNlU0eEhfVURUQUxkc2pHaDRZWTdVbFVyWkNPYzdUY0c0cXlhdGdvWGpjUHdURTVwOFdkNHdMaDNmSnZUenN2dGJrSnczSmJfc1VGOHlFSEtzR0RtcmlUdHh6OVJxT0lGZGhiV3B1YllMNHJ5VkhMRDZZ?oc=5",
-      "business_impact_score": 43
+      "published": "24 Aug 2026, 09:34 UTC",
+      "event_date": "Mon, 24 Aug 2026 09:34:38 +0000",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=19824",
+      "business_impact_score": 42
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-24",
+    "date": "2026-08-25",
     "afrikaans": {
-      "word": "Skedule",
-      "english": "Schedule",
-      "pronunciation": "skuh-DOO-luh",
-      "example": "Hoe besig is jou skedule?",
-      "example_english": "How busy is your schedule?",
-      "use_note": "Practical vocabulary for arranging meetings and discussing availability."
+      "word": "Begin",
+      "english": "Begin / Start",
+      "pronunciation": "buh-KHIN",
+      "example": "Sal ons begin?",
+      "example_english": "Shall we begin?",
+      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
     },
     "isixhosa": {
-      "word": "Unjani?",
-      "english": "How are you? (one person)",
-      "pronunciation": "oon-JAH-nee",
-      "example": "Molo, unjani?",
-      "example_english": "Hello, how are you?",
-      "use_note": "A friendly follow-up to a greeting when speaking to one person."
+      "word": "Sala kakuhle",
+      "english": "Goodbye (to one person staying)",
+      "pronunciation": "SAH-lah kah-KOO-hleh",
+      "example": "Sala kakuhle.",
+      "example_english": "Goodbye.",
+      "use_note": "Traditionally said by the person leaving to one person who is staying."
     },
     "rotation": "daily",
     "source_type": "curated"
