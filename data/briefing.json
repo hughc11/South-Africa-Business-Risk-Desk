@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-25T08:15:44.502152+01:00",
-    "generated_display": "25 Aug 2026, 08:15",
+    "generated_at": "2026-08-26T08:11:06.454503+01:00",
+    "generated_display": "26 Aug 2026, 08:11",
     "timezone": "Europe/London",
-    "raw_item_count": 26,
-    "normalised_item_count": 26,
-    "final_item_count": 25,
+    "raw_item_count": 611,
+    "normalised_item_count": 79,
+    "final_item_count": 76,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 0
+        "item_count": 585
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 61,
+    "score": 67,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (61/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 0
+        "score": 40
       },
       {
         "name": "Civil unrest",
-        "score": 45
+        "score": 47
       },
       {
         "name": "Infrastructure",
-        "score": 28
+        "score": 32
       },
       {
         "name": "Transport",
-        "score": 40
+        "score": 46
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "25 Aug",
-      "score": 61,
-      "explanation": "High national business risk (61/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "26 Aug",
+      "score": 67,
+      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 34,
+      "score": 43,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 34,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 28,
+      "level": "Low",
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 34,
+      "score": 30,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 34,
+      "score": 44,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
     {
       "id": "gqeberha",
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 34,
+      "score": 37,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -119,7 +119,7 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 34,
+      "score": 37,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 34,
+      "score": 37,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,13 +140,112 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-25T08:15:44.502152+01:00",
+    "last_checked": "2026-08-26T08:11:06.454503+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [],
+  "incidents": [
+    {
+      "title": "Underground fire triggers water and traffic disruption in Joburg - Business Day",
+      "location": "Johannesburg",
+      "type": "Road closure",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "24 Aug 2026, 13:55 UTC",
+      "summary": "Underground fire triggers water and traffic disruption in Joburg Business Day",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "Business Day",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdzFWMGZiWUhhRFdQOHFHdGNqTHN3WEZ0T2x0S2tZYUw1b1lHM21sR05xN3pLLUJyLWgtTEQzSVBEdnRlQ29JNW1ncVpRdDc4YkRqaW5ReFNfbTdkTFRoT19mdGFxaTZUcVBpM0VvVlduWGxWRnRicmxjN1otTTE3dHZsbDVVb3hUbS1tQjVGYXBzUnhmTVVHRmFybHp4TGhORFBpeS1iZ1QzaXQ3TFRjcQ?oc=5",
+      "business_impact_score": 52
+    },
+    {
+      "title": "Springboks vs All Blacks: Cape Town traffic, shuttles and road closures to know - CapeTowner",
+      "location": "Cape Town",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "25 Aug 2026, 11:26 UTC",
+      "summary": "Springboks vs All Blacks: Cape Town traffic, shuttles and road closures to know CapeTowner",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "CapeTowner",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUFZ2a25wMHZTS3Vjc29zS2ROeFlXUkVDVmduYktLQy1jUGREZXVXN0ZpdTdYd3MwcjREU2FPVDVZWHE1R1I0cm44M1MyeVRILVI1SEYyVmFIYXFVRUkySFdzTGlPc2Ztb1BISnphN0VBbG1OUVJQWHpscnJiR2xvSHREV2g4aFFZcHc4UmZIdXdtWUY4TllwTkVLbS1oQmxoU0VCd2c1eTRoa0g5S1JCVW1SVUFGQmxyWkNQcFFEM0tSWHVQMVJHc0NPWQ?oc=5",
+      "business_impact_score": 32
+    }
+  ],
   "news": [
+    {
+      "title": "Underground fire triggers water and traffic disruption in Joburg - Business Day",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "24 Aug 2026, 13:55 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (52/100). Assessed as limited disruption, with localised (johannesburg) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "Business Day",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdzFWMGZiWUhhRFdQOHFHdGNqTHN3WEZ0T2x0S2tZYUw1b1lHM21sR05xN3pLLUJyLWgtTEQzSVBEdnRlQ29JNW1ncVpRdDc4YkRqaW5ReFNfbTdkTFRoT19mdGFxaTZUcVBpM0VvVlduWGxWRnRicmxjN1otTTE3dHZsbDVVb3hUbS1tQjVGYXBzUnhmTVVHRmFybHp4TGhORFBpeS1iZ1QzaXQ3TFRjcQ?oc=5",
+      "business_impact_score": 52
+    },
+    {
+      "title": "‘It’s not safe’: Joburg residents battle days-long CBD power outage - Sowetan",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "25 Aug 2026, 10:55 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (50/100). Assessed as limited disruption, with city scope and local operational disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Sowetan",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOS03TVFJOFhIWEY5dWMxZldpTjEzdEVyRGtQQnc5UmhFdWpsLVRrMEU5QjhOaHlINEZqeGdTbUliTXNZWEl6c0xvbExLMTkyVkV3S3lxWjlzSk9lVnZ0NGNxdGY5YlJjSEN4VFFMQlI3VmhSODhHVmtvVEtyN3pvRE85YjdPb3hzb2VUSXJsalNrU2FXWGx0WWhuM3lVLTl6V1VHS0tySEgzQQ?oc=5",
+      "business_impact_score": 50
+    },
+    {
+      "title": "Sugar Strike Adds New Pressure to Industry as Imports Surge - Newcastillian News",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "24 Aug 2026, 11:26 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Newcastillian News",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaF9FaEduRWdQa3Y2Vkw4QUxrRjdQRkg1dTZKc1JhVENWZjhZMFppWUtVNDNLaGxxMXdyVDJzMzZOcVBtV3pUaVdkMkNIeGlXRHhDczIzS2o4U3E4QUlRbGpxWGVlbnRTWC0xSl9XR25NN2JpaHcwR3BTXzFwNENDd3BOVQ?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Bail applications to resume in Durban North human trafficking case - The Citizen",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "25 Aug 2026, 14:00 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeU13Y3hWT0VRTDkyYUNjS3Nhc0EtLU4zVkFfTkhZTlFfTVc5OVlXeEplb2hiVWpKR1BPV0Q1eU1ZRlpYdUF2ZW1CVGVnczE4LTBRY21hT2VfaTJqMVJHbXA2VzVUUkw4WWRTSjZoMVJjRFBUdVFndEpMczV0UmFpX2lMYWVqemVPRkx0eHh3TFl1eEg1ZC1Jb0NiWlRqdi1ER3lsc2JhLWJ4Z2lOLVY5bE1VanZ3NDBYdXZ4NFZ5eWdTYXAwYTVDd2wwcGVlQUZNeGZOQVlrWnNSSmVqTVJz?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Here are Pretoria’s top three hijacking hotspots - The Citizen",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Security and crime",
+      "relevance": "Moderate",
+      "published": "25 Aug 2026, 10:01 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (43/100). Assessed as material incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "The Citizen",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVk50MjktaE8yeEttaHBIa21IMjNFVG9Va2o3LURCTGVocmNuZmFXSTVMWUR5LUpNU3BzcHE0QlpPRkk3TW5DdWFFT0dJSTdxQWViaFIyMjlaZG1RWHU0VmFrRHpvTlZwWm03R094YkpKd1NrQUQ2b2w3a1piRmUxczdmQ2hmZ0lxZVJaNEtJVEtSVElJUk9paU9vNDFQRnF1TUEyMWFQTXQxZGs?oc=5",
+      "business_impact_score": 43
+    },
     {
       "title": "Women in agriculture: Six key facts",
       "location": "National",
@@ -160,25 +259,81 @@
       "confidence": "Confirmed",
       "url": "https://www.statssa.gov.za/?p=19824",
       "business_impact_score": 42
+    },
+    {
+      "title": "Port delays, trade barriers weigh on SA vehicle exports - Freight News",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "25 Aug 2026, 14:43 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Freight News",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdndycFdDWVBEMWhJR29WbjlXZVpwbnJxUmxzaHRqcnVtN09iY080MFlKYlZwR2ZFZE5VUkxMekI4RDYwMXIzZEZERFRMX2kzZmVPdnRLRGtWdXdYT0pkdHl4aWpHQjFDdEJ3MnRtWTQ3QWZOUkM4X2p1R0stY29paVZJTVNrYjRXRXh1Y2E0bHFhSHlkblBV?oc=5",
+      "business_impact_score": 42
+    },
+    {
+      "title": "JSE expands investor access to global AI opportunities with new AMETF listing - Africa Business Communities",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "25 Aug 2026, 07:24 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Africa Business Communities",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQkFiOGJmMzJiTnUtMlRMQWRZQUtwcHVXSTQwbnAyWmI2d2swWGdJVk1PNC0tQ0p2UmJTUzN5SV9VdGE3NklidDdXeUU0WHdEOUJrUVlmYmFSUE0tbk5JR1Rmckk2dWFIQ1RLSENFTWxMSHUyY0k1ak84N3M1ZjFDOHEzYU1NbzNRaXVWUHBWQktzeEVLWVdfVHpzSUszSFRQS0RuRkFXbHF4SmFGT2xCQ1NYYnpNemRDeVhmLXU1OWxpQQ?oc=5",
+      "business_impact_score": 42
+    },
+    {
+      "title": "Mbalo Brief August 2026",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "25 Aug 2026, 06:49 UTC",
+      "event_date": "Tue, 25 Aug 2026 06:49:09 +0000",
+      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=19835",
+      "business_impact_score": 23
+    },
+    {
+      "title": "MEDIA ADVISORY",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Low",
+      "published": "25 Aug 2026, 13:47 UTC",
+      "event_date": "Tue, 25 Aug 2026 13:47:05 +0000",
+      "summary": "Low business impact (11/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: routine announcement reduction, local impact ceiling.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=19837",
+      "business_impact_score": 11
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-25",
+    "date": "2026-08-26",
     "afrikaans": {
-      "word": "Begin",
-      "english": "Begin / Start",
-      "pronunciation": "buh-KHIN",
-      "example": "Sal ons begin?",
-      "example_english": "Shall we begin?",
-      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
+      "word": "Saamstem",
+      "english": "Agree",
+      "pronunciation": "SAHM-stem",
+      "example": "Ek stem saam.",
+      "example_english": "I agree.",
+      "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely."
     },
     "isixhosa": {
-      "word": "Sala kakuhle",
-      "english": "Goodbye (to one person staying)",
-      "pronunciation": "SAH-lah kah-KOO-hleh",
-      "example": "Sala kakuhle.",
-      "example_english": "Goodbye.",
-      "use_note": "Traditionally said by the person leaving to one person who is staying."
+      "word": "Molweni",
+      "english": "Hello (several people)",
+      "pronunciation": "moh-LWEH-nee",
+      "example": "Molweni.",
+      "example_english": "Hello, everyone.",
+      "use_note": "The plural greeting, useful when entering a meeting or greeting a group."
     },
     "rotation": "daily",
     "source_type": "curated"
