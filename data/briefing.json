@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-27T18:40:28.407592+01:00",
-    "generated_display": "27 Aug 2026, 18:40",
+    "generated_at": "2026-08-28T19:46:28.194742+01:00",
+    "generated_display": "28 Aug 2026, 19:46",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 83,
-    "final_item_count": 80,
+    "normalised_item_count": 79,
+    "final_item_count": 76,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -39,11 +39,11 @@
       },
       {
         "name": "Civil unrest",
-        "score": 46
+        "score": 47
       },
       {
         "name": "Infrastructure",
-        "score": 31
+        "score": 30
       },
       {
         "name": "Transport",
@@ -57,7 +57,7 @@
   },
   "timeline": [
     {
-      "date": "27 Aug",
+      "date": "28 Aug",
       "score": 66,
       "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 42,
+      "score": 38,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 30,
+      "score": 31,
       "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -140,49 +140,20 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-27T18:40:28.407592+01:00",
+    "last_checked": "2026-08-28T19:46:28.194742+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [
-    {
-      "title": "South Africa anti immigrants protest: President Ramaphosa issue fresh warning to citizens ahead of 30 September anti-migration deadline - BBC",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "26 Aug 2026, 18:13 UTC",
-      "summary": "South Africa anti immigrants protest: President Ramaphosa issue fresh warning to citizens ahead of 30 September anti-migration deadline BBC",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLYVdFaUV0cG1wcXo0UWpscnh3RGFEbU5WWHktMUd1WUtCeklKY1J6eG1raEIzUGpZVmlXdmNFY2FSM3FqcWt5OFE0Mi1YMkVXTWs0RlREbTBzNlp30gFiQVVfeXFMT2FmY1l0OV9zeHcyM2tUQ0RzdHJVaWgtVnpkN3V4QU5haWRWQ0xCTEFlR3ZoNXU5M0YzamZXU2hocENEeEpNWjhMOVllN1o5cVZrN2czQVA5RHJYRFk5X1pQeWc?oc=5",
-      "business_impact_score": 48
-    }
-  ],
+  "incidents": [],
   "news": [
-    {
-      "title": "South Africa anti immigrants protest: President Ramaphosa issue fresh warning to citizens ahead of 30 September anti-migration deadline - BBC",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "26 Aug 2026, 18:13 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "BBC",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLYVdFaUV0cG1wcXo0UWpscnh3RGFEbU5WWHktMUd1WUtCeklKY1J6eG1raEIzUGpZVmlXdmNFY2FSM3FqcWt5OFE0Mi1YMkVXTWs0RlREbTBzNlp30gFiQVVfeXFMT2FmY1l0OV9zeHcyM2tUQ0RzdHJVaWgtVnpkN3V4QU5haWRWQ0xCTEFlR3ZoNXU5M0YzamZXU2hocENEeEpNWjhMOVllN1o5cVZrN2czQVA5RHJYRFk5X1pQeWc?oc=5",
-      "business_impact_score": 48
-    },
     {
       "title": "Cape Town motorists rack up 4m traffic offences in a year - IOL",
       "location": "Cape Town",
       "city_id": "cape-town",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "27 Aug 2026, 13:32 UTC",
+      "published": "27 Aug 2026, 13:00 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "IOL",
@@ -205,32 +176,60 @@
       "business_impact_score": 44
     },
     {
-      "title": "Durban port slowdown threatens SA trade recovery - sundayworld.co.za",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "26 Aug 2026, 12:43 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "sundayworld.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZTRvVU5EbXBPWnl0Mjh5ZEhNU29HbVFOYXprMDI4bkZYSVowN1BKNFdfZzVPNU5zVjE2d0p0eWl5Y21FVGRfdlR4bWRUbUJPS0ZIQmhPUU5icWt4RXRGR2pXTzNXYktUNzk5Tk1QLVZIWV9yekxTUHBFYzA4WDlCR05DTmpiMHc?oc=5",
-      "business_impact_score": 44
-    },
-    {
       "title": "Cape Town airport reopens runway after Kenya Airways tyre failure - IOL",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "27 Aug 2026, 04:47 UTC",
+      "published": "27 Aug 2026, 07:00 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
       "source": "IOL",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY0JlNFNjQlVUdll4T3ZQTTFmNEVpbTBTNmlmb2I4dUhIeF9MQk5GTTljSDhqcm8wX3NLa3BKM0phVGxLcWwwWDNwNGMzVlZLZ3JLaElBakVVRHZwNXJrV2Nad05JaXoyZE96SkdVbTU0NlFsY09MbTFWOU1welc4dnBLVVkzR0pqTWVtdDV5S2hQZmxHQXVyT2ZybkYxZzlRT2FrNQ?oc=5",
       "business_impact_score": 44
+    },
+    {
+      "title": "Watch: Hijacking caught on CCTV outside Durban primary school - IOL",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Security and crime",
+      "relevance": "Moderate",
+      "published": "28 Aug 2026, 04:54 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (43/100). Assessed as material incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTktjV1g0TERsU3ItaU9OV2U3QWlOWUdmR2dyNE9NZHJCZnlYdzBLczNzaWVKVTlVSUVvVE04TmlkZHdiMVEtSHFUQUZqRDUxOHJZaVRRUXRzdXVUaWE3azZ3LU5sQlNDcXU0dFctdjFLa1JhT25sRDk1T3FnNlUyTjBKbGZKTGQ4UzdYeHFZOS1MTk9wc3FzZTJHdEpmX3J3ZlVKNHQ2MHJKYjR0MURxOU03ZXg0V2l5NGlYekpB?oc=5",
+      "business_impact_score": 43
+    },
+    {
+      "title": "Unpacking EBA spending on social protection",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "27 Aug 2026, 10:14 UTC",
+      "event_date": "Thu, 27 Aug 2026 10:14:23 +0000",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=19850",
+      "business_impact_score": 42
+    },
+    {
+      "title": "ACSA says airports have jet fuel stocks despite refinery disruption - IOL",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "28 Aug 2026, 11:04 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOel9JTG5iWmFabHprbGVScGhMWXdBbExnQXpFSjRXM1lJOHpDX1ltLTU3SVRRdDFULUNrdEt3blQ4WWxNZWlNM0dRcVV0ZGQ0dEFNazNVZFhYWWVHVTJXYzRZcERfbDc1VHdXVmoyUjVNWW5nR1pEUERaY0x0VVFOaVFidjBYaVdCQy00WXlsV3hGTGZ5UTBBSnpYZFlYckZFVlpzVmpLbGhaUjVfMEtQdV9tSkpxdw?oc=5",
+      "business_impact_score": 42
     },
     {
       "title": "New crisis at Durban port prompts calls for urgent action - Moneyweb",
@@ -245,39 +244,25 @@
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2dySExaeFR6NzhXWVRQUEtxNmlGNmlBZkxJQ1lPREFrY1Q3aXNQcG5yY3JOX2xsQ1hrS3RRTEtidjJYeXpkUEp0R0x1RVNWa1BadGFvX0J4UlE3eEptSGFTTnVBclg3a1pGOFI2R2RuVll2ZFZJZkVnUE5pRmRKV1JEMWdXTWZuWTh0THd3T3JVeUFueFItRk5pa0pwem8?oc=5",
       "business_impact_score": 42
-    },
-    {
-      "title": "International Dog Day: Who are South Africa’s biggest dog lovers?",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "26 Aug 2026, 10:03 UTC",
-      "event_date": "Wed, 26 Aug 2026 10:03:10 +0000",
-      "summary": "Guarded business impact (24/100). Assessed as no clear immediate threat, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "Statistics South Africa",
-      "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=19839",
-      "business_impact_score": 24
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-27",
+    "date": "2026-08-28",
     "afrikaans": {
-      "word": "Voorstel",
-      "english": "Suggestion / Proposal",
-      "pronunciation": "FOOR-stel",
-      "example": "Wat stel jy voor?",
-      "example_english": "What do you suggest?",
-      "use_note": "Useful for inviting another person's recommendation during a discussion or negotiation."
+      "word": "Verslag",
+      "english": "Report",
+      "pronunciation": "fur-SLAKH",
+      "example": "Ek het die verslag nodig.",
+      "example_english": "I need the report.",
+      "use_note": "Common workplace vocabulary for written reporting and business information."
     },
     "isixhosa": {
-      "word": "Hayi",
-      "english": "No",
-      "pronunciation": "HAH-yee",
-      "example": "Hayi.",
-      "example_english": "No.",
-      "use_note": "A basic negative response; tone and context remain important in professional interaction."
+      "word": "Enkosi",
+      "english": "Thank you",
+      "pronunciation": "en-KOH-see",
+      "example": "Enkosi.",
+      "example_english": "Thank you.",
+      "use_note": "One of the most useful isiXhosa expressions for polite professional, hospitality and everyday interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
