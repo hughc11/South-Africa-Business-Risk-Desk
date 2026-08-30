@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-29T13:43:17.691478+01:00",
-    "generated_display": "29 Aug 2026, 13:43",
+    "generated_at": "2026-08-30T12:58:02.852309+01:00",
+    "generated_display": "30 Aug 2026, 12:58",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 69,
-    "final_item_count": 66,
+    "normalised_item_count": 68,
+    "final_item_count": 64,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -35,7 +35,7 @@
     "components": [
       {
         "name": "Security",
-        "score": 36
+        "score": 32
       },
       {
         "name": "Civil unrest",
@@ -43,11 +43,11 @@
       },
       {
         "name": "Infrastructure",
-        "score": 29
+        "score": 24
       },
       {
         "name": "Transport",
-        "score": 46
+        "score": 45
       },
       {
         "name": "Business environment",
@@ -57,7 +57,7 @@
   },
   "timeline": [
     {
-      "date": "29 Aug",
+      "date": "30 Aug",
       "score": 65,
       "explanation": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 38,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news, infrastructure."
     },
     {
       "id": "cape-town",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 34,
+      "score": 36,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "durban-ethekwini",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 36,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -140,13 +140,42 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-29T13:43:17.691478+01:00",
+    "last_checked": "2026-08-30T12:58:02.852309+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [],
+  "incidents": [
+    {
+      "title": "Western Cape Mobility Department advises motorists of road closure along N2 - EWN",
+      "location": "Cape Town",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "30 Aug 2026, 09:05 UTC",
+      "summary": "Western Cape Mobility Department advises motorists of road closure along N2 EWN",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOGNJMExpcFliREs1bzBadUFQZS0zaVhrdS1kdXNlV0M5dVVvaHBOeHdfU2VyRWs4enU4LWVkWkMxYm1NckU0cnNmTkFWdHlUYnJrbGY3NExvaXNrUFlkbnY2cDNqcWlxUzFNejdyaFFlNWdta0F3M3Y1ei0xLUppa2ZqRDJ0cVFWMVZ3blZhTHpPcGhSM0pjOUFxY21UckVpMEg5UF91cWxsM2F1?oc=5",
+      "business_impact_score": 32
+    }
+  ],
   "news": [
+    {
+      "title": "Bo-Kaap locals protest against accelerating gentrification in historic neighbourhood - EWN",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "28 Aug 2026, 13:59 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeU9seG04bFN4QzRBZHEtbmtva1lzQVFUakl2NlhQaE1NaVZTN1lIbjZhQXhJOTV5Tlg4eWU0aTJUYlFpYURVcUw1MkxCRzRkb2hDODVIeE9uVXZSUm92Z181aTNwRWE2ZkFtQllwdmNYMC1HOEFoSXFMcXNYcE9pVXRuM01lSlBnQ2hRUHc1ejBxWlRZcUFLZkxjRzdWVEJWY1dmNlFNanYzYWZXWFVEcjk0b1RWeVRs?oc=5",
+      "business_impact_score": 49
+    },
     {
       "title": "Springboks vs All Blacks Cape Town: traffic and transport guide - Cape Town ETC",
       "location": "Cape Town",
@@ -160,48 +189,6 @@
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ21UNElhcjdkLVFuNXNmRV95ZFJNQy0wV3ZIb0dQREFVeDJVa1VtdXUyeWdrdWVBTE1LLXZTdFo2NkJoa1RKeWZWaWZRckhGZGdJaFdQTkZ4ZEJMRDFiSnIyUUxqTGhpc0VqdFVXbUVPOGVneklfY2JLMnZBQVNjWEtTWTBQYmhDYWdDenZpNA?oc=5",
       "business_impact_score": 44
-    },
-    {
-      "title": "Cape Town motorists rack up 4m traffic offences in a year - IOL",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "27 Aug 2026, 13:00 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "IOL",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ0s4LVdoSVRQbkxwcXRvYWM5LWtqSTNUUlREVGNZNTR3cUtKQVl3dlRDTW10RHJ2bTFPUERYVEFTUlcyUFViQndOY0Z2YktKMkpZNEdTSW9wVVN4RnI5VGJtWldCMk5SeGdoMGNrTWFuVzYzemljNVFVb3E4M3JLZFEyWjBTc1Y0SWhtczhtT2QzczdOMlpjWjFLNmE1dzB4cmhjVQ?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "ACSA says airports have jet fuel stocks despite refinery disruption - IOL",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "28 Aug 2026, 10:09 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "IOL",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOel9JTG5iWmFabHprbGVScGhMWXdBbExnQXpFSjRXM1lJOHpDX1ltLTU3SVRRdDFULUNrdEt3blQ4WWxNZWlNM0dRcVV0ZGQ0dEFNazNVZFhYWWVHVTJXYzRZcERfbDc1VHdXVmoyUjVNWW5nR1pEUERaY0x0VVFOaVFidjBYaVdCQy00WXlsV3hGTGZ5UTBBSnpYZFlYckZFVlpzVmpLbGhaUjVfMEtQdV9tSkpxdw?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "MEDIA ADVISORY",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Guarded",
-      "published": "28 Aug 2026, 07:33 UTC",
-      "event_date": "Fri, 28 Aug 2026 07:33:42 +0000",
-      "summary": "Guarded business impact (30/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance. Calibration applied: routine announcement reduction.",
-      "source": "Statistics South Africa",
-      "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=19857",
-      "business_impact_score": 30
     },
     {
       "title": "Gender representation in the formal business sector",
@@ -219,22 +206,22 @@
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-29",
+    "date": "2026-08-30",
     "afrikaans": {
-      "word": "Aanbieding",
-      "english": "Presentation",
-      "pronunciation": "AHN-bee-ding",
-      "example": "Dankie vir die aanbieding.",
-      "example_english": "Thank you for the presentation.",
-      "use_note": "Useful around briefings, pitches and formal business presentations."
+      "word": "Adviseur",
+      "english": "Adviser",
+      "pronunciation": "at-fuh-SUR",
+      "example": "Sy is ons adviseur.",
+      "example_english": "She is our adviser.",
+      "use_note": "Useful when describing professional roles in consulting or business discussions."
     },
     "isixhosa": {
-      "word": "Igama",
-      "english": "Name",
-      "pronunciation": "ee-GAH-mah",
-      "example": "Lithini igama lakho?",
-      "example_english": "What is your name?",
-      "use_note": "Useful in introductions; the full phrase is more practical than using the noun on its own."
+      "word": "Nceda",
+      "english": "Please / Help",
+      "pronunciation": "n-CEH-dah",
+      "example": "Nceda.",
+      "example_english": "Please / Help.",
+      "use_note": "A useful polite or assistance-related expression; the precise meaning depends on the sentence around it."
     },
     "rotation": "daily",
     "source_type": "curated"
