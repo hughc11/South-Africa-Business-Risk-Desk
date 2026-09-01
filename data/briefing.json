@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-08-31T14:58:00.564942+01:00",
-    "generated_display": "31 Aug 2026, 14:58",
+    "generated_at": "2026-09-01T12:43:21.424976+01:00",
+    "generated_display": "01 Sep 2026, 12:43",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 70,
-    "final_item_count": 67,
+    "normalised_item_count": 61,
+    "final_item_count": 60,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 70,
+    "score": 66,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (70/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
@@ -43,11 +43,11 @@
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 24
       },
       {
         "name": "Transport",
-        "score": 51
+        "score": 48
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "31 Aug",
-      "score": 70,
-      "explanation": "High national business risk (70/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "01 Sep",
+      "score": 66,
+      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 38,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 13,
+      "level": "Low",
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,7 +79,7 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 34,
+      "score": 36,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 29,
+      "score": 27,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime."
+      "summary": "Current city risk is being driven by security and crime, politics and government."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 31,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "score": 27,
+      "level": "Low",
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "gqeberha",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 38,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,242 +140,102 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-08-31T14:58:00.564942+01:00",
+    "last_checked": "2026-09-01T12:43:21.424976+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Traffic is disrupted on the R71 road following a crash between a bus and a minibus taxi at Mamahule in Mankweng, outside Polokwane - Arrive Alive",
-      "location": "Polokwane",
-      "type": "Road closure",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "31 Aug 2026, 07:19 UTC",
-      "summary": "Traffic is disrupted on the R71 road following a crash between a bus and a minibus taxi at Mamahule in Mankweng, outside Polokwane Arrive Alive",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "Arrive Alive",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPbjRkMF8tVGg0MWpmQjBPSzE1dFNJbEZ1RHh2OHF4eDlJMm5oelhkMFdWTi01VGstTVRUQnprdzNWMHdRMERJODdFR2l6ZXlXWHl4TFZKSVFUNGI1T3AxTXFUMW9EWUpPYW5DQUpBbjdEX0RJeDRLX3E0OF9CLUFQNzFHRGVadHZfTFFOZnExU2l2ZHBrcFZ1bVpBa2ZtMVg2ZTJyYlV4VUpmNHVPalFxb0xlMjZ4ZGMwdVZUTm9XcjAxQWgzeWt6aHVpQXJtT21BU2FCU29VWF9XNVhoUG55WHFSZ1owSmVOWjIxazNXcGdvaVZuaHluTFB6Sjk1U0RPVDhOZFB5cHdFNGdmTHF1a3FVUWY?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Western Cape Mobility Department advises motorists of road closure along N2 - EWN",
-      "location": "Cape Town",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "30 Aug 2026, 08:36 UTC",
-      "summary": "Western Cape Mobility Department advises motorists of road closure along N2 EWN",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMVU0WGVGSnNMOUJUTDlmajJOaEtXR2pOTXVzUzQzT01KWHBSbXNfZklJY3R1OElhcVNDR281VkswdmVmc2dJNUJFNGQyRXlXcUNSYjVZaWpSTzdQRndCYzZDUnZIcWdhNmROZ0dnUnZkdnB5RG5zQ1pGSDU0Z2JuQkRNMTdBOEFIM0lCOWtncTBBWkI5Z3N6cDZPbVNPRVk?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "Passengers stranded overnight by Kenya airport strike - EWN",
+      "title": "Eye on Africa - Kenya airport staff strike delays thousands of passengers - France 24",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "31 Aug 2026, 08:01 UTC",
-      "summary": "Passengers stranded overnight by Kenya airport strike EWN",
+      "time_window": "31 Aug 2026, 20:20 UTC",
+      "summary": "Eye on Africa - Kenya airport staff strike delays thousands of passengers France 24",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOenhHdXpJRTNHNHJGdExJUFF3aVhrajRBYmdpTl9iU1lCZkpxVnA3eU1QOEw4bERDXzgzRVBzd0RQV25PV2stQklENlhYd3EwTGhJdVRKbEFvTXYyWkNFMXg1M2szTnRQMVhhNE1GWDhGWk1kdzhBRDZlVkdKTHdORnNfLXF3UVh6ZlFqTU5FVQ?oc=5",
-      "business_impact_score": 60
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZEpqWDRfWWE0VHN6Mk5GVnNnU0kza0dxQmtvV2MxQW43WFhkajhGT2p1WFFUQmY1UVR0TVVqTmkxanBsV3VMb2x6dWJNSl8wWEVYS2U4RmJKY0ZBQVFBS0piMHBnYmg5TzEySWJhaGF2bWlwb01lbTRvQkdsSGo3WXF2M1l5WUFaUDUxeFZB?oc=5",
+      "business_impact_score": 57
     },
     {
-      "title": "JKIA strike: Passengers stranded as strike disrupts flights at Kenya's main airport - BBC",
+      "title": "Kenya aviation workers call off strike that disrupted flights - BBC",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "31 Aug 2026, 10:54 UTC",
-      "summary": "JKIA strike: Passengers stranded as strike disrupts flights at Kenya's main airport BBC",
+      "time_window": "01 Sep 2026, 06:56 UTC",
+      "summary": "Kenya aviation workers call off strike that disrupted flights BBC",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KTjEwTmVpRE55QVJMUWYweEs1U1M5MmJQdzFwaGZzRDYycG16RXJGQTFqOVRxWkVXVVZrV0t3Q0NObUVBa1JTV1cyd1haVFlKUEdya3NBTW1SZw?oc=5",
-      "business_impact_score": 59
-    },
-    {
-      "title": "‘It’s time to fetch your people’: March and March to protest at SADC summit - IOL",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "30 Aug 2026, 07:00 UTC",
-      "summary": "‘It’s time to fetch your people’: March and March to protest at SADC summit IOL",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "IOL",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcVBXSm9WV2NQYjVkYWczSDcwYkZzRndYWEp2STNKTUJRS2JjYmRrR1llcmpmTkx4anU1dDV1OTA4UFVtYzRVd2puM0lXWmVzZGEzcE1BRE1zU0tiYzhteWRnWWJJRUxiRnc1VXhoSUgtNlNzbnoyNzczVVhRZTYzRjI0SHlnNGVKRU9RckdUU1lPUWdNblV0UVRYVXc1WXFTS0kwSzVKVzdZMnk2d1VvWm02STV1SzVmNWd3?oc=5",
-      "business_impact_score": 46
+      "business_impact_score": 48
     }
   ],
   "news": [
     {
-      "title": "Passengers stranded overnight by Kenya airport strike - EWN",
+      "title": "Eye on Africa - Kenya airport staff strike delays thousands of passengers - France 24",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
-      "relevance": "High",
-      "published": "31 Aug 2026, 08:01 UTC",
+      "relevance": "Moderate",
+      "published": "31 Aug 2026, 20:20 UTC",
       "event_date": "",
-      "summary": "High business impact (60/100). Assessed as material incident, with local or unspecified scope and substantial business disruption. Duration is extended; source assessment is established news source; traveller relevance is direct travel relevance.",
-      "source": "EWN",
+      "summary": "Moderate business impact (57/100). Assessed as material incident, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
+      "source": "France 24",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOenhHdXpJRTNHNHJGdExJUFF3aVhrajRBYmdpTl9iU1lCZkpxVnA3eU1QOEw4bERDXzgzRVBzd0RQV25PV2stQklENlhYd3EwTGhJdVRKbEFvTXYyWkNFMXg1M2szTnRQMVhhNE1GWDhGWk1kdzhBRDZlVkdKTHdORnNfLXF3UVh6ZlFqTU5FVQ?oc=5",
-      "business_impact_score": 60
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZEpqWDRfWWE0VHN6Mk5GVnNnU0kza0dxQmtvV2MxQW43WFhkajhGT2p1WFFUQmY1UVR0TVVqTmkxanBsV3VMb2x6dWJNSl8wWEVYS2U4RmJKY0ZBQVFBS0piMHBnYmg5TzEySWJhaGF2bWlwb01lbTRvQkdsSGo3WXF2M1l5WUFaUDUxeFZB?oc=5",
+      "business_impact_score": 57
     },
     {
-      "title": "JKIA strike: Passengers stranded as strike disrupts flights at Kenya's main airport - BBC",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "31 Aug 2026, 10:54 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (59/100). Assessed as material incident, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is direct travel relevance.",
-      "source": "BBC",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KTjEwTmVpRE55QVJMUWYweEs1U1M5MmJQdzFwaGZzRDYycG16RXJGQTFqOVRxWkVXVVZrV0t3Q0NObUVBa1JTV1cyd1haVFlKUEdya3NBTW1SZw?oc=5",
-      "business_impact_score": 59
-    },
-    {
-      "title": "Land Reform: Portion 0 of Farm 1826 King Williams’ Town RD, Eastern Cape: Comments invited",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "30 Aug 2026, 11:05 UTC",
-      "event_date": "Sun, 30 Aug 2026 11:05:59 +0000",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/land-reform-portion-0-farm-1826-king-williams%E2%80%99-town-rd-eastern-cape-comments",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Restitution of Land Rights Act: Claim for restitution of land rights: Portion 25 and Portion 37 of the Farm Tevrede 178 JT: Comments invited",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "30 Aug 2026, 11:02 UTC",
-      "event_date": "Sun, 30 Aug 2026 11:02:53 +0000",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/restitution-land-rights-act-claim-restitution-land-rights-portion-25-and-portion",
-      "business_impact_score": 46
-    },
-    {
-      "title": "International Trade Administration Commission: Notice of the conclusion of a sunset review investigation of the antidumping duties on clear float glass originating in or imported from the Arab Republic of Egypt: Comments invited",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "30 Aug 2026, 10:35 UTC",
-      "event_date": "Sun, 30 Aug 2026 10:35:38 +0000",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/international-trade-administration-commission-notice-conclusion-sunset-review",
-      "business_impact_score": 46
-    },
-    {
-      "title": "‘It’s time to fetch your people’: March and March to protest at SADC summit - IOL",
+      "title": "Kenya aviation workers call off strike that disrupted flights - BBC",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "30 Aug 2026, 07:00 UTC",
+      "published": "01 Sep 2026, 06:56 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "IOL",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "BBC",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcVBXSm9WV2NQYjVkYWczSDcwYkZzRndYWEp2STNKTUJRS2JjYmRrR1llcmpmTkx4anU1dDV1OTA4UFVtYzRVd2puM0lXWmVzZGEzcE1BRE1zU0tiYzhteWRnWWJJRUxiRnc1VXhoSUgtNlNzbnoyNzczVVhRZTYzRjI0SHlnNGVKRU9RckdUU1lPUWdNblV0UVRYVXc1WXFTS0kwSzVKVzdZMnk2d1VvWm02STV1SzVmNWd3?oc=5",
-      "business_impact_score": 46
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KTjEwTmVpRE55QVJMUWYweEs1U1M5MmJQdzFwaGZzRDYycG16RXJGQTFqOVRxWkVXVVZrV0t3Q0NObUVBa1JTV1cyd1haVFlKUEdya3NBTW1SZw?oc=5",
+      "business_impact_score": 48
     },
     {
-      "title": "Traffic is disrupted on the R71 road following a crash between a bus and a minibus taxi at Mamahule in Mankweng, outside Polokwane - Arrive Alive",
-      "location": "Polokwane",
-      "city_id": "polokwane",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "31 Aug 2026, 07:19 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (polokwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Arrive Alive",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPbjRkMF8tVGg0MWpmQjBPSzE1dFNJbEZ1RHh2OHF4eDlJMm5oelhkMFdWTi01VGstTVRUQnprdzNWMHdRMERJODdFR2l6ZXlXWHl4TFZKSVFUNGI1T3AxTXFUMW9EWUpPYW5DQUpBbjdEX0RJeDRLX3E0OF9CLUFQNzFHRGVadHZfTFFOZnExU2l2ZHBrcFZ1bVpBa2ZtMVg2ZTJyYlV4VUpmNHVPalFxb0xlMjZ4ZGMwdVZUTm9XcjAxQWgzeWt6aHVpQXJtT21BU2FCU29VWF9XNVhoUG55WHFSZ1owSmVOWjIxazNXcGdvaVZuaHluTFB6Sjk1U0RPVDhOZFB5cHdFNGdmTHF1a3FVUWY?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Revised Electricity Pricing Policy: Revised Electricity Pricing Policy for the South African Electricity Supply Industry: Comments invited",
+      "title": "From feeling safe to experiencing crime: South Africa’s 2025/26 picture",
       "location": "National",
       "city_id": null,
-      "category": "Infrastructure",
+      "category": "Security and crime",
       "relevance": "Guarded",
-      "published": "30 Aug 2026, 11:20 UTC",
-      "event_date": "Sun, 30 Aug 2026 11:20:26 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
+      "published": "01 Sep 2026, 09:01 UTC",
+      "event_date": "Tue, 01 Sep 2026 09:01:23 +0000",
+      "summary": "Guarded business impact (28/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "Statistics South Africa",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/revised-electricity-pricing-policy-revised-electricity-pricing-policy-south",
-      "business_impact_score": 27
-    },
-    {
-      "title": "National Environmental Management: Biodiversity Act: Publication of the Leopard Conservation Strategy and Action Plan: Comments invited",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "30 Aug 2026, 11:18 UTC",
-      "event_date": "Sun, 30 Aug 2026 11:18:16 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/national-environmental-management-biodiversity-act-publication-leopard",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Competition Act: The Association of Comms and Technology and the Various Mobile Network Operators: Case Number (2026Jul0051): Representations invited",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "30 Aug 2026, 10:53 UTC",
-      "event_date": "Sun, 30 Aug 2026 10:53:37 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/competition-act-association-comms-and-technology-and-various-mobile-network",
-      "business_impact_score": 27
+      "url": "https://www.statssa.gov.za/?p=19867",
+      "business_impact_score": 28
     }
   ],
   "daily_language_brief": {
-    "date": "2026-08-31",
+    "date": "2026-09-01",
     "afrikaans": {
-      "word": "Produktief",
-      "english": "Productive",
-      "pronunciation": "pro-duk-TEEF",
-      "example": "Dit was baie produktief.",
-      "example_english": "That was very productive.",
-      "use_note": "A positive, professional way to describe a useful meeting or discussion."
+      "word": "Dankie",
+      "english": "Thank you",
+      "pronunciation": "DAHN-kee",
+      "example": "Dankie vir jou tyd.",
+      "example_english": "Thank you for your time.",
+      "use_note": "A simple, widely useful expression of thanks after a meeting, introduction or assistance."
     },
     "isixhosa": {
-      "word": "Ninjani?",
-      "english": "How are you? (several people)",
-      "pronunciation": "neen-JAH-nee",
-      "example": "Molweni, ninjani?",
-      "example_english": "Hello, how are you all?",
-      "use_note": "The plural form, useful when greeting a small group or team."
+      "word": "Hamba kakuhle",
+      "english": "Goodbye (to one person leaving)",
+      "pronunciation": "HAHM-bah kah-KOO-hleh",
+      "example": "Hamba kakuhle.",
+      "example_english": "Go well / Goodbye.",
+      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
     },
     "rotation": "daily",
     "source_type": "curated"
