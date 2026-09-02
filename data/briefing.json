@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-01T12:43:21.424976+01:00",
-    "generated_display": "01 Sep 2026, 12:43",
+    "generated_at": "2026-09-02T12:24:07.067128+01:00",
+    "generated_display": "02 Sep 2026, 12:24",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 61,
-    "final_item_count": 60,
+    "normalised_item_count": 63,
+    "final_item_count": 62,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 66,
+    "score": 62,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (62/100). The main current drivers are Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 29
+        "score": 32
       },
       {
         "name": "Civil unrest",
-        "score": 48
+        "score": 0
       },
       {
         "name": "Infrastructure",
-        "score": 24
+        "score": 25
       },
       {
         "name": "Transport",
-        "score": 48
+        "score": 43
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "01 Sep",
-      "score": 66,
-      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "02 Sep",
+      "score": 62,
+      "explanation": "High national business risk (62/100). The main current drivers are Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -79,7 +79,7 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 36,
+      "score": 33,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
@@ -99,8 +99,8 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 27,
-      "level": "Low",
+      "score": 30,
+      "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 25,
+      "score": 26,
       "level": "Low",
       "summary": "Current city risk is being driven by unclassified news."
     },
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 36,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 26,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     }
   ],
   "travel_advice": {
@@ -140,69 +140,40 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-01T12:43:21.424976+01:00",
+    "last_checked": "2026-09-02T12:24:07.067128+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [
-    {
-      "title": "Eye on Africa - Kenya airport staff strike delays thousands of passengers - France 24",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "31 Aug 2026, 20:20 UTC",
-      "summary": "Eye on Africa - Kenya airport staff strike delays thousands of passengers France 24",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "France 24",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZEpqWDRfWWE0VHN6Mk5GVnNnU0kza0dxQmtvV2MxQW43WFhkajhGT2p1WFFUQmY1UVR0TVVqTmkxanBsV3VMb2x6dWJNSl8wWEVYS2U4RmJKY0ZBQVFBS0piMHBnYmg5TzEySWJhaGF2bWlwb01lbTRvQkdsSGo3WXF2M1l5WUFaUDUxeFZB?oc=5",
-      "business_impact_score": 57
-    },
-    {
-      "title": "Kenya aviation workers call off strike that disrupted flights - BBC",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "01 Sep 2026, 06:56 UTC",
-      "summary": "Kenya aviation workers call off strike that disrupted flights BBC",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KTjEwTmVpRE55QVJMUWYweEs1U1M5MmJQdzFwaGZzRDYycG16RXJGQTFqOVRxWkVXVVZrV0t3Q0NObUVBa1JTV1cyd1haVFlKUEdya3NBTW1SZw?oc=5",
-      "business_impact_score": 48
-    }
-  ],
+  "incidents": [],
   "news": [
     {
-      "title": "Eye on Africa - Kenya airport staff strike delays thousands of passengers - France 24",
+      "title": "National Environmental Management: Biodiversity Act: 2026–2027 CITES Export Quotas for Elephant, Rhino and Leopard Trophies",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "31 Aug 2026, 20:20 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (57/100). Assessed as material incident, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
-      "source": "France 24",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZEpqWDRfWWE0VHN6Mk5GVnNnU0kza0dxQmtvV2MxQW43WFhkajhGT2p1WFFUQmY1UVR0TVVqTmkxanBsV3VMb2x6dWJNSl8wWEVYS2U4RmJKY0ZBQVFBS0piMHBnYmg5TzEySWJhaGF2bWlwb01lbTRvQkdsSGo3WXF2M1l5WUFaUDUxeFZB?oc=5",
-      "business_impact_score": 57
+      "published": "01 Sep 2026, 10:49 UTC",
+      "event_date": "Tue, 01 Sep 2026 10:49:05 +0000",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/national-environmental-management-biodiversity-act-2026%E2%80%932027-cites-export-quotas",
+      "business_impact_score": 46
     },
     {
-      "title": "Kenya aviation workers call off strike that disrupted flights - BBC",
+      "title": "Port operational updates from around the world (26 Aug - 01 Sep 2026) - Kuehne+Nagel",
       "location": "National",
       "city_id": null,
-      "category": "Protests and civil unrest",
+      "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "01 Sep 2026, 06:56 UTC",
+      "published": "01 Sep 2026, 14:02 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "BBC",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Kuehne+Nagel",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KTjEwTmVpRE55QVJMUWYweEs1U1M5MmJQdzFwaGZzRDYycG16RXJGQTFqOVRxWkVXVVZrV0t3Q0NObUVBa1JTV1cyd1haVFlKUEdya3NBTW1SZw?oc=5",
-      "business_impact_score": 48
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQldMRll2UHExcHNNTXY5R1E3a2I1LXFNWTN5dDY1ZjNfZEFXUkNtUl94T0hNTkltODVaNFh3YkhIcS1qaFBEQmZuaVlRbHJRaXBfSmdSUWJ3TVJvRTVoZFJBSTJCMFN0T3d0OGNwMnBaNEI2TTh2R3R0SnZScS1xcEZhM1FCb1pQYmtj?oc=5",
+      "business_impact_score": 42
     },
     {
       "title": "From feeling safe to experiencing crime: South Africa’s 2025/26 picture",
@@ -217,25 +188,109 @@
       "confidence": "Confirmed",
       "url": "https://www.statssa.gov.za/?p=19867",
       "business_impact_score": 28
+    },
+    {
+      "title": "Social Assistance Act: Amendments to Social Assistance Regulations: Comments invited",
+      "location": "National",
+      "city_id": null,
+      "category": "Politics and government",
+      "relevance": "Guarded",
+      "published": "01 Sep 2026, 11:31 UTC",
+      "event_date": "Tue, 01 Sep 2026 11:31:34 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/social-assistance-act-amendments-social-assistance-regulations-comments-invited",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Labour Relations Act: Bargaining Council for the Civil Engineering Industry (BCCEI) : Extension of the period of the Exemptions Sector Collective Agreement",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "01 Sep 2026, 11:21 UTC",
+      "event_date": "Tue, 01 Sep 2026 11:21:03 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/labour-relations-act-bargaining-council-civil-engineering-industry-bccei-13",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Electronic Communications Act: Application for the amendment of the individual commercial sound broadcasting service and radio frequency spectrum licences by Primedia (Pty) Ltd trading as 94.5 KFM in terms of section",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "01 Sep 2026, 11:19 UTC",
+      "event_date": "Tue, 01 Sep 2026 11:19:23 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/electronic-communications-act-application-amendment-individual-commercial-29",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Independent Communications Authority of South Africa Act: Notice mandating service codes for provincial government services: Representations invited",
+      "location": "National",
+      "city_id": null,
+      "category": "Politics and government",
+      "relevance": "Guarded",
+      "published": "01 Sep 2026, 11:15 UTC",
+      "event_date": "Tue, 01 Sep 2026 11:15:50 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/independent-communications-authority-south-africa-act-notice-mandating-service",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Executive Members’ Ethics Act: Executive Members’ Ethics Amendment Bill: Comments invited",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "01 Sep 2026, 10:46 UTC",
+      "event_date": "Tue, 01 Sep 2026 10:46:37 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/executive-members%E2%80%99-ethics-act-executive-members%E2%80%99-ethics-amendment-bill-comments",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Audit Profession Act: Extension: Proposed IRBA Competency Framework: Comments invited",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "01 Sep 2026, 10:41 UTC",
+      "event_date": "Tue, 01 Sep 2026 10:41:57 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/audit-profession-act-extension-proposed-irba-competency-framework-comments",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "afrikaans": {
-      "word": "Dankie",
-      "english": "Thank you",
-      "pronunciation": "DAHN-kee",
-      "example": "Dankie vir jou tyd.",
-      "example_english": "Thank you for your time.",
-      "use_note": "A simple, widely useful expression of thanks after a meeting, introduction or assistance."
+      "word": "Baie dankie",
+      "english": "Thank you very much",
+      "pronunciation": "BY-uh DAHN-kee",
+      "example": "Baie dankie vir die vergadering.",
+      "example_english": "Thank you very much for the meeting.",
+      "use_note": "A warmer form of thanks that remains appropriate in professional and hospitality settings."
     },
     "isixhosa": {
-      "word": "Hamba kakuhle",
-      "english": "Goodbye (to one person leaving)",
-      "pronunciation": "HAHM-bah kah-KOO-hleh",
-      "example": "Hamba kakuhle.",
-      "example_english": "Go well / Goodbye.",
-      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
+      "word": "Wamkelekile",
+      "english": "Welcome",
+      "pronunciation": "wahm-keh-LEH-kee-leh",
+      "example": "Wamkelekile.",
+      "example_english": "Welcome.",
+      "use_note": "Useful in hospitality and welcoming contexts; the exact form can vary with who is being addressed."
     },
     "rotation": "daily",
     "source_type": "curated"
