@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-03T12:20:02.692998+01:00",
-    "generated_display": "03 Sep 2026, 12:20",
+    "generated_at": "2026-09-04T12:23:32.808575+01:00",
+    "generated_display": "04 Sep 2026, 12:23",
     "timezone": "Europe/London",
-    "raw_item_count": 609,
-    "normalised_item_count": 66,
-    "final_item_count": 63,
+    "raw_item_count": 580,
+    "normalised_item_count": 91,
+    "final_item_count": 88,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 583
+        "item_count": 554
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 66,
+    "score": 67,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Transport",
-        "score": 44
+        "score": 45
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "03 Sep",
-      "score": 66,
-      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "04 Sep",
+      "score": 67,
+      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 36,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 21,
+      "level": "Low",
+      "summary": "Current city risk is being driven by infrastructure, unclassified news."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 36,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 26,
+      "level": "Low",
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 28,
+      "score": 26,
       "level": "Low",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 35,
+      "score": 41,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 27,
+      "score": 26,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, infrastructure."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "east-london",
@@ -140,25 +140,67 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-03T12:20:02.692998+01:00",
+    "last_checked": "2026-09-04T12:23:32.808575+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Tensions rise in Durban CBD as anti-illegal immigration protests continue - Sunday Tribune",
+      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
       "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "03 Sep 2026, 10:04 UTC",
+      "summary": "UPDATE: Traffic backed-up from Richmond Road The Citizen",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Durban road closures: Motorists warned ahead of Iqwembu Cycle Challenge this weekend - Time Out Worldwide",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "03 Sep 2026, 08:07 UTC",
+      "summary": "Durban road closures: Motorists warned ahead of Iqwembu Cycle Challenge this weekend Time Out Worldwide",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "Time Out Worldwide",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNX3g5Mm5XSVk0bXVpYlJxXy1iaXl3bHZ6QjRUWXJzSU13SGhJaXdCejgxbnEyRS01eldpQUNkNFBvWEM1OXZhSXJINkZQaDBMZ0ZtTnloblJMY2VCa09oVTFxa3NENUFmZTFwYm8wTmE5Nml6aU5ZY0htTGlaOVpqcUpOV2lFakZkdE9UQWQ4VHA3dGZmZWNYSXh5WV9ReDlTcWNfRmVGa2Z0R2lhS0pkem5LSER3TjExdS0za0d1RHVkQm9G?oc=5",
+      "business_impact_score": 32
+    },
+    {
+      "title": "Violence erupts at anti-migrant protest in Durban - novanews.co.za",
+      "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "02 Sep 2026, 13:44 UTC",
-      "summary": "Tensions rise in Durban CBD as anti-illegal immigration protests continue Sunday Tribune",
+      "time_window": "04 Sep 2026, 03:05 UTC",
+      "summary": "Violence erupts at anti-migrant protest in Durban novanews.co.za",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Sunday Tribune",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTVFlVWk0TC12M3Z1YkJudE5rV0lLM2RqQU0xclU2QXZmRlZTSklTMkpCY3A1cmlpUjhOZzNSbEVzMnllQUFoZUJnaUU3UC1wSXczUjlHYXZROVdNMGg3M0ZxeGRNRDlOaGhYbWRkcnB6eXFRZ1ZzOGppQXlTMlNtVVBQSTZzRkQ3OWxoM2hFMTU2Mi1yNTlxVWV0Sm9xVGNJQkoyRTNMUENKdTg4X2NDUTVPMVc5Q0tnVlBzT0hlUzRSOE4tNDhpYnVMSGZETFhPV3lHbTBIeTVSazBKTkE?oc=5",
-      "business_impact_score": 53
+      "source": "novanews.co.za",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OblFRT2otUnpFNkFNZ2dJX0NlS0V0V0ZIaThZQWxEa3IzMlpjZUROeWN3YjJMMnpLSGxHQzlzTE8yY1RXNUJOVnF1WDNBZGc3Y3VjaHZsSUdLd0dZelZyZmM3R25NaHA4WE9uNHBYbGNfQk9lYXZYM3VhUlQ5dw?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Violence erupts at S.Africa anti-migrant protest - RFI",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "03 Sep 2026, 15:40 UTC",
+      "summary": "Violence erupts at S.Africa anti-migrant protest RFI",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "RFI",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdU93TFJhSVNHSEhFNVdZZWhWck8wcUxOYkhNcGZLTDNjZ3E4bXcyMmZsdGFOY2JtQUh5Ql9Db1RSUmh0Q1lKN0QyQzljUHhFRHQybldZS0xkTXRmOE9GYU9WZU5EQk92SlR1TE1ZTVZRZ2hRdmxRcDF4N3dLVnhIcWQ0TV81OEFXLVU2TWhhNXJoNmNKZWo4TDVyS0hUY2M?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "Protest action in South Africa is so bad that one company plans for 12 of its buses to be burnt every year - Daily Investor",
@@ -166,7 +208,7 @@
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "03 Sep 2026, 10:04 UTC",
+      "time_window": "03 Sep 2026, 11:09 UTC",
       "summary": "Protest action in South Africa is so bad that one company plans for 12 of its buses to be burnt every year Daily Investor",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
@@ -175,18 +217,32 @@
       "business_impact_score": 46
     },
     {
-      "title": "One bird strike away from disaster — Pilots say South Africa’s world-record flyby was dangerous - MyBroadband",
+      "title": "Pilot says world-record stadium stunt was one bird strike away from disaster - MyBroadband",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
       "time_window": "03 Sep 2026, 07:24 UTC",
-      "summary": "One bird strike away from disaster — Pilots say South Africa’s world-record flyby was dangerous MyBroadband",
+      "summary": "Pilot says world-record stadium stunt was one bird strike away from disaster MyBroadband",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
       "source": "MyBroadband",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbWh6RkM0cl9YQ2E1Tm1IQkFFeGtCc0xtZlFYSkduSnZ1MEdaZ3JGQm0wS0h1Qk1lZV9iRUZJLW5xMXhBVGVKUzhpU3BZVUlCOWp0dUhaSElGcVd5Q2hILUNNUVNTQ3ExVVNBaUNycTJUVGtvM293N29sSjgyVUxva0hJQzhwOXRtdzMxa3JxSkp2dlZVbmMzY3RPM1NqV1BJcEJuQzRGc3FacFJFSmV5dDBEYndySEU4MHg0a2xXbXdmQ2xpQzRlZVBaUHI1SzExWUlodHM4UXJELXo5?oc=5",
       "business_impact_score": 46
+    },
+    {
+      "title": "UPDATE | Man arrested after March and March clashes with Congolese refugees in Durban - news24.com",
+      "location": "Durban / eThekwini",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "03 Sep 2026, 14:46 UTC",
+      "summary": "UPDATE | Man arrested after March and March clashes with Congolese refugees in Durban news24.com",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "news24.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPblBBY0ctMlQzeUJYczdEdnlBNThtWFFsX1lZVm9MVG91VDl5VE1ma3MtcEJjLUpEc2VsTU5qckZkUjlNbTFfSXcwdzJydHA3dUFTZVdTa2E2eHpmM1ZhbXI3WDRsR0hZVXhWZVJ4UkxXUklIMW96dWFvZnZjLVMwMnJGR3hPNG9fNWNRb0RnSVhfcld0eVhqX3NQQWRqYUo0cWFEX1BzZ0lhbm5yZUhVMkNERnRZMmo5SWdlTlNtaWUxYzdYWVNtNDc0alZmeGtzNUpnWU84Rkw3QQ?oc=5",
+      "business_impact_score": 44
     }
   ],
   "news": [
@@ -205,17 +261,45 @@
       "business_impact_score": 53
     },
     {
-      "title": "Mpumalanga govt condemns the killing of a traffic officer on the N4 - SABC News",
-      "location": "Mbombela",
-      "city_id": "mbombela",
+      "title": "Marine Traffic Act: Marine Traffic Amendment Regulations, 2026",
+      "location": "National",
+      "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "02 Sep 2026, 03:58 UTC",
+      "published": "04 Sep 2026, 10:49 UTC",
+      "event_date": "Fri, 04 Sep 2026 10:49:20 +0000",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/marine-traffic-act-marine-traffic-amendment-regulations-2026-04-sep-2026",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Violence erupts at anti-migrant protest in Durban - novanews.co.za",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "04 Sep 2026, 03:05 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (mbombela) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "SABC News",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "novanews.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVc1X3VhNElnV1NhZmw0bmIzR2dnTmctbmM4S25nT3AxMkRsVzl1aHFIamJ5clRGb2FkTmtYZGRudWZUXzBmSGZkOWxycnVrM3U5d1JWLUtOeTlfY1BnbnVkOVE2VTR4MGVWVU90Z0t6VGlYQzBGYkhrWTBUaDBrTldTYWNQdFhsUzUzVkFueHdMUDRONURWRktKWGNRUk1ZOXFpdg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OblFRT2otUnpFNkFNZ2dJX0NlS0V0V0ZIaThZQWxEa3IzMlpjZUROeWN3YjJMMnpLSGxHQzlzTE8yY1RXNUJOVnF1WDNBZGc3Y3VjaHZsSUdLd0dZelZyZmM3R25NaHA4WE9uNHBYbGNfQk9lYXZYM3VhUlQ5dw?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Violence erupts at S.Africa anti-migrant protest - RFI",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "03 Sep 2026, 15:40 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "RFI",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdU93TFJhSVNHSEhFNVdZZWhWck8wcUxOYkhNcGZLTDNjZ3E4bXcyMmZsdGFOY2JtQUh5Ql9Db1RSUmh0Q1lKN0QyQzljUHhFRHQybldZS0xkTXRmOE9GYU9WZU5EQk92SlR1TE1ZTVZRZ2hRdmxRcDF4N3dLVnhIcWQ0TV81OEFXLVU2TWhhNXJoNmNKZWo4TDVyS0hUY2M?oc=5",
       "business_impact_score": 46
     },
     {
@@ -224,7 +308,7 @@
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "03 Sep 2026, 10:04 UTC",
+      "published": "03 Sep 2026, 11:09 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "Daily Investor",
@@ -233,7 +317,7 @@
       "business_impact_score": 46
     },
     {
-      "title": "One bird strike away from disaster — Pilots say South Africa’s world-record flyby was dangerous - MyBroadband",
+      "title": "Pilot says world-record stadium stunt was one bird strike away from disaster - MyBroadband",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
@@ -247,107 +331,79 @@
       "business_impact_score": 46
     },
     {
-      "title": "Petroleum Products Act: Maximum Retail Price for Liquefied Petroleum Gas",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "02 Sep 2026, 11:51 UTC",
-      "event_date": "Wed, 02 Sep 2026 11:51:13 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/petroleum-products-act-maximum-retail-price-liquefied-petroleum-gas-01-sep-2026-0",
-      "business_impact_score": 27
+      "title": "UPDATE | Man arrested after March and March clashes with Congolese refugees in Durban - news24.com",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "03 Sep 2026, 14:46 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is indirect traveller relevance.",
+      "source": "news24.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPblBBY0ctMlQzeUJYczdEdnlBNThtWFFsX1lZVm9MVG91VDl5VE1ma3MtcEJjLUpEc2VsTU5qckZkUjlNbTFfSXcwdzJydHA3dUFTZVdTa2E2eHpmM1ZhbXI3WDRsR0hZVXhWZVJ4UkxXUklIMW96dWFvZnZjLVMwMnJGR3hPNG9fNWNRb0RnSVhfcld0eVhqX3NQQWRqYUo0cWFEX1BzZ0lhbm5yZUhVMkNERnRZMmo5SWdlTlNtaWUxYzdYWVNtNDc0alZmeGtzNUpnWU84Rkw3QQ?oc=5",
+      "business_impact_score": 44
     },
     {
-      "title": "Petroleum Products Act: Regulations in respect of the Single Maximum National Retail Price for Illuminating Paraffin",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
-      "relevance": "Guarded",
-      "published": "02 Sep 2026, 11:47 UTC",
-      "event_date": "Wed, 02 Sep 2026 11:47:59 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/petroleum-products-act-regulations-respect-single-maximum-national-retail-20",
-      "business_impact_score": 27
+      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "03 Sep 2026, 10:04 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
+      "business_impact_score": 44
     },
     {
-      "title": "Petroleum Products Act: Amendment of the Regulations in respect of Petroleum Products",
+      "title": "Gender differences in care work, South Africa",
       "location": "National",
       "city_id": null,
-      "category": "Politics and government",
-      "relevance": "Guarded",
-      "published": "02 Sep 2026, 11:41 UTC",
-      "event_date": "Wed, 02 Sep 2026 11:41:07 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/petroleum-products-act-amendment-regulations-respect-petroleum-products-01-sep",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Social Assistance Act: Amendments to Social Assistance Regulations: Comments invited",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
-      "relevance": "Guarded",
-      "published": "01 Sep 2026, 11:31 UTC",
-      "event_date": "Tue, 01 Sep 2026 11:31:34 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/social-assistance-act-amendments-social-assistance-regulations-comments-invited",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Labour Relations Act: Bargaining Council for the Civil Engineering Industry (BCCEI) : Extension of the period of the Exemptions Sector Collective Agreement",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "01 Sep 2026, 11:21 UTC",
-      "event_date": "Tue, 01 Sep 2026 11:21:03 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/labour-relations-act-bargaining-council-civil-engineering-industry-bccei-13",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Economic wrap-up for August 2026",
-      "location": "National",
-      "city_id": null,
-      "category": "Economy and business",
-      "relevance": "Guarded",
-      "published": "02 Sep 2026, 11:32 UTC",
-      "event_date": "Wed, 02 Sep 2026 11:32:39 +0000",
-      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "03 Sep 2026, 11:53 UTC",
+      "event_date": "Thu, 03 Sep 2026 11:53:36 +0000",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "Statistics South Africa",
       "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=19874",
-      "business_impact_score": 23
+      "url": "https://www.statssa.gov.za/?p=19882",
+      "business_impact_score": 42
+    },
+    {
+      "title": "Electronic Communications Act: Applications for the transfer of ownership of the Individual Electronic Communications Service and Individual Electronic Communications Network Service Licences from Webdev CC t/a Cybertek to Optipulse",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "04 Sep 2026, 09:04 UTC",
+      "event_date": "Fri, 04 Sep 2026 09:04:14 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/electronic-communications-act-applications-transfer-ownership-individual-16",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "afrikaans": {
-      "word": "Asseblief",
-      "english": "Please",
-      "pronunciation": "AH-suh-bleef",
-      "example": "Koffie, asseblief.",
-      "example_english": "Coffee, please.",
-      "use_note": "Useful for polite requests; courtesy is important when dealing with colleagues, hosts and service staff."
+      "word": "Goeiedag",
+      "english": "Good day / Hello",
+      "pronunciation": "KHOO-ee-dakh",
+      "example": "Goeiedag. Dis goed om jou te ontmoet.",
+      "example_english": "Good day. It is good to meet you.",
+      "use_note": "A useful professional greeting, particularly when meeting someone for the first time."
     },
     "isixhosa": {
-      "word": "Uxolo",
-      "english": "Excuse me / Sorry",
-      "pronunciation": "oo-KHOH-loh",
-      "example": "Uxolo.",
-      "example_english": "Excuse me / Sorry.",
-      "use_note": "Useful for politely getting attention or apologising in everyday interaction."
+      "word": "Molo",
+      "english": "Hello (one person)",
+      "pronunciation": "MOH-loh",
+      "example": "Molo.",
+      "example_english": "Hello.",
+      "use_note": "Use when greeting one person; a simple local greeting can be a respectful way to begin an interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
