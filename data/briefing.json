@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-07T13:40:18.989488+01:00",
-    "generated_display": "07 Sep 2026, 13:40",
+    "generated_at": "2026-09-08T12:24:14.542187+01:00",
+    "generated_display": "08 Sep 2026, 12:24",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 88,
-    "final_item_count": 84,
+    "normalised_item_count": 84,
+    "final_item_count": 82,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 68,
+    "score": 66,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 28
+        "score": 29
       },
       {
         "name": "Civil unrest",
-        "score": 48
+        "score": 45
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 24
       },
       {
         "name": "Transport",
-        "score": 45
+        "score": 47
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "07 Sep",
-      "score": 68,
-      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "08 Sep",
+      "score": 66,
+      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "score": 34,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 25,
+      "score": 26,
       "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 47,
+      "score": 46,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
     {
       "id": "gqeberha",
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 26,
+      "score": 27,
       "level": "Low",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 37,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-07T13:40:18.989488+01:00",
+    "last_checked": "2026-09-08T12:24:14.542187+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -161,35 +161,35 @@
       "business_impact_score": 24
     },
     {
-      "title": "Pages of protest: the books that fired up South Africa’s youth consciousness - Sunday Tribune",
+      "title": "Pages of protest: the books that fired up South Africa’s youth consciousness - themercury.co.za",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "07 Sep 2026, 05:52 UTC",
-      "summary": "Pages of protest: the books that fired up South Africa’s youth consciousness Sunday Tribune",
+      "time_window": "07 Sep 2026, 07:49 UTC",
+      "summary": "Pages of protest: the books that fired up South Africa’s youth consciousness themercury.co.za",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Sunday Tribune",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNlllQmc1cTlGNWJOR0U0VVVpT3hSdlF3WXFaM3FqcnliR0xBT3ExaWswclNCZjduWVBDSzByNDJXUGFlUV9CN0RkVkFISmRYOC0xc1ZWaXNXbDNqZjZTcllEQ1lWNm15bmRhbHJ3RGFzWmJicEEtVTZJdHBmc05zOHZxblA2eWxqaWQwRFNSMWsydnNhV01vSGQ4RjFta21QMEFnSV9ORlBJdFBiQWp0bkpkZ1Y1NEFqU2Vra1ZwYUVUM3lQZUZyTlhiN2EtOU0?oc=5",
+      "source": "themercury.co.za",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQTJzZ1lHTmM4TF80WlpFY2V0bXRXN1VDYzJrMjdWVS1IU3pZaHM4dHBVVkl2SDktbEpfWXZ2LUM3MzYzRzFWdFVPclRGX3ZxT2YzTldfV0l0cUZ2MUkxazFBUlhZRUtmYUxnVGYyWGZCNmlyZUFDbGxaR0NDaEVkbzlYSGthMjNSYVoxc21RNFVUVjZSR1h1bkh6MWlkTzZKZm8zTHp0RXc1QUZZZ2VaNVR1OVowZFQtWjV5TkI3WE80R2tQRF9fRVhlWQ?oc=5",
       "business_impact_score": 46
-    },
-    {
-      "title": "Shockproof South Africa before oil strikes again - sundayworld.co.za",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "06 Sep 2026, 03:50 UTC",
-      "summary": "Shockproof South Africa before oil strikes again sundayworld.co.za",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "sundayworld.co.za",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdG1NMURCa292UmxOYzZRSGxiZDcxVzN6NVd1Q2htWWhWRE4tRkVxQS12dlFkOEdibDlZOTFMaWZOVVRobVl4RTIycW55eGEycndJLURfTDBnV0RvRTk4UGMySWsySjYzSVlqWmdmbk0tSkE4d3MyOTRIV2lhcXN1cFRsY2hHVjVHaWhjRg?oc=5",
-      "business_impact_score": 41
     }
   ],
   "news": [
+    {
+      "title": "Four business robberies reported in Durban CBD over several days - IOL",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "07 Sep 2026, 15:58 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (51/100). Assessed as no clear immediate threat, with city scope and substantial business disruption. Duration is multi-day; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRHVMZVAzdUgtV056d2dTcXBMdW84ckhmT28tSmVoa05nTjRUN2NFa29qczFPYlRmSHE2OXZyeE9Kd2dfM3o0YUpTYll5SGpqU3V5QlhZZWZsYVJuZlNnN2ZYV2hNR1N4Y1BhaElwS2NfTENPQWxRWmNYOTFIQkVBbzhIZUFpUE9MWjczUWJBOHdjMGFYMG1ONlUyWHd6aU9iZjg1SDhoVmFhVEdHT1hjVzdYUkpDcFI3eEljS2dYX3E5SkxU?oc=5",
+      "business_impact_score": 51
+    },
     {
       "title": "Go!Durban to finally hit the road in December after years of delay - SABC News",
       "location": "Durban / eThekwini",
@@ -205,32 +205,46 @@
       "business_impact_score": 46
     },
     {
-      "title": "Pages of protest: the books that fired up South Africa’s youth consciousness - Sunday Tribune",
+      "title": "Pages of protest: the books that fired up South Africa’s youth consciousness - themercury.co.za",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "07 Sep 2026, 05:52 UTC",
+      "published": "07 Sep 2026, 07:49 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Sunday Tribune",
+      "source": "themercury.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNlllQmc1cTlGNWJOR0U0VVVpT3hSdlF3WXFaM3FqcnliR0xBT3ExaWswclNCZjduWVBDSzByNDJXUGFlUV9CN0RkVkFISmRYOC0xc1ZWaXNXbDNqZjZTcllEQ1lWNm15bmRhbHJ3RGFzWmJicEEtVTZJdHBmc05zOHZxblA2eWxqaWQwRFNSMWsydnNhV01vSGQ4RjFta21QMEFnSV9ORlBJdFBiQWp0bkpkZ1Y1NEFqU2Vra1ZwYUVUM3lQZUZyTlhiN2EtOU0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQTJzZ1lHTmM4TF80WlpFY2V0bXRXN1VDYzJrMjdWVS1IU3pZaHM4dHBVVkl2SDktbEpfWXZ2LUM3MzYzRzFWdFVPclRGX3ZxT2YzTldfV0l0cUZ2MUkxazFBUlhZRUtmYUxnVGYyWGZCNmlyZUFDbGxaR0NDaEVkbzlYSGthMjNSYVoxc21RNFVUVjZSR1h1bkh6MWlkTzZKZm8zTHp0RXc1QUZZZ2VaNVR1OVowZFQtWjV5TkI3WE80R2tQRF9fRVhlWQ?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "KZN Transport MEC to update on bus rapid system - SABC News",
+      "title": "R9 billion project finally launching in South Africa next month after 15 years of delays - businesstech.co.za",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "06 Sep 2026, 10:07 UTC",
+      "published": "07 Sep 2026, 14:00 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "SABC News",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "businesstech.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcE5ycHE0QUUyT0pLOFpqbWJ3SmhSUVhDeVRla3IzcFVZTjRkN1hkSzJfUGlfMTdEVGRpWUtCWWRxY09fcGNIWGpyaWs1VnJnYUJKTW1mR25UZnVkTHdoOFRQZWVnVk9Ma2RtMmxTbkxENm5zWG4wZDB5WEVRZy0tSjdxcWNkOTdPekE?oc=5",
-      "business_impact_score": 46
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTlNEOUh0OTNVVzlGQ3RGaC1uVW4xOWQxQW5xaGpzYnZkMWhXNWE2ZkRKVTdqMm1RZUFwZmh6TkJGTXdMdURNZkpLaF9pSy16TlBUZklUeWtKNUdVZjBmRDYxWXM2Q2NGNmlYRFQwZUlWUFdkMFh0c3RIMjBiRl9IZVVSYklVVFZ4Y29ibmtGci1OUVVxekhJUEtmdEx6Q0VfRDNMNjhaZ0VSVnk4cGRqcEZYSjl3VlE5em0wLVBwUDBpbXB1RmRaa005anhlQy1FOHozZG13?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "GO!Durban to launch in December after years of delays - ECR",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "07 Sep 2026, 09:14 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "ECR",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOXFUUS1LTmV2ak84eXJHVVFpblh0ekxNSF9TLWlTc3RtN2tWUnhJVElRc3dsYUxLQmR4RUtEeUQ0cjFRSmlSSm1xNkJrUmw4VTBJc1BsWW5fM2llODU5TU9JSGVXQzBIZmdhZ21ubDE4Z1hPdVBRVThITGhMWmFTajA5YnpoRWxNYlZBVnln?oc=5",
+      "business_impact_score": 44
     },
     {
       "title": "eThekwini councillors slam delays and costs of GO! Durban project - dailynews.co.za",
@@ -244,6 +258,34 @@
       "source": "dailynews.co.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN01UUGF3MW9mSnZnb01JNXpQOHdYejRJS3J2dWlXeENQTmR0SUdSYWVGeUFZb2YzVGc0U29idW8zS2FvaDROWThoVkV2QktqX3MyWDhKeGtfb1J2RG5xbmRpVFRRNEVFd3FnalRLRjhyQTFnVFdwdmhTVXBpdWJTZFFWVEZ0bElOMXBKRTlHVm12TjhMdTZhdUkxTU9adXA2dEdCendoQTktaEtZeDNZdEJvYmFLZEVKUkxUQkcxUmlIVHBEck91REhoQkc?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "R9 billion transport project finally set to launch in South Africa after 15 years - African Insider",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "08 Sep 2026, 07:02 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "African Insider",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUVuWFUwMkxTWm5JbGdTOXFpR3pqLUlueEZwblk4R3lNUkg4UldrTmtqZzctRmo5NlZ0MExHaF9FQ21saWtyN1poODFkSmRsN20tSk1vYXdfLS1vRHJtcW1ZRHR6Vm9wQU84ZVdTYWJmaDJfT29iSGFaMEtoN01RVnlldENRQy1FRmZuS25wWUtLTE5IZVdDZkZscGpPWXR6S2xxcW5tRC01dmVuaTAxblJ5dWpjcEMxQ0FpTFZVQQ?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Good news for people with traffic fines in Cape Town - topauto.co.za",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "07 Sep 2026, 09:00 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "topauto.co.za",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2dFLXBZdjVEaTQtYVZmZENhc3RPTkxidWt4LS1iY19oQmpzV18wUFZkaTBOU2kybVpUSENuX3pUM1kyaWp5NFBBUmZVTU5NMl85UEozak50YkJTUVlLYWlTSEUwMi1zWFVBekc3SWtDZlJ5bHNMMFlLRkZPSXlSMXVoY0JxTXVYRDNIMjJRZTdZeEU?oc=5",
       "business_impact_score": 44
     },
     {
@@ -261,37 +303,37 @@
       "business_impact_score": 42
     },
     {
-      "title": "Shockproof South Africa before oil strikes again - sundayworld.co.za",
+      "title": "Customs and Excise Act: Amendment to Part 1 of Schedule No. 2 (No. 2/1/94) (English/ Afrikaans)",
       "location": "National",
       "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "06 Sep 2026, 03:50 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "sundayworld.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdG1NMURCa292UmxOYzZRSGxiZDcxVzN6NVd1Q2htWWhWRE4tRkVxQS12dlFkOEdibDlZOTFMaWZOVVRobVl4RTIycW55eGEycndJLURfTDBnV0RvRTk4UGMySWsySjYzSVlqWmdmbk0tSkE4d3MyOTRIV2lhcXN1cFRsY2hHVjVHaWhjRg?oc=5",
-      "business_impact_score": 41
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "08 Sep 2026, 10:00 UTC",
+      "event_date": "Tue, 08 Sep 2026 10:00:15 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/customs-and-excise-act-amendment-part-1-schedule-no-2-no-2194-english-afrikaans",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "afrikaans": {
-      "word": "Besigheid",
-      "english": "Business",
-      "pronunciation": "buh-SAY-khite",
-      "example": "Ons praat oor besigheid.",
-      "example_english": "We are talking about business.",
-      "use_note": "A common general term for business and commercial discussion."
+      "word": "Ooreenkoms",
+      "english": "Agreement / Deal",
+      "pronunciation": "OO-ruhn-koms",
+      "example": "Ons het 'n ooreenkoms.",
+      "example_english": "We have an agreement.",
+      "use_note": "Useful in negotiation and commercial discussions; context determines whether it means an agreement or deal."
     },
     "isixhosa": {
-      "word": "Ndiphilile",
-      "english": "I am well",
-      "pronunciation": "n-dee-pee-LEE-leh",
-      "example": "Ndiphilile, enkosi.",
-      "example_english": "I am well, thank you.",
-      "use_note": "A useful response when someone asks how you are."
+      "word": "Kulungile",
+      "english": "It is okay / All right",
+      "pronunciation": "koo-loon-GEE-leh",
+      "example": "Kulungile.",
+      "example_english": "All right.",
+      "use_note": "A useful acknowledgement in everyday conversation."
     },
     "rotation": "daily",
     "source_type": "curated"
