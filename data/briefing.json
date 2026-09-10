@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-09T12:28:56.877823+01:00",
-    "generated_display": "09 Sep 2026, 12:28",
+    "generated_at": "2026-09-10T12:25:27.608016+01:00",
+    "generated_display": "10 Sep 2026, 12:25",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 79,
-    "final_item_count": 77,
+    "normalised_item_count": 81,
+    "final_item_count": 79,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 64,
+    "score": 69,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (64/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
@@ -39,15 +39,15 @@
       },
       {
         "name": "Civil unrest",
-        "score": 32
+        "score": 49
       },
       {
         "name": "Infrastructure",
-        "score": 30
+        "score": 29
       },
       {
         "name": "Transport",
-        "score": 47
+        "score": 49
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "09 Sep",
-      "score": 64,
-      "explanation": "High national business risk (64/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "10 Sep",
+      "score": 69,
+      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 34,
+      "score": 32,
       "level": "Guarded",
       "summary": "Current city risk is being driven by infrastructure, unclassified news."
     },
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 34,
+      "score": 37,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 27,
-      "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "score": 35,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by protests and civil unrest, security and crime."
     },
     {
       "id": "bloemfontein",
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "score": 38,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "east-london",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 35,
+      "score": 38,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-09T12:28:56.877823+01:00",
+    "last_checked": "2026-09-10T12:25:27.608016+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -175,75 +175,173 @@
       "business_impact_score": 32
     },
     {
-      "title": "Golden Arrow bus strike could leave Cape Town commuters stranded - Cape Argus",
+      "title": "Protest threatens Durban port access - Freight News",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "09 Sep 2026, 13:50 UTC",
+      "summary": "Protest threatens Durban port access Freight News",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Freight News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XVGtrc0R1eVozUlhZOHgxQ0ZubHIwOFZWUXVycFRrdW4yazhQdDF3Y2JXZUtuUWJPa3BJZ0xPMEdvLUZJU2sxLWsxSTVlVFZEaFU3dHZjQXc0LXZ6UHZJbm9maWJWczU3YWJOOHNJRWhWeUJESThQZ0RoTW91dEk?oc=5",
+      "business_impact_score": 56
+    },
+    {
+      "title": "‘We wait for disaster to strike’: SA urged to prepare now for El Niño impact - EWN",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "10 Sep 2026, 09:53 UTC",
+      "summary": "‘We wait for disaster to strike’: SA urged to prepare now for El Niño impact EWN",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORGZXTlRtSzFZa2hGeFJZcFBVM3g3NHJsR3c2cjZWSmtOaGtva3g1OUh3QzlDNUlwRHh3OGhoVGpSaEpXdFpYSm1LWndVVGdVTXhDQ0lUQUpSR1JZb0pCelB5UTlIVVRldzNFV1B0UnZDSGVoLTJQUEp6b0NhaE9YWXk4THBGS09YcXpLNERteFBfb2pDVHBBQjJHenU?oc=5",
+      "business_impact_score": 48
+    },
+    {
+      "title": "South Africa anti migrants protest: SA police arrest more foreign nationals, announce about 90,000 repatriations of undocumented migrants - BBC",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "09 Sep 2026, 18:47 UTC",
+      "summary": "South Africa anti migrants protest: SA police arrest more foreign nationals, announce about 90,000 repatriations of undocumented migrants BBC",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82cWg3QkxuRnJtQzdqZUktVXl1SXpGUHBEUGZONU80VGxXZ2ZDYTlIYTBwakotT2FkcVZnbElkcTZXeVNvSkJGd0xXb1FJODkzbWdMU194T21tT0xq0gFiQVVfeXFMTzRDOGVueE5ja1otTlR3Q1BSbGpiUjRIcVI5SFdOaWh2eEJod053X3hoNDQyY1lsV2NBaFdqZ08yWGR4eHdfb0ZMX1hRSTQxU1N1TzVPaG02MzlSbHBpcDc1T3c?oc=5",
+      "business_impact_score": 48
+    },
+    {
+      "title": "Asylum seekers protest in Gqeberha - GroundUp",
+      "location": "Gqeberha",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "09 Sep 2026, 15:58 UTC",
+      "summary": "Asylum seekers protest in Gqeberha GroundUp",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "GroundUp",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uUlNtMUpwNnNwZU5XQnoyNzBoSHM0M3VlQkFvdEZDbjE2OFlIaWlXMEc2S1F3c3pULU9ZWUdvWGhBYU5mSFZ1MC1ncE9GQmJpa09ObzVOVVJtTFFkSzIyX2hUdGZoLS1XNHQxVkh6dngyZmxiMkE?oc=5",
+      "business_impact_score": 47
+    },
+    {
+      "title": "Golden Arrow bus strike could leave Cape Town commuters stranded - IOL",
       "location": "Cape Town",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "09 Sep 2026, 05:12 UTC",
-      "summary": "Golden Arrow bus strike could leave Cape Town commuters stranded Cape Argus",
+      "time_window": "09 Sep 2026, 05:07 UTC",
+      "summary": "Golden Arrow bus strike could leave Cape Town commuters stranded IOL",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Cape Argus",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV1BCbkdHS2dpa3RhVjJHYVduZTZuUFdma2dDTlJWRHVCR2RBbU9MWkd3YzdwelRIYVpobU1BdGZLYzlMcDd3WDVycVFBSFhIU01TV2FVRk1QNFRMaFhOeUxPVWs4cXpzX2t5dzhHcDF1TlBHWXB3aWdvRVptWXEyODFHOTVqZG9xMTNERkJNZ1ZFRURLYjNsVnNWSTZBNlFsZFYwbkxfY0I?oc=5",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSnlWSUJ1X1hLV2NSbGZ4bERJeUJaYjJHNmFTZlFwTTctTFlEV0x6ZEJzQ1MwRjItN1VTbE01eFhyZXhBNkwtM09MVVVjUzlrSllZZWVKV2RWdGxaR0I5VE9lMGNfWHRxdl91ckVCUG90VWZLbDFWR1FQa1E0bkJBSzE2TjB4SEotVXNEelhkSU9OOEMyY1c5YXYzZUJXUHRqMld5MXdwblhKVV9VaVE?oc=5",
       "business_impact_score": 47
     },
     {
-      "title": "Golden Arrow asks court to stop strike planned for Thursday - EWN",
+      "title": "March and March to hold another demonstration against camping migrants in Durban - EWN",
       "location": "National",
       "type": "Demonstration",
-      "severity": "Low",
+      "severity": "Medium",
       "status": "Active",
-      "time_window": "09 Sep 2026, 05:50 UTC",
-      "summary": "Golden Arrow asks court to stop strike planned for Thursday EWN",
+      "time_window": "10 Sep 2026, 09:53 UTC",
+      "summary": "March and March to hold another demonstration against camping migrants in Durban EWN",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
       "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1OGNRVGZ6dHdmbXVUOWtaNllQUi1uV1hjMjE0X0pfWG9lNEQwVHY2LUF2WGZvREVoTGVxdVpwWHN6VXBsc1BzN2lqSUktOWd6N2Z5ZnUxeldjRUVSSktKVWRDd3B2RWxjVHpiY2wxSkJnbnpLN0FZSkQzcw?oc=5",
-      "business_impact_score": 26
-    },
-    {
-      "title": "No extra police funding for planned anti-migrant protests following September 30 ultimatum - EWN",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "08 Sep 2026, 16:52 UTC",
-      "summary": "No extra police funding for planned anti-migrant protests following September 30 ultimatum EWN",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNUM3dVEzSEkzUnplLU5nLWx0VkdvRmk4NVcxVk4wZER6eXVjSW5xcXItV0RKTVFhYzJaUlo2UC1uQkgwN1hKSXA1d2VDSUNXZUJ0UE9LdXE4VmNrR3hxUlQzLUJuaHFYMVR0WldRRDRUcjhJbHVfd2UtWi1reHVEYUxWLU9BVEhSU2tmSlE0MjlKMDV2UEhKYWlKR0MxU1ZkaHh3REFreTlGMU5SVEZuNXQ5aw?oc=5",
-      "business_impact_score": 22
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnpzRHVFa2VaeWJqaW1PLXd3UTFzV3JYU25QaWtjU1BpNE1PNU94V1NIRjZqQ1Y1WFFBMmJ0UjlNX1c2NlI2M2o4aUxGeHBSOFNJNERWVDlGQXk1cUNjMDVxUHBORzA3MlhzeGxUUGNmZ1NDVlJ1S0t3b0lrWk1CeU9leVdtck5ZUkZBS0VIN1h3aXdWWEtSbDlrYmpQSzVBZ1pKcDF3?oc=5",
+      "business_impact_score": 43
     }
   ],
   "news": [
     {
-      "title": "Four business robberies reported in Durban CBD over several days - IOL",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
+      "title": "Protest threatens Durban port access - Freight News",
+      "location": "National",
+      "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "07 Sep 2026, 15:58 UTC",
+      "published": "09 Sep 2026, 13:50 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (51/100). Assessed as no clear immediate threat, with city scope and substantial business disruption. Duration is multi-day; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "IOL",
+      "summary": "Moderate business impact (56/100). Assessed as material incident, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Freight News",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRHVMZVAzdUgtV056d2dTcXBMdW84ckhmT28tSmVoa05nTjRUN2NFa29qczFPYlRmSHE2OXZyeE9Kd2dfM3o0YUpTYll5SGpqU3V5QlhZZWZsYVJuZlNnN2ZYV2hNR1N4Y1BhaElwS2NfTENPQWxRWmNYOTFIQkVBbzhIZUFpUE9MWjczUWJBOHdjMGFYMG1ONlUyWHd6aU9iZjg1SDhoVmFhVEdHT1hjVzdYUkpDcFI3eEljS2dYX3E5SkxU?oc=5",
-      "business_impact_score": 51
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XVGtrc0R1eVozUlhZOHgxQ0ZubHIwOFZWUXVycFRrdW4yazhQdDF3Y2JXZUtuUWJPa3BJZ0xPMEdvLUZJU2sxLWsxSTVlVFZEaFU3dHZjQXc0LXZ6UHZJbm9maWJWczU3YWJOOHNJRWhWeUJESThQZ0RoTW91dEk?oc=5",
+      "business_impact_score": 56
     },
     {
-      "title": "Golden Arrow bus strike could leave Cape Town commuters stranded - Cape Argus",
+      "title": "Pensioners call for R5,000 old-age grant at nationwide SASSA pickets - IOL",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "08 Sep 2026, 11:42 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (54/100). Assessed as serious disruptive incident, with national scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXN5SDlzZ1hGZ21zZWx0WWFjcDdlT2RBcGM5NHA0aS05cFdPYUtUWlppQjJ3MkdpUnJyQllXdlZCWHYwaVdZdFBDeEliMEhVWGdQcGlLQWpCdXhvMmpkVklZZWxiNnd3T0t1S3Q1RFhLdFZWRGZnNmNiNER3WEJoWFhld3hZMlIwY1p3YUdVaFpjQ21OaTYxaXNDX21rU3NxRnZfa01vS3BlUFR6eGN4ZHdR?oc=5",
+      "business_impact_score": 54
+    },
+    {
+      "title": "‘We wait for disaster to strike’: SA urged to prepare now for El Niño impact - EWN",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "10 Sep 2026, 09:53 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORGZXTlRtSzFZa2hGeFJZcFBVM3g3NHJsR3c2cjZWSmtOaGtva3g1OUh3QzlDNUlwRHh3OGhoVGpSaEpXdFpYSm1LWndVVGdVTXhDQ0lUQUpSR1JZb0pCelB5UTlIVVRldzNFV1B0UnZDSGVoLTJQUEp6b0NhaE9YWXk4THBGS09YcXpLNERteFBfb2pDVHBBQjJHenU?oc=5",
+      "business_impact_score": 48
+    },
+    {
+      "title": "South Africa anti migrants protest: SA police arrest more foreign nationals, announce about 90,000 repatriations of undocumented migrants - BBC",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "09 Sep 2026, 18:47 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "BBC",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82cWg3QkxuRnJtQzdqZUktVXl1SXpGUHBEUGZONU80VGxXZ2ZDYTlIYTBwakotT2FkcVZnbElkcTZXeVNvSkJGd0xXb1FJODkzbWdMU194T21tT0xq0gFiQVVfeXFMTzRDOGVueE5ja1otTlR3Q1BSbGpiUjRIcVI5SFdOaWh2eEJod053X3hoNDQyY1lsV2NBaFdqZ08yWGR4eHdfb0ZMX1hRSTQxU1N1TzVPaG02MzlSbHBpcDc1T3c?oc=5",
+      "business_impact_score": 48
+    },
+    {
+      "title": "Asylum seekers protest in Gqeberha - GroundUp",
+      "location": "Gqeberha",
+      "city_id": "gqeberha",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "09 Sep 2026, 15:58 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (gqeberha) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "GroundUp",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uUlNtMUpwNnNwZU5XQnoyNzBoSHM0M3VlQkFvdEZDbjE2OFlIaWlXMEc2S1F3c3pULU9ZWUdvWGhBYU5mSFZ1MC1ncE9GQmJpa09ObzVOVVJtTFFkSzIyX2hUdGZoLS1XNHQxVkh6dngyZmxiMkE?oc=5",
+      "business_impact_score": 47
+    },
+    {
+      "title": "Golden Arrow bus strike could leave Cape Town commuters stranded - IOL",
       "location": "Cape Town",
       "city_id": "cape-town",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "09 Sep 2026, 05:12 UTC",
+      "published": "09 Sep 2026, 05:07 UTC",
       "event_date": "",
       "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Cape Argus",
+      "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV1BCbkdHS2dpa3RhVjJHYVduZTZuUFdma2dDTlJWRHVCR2RBbU9MWkd3YzdwelRIYVpobU1BdGZLYzlMcDd3WDVycVFBSFhIU01TV2FVRk1QNFRMaFhOeUxPVWs4cXpzX2t5dzhHcDF1TlBHWXB3aWdvRVptWXEyODFHOTVqZG9xMTNERkJNZ1ZFRURLYjNsVnNWSTZBNlFsZFYwbkxfY0I?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSnlWSUJ1X1hLV2NSbGZ4bERJeUJaYjJHNmFTZlFwTTctTFlEV0x6ZEJzQ1MwRjItN1VTbE01eFhyZXhBNkwtM09MVVVjUzlrSllZZWVKV2RWdGxaR0I5VE9lMGNfWHRxdl91ckVCUG90VWZLbDFWR1FQa1E0bkJBSzE2TjB4SEotVXNEelhkSU9OOEMyY1c5YXYzZUJXUHRqMld5MXdwblhKVV9VaVE?oc=5",
       "business_impact_score": 47
     },
     {
@@ -261,20 +359,6 @@
       "business_impact_score": 46
     },
     {
-      "title": "Major Joburg power outage affects several areas after Orlando Switching Station incident - Jacaranda FM",
-      "location": "Johannesburg",
-      "city_id": "johannesburg",
-      "category": "Infrastructure",
-      "relevance": "Moderate",
-      "published": "08 Sep 2026, 05:25 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (45/100). Assessed as limited disruption, with localised (johannesburg) scope and local operational disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
-      "source": "Jacaranda FM",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tIMUJUaGdrMGVyWndCY0dNSlJWU2F6b1hLdEZDQ1VQM0pCdmlHOWhnM241VnhrSGtXUWJ2dGJWQy0tQTVPSmVEdXBkeDB2NHppOE00Z2tHcEpVTzB5SUc4RFZFMHVhX1NqbmtMMVlsV1pxSGFsbGMwNVctbmJBQm9sNVotX2M4c3Uzc3lFSlJSdWc?oc=5",
-      "business_impact_score": 45
-    },
-    {
       "title": "Light Aeroplane Crash Near Grand Central Airport Injures Two, Snarls Midrand Traffic - 2oceansvibe News",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
@@ -289,93 +373,51 @@
       "business_impact_score": 45
     },
     {
-      "title": "5 water leaks plague Pretoria Avenue in Ferndale as Joburg Water delays repairs - citizen.co.za",
+      "title": "5 water leaks plague Pretoria Avenue in Ferndale as Joburg Water delays repairs - The Citizen",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "08 Sep 2026, 23:35 UTC",
+      "published": "09 Sep 2026, 11:12 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "citizen.co.za",
+      "source": "The Citizen",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdnlIY1dRRkF6QW9fUzN2aXA3b3cwMGFzOFlyZFdDRzNQQ0NObFdpOGVhcGx5Mmo1VldKS0tyczZ4dTJKdnIycFBvT3pXT08xRmlBeWJfYTlGVmszTC1LbDBvemRDQmlnRjc3VVh5UUpXazhnS2FBVmhjNEQzNml6X2dyblEyb2RlZEVsZk5qRDNINnlhTDdzNzBlc0tWTWhsLW9nMkg4bjh5UzJwN1l6VmdaTHcwQ3VOS2dHckFRcTBVUGxKY1VGenNMODVDU1pXaXhwNTlsUFhTMXY3MzBhUTZzT1B5a0JHVk9Idw?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "R9 billion project finally launching in South Africa next month after 15 years of delays - businesstech.co.za",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
+      "title": "Two Foreign Nationals Arrested As South African Police Bust Multimillion-Rand Mandrax Lab In Pretoria - Sahara Reporters",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "07 Sep 2026, 14:00 UTC",
+      "published": "09 Sep 2026, 23:30 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "businesstech.co.za",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Sahara Reporters",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTlNEOUh0OTNVVzlGQ3RGaC1uVW4xOWQxQW5xaGpzYnZkMWhXNWE2ZkRKVTdqMm1RZUFwZmh6TkJGTXdMdURNZkpLaF9pSy16TlBUZklUeWtKNUdVZjBmRDYxWXM2Q2NGNmlYRFQwZUlWUFdkMFh0c3RIMjBiRl9IZVVSYklVVFZ4Y29ibmtGci1OUVVxekhJUEtmdEx6Q0VfRDNMNjhaZ0VSVnk4cGRqcEZYSjl3VlE5em0wLVBwUDBpbXB1RmRaa005anhlQy1FOHozZG13?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR1MxWWplMktLT0Q5aWpXUVpDYUptekU5eWNQVGxzaG9MbkU1YUg4b1JMVlZPdmktMkdXMWFIb3dzZy1NeEJwejZVZ1NxSWhDRnRFeWh4T0tjSXF0LTNhXzdLM2xYTUxMMUZjVjM2N2xheXZnTHFCa1VydVNrbTdXT3FvLUtZUV9jS2NCT0FHQ2ZpYUVsRTlBUXdOYXhRN05fWFBjbnd6Q01RVzZ3Y3RsU1oxS1o1VVc5N1NzdklfU2wtNTA?oc=5",
       "business_impact_score": 44
-    },
-    {
-      "title": "R9 billion transport project finally set to launch in South Africa after 15 years - African Insider",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "08 Sep 2026, 07:02 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "African Insider",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUVuWFUwMkxTWm5JbGdTOXFpR3pqLUlueEZwblk4R3lNUkg4UldrTmtqZzctRmo5NlZ0MExHaF9FQ21saWtyN1poODFkSmRsN20tSk1vYXdfLS1vRHJtcW1ZRHR6Vm9wQU84ZVdTYWJmaDJfT29iSGFaMEtoN01RVnlldENRQy1FRmZuS25wWUtLTE5IZVdDZkZscGpPWXR6S2xxcW5tRC01dmVuaTAxblJ5dWpjcEMxQ0FpTFZVQQ?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Kenya-South Africa trade row puts tea tariff deal at risk - The Africa Report",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "07 Sep 2026, 12:30 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Africa Report",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd2pYT1Rzc1dIcjFRcFJmR2ZERXdORzZnN0MwQ0NOSHRBV0h4anBQR01JUVdHSHJBM2xmeVBESEoyVjJUQlhvTndYcjI2OXVwU1BqQmtqRmg3ajlFSWxOM2JjZlVhMG0weDNyZElQMHFUS2l5UlBQS25DbUpOcXJKY0hLUDdRWlBITm9ObFFiZnJod1Uwa3hZb3M2QlBDQQ?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "Currency and Exchanges Act: Notice and Order of Forfeiture: Hua Ron Investments Close Corporation",
-      "location": "National",
-      "city_id": null,
-      "category": "Economy and business",
-      "relevance": "Guarded",
-      "published": "09 Sep 2026, 07:27 UTC",
-      "event_date": "Wed, 09 Sep 2026 07:27:11 +0000",
-      "summary": "Guarded business impact (28/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is business environment relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/currency-and-exchanges-act-notice-and-order-forfeiture-hua-ron-investments-close",
-      "business_impact_score": 28
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "afrikaans": {
-      "word": "Kontrak",
-      "english": "Contract",
-      "pronunciation": "KON-trak",
-      "example": "Ons bespreek die kontrak.",
-      "example_english": "We are discussing the contract.",
-      "use_note": "Straightforward commercial vocabulary that may be recognised easily by English speakers."
+      "word": "Kollega",
+      "english": "Colleague",
+      "pronunciation": "koo-LEH-khah",
+      "example": "Laat ek jou aan my kollega voorstel.",
+      "example_english": "Let me introduce you to my colleague.",
+      "use_note": "Useful when making introductions in meetings or workplace settings."
     },
     "isixhosa": {
-      "word": "Unjani?",
-      "english": "How are you? (one person)",
-      "pronunciation": "oon-JAH-nee",
-      "example": "Molo, unjani?",
-      "example_english": "Hello, how are you?",
-      "use_note": "A friendly follow-up to a greeting when speaking to one person."
+      "word": "Sala kakuhle",
+      "english": "Goodbye (to one person staying)",
+      "pronunciation": "SAH-lah kah-KOO-hleh",
+      "example": "Sala kakuhle.",
+      "example_english": "Goodbye.",
+      "use_note": "Traditionally said by the person leaving to one person who is staying."
     },
     "rotation": "daily",
     "source_type": "curated"
