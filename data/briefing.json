@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-12T11:52:01.394821+01:00",
-    "generated_display": "12 Sep 2026, 11:52",
+    "generated_at": "2026-09-13T12:57:40.886183+01:00",
+    "generated_display": "13 Sep 2026, 12:57",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 94,
-    "final_item_count": 90,
+    "normalised_item_count": 80,
+    "final_item_count": 79,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -35,19 +35,19 @@
     "components": [
       {
         "name": "Security",
-        "score": 29
+        "score": 33
       },
       {
         "name": "Civil unrest",
-        "score": 47
+        "score": 46
       },
       {
         "name": "Infrastructure",
-        "score": 30
+        "score": 25
       },
       {
         "name": "Transport",
-        "score": 48
+        "score": 46
       },
       {
         "name": "Business environment",
@@ -57,7 +57,7 @@
   },
   "timeline": [
     {
-      "date": "12 Sep",
+      "date": "13 Sep",
       "score": 67,
       "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -69,8 +69,8 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 35,
-      "level": "Guarded",
+      "score": 25,
+      "level": "Low",
       "summary": "Current city risk is being driven by infrastructure."
     },
     {
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 34,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "score": 29,
+      "level": "Low",
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 47,
+      "score": 45,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 35,
+      "score": 36,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, security and crime."
+      "summary": "Current city risk is being driven by protests and civil unrest, unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 46,
+      "score": 37,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     }
   ],
   "travel_advice": {
@@ -140,172 +140,59 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-12T11:52:01.394821+01:00",
+    "last_checked": "2026-09-13T12:57:40.886183+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [
-    {
-      "title": "Road closure after a truck rollover on the R521 between Polokwane and Dendron at Rita - truckandfreight.co.za",
-      "location": "Polokwane",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "11 Sep 2026, 06:21 UTC",
-      "summary": "Road closure after a truck rollover on the R521 between Polokwane and Dendron at Rita truckandfreight.co.za",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "truckandfreight.co.za",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa3phanhVclZ0NFRmMUZXXzdyTVo1dzZvVDNBZlZkd21pN3c0TGlEVl9Jd2N2TEZLMkg0ZzBQWnJEeEdweUtSOG42U1FCczNHejJheXotQl9nQVJwNGRqNHFFWEtoYmxRRmNyM0Z2SU5XR0dCT2MzeWRyUHloQzRVdDU5VzRZbjV1ZVoxcG1xUV9kV3F3NnRBZmlZNnNiai1UM3haUzNjWHNSejM2Mkx2Q3JFNElQeGc?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "South Africa Anti Migrants Protest Turns Violent, Several Arrests Made | Vantage on Firstpost - Firstpost",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "11 Sep 2026, 17:58 UTC",
-      "summary": "South Africa Anti Migrants Protest Turns Violent, Several Arrests Made | Vantage on Firstpost Firstpost",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxObUJFY05IbTlOcG4xQXRzaDNnWk1vZEhNeVNjY01jdl9QQUFra3RHeUxWRXM1UzJBX2JuTkhoR3BYUzZOdjRBMFBObjlWZ3ZsUjFrTkpLSV8yQ0hKNzJCSzhSamNrR01XT2duTnFDUF9Na0o2Tl9wYl9IeHVZa2Jma3FtSGhvZkh1dnZSWG1KUFd2eVVEUU9DNHZ2TGdWUXNyRHBtMjRHX09SWXN2cUxNZFQyX2dKY05EOGdlTWFxRHZYb19TSzJUaWRMSnlpam56OTJweWxLTUk3aC1EM1hXWXVkbzFHWGNld1HSAe8BQVVfeXFMTXBRTWNrNk9nOWJjd3lROFZsWXZIQXVQRHlPbWVyMEpBam02YXBtUUNnTXRkc1htRFMxV1pZZzZkU3pNaFFPQ3NwU0p0eV9kU1JXdWtIWDNhRkpJUmVJUW5UUUVmU2FNLU9SOGpkNndNZ1hBcWVvWlhoR2w3YzdUWGROSnZMRDF0UERUSEtfOGtCVGRhMlRSOXhVUnNDczZZeWg0WWtobEo5Q3FNWXA1R2xpZVQxdUU1S2JrWjhYZTg3bHdQemhYWEZacnh2U2RUbkxiekZOWkRQMUVONnU2clQ3cVdfX1RYcy1VaS1aQ3M?oc=5",
-      "business_impact_score": 46
-    }
-  ],
+  "incidents": [],
   "news": [
     {
-      "title": "South Africa Anti Migrants Protest Turns Violent, Several Arrests Made | Vantage on Firstpost - Firstpost",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "11 Sep 2026, 17:58 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Firstpost",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxObUJFY05IbTlOcG4xQXRzaDNnWk1vZEhNeVNjY01jdl9QQUFra3RHeUxWRXM1UzJBX2JuTkhoR3BYUzZOdjRBMFBObjlWZ3ZsUjFrTkpLSV8yQ0hKNzJCSzhSamNrR01XT2duTnFDUF9Na0o2Tl9wYl9IeHVZa2Jma3FtSGhvZkh1dnZSWG1KUFd2eVVEUU9DNHZ2TGdWUXNyRHBtMjRHX09SWXN2cUxNZFQyX2dKY05EOGdlTWFxRHZYb19TSzJUaWRMSnlpam56OTJweWxLTUk3aC1EM1hXWXVkbzFHWGNld1HSAe8BQVVfeXFMTXBRTWNrNk9nOWJjd3lROFZsWXZIQXVQRHlPbWVyMEpBam02YXBtUUNnTXRkc1htRFMxV1pZZzZkU3pNaFFPQ3NwU0p0eV9kU1JXdWtIWDNhRkpJUmVJUW5UUUVmU2FNLU9SOGpkNndNZ1hBcWVvWlhoR2w3YzdUWGROSnZMRDF0UERUSEtfOGtCVGRhMlRSOXhVUnNDczZZeWg0WWtobEo5Q3FNWXA1R2xpZVQxdUU1S2JrWjhYZTg3bHdQemhYWEZacnh2U2RUbkxiekZOWkRQMUVONnU2clQ3cVdfX1RYcy1VaS1aQ3M?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Vavi says BAIC strike was fight against low-wage future for SA auto industry - Inside Politic",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "10 Sep 2026, 12:33 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Inside Politic",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVXBUWG14MWlSeUplT3pDTGl3N0Q5bEE4dDV6VzdWclpoNkV6Z3NZS1VUdmI2V2ZzSHBaMFZuR3Qwc0JxR3E2emt4bVRFYXgzRC05UnBoT2pqSzFCeVlQb2VjR1lJMUxhdTNLb1VSa28tcmROazVnRThfb1dtQ3lySVB3NmlLcy1RQU9PZlZVMUozUncxSlktS0FYaDdRU1hUalpia09SVk0?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Thousands to take to Cape Town streets for sporting weekend - novanews.co.za",
-      "location": "Cape Town",
-      "city_id": "cape-town",
+      "title": "The suburban explorer putting Durban’s trains back on the map - IOL",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "11 Sep 2026, 10:46 UTC",
+      "published": "12 Sep 2026, 11:07 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "novanews.co.za",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUHoyUk4tVzVQUURGMUMyeVpWMDlfWnZxY2RTMXVEVVB1NXNkdDlxWHp5UDE1cjhnQW9UVldmTzRXM1JjNFBOMXdQU04tcXVrVDRBQTE3OHFsb040M0dQemlVWmFDZ3dNeWVCRGI2TVpVb3NrdElPb3hUTFpYUkh2eUNXUk9UXzlCWDQwT2VXTGZ2NTkz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZW5LczNleUVCVjNkWDU4QnNIcGpxb1RVTUhCMXVGNFNOencxMHlFV2REaXdDMGt0eWdJY2RSS3RabVRuODNjX2tMZE5EWGlFRGxWZTdwVVl0bVVRYndab2M5WG5INDFKQk5Ma3M5bU9ldmtPdmNsUGY3c3N4T3phTnRJWGgzckZqZ2NzZldXVlJSR3lYLWhqeEpTVFFnNGV5WWpxT2V3TzlxbmNHakdqWUx2VQ?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "Overturned truck on the R521 between Polokwane and Dendron at Rita is still blocking the road - truckandfreight.co.za",
-      "location": "Polokwane",
-      "city_id": "polokwane",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "11 Sep 2026, 08:43 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (polokwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "truckandfreight.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnRqb0xGSGxnLVlGSFNNelNyRVNTTnlKWC1ZSXktRUIzcktSWDlITXoyYTVjLWwtNjQ2Rm5ieWtFelMwUFVEZ1ZuZnNzNHhpWnkydG5nQ0xISTZ6UmgzZnVxZUxianJXYklYZWF5djBQSEZBSzQ2dndLY3FaODdYUDlnbXEzVDlmT1BEVDRNUFlCYkxycElJU29kY0owOFpMNXdpYVdpOFhCdDNTZWx0RmFxQ3M5TkdUYVFMam8ydFNfQQ?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Spatial Patterns of Adult Illiteracy in South Africa, 1996 and 2022",
+      "title": "India an increasingly important partner for SA, Ramaphosa says - Jacaranda FM",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "11 Sep 2026, 08:45 UTC",
-      "event_date": "Fri, 11 Sep 2026 08:45:55 +0000",
+      "published": "12 Sep 2026, 11:30 UTC",
+      "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Statistics South Africa",
-      "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=19924",
+      "source": "Jacaranda FM",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUjItTExna2g1dUVHMGYtWEViUVBSS0F3RHlCVEEwel9NT2tJZmxUQzJfQmh4SGR3RVV3N0lRb2VsMzFJWkRJcWk3WkZDYUJpR1RWNkg1Q19KSDFIWXZ6Mmw0dmRMbG13cWVCY3o5Y3NiVUx2QVcxMVdhZDIwSTNOTFpla3prOGJzN1E?oc=5",
       "business_impact_score": 42
-    },
-    {
-      "title": "Labour Relations Act: Cancellation of Registration of a Trade Union: Balance South Africa (BSA)",
-      "location": "National",
-      "city_id": null,
-      "category": "Economy and business",
-      "relevance": "Guarded",
-      "published": "11 Sep 2026, 10:28 UTC",
-      "event_date": "Fri, 11 Sep 2026 10:28:32 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/labour-relations-act-cancellation-registration-trade-union-balance-south-africa",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Labour Relations Act: Notice of intention to cancel Registration of a Trade Union: Yarona Kopano Workers Union of South Africa (YKWUSA)",
-      "location": "National",
-      "city_id": null,
-      "category": "Economy and business",
-      "relevance": "Guarded",
-      "published": "11 Sep 2026, 10:24 UTC",
-      "event_date": "Fri, 11 Sep 2026 10:24:36 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/labour-relations-act-notice-intention-cancel-registration-trade-union-yarona",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Labour Relations Act: Cancellation of Registration of a Trade Union: University of Pretoria Workers’ Organisation (UPWO)",
-      "location": "National",
-      "city_id": null,
-      "category": "Economy and business",
-      "relevance": "Guarded",
-      "published": "11 Sep 2026, 10:13 UTC",
-      "event_date": "Fri, 11 Sep 2026 10:13:11 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/labour-relations-act-cancellation-registration-trade-union-university-pretoria",
-      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-12",
+    "date": "2026-09-13",
     "afrikaans": {
-      "word": "Afspraak",
-      "english": "Appointment",
-      "pronunciation": "AHF-sprahk",
-      "example": "Ek sien uit na ons afspraak.",
-      "example_english": "I am looking forward to our appointment.",
-      "use_note": "Useful when arranging or referring to a scheduled professional meeting."
+      "word": "Skedule",
+      "english": "Schedule",
+      "pronunciation": "skuh-DOO-luh",
+      "example": "Hoe besig is jou skedule?",
+      "example_english": "How busy is your schedule?",
+      "use_note": "Practical vocabulary for arranging meetings and discussing availability."
     },
     "isixhosa": {
-      "word": "Hayi",
-      "english": "No",
-      "pronunciation": "HAH-yee",
-      "example": "Hayi.",
-      "example_english": "No.",
-      "use_note": "A basic negative response; tone and context remain important in professional interaction."
+      "word": "Enkosi",
+      "english": "Thank you",
+      "pronunciation": "en-KOH-see",
+      "example": "Enkosi.",
+      "example_english": "Thank you.",
+      "use_note": "One of the most useful isiXhosa expressions for polite professional, hospitality and everyday interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
