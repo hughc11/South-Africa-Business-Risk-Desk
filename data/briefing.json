@@ -2,11 +2,11 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-13T12:57:40.886183+01:00",
-    "generated_display": "13 Sep 2026, 12:57",
+    "generated_at": "2026-09-14T13:54:48.434586+01:00",
+    "generated_display": "14 Sep 2026, 13:54",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 80,
+    "normalised_item_count": 83,
     "final_item_count": 79,
     "collector_results": {
       "FCDO travel advice": {
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 67,
+    "score": 65,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 33
+        "score": 28
       },
       {
         "name": "Civil unrest",
-        "score": 46
+        "score": 48
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 26
       },
       {
         "name": "Transport",
-        "score": 46
+        "score": 44
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "13 Sep",
-      "score": 67,
-      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "14 Sep",
+      "score": 65,
+      "explanation": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 41,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "score": 29,
+      "level": "Low",
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 29,
+      "score": 25,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 45,
+      "score": 44,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
+      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 36,
+      "score": 34,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, unclassified news."
+      "summary": "Current city risk is being driven by protests and civil unrest, security and crime."
     },
     {
       "id": "bloemfontein",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 37,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,59 +140,130 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-13T12:57:40.886183+01:00",
+    "last_checked": "2026-09-14T13:54:48.434586+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [],
+  "incidents": [
+    {
+      "title": "MUZI DLADLA | When protest becomes destruction, who pays the price? - Business Day",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "13 Sep 2026, 18:34 UTC",
+      "summary": "MUZI DLADLA | When protest becomes destruction, who pays the price? Business Day",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Business Day",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOemlHNjhfdzUyZktXU0xFOVQtNzNVbVFwYzZ6RXFjNlR0blBnckVHZk50RUhvdW9jeEhGLTE0Z20za3Z2S1AyYTBBVDZZOFBxSjRCQkp1dzFWb1hmSEJ5NTVxVnNfS0x1eUthRUFXcnM2VVF4Y1VVNVV4Zy1Qc1o1MUt6VmNSVUdoYWcwSVFTNHBYSDdvQkZVVFZCby1hNnBkZnRlVUk4YW94NkswWVRVVkIzZw?oc=5",
+      "business_impact_score": 48
+    }
+  ],
   "news": [
     {
-      "title": "The suburban explorer putting Durban’s trains back on the map - IOL",
+      "title": "MUZI DLADLA | When protest becomes destruction, who pays the price? - Business Day",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "13 Sep 2026, 18:34 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "Business Day",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOemlHNjhfdzUyZktXU0xFOVQtNzNVbVFwYzZ6RXFjNlR0blBnckVHZk50RUhvdW9jeEhGLTE0Z20za3Z2S1AyYTBBVDZZOFBxSjRCQkp1dzFWb1hmSEJ5NTVxVnNfS0x1eUthRUFXcnM2VVF4Y1VVNVV4Zy1Qc1o1MUt6VmNSVUdoYWcwSVFTNHBYSDdvQkZVVFZCby1hNnBkZnRlVUk4YW94NkswWVRVVkIzZw?oc=5",
+      "business_impact_score": 48
+    },
+    {
+      "title": "eThekwini ports, beaches face disruption as 80km/h winds hit - IOL",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "12 Sep 2026, 11:07 UTC",
+      "published": "14 Sep 2026, 05:27 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZW5LczNleUVCVjNkWDU4QnNIcGpxb1RVTUhCMXVGNFNOencxMHlFV2REaXdDMGt0eWdJY2RSS3RabVRuODNjX2tMZE5EWGlFRGxWZTdwVVl0bVVRYndab2M5WG5INDFKQk5Ma3M5bU9ldmtPdmNsUGY3c3N4T3phTnRJWGgzckZqZ2NzZldXVlJSR3lYLWhqeEpTVFFnNGV5WWpxT2V3TzlxbmNHakdqWUx2VQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT3M3UXBTNHJlaUlkVFBZN2RGMlEwNWhvdk5UTnQ5Z1FyT2hteFlmektGR3BuNzVxNFZOcGRSU0d3aEhHNnZwVmlhWGNtWWtGZHlmMU9ZUmZ1eG85V2pWTkwwRmNuMlRYbENnZjdlZkZFU1k2YkU3bGxnM0RJMERoclR0Uk41d0x2cVFuTDctYl9wblI5MmJUWVBaT0tBcmR1RlBz?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "India an increasingly important partner for SA, Ramaphosa says - Jacaranda FM",
-      "location": "National",
-      "city_id": null,
+      "title": "Ramaphosa greenlights SIU probe into eThekwini municipality, North West Transport Investments - Polity.org.za",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "12 Sep 2026, 11:30 UTC",
+      "published": "14 Sep 2026, 12:38 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Jacaranda FM",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Polity.org.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUjItTExna2g1dUVHMGYtWEViUVBSS0F3RHlCVEEwel9NT2tJZmxUQzJfQmh4SGR3RVV3N0lRb2VsMzFJWkRJcWk3WkZDYUJpR1RWNkg1Q19KSDFIWXZ6Mmw0dmRMbG13cWVCY3o5Y3NiVUx2QVcxMVdhZDIwSTNOTFpla3prOGJzN1E?oc=5",
-      "business_impact_score": 42
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb3NQRExOUHhNSkdIZkJyQ0dFY2x4ODVZd0pCLXBZMVZWRFpDVk5WSV8xSGRsWl9uZUFOalRGRkxZblRfc3ZCUWprSmdmODhZVVN0LVNFdXFCT0g5OEJSM2hRYUdiUUJiTWwtbHBvQ0cwakpxMGxnRll3NzhnY0s3cUkyVEFkNXVmcFAtU2VMbHBmUW0teXVFWjNSSnlZQ2t2bnVPRWdEZE14REVqUHR6cVZiUFRSUklFSXNydFNQalZHbHlGTG5seEV3UXpQSWVZV3Jr?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "President orders SIU probe into North West transport firm and eThekwini tenders - novanews.co.za",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "14 Sep 2026, 10:27 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "novanews.co.za",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR2ZvVjlibVFjODU0SEkyeklTcHJGVi16dkFScUpYekQ5S2VqTUFCMHNXdjB5aE9CdjlYNWkyMDZSclFYSU1fX0E5VDNaaXFDYXVvV3YzTWs5dFMwdllRZEVZOTBwbEt0b0RERU1rb1FKaUotNk42MDJOTWFTZTlmTGF4WEoyMGl5WmtTaE5zUzFmWUlLQ1d2VXU2MGpnNUY5UWlWN2RB?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Restitution of Land Rights Act: Claim for restitution of land rights: St Helena 67 HT: Comments invited",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "14 Sep 2026, 09:38 UTC",
+      "event_date": "Mon, 14 Sep 2026 09:38:23 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/restitution-land-rights-act-claim-restitution-land-rights-st-helena-67-ht",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Water Services Act: Draft Strategic Frame Work for Water and Sanitation Services",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Guarded",
+      "published": "14 Sep 2026, 09:31 UTC",
+      "event_date": "Mon, 14 Sep 2026 09:31:56 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/water-services-act-draft-strategic-frame-work-water-and-sanitation-services-11",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "afrikaans": {
-      "word": "Skedule",
-      "english": "Schedule",
-      "pronunciation": "skuh-DOO-luh",
-      "example": "Hoe besig is jou skedule?",
-      "example_english": "How busy is your schedule?",
-      "use_note": "Practical vocabulary for arranging meetings and discussing availability."
+      "word": "Begin",
+      "english": "Begin / Start",
+      "pronunciation": "buh-KHIN",
+      "example": "Sal ons begin?",
+      "example_english": "Shall we begin?",
+      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
     },
     "isixhosa": {
-      "word": "Enkosi",
-      "english": "Thank you",
-      "pronunciation": "en-KOH-see",
-      "example": "Enkosi.",
-      "example_english": "Thank you.",
-      "use_note": "One of the most useful isiXhosa expressions for polite professional, hospitality and everyday interaction."
+      "word": "Igama",
+      "english": "Name",
+      "pronunciation": "ee-GAH-mah",
+      "example": "Lithini igama lakho?",
+      "example_english": "What is your name?",
+      "use_note": "Useful in introductions; the full phrase is more practical than using the noun on its own."
     },
     "rotation": "daily",
     "source_type": "curated"
