@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-14T13:54:48.434586+01:00",
-    "generated_display": "14 Sep 2026, 13:54",
+    "generated_at": "2026-09-15T12:49:37.214175+01:00",
+    "generated_display": "15 Sep 2026, 12:49",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 83,
-    "final_item_count": 79,
+    "normalised_item_count": 81,
+    "final_item_count": 76,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 65,
+    "score": 62,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (62/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
@@ -43,7 +43,7 @@
       },
       {
         "name": "Infrastructure",
-        "score": 26
+        "score": 25
       },
       {
         "name": "Transport",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "14 Sep",
-      "score": 65,
-      "explanation": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "15 Sep",
+      "score": 62,
+      "explanation": "High national business risk (62/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure."
+      "score": 34,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "cape-town",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 34,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, security and crime."
+      "score": 26,
+      "level": "Low",
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 36,
+      "score": 34,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,27 +140,12 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-14T13:54:48.434586+01:00",
+    "last_checked": "2026-09-15T12:49:37.214175+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [
-    {
-      "title": "MUZI DLADLA | When protest becomes destruction, who pays the price? - Business Day",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "13 Sep 2026, 18:34 UTC",
-      "summary": "MUZI DLADLA | When protest becomes destruction, who pays the price? Business Day",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Business Day",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOemlHNjhfdzUyZktXU0xFOVQtNzNVbVFwYzZ6RXFjNlR0blBnckVHZk50RUhvdW9jeEhGLTE0Z20za3Z2S1AyYTBBVDZZOFBxSjRCQkp1dzFWb1hmSEJ5NTVxVnNfS0x1eUthRUFXcnM2VVF4Y1VVNVV4Zy1Qc1o1MUt6VmNSVUdoYWcwSVFTNHBYSDdvQkZVVFZCby1hNnBkZnRlVUk4YW94NkswWVRVVkIzZw?oc=5",
-      "business_impact_score": 48
-    }
-  ],
+  "incidents": [],
   "news": [
     {
       "title": "MUZI DLADLA | When protest becomes destruction, who pays the price? - Business Day",
@@ -188,6 +173,20 @@
       "source": "IOL",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT3M3UXBTNHJlaUlkVFBZN2RGMlEwNWhvdk5UTnQ5Z1FyT2hteFlmektGR3BuNzVxNFZOcGRSU0d3aEhHNnZwVmlhWGNtWWtGZHlmMU9ZUmZ1eG85V2pWTkwwRmNuMlRYbENnZjdlZkZFU1k2YkU3bGxnM0RJMERoclR0Uk41d0x2cVFuTDctYl9wblI5MmJUWVBaT0tBcmR1RlBz?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "SIU to probe corruption claims at North West Transport Investments - The Citizen",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "14 Sep 2026, 20:35 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON1JXU3RfLWdkN0lyeWdJT29YeDVEVHFZOTJJVXhEaUVFY1l3Rmt0STBPdVZ3QWlPS09HQXoxVVdJOVpPLXhwUkNMSThSeWdwVWU0aFJUd1pPQ0w1NnNfNzluTE4zY0o4MkItN2toS21LanJPb0ZZZmFYRlRIZzZMS01UTUg1anh6TDFFd1V4UVdZbnpS?oc=5",
       "business_impact_score": 44
     },
     {
@@ -219,51 +218,93 @@
       "business_impact_score": 44
     },
     {
-      "title": "Restitution of Land Rights Act: Claim for restitution of land rights: St Helena 67 HT: Comments invited",
+      "title": "Study links air pollution to strain-specific risk of pneumococcal disease in South Africa - Africa Business Communities",
       "location": "National",
       "city_id": null,
-      "category": "Government",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "15 Sep 2026, 04:53 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Africa Business Communities",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRmVoWHlLUGF6ZDRUVkZxb1hOYzI2YTBJZHBrVi1PRjRRbG42RG9BSmczYjFCWTJ2MDNobTB5S0x4U3V1NE8xVm9Sal82YlB4NWE1dGNZQ2xpS0xUVG1YcnFLU1BYei1laVYtWTR1SWJ3V2lNQXA3LXNJOF8xNFZzb3FnYThaZzhYQmRZc2ZVZ3hBZ193X0dzeDN5V2dUTXJWdGlDSTdaenJPeGtxUmE2RzlnNzdqSlFoeXZzVE5rdXJQNFg3ejVMcEluTGpKTEcwa1NKR0NxU0tzZDZ3?oc=5",
+      "business_impact_score": 42
+    },
+    {
+      "title": "Firearm Control Act: Notice in terms of section 140 of the Act of the declaration of a premises or category of premises to be a Firearm-Free Zones: Government Employees Pension Fund Agency (GEPF): Phuthaditjhaba Satellite Office",
+      "location": "National",
+      "city_id": null,
+      "category": "Politics and government",
       "relevance": "Guarded",
-      "published": "14 Sep 2026, 09:38 UTC",
-      "event_date": "Mon, 14 Sep 2026 09:38:23 +0000",
+      "published": "15 Sep 2026, 06:41 UTC",
+      "event_date": "Tue, 15 Sep 2026 06:41:19 +0000",
       "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/restitution-land-rights-act-claim-restitution-land-rights-st-helena-67-ht",
+      "url": "https://www.gov.za/documents/notices/firearm-control-act-notice-terms-section-140-act-declaration-premises-or-1",
       "business_impact_score": 27
     },
     {
-      "title": "Water Services Act: Draft Strategic Frame Work for Water and Sanitation Services",
+      "title": "Firearm Control Act: Notice in terms of section 140 of the Act of the declaration of a premises or category of premises to be a Firearm-Free Zones: Government Employees Pension Fund Agency (GEPF): Mahikeng Regional Office",
       "location": "National",
       "city_id": null,
-      "category": "Infrastructure",
+      "category": "Politics and government",
       "relevance": "Guarded",
-      "published": "14 Sep 2026, 09:31 UTC",
-      "event_date": "Mon, 14 Sep 2026 09:31:56 +0000",
+      "published": "15 Sep 2026, 06:39 UTC",
+      "event_date": "Tue, 15 Sep 2026 06:39:35 +0000",
       "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/water-services-act-draft-strategic-frame-work-water-and-sanitation-services-11",
+      "url": "https://www.gov.za/documents/notices/firearm-control-act-notice-terms-section-140-act-declaration-premises-or-0",
+      "business_impact_score": 27
+    },
+    {
+      "title": "National Veld and Forest Fire Act: National Veldfire Appeal Regulations, 2026",
+      "location": "National",
+      "city_id": null,
+      "category": "Politics and government",
+      "relevance": "Guarded",
+      "published": "14 Sep 2026, 09:36 UTC",
+      "event_date": "Mon, 14 Sep 2026 09:36:36 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/national-veld-and-forest-fire-act-national-veldfire-appeal-regulations-2026-11",
+      "business_impact_score": 27
+    },
+    {
+      "title": "National Veld and Forest Fire Act: Consultation on the proposed Amendments to the Fire Protection Association Regulations",
+      "location": "National",
+      "city_id": null,
+      "category": "Politics and government",
+      "relevance": "Guarded",
+      "published": "14 Sep 2026, 09:35 UTC",
+      "event_date": "Mon, 14 Sep 2026 09:35:26 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/national-veld-and-forest-fire-act-consultation-proposed-amendments-fire",
       "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "afrikaans": {
-      "word": "Begin",
-      "english": "Begin / Start",
-      "pronunciation": "buh-KHIN",
-      "example": "Sal ons begin?",
-      "example_english": "Shall we begin?",
-      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
+      "word": "Saamstem",
+      "english": "Agree",
+      "pronunciation": "SAHM-stem",
+      "example": "Ek stem saam.",
+      "example_english": "I agree.",
+      "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely."
     },
     "isixhosa": {
-      "word": "Igama",
-      "english": "Name",
-      "pronunciation": "ee-GAH-mah",
-      "example": "Lithini igama lakho?",
-      "example_english": "What is your name?",
-      "use_note": "Useful in introductions; the full phrase is more practical than using the noun on its own."
+      "word": "Nceda",
+      "english": "Please / Help",
+      "pronunciation": "n-CEH-dah",
+      "example": "Nceda.",
+      "example_english": "Please / Help.",
+      "use_note": "A useful polite or assistance-related expression; the precise meaning depends on the sentence around it."
     },
     "rotation": "daily",
     "source_type": "curated"
