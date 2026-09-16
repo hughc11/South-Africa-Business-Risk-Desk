@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-15T12:49:37.214175+01:00",
-    "generated_display": "15 Sep 2026, 12:49",
+    "generated_at": "2026-09-16T12:42:01.880636+01:00",
+    "generated_display": "16 Sep 2026, 12:42",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 81,
-    "final_item_count": 76,
+    "normalised_item_count": 70,
+    "final_item_count": 66,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,18 +28,18 @@
     }
   },
   "national": {
-    "score": 62,
+    "score": 63,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (62/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (63/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 28
+        "score": 29
       },
       {
         "name": "Civil unrest",
-        "score": 48
+        "score": 47
       },
       {
         "name": "Infrastructure",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "15 Sep",
-      "score": 62,
-      "explanation": "High national business risk (62/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "16 Sep",
+      "score": 63,
+      "explanation": "High national business risk (63/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 34,
+      "score": 35,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 29,
+      "score": 25,
       "level": "Low",
-      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 26,
+      "score": 27,
       "level": "Low",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -121,7 +121,7 @@
       "default_zoom": 11,
       "score": 25,
       "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "east-london",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 34,
+      "score": 35,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,40 +140,41 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-15T12:49:37.214175+01:00",
+    "last_checked": "2026-09-16T12:42:01.880636+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [],
+  "incidents": [
+    {
+      "title": "Abbott, Pretorius strike in County Championship - SA Cricket Mag",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "16 Sep 2026, 05:42 UTC",
+      "summary": "Abbott, Pretorius strike in County Championship SA Cricket Mag",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "SA Cricket Mag",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeEdqbkg0WFVSQnVwcFZxT3ZScEYwaDlxMVlxaWNlNG8zakw4dTdjSWxzMTVvaFhrLXZQSkd1WnJQZmdndmZDQXZWQWxrOTNGQkhrbnduZGZ3OU5XSEc2V2k1M29LOWdGUzJMVXltSDFLLUdHS09wRG1uSnJiZE5aMktR?oc=5",
+      "business_impact_score": 46
+    }
+  ],
   "news": [
     {
-      "title": "MUZI DLADLA | When protest becomes destruction, who pays the price? - Business Day",
+      "title": "Abbott, Pretorius strike in County Championship - SA Cricket Mag",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "13 Sep 2026, 18:34 UTC",
+      "published": "16 Sep 2026, 05:42 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "Business Day",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "SA Cricket Mag",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOemlHNjhfdzUyZktXU0xFOVQtNzNVbVFwYzZ6RXFjNlR0blBnckVHZk50RUhvdW9jeEhGLTE0Z20za3Z2S1AyYTBBVDZZOFBxSjRCQkp1dzFWb1hmSEJ5NTVxVnNfS0x1eUthRUFXcnM2VVF4Y1VVNVV4Zy1Qc1o1MUt6VmNSVUdoYWcwSVFTNHBYSDdvQkZVVFZCby1hNnBkZnRlVUk4YW94NkswWVRVVkIzZw?oc=5",
-      "business_impact_score": 48
-    },
-    {
-      "title": "eThekwini ports, beaches face disruption as 80km/h winds hit - IOL",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "14 Sep 2026, 05:27 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "IOL",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT3M3UXBTNHJlaUlkVFBZN2RGMlEwNWhvdk5UTnQ5Z1FyT2hteFlmektGR3BuNzVxNFZOcGRSU0d3aEhHNnZwVmlhWGNtWWtGZHlmMU9ZUmZ1eG85V2pWTkwwRmNuMlRYbENnZjdlZkZFU1k2YkU3bGxnM0RJMERoclR0Uk41d0x2cVFuTDctYl9wblI5MmJUWVBaT0tBcmR1RlBz?oc=5",
-      "business_impact_score": 44
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeEdqbkg0WFVSQnVwcFZxT3ZScEYwaDlxMVlxaWNlNG8zakw4dTdjSWxzMTVvaFhrLXZQSkd1WnJQZmdndmZDQXZWQWxrOTNGQkhrbnduZGZ3OU5XSEc2V2k1M29LOWdGUzJMVXltSDFLLUdHS09wRG1uSnJiZE5aMktR?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "SIU to probe corruption claims at North West Transport Investments - The Citizen",
@@ -201,20 +202,6 @@
       "source": "Polity.org.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb3NQRExOUHhNSkdIZkJyQ0dFY2x4ODVZd0pCLXBZMVZWRFpDVk5WSV8xSGRsWl9uZUFOalRGRkxZblRfc3ZCUWprSmdmODhZVVN0LVNFdXFCT0g5OEJSM2hRYUdiUUJiTWwtbHBvQ0cwakpxMGxnRll3NzhnY0s3cUkyVEFkNXVmcFAtU2VMbHBmUW0teXVFWjNSSnlZQ2t2bnVPRWdEZE14REVqUHR6cVZiUFRSUklFSXNydFNQalZHbHlGTG5seEV3UXpQSWVZV3Jr?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "President orders SIU probe into North West transport firm and eThekwini tenders - novanews.co.za",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "14 Sep 2026, 10:27 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "novanews.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR2ZvVjlibVFjODU0SEkyeklTcHJGVi16dkFScUpYekQ5S2VqTUFCMHNXdjB5aE9CdjlYNWkyMDZSclFYSU1fX0E5VDNaaXFDYXVvV3YzTWs5dFMwdllRZEVZOTBwbEt0b0RERU1rb1FKaUotNk42MDJOTWFTZTlmTGF4WEoyMGl5WmtTaE5zUzFmWUlLQ1d2VXU2MGpnNUY5UWlWN2RB?oc=5",
       "business_impact_score": 44
     },
     {
@@ -260,51 +247,37 @@
       "business_impact_score": 27
     },
     {
-      "title": "National Veld and Forest Fire Act: National Veldfire Appeal Regulations, 2026",
+      "title": "Water Services Act: Draft Strategic Framework for Water and Sanitation Services for Public Comments",
       "location": "National",
       "city_id": null,
-      "category": "Politics and government",
+      "category": "Infrastructure",
       "relevance": "Guarded",
-      "published": "14 Sep 2026, 09:36 UTC",
-      "event_date": "Mon, 14 Sep 2026 09:36:36 +0000",
+      "published": "15 Sep 2026, 06:42 UTC",
+      "event_date": "Tue, 15 Sep 2026 06:42:58 +0000",
       "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/national-veld-and-forest-fire-act-national-veldfire-appeal-regulations-2026-11",
-      "business_impact_score": 27
-    },
-    {
-      "title": "National Veld and Forest Fire Act: Consultation on the proposed Amendments to the Fire Protection Association Regulations",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
-      "relevance": "Guarded",
-      "published": "14 Sep 2026, 09:35 UTC",
-      "event_date": "Mon, 14 Sep 2026 09:35:26 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/national-veld-and-forest-fire-act-consultation-proposed-amendments-fire",
+      "url": "https://www.gov.za/documents/notices/water-services-act-draft-strategic-framework-water-and-sanitation-services-public",
       "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-15",
+    "date": "2026-09-16",
     "afrikaans": {
-      "word": "Saamstem",
-      "english": "Agree",
-      "pronunciation": "SAHM-stem",
-      "example": "Ek stem saam.",
-      "example_english": "I agree.",
-      "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely."
+      "word": "Voorstel",
+      "english": "Suggestion / Proposal",
+      "pronunciation": "FOOR-stel",
+      "example": "Wat stel jy voor?",
+      "example_english": "What do you suggest?",
+      "use_note": "Useful for inviting another person's recommendation during a discussion or negotiation."
     },
     "isixhosa": {
-      "word": "Nceda",
-      "english": "Please / Help",
-      "pronunciation": "n-CEH-dah",
-      "example": "Nceda.",
-      "example_english": "Please / Help.",
-      "use_note": "A useful polite or assistance-related expression; the precise meaning depends on the sentence around it."
+      "word": "Ninjani?",
+      "english": "How are you? (several people)",
+      "pronunciation": "neen-JAH-nee",
+      "example": "Molweni, ninjani?",
+      "example_english": "Hello, how are you all?",
+      "use_note": "The plural form, useful when greeting a small group or team."
     },
     "rotation": "daily",
     "source_type": "curated"
