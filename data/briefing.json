@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-16T12:42:01.880636+01:00",
-    "generated_display": "16 Sep 2026, 12:42",
+    "generated_at": "2026-09-17T12:47:21.170252+01:00",
+    "generated_display": "17 Sep 2026, 12:47",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 70,
-    "final_item_count": 66,
+    "normalised_item_count": 74,
+    "final_item_count": 68,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -39,15 +39,15 @@
       },
       {
         "name": "Civil unrest",
-        "score": 47
+        "score": 44
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 24
       },
       {
         "name": "Transport",
-        "score": 44
+        "score": 43
       },
       {
         "name": "Business environment",
@@ -57,7 +57,7 @@
   },
   "timeline": [
     {
-      "date": "16 Sep",
+      "date": "17 Sep",
       "score": 63,
       "explanation": "High national business risk (63/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 25,
+      "score": 26,
       "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 44,
+      "score": 37,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 35,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     }
   ],
   "travel_advice": {
@@ -140,144 +140,88 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-16T12:42:01.880636+01:00",
+    "last_checked": "2026-09-17T12:47:21.170252+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Abbott, Pretorius strike in County Championship - SA Cricket Mag",
+      "title": "At least 10 incidents recorded in South Africa during anti-immigrant protests — Nigeria’s acting high commissioner - UA.NEWS",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "16 Sep 2026, 05:42 UTC",
-      "summary": "Abbott, Pretorius strike in County Championship SA Cricket Mag",
+      "time_window": "16 Sep 2026, 21:45 UTC",
+      "summary": "At least 10 incidents recorded in South Africa during anti-immigrant protests — Nigeria’s acting high commissioner UA.NEWS",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "SA Cricket Mag",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeEdqbkg0WFVSQnVwcFZxT3ZScEYwaDlxMVlxaWNlNG8zakw4dTdjSWxzMTVvaFhrLXZQSkd1WnJQZmdndmZDQXZWQWxrOTNGQkhrbnduZGZ3OU5XSEc2V2k1M29LOWdGUzJMVXltSDFLLUdHS09wRG1uSnJiZE5aMktR?oc=5",
-      "business_impact_score": 46
+      "source": "UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRXdGaGhyQldseXE2MmZJS0xsSXZqWTF0dk1FOWhEYjBTUmlqem1wcXB3dUE1RTVaWGplb0Q5SXFWQWFKZmFDVE4wa0lHTV9PZTZ0VVRqbTh0WGNBb3dmSVhuRFZla1NWMFJabF9uaGZBT0gyUVkzMTA5dVhEdDZGZlVpbnhXckdWNmRvZzhXVUJoVGNZTnBUT0QxaDIyTHFyMjVLd3owaEUzMzBZLVhXVlFpRWhpNHZoemRTdWp3N0czRmFWdUhtSHIwRURYaVFSNEUyd0E1cVRPSnJ1?oc=5",
+      "business_impact_score": 41
     }
   ],
   "news": [
     {
-      "title": "Abbott, Pretorius strike in County Championship - SA Cricket Mag",
+      "title": "Instarc secures €1.25 million for South Africa expansion - Portal ERP",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "16 Sep 2026, 03:09 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Portal ERP",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN3NlRjJIczZmd3duUkRpU2NZX3BjR25WZlItTk8zSThjTC02UWdONTdlNG1qMFAzVXFRTHJsYU93aGFJNGZsZk41cFM0SmhxQnpDWUlUbWFiNENUZGtSRkIwMkd3OXJxS0dKSHZLMXlnNWQzcnlOZmJQTUdNSEVVdnRmZUlITFNsN1dXR2FucjRNZw?oc=5",
+      "business_impact_score": 42
+    },
+    {
+      "title": "At least 10 incidents recorded in South Africa during anti-immigrant protests — Nigeria’s acting high commissioner - UA.NEWS",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "16 Sep 2026, 05:42 UTC",
+      "published": "16 Sep 2026, 21:45 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "SA Cricket Mag",
+      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "UA.NEWS",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeEdqbkg0WFVSQnVwcFZxT3ZScEYwaDlxMVlxaWNlNG8zakw4dTdjSWxzMTVvaFhrLXZQSkd1WnJQZmdndmZDQXZWQWxrOTNGQkhrbnduZGZ3OU5XSEc2V2k1M29LOWdGUzJMVXltSDFLLUdHS09wRG1uSnJiZE5aMktR?oc=5",
-      "business_impact_score": 46
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRXdGaGhyQldseXE2MmZJS0xsSXZqWTF0dk1FOWhEYjBTUmlqem1wcXB3dUE1RTVaWGplb0Q5SXFWQWFKZmFDVE4wa0lHTV9PZTZ0VVRqbTh0WGNBb3dmSVhuRFZla1NWMFJabF9uaGZBT0gyUVkzMTA5dVhEdDZGZlVpbnhXckdWNmRvZzhXVUJoVGNZTnBUT0QxaDIyTHFyMjVLd3owaEUzMzBZLVhXVlFpRWhpNHZoemRTdWp3N0czRmFWdUhtSHIwRURYaVFSNEUyd0E1cVRPSnJ1?oc=5",
+      "business_impact_score": 41
     },
     {
-      "title": "SIU to probe corruption claims at North West Transport Investments - The Citizen",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "14 Sep 2026, 20:35 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON1JXU3RfLWdkN0lyeWdJT29YeDVEVHFZOTJJVXhEaUVFY1l3Rmt0STBPdVZ3QWlPS09HQXoxVVdJOVpPLXhwUkNMSThSeWdwVWU0aFJUd1pPQ0w1NnNfNzluTE4zY0o4MkItN2toS21LanJPb0ZZZmFYRlRIZzZMS01UTUg1anh6TDFFd1V4UVdZbnpS?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Ramaphosa greenlights SIU probe into eThekwini municipality, North West Transport Investments - Polity.org.za",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "14 Sep 2026, 12:38 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Polity.org.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb3NQRExOUHhNSkdIZkJyQ0dFY2x4ODVZd0pCLXBZMVZWRFpDVk5WSV8xSGRsWl9uZUFOalRGRkxZblRfc3ZCUWprSmdmODhZVVN0LVNFdXFCT0g5OEJSM2hRYUdiUUJiTWwtbHBvQ0cwakpxMGxnRll3NzhnY0s3cUkyVEFkNXVmcFAtU2VMbHBmUW0teXVFWjNSSnlZQ2t2bnVPRWdEZE14REVqUHR6cVZiUFRSUklFSXNydFNQalZHbHlGTG5seEV3UXpQSWVZV3Jr?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Study links air pollution to strain-specific risk of pneumococcal disease in South Africa - Africa Business Communities",
+      "title": "Private Security Industry Regulation Act: Upliftment of the Moratorium on submission and processing of Applications for Extension of Scope in Respect of Specialised and Approved Special Course Accreditation",
       "location": "National",
       "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "15 Sep 2026, 04:53 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Africa Business Communities",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRmVoWHlLUGF6ZDRUVkZxb1hOYzI2YTBJZHBrVi1PRjRRbG42RG9BSmczYjFCWTJ2MDNobTB5S0x4U3V1NE8xVm9Sal82YlB4NWE1dGNZQ2xpS0xUVG1YcnFLU1BYei1laVYtWTR1SWJ3V2lNQXA3LXNJOF8xNFZzb3FnYThaZzhYQmRZc2ZVZ3hBZ193X0dzeDN5V2dUTXJWdGlDSTdaenJPeGtxUmE2RzlnNzdqSlFoeXZzVE5rdXJQNFg3ejVMcEluTGpKTEcwa1NKR0NxU0tzZDZ3?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "Firearm Control Act: Notice in terms of section 140 of the Act of the declaration of a premises or category of premises to be a Firearm-Free Zones: Government Employees Pension Fund Agency (GEPF): Phuthaditjhaba Satellite Office",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
+      "category": "Security and crime",
       "relevance": "Guarded",
-      "published": "15 Sep 2026, 06:41 UTC",
-      "event_date": "Tue, 15 Sep 2026 06:41:19 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "published": "16 Sep 2026, 12:21 UTC",
+      "event_date": "Wed, 16 Sep 2026 12:21:55 +0000",
+      "summary": "Guarded business impact (31/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/firearm-control-act-notice-terms-section-140-act-declaration-premises-or-1",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Firearm Control Act: Notice in terms of section 140 of the Act of the declaration of a premises or category of premises to be a Firearm-Free Zones: Government Employees Pension Fund Agency (GEPF): Mahikeng Regional Office",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
-      "relevance": "Guarded",
-      "published": "15 Sep 2026, 06:39 UTC",
-      "event_date": "Tue, 15 Sep 2026 06:39:35 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/firearm-control-act-notice-terms-section-140-act-declaration-premises-or-0",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Water Services Act: Draft Strategic Framework for Water and Sanitation Services for Public Comments",
-      "location": "National",
-      "city_id": null,
-      "category": "Infrastructure",
-      "relevance": "Guarded",
-      "published": "15 Sep 2026, 06:42 UTC",
-      "event_date": "Tue, 15 Sep 2026 06:42:58 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/water-services-act-draft-strategic-framework-water-and-sanitation-services-public",
-      "business_impact_score": 27
+      "url": "https://www.gov.za/documents/notices/private-security-industry-regulation-act-upliftment-moratorium-submission-and",
+      "business_impact_score": 31
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "afrikaans": {
-      "word": "Voorstel",
-      "english": "Suggestion / Proposal",
-      "pronunciation": "FOOR-stel",
-      "example": "Wat stel jy voor?",
-      "example_english": "What do you suggest?",
-      "use_note": "Useful for inviting another person's recommendation during a discussion or negotiation."
+      "word": "Verslag",
+      "english": "Report",
+      "pronunciation": "fur-SLAKH",
+      "example": "Ek het die verslag nodig.",
+      "example_english": "I need the report.",
+      "use_note": "Common workplace vocabulary for written reporting and business information."
     },
     "isixhosa": {
-      "word": "Ninjani?",
-      "english": "How are you? (several people)",
-      "pronunciation": "neen-JAH-nee",
-      "example": "Molweni, ninjani?",
-      "example_english": "Hello, how are you all?",
-      "use_note": "The plural form, useful when greeting a small group or team."
+      "word": "Hamba kakuhle",
+      "english": "Goodbye (to one person leaving)",
+      "pronunciation": "HAHM-bah kah-KOO-hleh",
+      "example": "Hamba kakuhle.",
+      "example_english": "Go well / Goodbye.",
+      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
     },
     "rotation": "daily",
     "source_type": "curated"
