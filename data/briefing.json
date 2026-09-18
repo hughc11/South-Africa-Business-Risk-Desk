@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-17T12:47:21.170252+01:00",
-    "generated_display": "17 Sep 2026, 12:47",
+    "generated_at": "2026-09-18T12:21:53.548955+01:00",
+    "generated_display": "18 Sep 2026, 12:21",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 74,
-    "final_item_count": 68,
+    "normalised_item_count": 77,
+    "final_item_count": 71,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 63,
+    "score": 65,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (63/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 29
+        "score": 37
       },
       {
         "name": "Civil unrest",
-        "score": 44
+        "score": 50
       },
       {
         "name": "Infrastructure",
-        "score": 24
+        "score": 25
       },
       {
         "name": "Transport",
-        "score": 43
+        "score": 44
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "17 Sep",
-      "score": 63,
-      "explanation": "High national business risk (63/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "18 Sep",
+      "score": 65,
+      "explanation": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 35,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 26,
-      "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "score": 30,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 37,
+      "score": 46,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
     {
       "id": "gqeberha",
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure."
+      "score": 40,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by security and crime, infrastructure."
     },
     {
       "id": "east-london",
@@ -140,55 +140,83 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-17T12:47:21.170252+01:00",
+    "last_checked": "2026-09-18T12:21:53.548955+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "At least 10 incidents recorded in South Africa during anti-immigrant protests — Nigeria’s acting high commissioner - UA.NEWS",
-      "location": "National",
+      "title": "Road closures for major events at ICC - The Citizen",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "17 Sep 2026, 01:08 UTC",
+      "summary": "Road closures for major events at ICC The Citizen",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWkdYOUtQX2Q5cG5URXlsaWR0ZG9QNDFUWFY5dnUwQVk1UUQ4cXltYWhmLWMybWRQM0V4WFNoN2VRNG1LeTYxMmhSaDZ4NHJTczZPR2psUzZRckVpdFJZcXdhS0N4aU9UcnhwWFV6Y3N0V0pkTzZKbWRBempwUFc2djdZS0UySjlwV3AyU0h2TmFNYWRlM2I2eVhwNzFvSVZ1N0pr?oc=5",
+      "business_impact_score": 32
+    },
+    {
+      "title": "Tensions rise in Durban CBD as anti-illegal immigration protests continue - Cape Argus",
+      "location": "Durban / eThekwini",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "16 Sep 2026, 21:45 UTC",
-      "summary": "At least 10 incidents recorded in South Africa during anti-immigrant protests — Nigeria’s acting high commissioner UA.NEWS",
+      "time_window": "17 Sep 2026, 15:02 UTC",
+      "summary": "Tensions rise in Durban CBD as anti-illegal immigration protests continue Cape Argus",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRXdGaGhyQldseXE2MmZJS0xsSXZqWTF0dk1FOWhEYjBTUmlqem1wcXB3dUE1RTVaWGplb0Q5SXFWQWFKZmFDVE4wa0lHTV9PZTZ0VVRqbTh0WGNBb3dmSVhuRFZla1NWMFJabF9uaGZBT0gyUVkzMTA5dVhEdDZGZlVpbnhXckdWNmRvZzhXVUJoVGNZTnBUT0QxaDIyTHFyMjVLd3owaEUzMzBZLVhXVlFpRWhpNHZoemRTdWp3N0czRmFWdUhtSHIwRURYaVFSNEUyd0E1cVRPSnJ1?oc=5",
-      "business_impact_score": 41
+      "source": "Cape Argus",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYTI0RXk2SjBLdl81a0hmenZiT3hETWJYN1c4b1VsbDl2dld3d0Q2V1dHcTdaRkxzZ3hKb2ZacDBCeU4zN1M0NU1sd3N3aEhkSDFhbVJ5ckRpNzNOT3puaWFUN3ZwdUdrTWtiaWY0WDNGY1ZGWDMxZ25XLV81U2JtcXlkQ1VwQnR4V2pETlRCOURoX2NFRUhrMzZteVBxLWMyN3ZJYm9CY1VEQnRCU3U0ZGpHc3l4SjZNVHB0SWcwUFA5c0Jsb0I1UURoa01vMDRvNHRmV0EzdDk?oc=5",
+      "business_impact_score": 53
     }
   ],
   "news": [
     {
-      "title": "Instarc secures €1.25 million for South Africa expansion - Portal ERP",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "16 Sep 2026, 03:09 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Portal ERP",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN3NlRjJIczZmd3duUkRpU2NZX3BjR25WZlItTk8zSThjTC02UWdONTdlNG1qMFAzVXFRTHJsYU93aGFJNGZsZk41cFM0SmhxQnpDWUlUbWFiNENUZGtSRkIwMkd3OXJxS0dKSHZLMXlnNWQzcnlOZmJQTUdNSEVVdnRmZUlITFNsN1dXR2FucjRNZw?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "At least 10 incidents recorded in South Africa during anti-immigrant protests — Nigeria’s acting high commissioner - UA.NEWS",
-      "location": "National",
-      "city_id": null,
+      "title": "Tensions rise in Durban CBD as anti-illegal immigration protests continue - Cape Argus",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "16 Sep 2026, 21:45 UTC",
+      "published": "17 Sep 2026, 15:02 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "UA.NEWS",
+      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Cape Argus",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRXdGaGhyQldseXE2MmZJS0xsSXZqWTF0dk1FOWhEYjBTUmlqem1wcXB3dUE1RTVaWGplb0Q5SXFWQWFKZmFDVE4wa0lHTV9PZTZ0VVRqbTh0WGNBb3dmSVhuRFZla1NWMFJabF9uaGZBT0gyUVkzMTA5dVhEdDZGZlVpbnhXckdWNmRvZzhXVUJoVGNZTnBUT0QxaDIyTHFyMjVLd3owaEUzMzBZLVhXVlFpRWhpNHZoemRTdWp3N0czRmFWdUhtSHIwRURYaVFSNEUyd0E1cVRPSnJ1?oc=5",
-      "business_impact_score": 41
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYTI0RXk2SjBLdl81a0hmenZiT3hETWJYN1c4b1VsbDl2dld3d0Q2V1dHcTdaRkxzZ3hKb2ZacDBCeU4zN1M0NU1sd3N3aEhkSDFhbVJ5ckRpNzNOT3puaWFUN3ZwdUdrTWtiaWY0WDNGY1ZGWDMxZ25XLV81U2JtcXlkQ1VwQnR4V2pETlRCOURoX2NFRUhrMzZteVBxLWMyN3ZJYm9CY1VEQnRCU3U0ZGpHc3l4SjZNVHB0SWcwUFA5c0Jsb0I1UURoa01vMDRvNHRmV0EzdDk?oc=5",
+      "business_impact_score": 53
+    },
+    {
+      "title": "Traffic warning: These Tshwane roads will be closed or at a standstill on Friday - The Citizen",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "18 Sep 2026, 04:13 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVG5pRlJqWWxnVjcwb3V5bUFZUERmU2VMVTVIamtLZ3dERUxveGxrWTN0NVBjei11WGNGYWhYZzAtTDJ2Z1hLb1J5VmdIOTh1MklNN3BmdnJiMWxaY05oQ2VoWDZxNFU1RmJ1NXNHbGhVYTI0UVJIZWx0alpGTWM0UzZzVmlsU3BKUHh4T3I2YW1zWl9tSGVHc2huUk50MThnZ1RVQ0lDNzdXcFk?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Police hunt suspects after robbery leaves Bloemfontein woman hospitalised - novanews.co.za",
+      "location": "Bloemfontein",
+      "city_id": "bloemfontein",
+      "category": "Security and crime",
+      "relevance": "Moderate",
+      "published": "17 Sep 2026, 08:37 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (43/100). Assessed as material incident, with localised (bloemfontein) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "novanews.co.za",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU1J0YS1pd1R5U1R3MlRjaFhfZ2g3b19tNk5KX0xTOFpZZjdSSmJJQzl3R1N4ZERRZGFzLWRia3NXaEZhN2t4dk42UlM3dUtKRUNuQ3RjdkVKTWxWVkV3OWRUbDFiTVlKbDVrRGN3UzZ6M1pjOW5GRGl3MUo5SmRMSGg1OGlLajBGX3FKYjRmWlZuUVh3cGEwRG8td01qSWdGb1RPNFRUQndFcVR1TXBhd3lRNGQ?oc=5",
+      "business_impact_score": 43
     },
     {
       "title": "Private Security Industry Regulation Act: Upliftment of the Moratorium on submission and processing of Applications for Extension of Scope in Respect of Specialised and Approved Special Course Accreditation",
@@ -203,25 +231,67 @@
       "confidence": "Confirmed",
       "url": "https://www.gov.za/documents/notices/private-security-industry-regulation-act-upliftment-moratorium-submission-and",
       "business_impact_score": 31
+    },
+    {
+      "title": "International Trade Administration Act: Review of tariff structure surveillance system for steel",
+      "location": "National",
+      "city_id": null,
+      "category": "Economy and business",
+      "relevance": "Guarded",
+      "published": "17 Sep 2026, 12:40 UTC",
+      "event_date": "Thu, 17 Sep 2026 12:40:51 +0000",
+      "summary": "Guarded business impact (28/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is business environment relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/international-trade-administration-act-review-tariff-structure-surveillance",
+      "business_impact_score": 28
+    },
+    {
+      "title": "Customs and Excise Act, 1964 (Act 91 of 1964): Amendment to Rules (DAR280)",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "18 Sep 2026, 09:25 UTC",
+      "event_date": "Fri, 18 Sep 2026 09:25:51 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/customs-and-excise-act-1964-act-91-1964-amendment-rules-dar280-18-sep-2026",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Customs and Excise Act, 1964: Amendment to Part 3 of Schedule No. 6 (No. 6/3/71) (English/ Afrikaans)",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "18 Sep 2026, 09:23 UTC",
+      "event_date": "Fri, 18 Sep 2026 09:23:43 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/customs-and-excise-act-1964-amendment-part-3-schedule-no-6-no-6371-english",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-17",
+    "date": "2026-09-18",
     "afrikaans": {
-      "word": "Verslag",
-      "english": "Report",
-      "pronunciation": "fur-SLAKH",
-      "example": "Ek het die verslag nodig.",
-      "example_english": "I need the report.",
-      "use_note": "Common workplace vocabulary for written reporting and business information."
+      "word": "Aanbieding",
+      "english": "Presentation",
+      "pronunciation": "AHN-bee-ding",
+      "example": "Dankie vir die aanbieding.",
+      "example_english": "Thank you for the presentation.",
+      "use_note": "Useful around briefings, pitches and formal business presentations."
     },
     "isixhosa": {
-      "word": "Hamba kakuhle",
-      "english": "Goodbye (to one person leaving)",
-      "pronunciation": "HAHM-bah kah-KOO-hleh",
-      "example": "Hamba kakuhle.",
-      "example_english": "Go well / Goodbye.",
-      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
+      "word": "Wamkelekile",
+      "english": "Welcome",
+      "pronunciation": "wahm-keh-LEH-kee-leh",
+      "example": "Wamkelekile.",
+      "example_english": "Welcome.",
+      "use_note": "Useful in hospitality and welcoming contexts; the exact form can vary with who is being addressed."
     },
     "rotation": "daily",
     "source_type": "curated"
