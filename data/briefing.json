@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-19T12:05:47.938266+01:00",
-    "generated_display": "19 Sep 2026, 12:05",
+    "generated_at": "2026-09-20T12:29:59.189471+01:00",
+    "generated_display": "20 Sep 2026, 12:29",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 71,
-    "final_item_count": 68,
+    "normalised_item_count": 63,
+    "final_item_count": 61,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,18 +28,18 @@
     }
   },
   "national": {
-    "score": 67,
+    "score": 72,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (72/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 34
+        "score": 35
       },
       {
         "name": "Civil unrest",
-        "score": 49
+        "score": 55
       },
       {
         "name": "Infrastructure",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "19 Sep",
-      "score": 67,
-      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "20 Sep",
+      "score": 72,
+      "explanation": "High national business risk (72/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 37,
+      "score": 40,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "score": 40,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "pretoria-tshwane",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 40,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "score": 27,
+      "level": "Low",
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "gqeberha",
@@ -119,7 +119,7 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 31,
+      "score": 34,
       "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -140,69 +140,111 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-19T12:05:47.938266+01:00",
+    "last_checked": "2026-09-20T12:29:59.189471+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "National Taxi Alliance warns of national protest as operators battle rising costs - ewn.co.za",
+      "title": "'Enough is enough': Women protest after string of murders near Johannesburg - BBC",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "18 Sep 2026, 06:52 UTC",
-      "summary": "National Taxi Alliance warns of national protest as operators battle rising costs ewn.co.za",
+      "time_window": "19 Sep 2026, 11:50 UTC",
+      "summary": "'Enough is enough': Women protest after string of murders near Johannesburg BBC",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "ewn.co.za",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWnhnWmVWeEpyVnpQYllwWVM2ZHJ5UjdTel80WWtDcTlzVHRzcHppYlFJaHJDSnIwVGQwSThIbUFKbDRqejJoY0ppWE8yS0Q5YmpfRk1ZN1p2VVRyMWpwSnhRV2RHREdiRUVqcWJmc09OdFJFemlUbnpZZzZhTk1USGFKemZNWEcydjBHeFVVdF94WFFIbVB3OWg4ZW5SZlg0RFhqTjc3TGJmWThiX0NiMnFsRmQ?oc=5",
-      "business_impact_score": 48
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ROVp4MVlaeTFabmh1NDBHbFNBZWZONUZRZVpobjUtMnFMRGY2TUhWMGlCendxNWVSSkhuVWVMRkdWWTBvLU4xYUc5S0t5el80OHNJdkl0ZVI?oc=5",
+      "business_impact_score": 49
     },
     {
-      "title": "What We're Watching: Saudis play telephone to stop the Houthis, South Africans protest against data centers, & More - GZERO Media",
+      "title": "Women Protest, Mourn After Nine Killed Near Johannesburg, South Africa - Global Banking & Finance Review",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "18 Sep 2026, 16:07 UTC",
-      "summary": "What We're Watching: Saudis play telephone to stop the Houthis, South Africans protest against data centers, & More GZERO Media",
+      "time_window": "19 Sep 2026, 15:18 UTC",
+      "summary": "Women Protest, Mourn After Nine Killed Near Johannesburg, South Africa Global Banking & Finance Review",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "GZERO Media",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNemdVNXZOSXBnYzdwQUFzWThYZkNqMTd6VzNkU2pyeXl5bWRMbjZsaUpTUHk2WU5NVnRZNzBEcTJDeTI3ZnMzMFNXS1N5ZThPZU9hSlFuV2dBRmx5b0NEbHRWcDNrSi1QdWdleXhuQmNlVE1ENVVvT3g3SXNOMlMybDB5SjRlbE9YMVpmd3FhM0djRm5rOFNNQmdvaXI1Z0hnelpXb01NRDd1eE9QbWp4VlRGOU5ySHV5Nk5mY1EydGlxN2xSa3dqdHo5WHFBbXNOSGtJU3VrUTRNSEhrcHpILWRIclM4cDZyd0pxNFNLUnY5V2xhY1U1VVB4Q3B1Yy1KbmlpQ0FQNzNRUQ?oc=5",
+      "source": "Global Banking & Finance Review",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmx0cXhqTHNMYUE1bG9qRmdfdVpvTkstYjBEZ2wwajREaDRuNHZheEVQdGhrQ2p3Q2laMUsyMWxwX2ZUbWkzbXpnWEtpQ1RrQzh6a0w2VWNHVDlMRmVHV0NRX3JtRFFrcmdPQ2VuQ0ZVOWxxMm9lZlRnYlBDcjNyQUFhMk43cWpOcDRMQnBPZXNDanFtbGFIMGVfVVhxQQ?oc=5",
+      "business_impact_score": 47
+    },
+    {
+      "title": "Unbeaten Zambia strike gold at the Women's IHF Nations Trophy – Africa Zone VI - IHF",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "20 Sep 2026, 07:14 UTC",
+      "summary": "Unbeaten Zambia strike gold at the Women's IHF Nations Trophy – Africa Zone VI IHF",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "IHF",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM1JuNlJUcVlWaU9VVF9uR3J4YUljeWx2bWJZVTk1eWxwZHVZN29QRjlqUk8zTC0wZlFCVFNONERralVLSGRVUlo4dHkyZlFOR05zLVJEVkxOcnZzSVN5Q0pjek9RWVFzYUdvN1VjWEdHLWdsNnpIa3ZFMDZJSnhZd0d1cUkta3h2bi05LW9mMUJ5MS1NTFE4aE1aQnVMOXFLMEtJWENTWTllVDg?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "'It has to stop' — Runners protest women's murders in Kempton Park - IOL",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "20 Sep 2026, 07:02 UTC",
+      "summary": "'It has to stop' — Runners protest women's murders in Kempton Park IOL",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWGQxdHVBOGZ4RG9BaG9BVlNMdUNFVUNpYU5YZ2RQWVNqeXQxeUhHVTIyYUtkM1FvRkFqSkZPQVhTUzN2X0lDTmV4cmlwRU1QSDdDYU13UmpSYXFKVXZhVC1uNERjRFZjN2N0QXRnTktlaXhXOTJQNkJGMHhFS3FfUUt3THVBWTZiNDFVVkNWUzg0aVYxS2ZXc09jN1FrZHdSWHdhSnQ4WDltVnFI?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "'It has to stop': runners protest women's murders in S.Africa district - Bangkok Post",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "19 Sep 2026, 18:45 UTC",
+      "summary": "'It has to stop': runners protest women's murders in S.Africa district Bangkok Post",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Bangkok Post",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNlBVVFI3M3MyT21SdHd4NE93a0U4cU1FbTRXaC0tVTVBVWRQckRjWWZDY0NSSDhwakVLUGdOSXpROE5UNEZRaEtxYmtiZVNtZktEQ0xpVUhwcC14NmxxM2ZvaV91RDBkNjlzUlpsM0pNYjBpRnZ0TUQxaGNXZzJvS0FBNlFmaUI0Z3ZXNXgwZ20taFlFLXNoZGVESDB5MFU3aGdHU3RWZ2RvZms?oc=5",
       "business_impact_score": 46
     }
   ],
   "news": [
     {
-      "title": "Tensions rise in Durban CBD as anti-illegal immigration protests continue - capeargus.co.za",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "17 Sep 2026, 15:02 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "capeargus.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYTI0RXk2SjBLdl81a0hmenZiT3hETWJYN1c4b1VsbDl2dld3d0Q2V1dHcTdaRkxzZ3hKb2ZacDBCeU4zN1M0NU1sd3N3aEhkSDFhbVJ5ckRpNzNOT3puaWFUN3ZwdUdrTWtiaWY0WDNGY1ZGWDMxZ25XLV81U2JtcXlkQ1VwQnR4V2pETlRCOURoX2NFRUhrMzZteVBxLWMyN3ZJYm9CY1VEQnRCU3U0ZGpHc3l4SjZNVHB0SWcwUFA5c0Jsb0I1UURoa01vMDRvNHRmV0EzdDk?oc=5",
-      "business_impact_score": 53
-    },
-    {
-      "title": "National Taxi Alliance warns of national protest as operators battle rising costs - ewn.co.za",
+      "title": "'Enough is enough': Women protest after string of murders near Johannesburg - BBC",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "18 Sep 2026, 06:52 UTC",
+      "published": "19 Sep 2026, 11:50 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "ewn.co.za",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "BBC",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWnhnWmVWeEpyVnpQYllwWVM2ZHJ5UjdTel80WWtDcTlzVHRzcHppYlFJaHJDSnIwVGQwSThIbUFKbDRqejJoY0ppWE8yS0Q5YmpfRk1ZN1p2VVRyMWpwSnhRV2RHREdiRUVqcWJmc09OdFJFemlUbnpZZzZhTk1USGFKemZNWEcydjBHeFVVdF94WFFIbVB3OWg4ZW5SZlg0RFhqTjc3TGJmWThiX0NiMnFsRmQ?oc=5",
-      "business_impact_score": 48
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ROVp4MVlaeTFabmh1NDBHbFNBZWZONUZRZVpobjUtMnFMRGY2TUhWMGlCendxNWVSSkhuVWVMRkdWWTBvLU4xYUc5S0t5el80OHNJdkl0ZVI?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "Women Protest, Mourn After Nine Killed Near Johannesburg, South Africa - Global Banking & Finance Review",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "19 Sep 2026, 15:18 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Global Banking & Finance Review",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmx0cXhqTHNMYUE1bG9qRmdfdVpvTkstYjBEZ2wwajREaDRuNHZheEVQdGhrQ2p3Q2laMUsyMWxwX2ZUbWkzbXpnWEtpQ1RrQzh6a0w2VWNHVDlMRmVHV0NRX3JtRFFrcmdPQ2VuQ0ZVOWxxMm9lZlRnYlBDcjNyQUFhMk43cWpOcDRMQnBPZXNDanFtbGFIMGVfVVhxQQ?oc=5",
+      "business_impact_score": 47
     },
     {
       "title": "Continuing Education and Training Act: Disposal of or Alienation of Movable Assets acquired with the Financial Assistance of the State by Technical and Vocational Education and Training Colleges",
@@ -275,65 +317,65 @@
       "business_impact_score": 46
     },
     {
-      "title": "What We're Watching: Saudis play telephone to stop the Houthis, South Africans protest against data centers, & More - GZERO Media",
+      "title": "Unbeaten Zambia strike gold at the Women's IHF Nations Trophy – Africa Zone VI - IHF",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "18 Sep 2026, 16:07 UTC",
+      "published": "20 Sep 2026, 07:14 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "GZERO Media",
+      "source": "IHF",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNemdVNXZOSXBnYzdwQUFzWThYZkNqMTd6VzNkU2pyeXl5bWRMbjZsaUpTUHk2WU5NVnRZNzBEcTJDeTI3ZnMzMFNXS1N5ZThPZU9hSlFuV2dBRmx5b0NEbHRWcDNrSi1QdWdleXhuQmNlVE1ENVVvT3g3SXNOMlMybDB5SjRlbE9YMVpmd3FhM0djRm5rOFNNQmdvaXI1Z0hnelpXb01NRDd1eE9QbWp4VlRGOU5ySHV5Nk5mY1EydGlxN2xSa3dqdHo5WHFBbXNOSGtJU3VrUTRNSEhrcHpILWRIclM4cDZyd0pxNFNLUnY5V2xhY1U1VVB4Q3B1Yy1KbmlpQ0FQNzNRUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM1JuNlJUcVlWaU9VVF9uR3J4YUljeWx2bWJZVTk1eWxwZHVZN29QRjlqUk8zTC0wZlFCVFNONERralVLSGRVUlo4dHkyZlFOR05zLVJEVkxOcnZzSVN5Q0pjek9RWVFzYUdvN1VjWEdHLWdsNnpIa3ZFMDZJSnhZd0d1cUkta3h2bi05LW9mMUJ5MS1NTFE4aE1aQnVMOXFLMEtJWENTWTllVDg?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Traffic warning: These Tshwane roads will be closed or at a standstill on Friday - citizen.co.za",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "category": "Road and transport disruption",
+      "title": "'It has to stop' — Runners protest women's murders in Kempton Park - IOL",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "18 Sep 2026, 04:13 UTC",
+      "published": "20 Sep 2026, 07:02 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "citizen.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVG5pRlJqWWxnVjcwb3V5bUFZUERmU2VMVTVIamtLZ3dERUxveGxrWTN0NVBjei11WGNGYWhYZzAtTDJ2Z1hLb1J5VmdIOTh1MklNN3BmdnJiMWxaY05oQ2VoWDZxNFU1RmJ1NXNHbGhVYTI0UVJIZWx0alpGTWM0UzZzVmlsU3BKUHh4T3I2YW1zWl9tSGVHc2huUk50MThnZ1RVQ0lDNzdXcFk?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Family allegedly forced to transfer R2,000 during Gqeberha house robbery - IOL",
-      "location": "Gqeberha",
-      "city_id": "gqeberha",
-      "category": "Security and crime",
-      "relevance": "Moderate",
-      "published": "18 Sep 2026, 15:13 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as material incident, with localised (gqeberha) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSlltcXp5U3h1YlJ1cnZVQzlBVU13NVJLYUJxamY1UDJJXzY1T2s0T3JRcmZqMTJKRnFHYnBYUUp0UmVENFpSNFRTMnY3elhHcC0tSDVqcTVDMnZuTzVqMXR0Z0lfQWpfbXE5TnhVUTlnb0RCSkhSZDhMNk9tQWF6RU02ZDZKWmxxVENpT2VicDJrakR0SnVicFhrS1NzUFFhdmNxdTdwUmVkTU5uT0V2OWdUdTJmNEJ3WVdwOXNTNG8?oc=5",
-      "business_impact_score": 43
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWGQxdHVBOGZ4RG9BaG9BVlNMdUNFVUNpYU5YZ2RQWVNqeXQxeUhHVTIyYUtkM1FvRkFqSkZPQVhTUzN2X0lDTmV4cmlwRU1QSDdDYU13UmpSYXFKVXZhVC1uNERjRFZjN2N0QXRnTktlaXhXOTJQNkJGMHhFS3FfUUt3THVBWTZiNDFVVkNWUzg0aVYxS2ZXc09jN1FrZHdSWHdhSnQ4WDltVnFI?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "'It has to stop': runners protest women's murders in S.Africa district - Bangkok Post",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "19 Sep 2026, 18:45 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Bangkok Post",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNlBVVFI3M3MyT21SdHd4NE93a0U4cU1FbTRXaC0tVTVBVWRQckRjWWZDY0NSSDhwakVLUGdOSXpROE5UNEZRaEtxYmtiZVNtZktEQ0xpVUhwcC14NmxxM2ZvaV91RDBkNjlzUlpsM0pNYjBpRnZ0TUQxaGNXZzJvS0FBNlFmaUI0Z3ZXNXgwZ20taFlFLXNoZGVESDB5MFU3aGdHU3RWZ2RvZms?oc=5",
+      "business_impact_score": 46
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-19",
+    "date": "2026-09-20",
     "afrikaans": {
-      "word": "Adviseur",
-      "english": "Adviser",
-      "pronunciation": "at-fuh-SUR",
-      "example": "Sy is ons adviseur.",
-      "example_english": "She is our adviser.",
-      "use_note": "Useful when describing professional roles in consulting or business discussions."
+      "word": "Produktief",
+      "english": "Productive",
+      "pronunciation": "pro-duk-TEEF",
+      "example": "Dit was baie produktief.",
+      "example_english": "That was very productive.",
+      "use_note": "A positive, professional way to describe a useful meeting or discussion."
     },
     "isixhosa": {
-      "word": "Uxolo",
-      "english": "Excuse me / Sorry",
-      "pronunciation": "oo-KHOH-loh",
-      "example": "Uxolo.",
-      "example_english": "Excuse me / Sorry.",
-      "use_note": "Useful for politely getting attention or apologising in everyday interaction."
+      "word": "Molo",
+      "english": "Hello (one person)",
+      "pronunciation": "MOH-loh",
+      "example": "Molo.",
+      "example_english": "Hello.",
+      "use_note": "Use when greeting one person; a simple local greeting can be a respectful way to begin an interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
