@@ -2,8 +2,8 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-21T13:54:58.853494+01:00",
-    "generated_display": "21 Sep 2026, 13:54",
+    "generated_at": "2026-09-22T12:44:40.952799+01:00",
+    "generated_display": "22 Sep 2026, 12:44",
     "timezone": "Europe/London",
     "raw_item_count": 601,
     "normalised_item_count": 52,
@@ -28,14 +28,14 @@
     }
   },
   "national": {
-    "score": 72,
+    "score": 73,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (72/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime.",
+    "summary": "High national business risk (73/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 32
+        "score": 28
       },
       {
         "name": "Civil unrest",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "21 Sep",
-      "score": 72,
-      "explanation": "High national business risk (72/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime."
+      "date": "22 Sep",
+      "score": 73,
+      "explanation": "High national business risk (73/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 45,
+      "score": 35,
       "level": "Guarded",
       "summary": "Current city risk is being driven by infrastructure."
     },
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 30,
+      "score": 31,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 38,
+      "score": 34,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 34,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, economy and business."
+      "score": 29,
+      "level": "Low",
+      "summary": "Current city risk is being driven by economy and business, unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -121,7 +121,7 @@
       "default_zoom": 11,
       "score": 25,
       "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure, unclassified news."
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "east-london",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 40,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     }
   ],
   "travel_advice": {
@@ -140,84 +140,28 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-21T13:54:58.853494+01:00",
+    "last_checked": "2026-09-22T12:44:40.952799+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "‘It has to stop’: runners protest women’s murders in S.Africa district - PressReader",
+      "title": "Here is today's weather by province: Severe storms strike Ladysmith, Escourt and Ekuvukeni areas - sapeople.com",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "21 Sep 2026, 12:20 UTC",
-      "summary": "‘It has to stop’: runners protest women’s murders in S.Africa district PressReader",
+      "time_window": "22 Sep 2026, 04:02 UTC",
+      "summary": "Here is today's weather by province: Severe storms strike Ladysmith, Escourt and Ekuvukeni areas sapeople.com",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "PressReader",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdvbFNGbmMyVllkc3FJb0dEZjJpT0d1MXhNMFZZeTRCMV9RdWFXWVRNNTNSVTVxajBwY0pQZjc5RU0taWRaSmJEMVVqMWVQNHFoWnlibUw1ckhETXppaE5Xd2ctUG01Q3ZTQ0FBWE44Q0ZQdFpr?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Soweto in Song: A history of rhythm, protest and pride - Getaway Magazine",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "21 Sep 2026, 09:03 UTC",
-      "summary": "Soweto in Song: A history of rhythm, protest and pride Getaway Magazine",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Getaway Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTHRLUTR1OWN5Rm9VTU13Q2pmSGU3RVVFT3BYMmJxUFBzaEVHUEE4c01EeDdOTUtYVmthc21CWGxvNElhbWtrTGFveUJhdjc5WUU0Z0FWZlRBZzV1TkZNZHNKSWdzdEs1QXh0YmdPN1JTUzhYOV9kTDA2cGpSNkpuVDRPZEFnTEtkLWgyTW15QXhfTUowQVNOUWI2ZDE0N3dZcUE?oc=5",
-      "business_impact_score": 46
+      "source": "sapeople.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzF1RFdscFpJcHI0ZGhlMndRVTJzd2NReWtlSUtzeEF0WWl1N0U3OFRpdUhZOGtNMFhHUk5xV1BGWkJuZ29aUFQ4MkNMek9xWjM1YjNRT1RJdmZhLTZ4Z19aSml2c1RmMzVUU1l1bG0zVU9SUmRsbEQtZGU0aXZfbUVnUDdiNWdTa3NCZ1o3Zw?oc=5",
+      "business_impact_score": 45
     }
   ],
   "news": [
-    {
-      "title": "Women Protest, Mourn After Nine Killed Near Johannesburg, South Africa - globalbankingandfinance.com",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "19 Sep 2026, 15:18 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "globalbankingandfinance.com",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmx0cXhqTHNMYUE1bG9qRmdfdVpvTkstYjBEZ2wwajREaDRuNHZheEVQdGhrQ2p3Q2laMUsyMWxwX2ZUbWkzbXpnWEtpQ1RrQzh6a0w2VWNHVDlMRmVHV0NRX3JtRFFrcmdPQ2VuQ0ZVOWxxMm9lZlRnYlBDcjNyQUFhMk43cWpOcDRMQnBPZXNDanFtbGFIMGVfVVhxQQ?oc=5",
-      "business_impact_score": 47
-    },
-    {
-      "title": "‘It has to stop’: runners protest women’s murders in S.Africa district - PressReader",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "21 Sep 2026, 12:20 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "PressReader",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUbFdvbFNGbmMyVllkc3FJb0dEZjJpT0d1MXhNMFZZeTRCMV9RdWFXWVRNNTNSVTVxajBwY0pQZjc5RU0taWRaSmJEMVVqMWVQNHFoWnlibUw1ckhETXppaE5Xd2ctUG01Q3ZTQ0FBWE44Q0ZQdFpr?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Soweto in Song: A history of rhythm, protest and pride - Getaway Magazine",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "21 Sep 2026, 09:03 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Getaway Magazine",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTHRLUTR1OWN5Rm9VTU13Q2pmSGU3RVVFT3BYMmJxUFBzaEVHUEE4c01EeDdOTUtYVmthc21CWGxvNElhbWtrTGFveUJhdjc5WUU0Z0FWZlRBZzV1TkZNZHNKSWdzdEs1QXh0YmdPN1JTUzhYOV9kTDA2cGpSNkpuVDRPZEFnTEtkLWgyTW15QXhfTUowQVNOUWI2ZDE0N3dZcUE?oc=5",
-      "business_impact_score": 46
-    },
     {
       "title": "Fourteen hours in the dark: What a Joburg power outage costs - Sunday Tribune",
       "location": "Johannesburg",
@@ -231,25 +175,39 @@
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUk1DNnZZMmtBbzJIMF9JaUNSU21BQm8zalZaY2lyOVRrVWJEU3pWVE9iMlR0eFRNR2xzbVRkd2c2MlJYQVZZaTU4Skt6YjhMaUZpMGU1OXd1bXZ5QzFNOU9mLWhaM25QM29HSzRMM3NQa2JncUNqSlV5bWczcjZCTWc2VUJ0QjJnblhLeXluRURkQWEzeExkQ1U0ZEVNbFA1WUxLOFQ2bDN5eHFTU0JRbWVUZ3g5MTQ?oc=5",
       "business_impact_score": 45
+    },
+    {
+      "title": "Here is today's weather by province: Severe storms strike Ladysmith, Escourt and Ekuvukeni areas - sapeople.com",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "22 Sep 2026, 04:02 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (45/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is short-term; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "sapeople.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzF1RFdscFpJcHI0ZGhlMndRVTJzd2NReWtlSUtzeEF0WWl1N0U3OFRpdUhZOGtNMFhHUk5xV1BGWkJuZ29aUFQ4MkNMek9xWjM1YjNRT1RJdmZhLTZ4Z19aSml2c1RmMzVUU1l1bG0zVU9SUmRsbEQtZGU0aXZfbUVnUDdiNWdTa3NCZ1o3Zw?oc=5",
+      "business_impact_score": 45
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "afrikaans": {
-      "word": "Dankie",
-      "english": "Thank you",
-      "pronunciation": "DAHN-kee",
-      "example": "Dankie vir jou tyd.",
-      "example_english": "Thank you for your time.",
-      "use_note": "A simple, widely useful expression of thanks after a meeting, introduction or assistance."
+      "word": "Baie dankie",
+      "english": "Thank you very much",
+      "pronunciation": "BY-uh DAHN-kee",
+      "example": "Baie dankie vir die vergadering.",
+      "example_english": "Thank you very much for the meeting.",
+      "use_note": "A warmer form of thanks that remains appropriate in professional and hospitality settings."
     },
     "isixhosa": {
-      "word": "Ewe",
-      "english": "Yes",
-      "pronunciation": "EH-weh",
-      "example": "Ewe.",
-      "example_english": "Yes.",
-      "use_note": "A basic affirmative response useful in everyday interaction."
+      "word": "Ndiyabulela",
+      "english": "I thank you",
+      "pronunciation": "n-dee-yah-boo-LEH-lah",
+      "example": "Ndiyabulela.",
+      "example_english": "I thank you.",
+      "use_note": "A fuller expression of gratitude that can add warmth to a courteous interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
