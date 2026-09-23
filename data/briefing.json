@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-22T12:44:40.952799+01:00",
-    "generated_display": "22 Sep 2026, 12:44",
+    "generated_at": "2026-09-23T12:43:33.384853+01:00",
+    "generated_display": "23 Sep 2026, 12:43",
     "timezone": "Europe/London",
     "raw_item_count": 601,
-    "normalised_item_count": 52,
-    "final_item_count": 52,
+    "normalised_item_count": 60,
+    "final_item_count": 60,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,18 +28,18 @@
     }
   },
   "national": {
-    "score": 73,
+    "score": 67,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (73/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime.",
+    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 28
+        "score": 37
       },
       {
         "name": "Civil unrest",
-        "score": 56
+        "score": 47
       },
       {
         "name": "Infrastructure",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Transport",
-        "score": 43
+        "score": 44
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "22 Sep",
-      "score": 73,
-      "explanation": "High national business risk (73/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime."
+      "date": "23 Sep",
+      "score": 67,
+      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 40,
+      "score": 46,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by road and transport disruption."
     },
     {
       "id": "pretoria-tshwane",
@@ -91,7 +91,7 @@
       "default_zoom": 11,
       "score": 31,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 34,
+      "score": 40,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "summary": "Current city risk is being driven by security and crime, road and transport disruption."
     },
     {
       "id": "gqeberha",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "score": 37,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     }
   ],
   "travel_advice": {
@@ -140,74 +140,144 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-22T12:44:40.952799+01:00",
+    "last_checked": "2026-09-23T12:43:33.384853+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Here is today's weather by province: Severe storms strike Ladysmith, Escourt and Ekuvukeni areas - sapeople.com",
+      "title": "N1-27 North next to Engen, Tweefontein, on the outskirts of Polokwane: The road is partially closed due to a motor vehicle accident - Arrive Alive",
+      "location": "Polokwane",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "22 Sep 2026, 07:44 UTC",
+      "summary": "N1-27 North next to Engen, Tweefontein, on the outskirts of Polokwane: The road is partially closed due to a motor vehicle accident Arrive Alive",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "Arrive Alive",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPOEZ4SXJFOXZHTGNVVXBuY1NHejI2aXpHX1BlRXNpTUNadWZDUkZZRmI1ckJ3SGxwNGI4em5fUjE4MzE5bVJzcTZxVGNsUXUxWUJSREpRUHQ3ZEF0NlF2bUo3ZFVWWVo4b0RwVEc0Zjlha0Rod0ZiSENhOFF6Zjc4RjRlbUxrWmU4cjh1Mm1vVC1qb2lVUmJOazhKYV9kQ0k1UWRhQ2RvNDI1UGpldVpWeFlHM0oySEtoSVFiZkdITUd1M2JrNWRBSTc0LTFTbDV5VTNaY3VlYjBiZWozUFJzVC0tME9OSWpuWkNYTlJXalVXZGxUTkdmTVdsUnk5LUdOMHdmNUstV0Y1ZTVGN0k2VmpVRQ?oc=5",
+      "business_impact_score": 25
+    },
+    {
+      "title": "Russian strike on foreign-flagged vessel in Black Sea kills captain, Ukraine says - TRT World",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "22 Sep 2026, 04:02 UTC",
-      "summary": "Here is today's weather by province: Severe storms strike Ladysmith, Escourt and Ekuvukeni areas sapeople.com",
+      "time_window": "23 Sep 2026, 09:13 UTC",
+      "summary": "Russian strike on foreign-flagged vessel in Black Sea kills captain, Ukraine says TRT World",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "sapeople.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzF1RFdscFpJcHI0ZGhlMndRVTJzd2NReWtlSUtzeEF0WWl1N0U3OFRpdUhZOGtNMFhHUk5xV1BGWkJuZ29aUFQ4MkNMek9xWjM1YjNRT1RJdmZhLTZ4Z19aSml2c1RmMzVUU1l1bG0zVU9SUmRsbEQtZGU0aXZfbUVnUDdiNWdTa3NCZ1o3Zw?oc=5",
-      "business_impact_score": 45
+      "source": "TRT World",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUxIVEE1bGs1RzdOc0hpU2lQUi16amVoNXRKbXZ2UC1sTzhBWm5USldwMkl1bFZCdG1CdlI4NF9nUm1nTjhBYUw1bUNVRlJMdzVGZkF3bmlDblNfZ2hzX0d6cXNfeVFMb1drb081alFvdUpfZElGY05ZQnVSUmdzWjJzdFU0Njc1NzlIckE1U3Q0alpodjNsY3pjTkxONEFUWm9IOWtyc2o4Y1JWbjhHT1B4dHRnaGlZRVJYYkFBVXFDSHZnUXNycWIxa0stZw?oc=5",
+      "business_impact_score": 46
     }
   ],
   "news": [
     {
-      "title": "Fourteen hours in the dark: What a Joburg power outage costs - Sunday Tribune",
-      "location": "Johannesburg",
-      "city_id": "johannesburg",
-      "category": "Infrastructure",
+      "title": "Six suspects arrested in Tshwane after alleged kidnapping, armed robbery and carjacking - citizen.co.za",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Security and crime",
       "relevance": "Moderate",
-      "published": "20 Sep 2026, 19:29 UTC",
+      "published": "22 Sep 2026, 12:13 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (45/100). Assessed as limited disruption, with localised (johannesburg) scope and local operational disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
-      "source": "Sunday Tribune",
+      "summary": "Moderate business impact (51/100). Assessed as major safety threat, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "citizen.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUk1DNnZZMmtBbzJIMF9JaUNSU21BQm8zalZaY2lyOVRrVWJEU3pWVE9iMlR0eFRNR2xzbVRkd2c2MlJYQVZZaTU4Skt6YjhMaUZpMGU1OXd1bXZ5QzFNOU9mLWhaM25QM29HSzRMM3NQa2JncUNqSlV5bWczcjZCTWc2VUJ0QjJnblhLeXluRURkQWEzeExkQ1U0ZEVNbFA1WUxLOFQ2bDN5eHFTU0JRbWVUZ3g5MTQ?oc=5",
-      "business_impact_score": 45
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaVdPZDFGZ0FHQVVUQno3V0NhbUs5NjhXT1JVQVlfWTJ4cG1jaTFRem5vaXN4eWxoZ2JEUHI0SjQ4eHNrdjJvNEVZbWx5T0d3a2hNVDRXN2p3OVFrVmE2M3cxWl9NdlQ1Q0x3U2gwUUFra2hzeU9keVpjcktXRU1PRlpFYV8yVDVucUx6V2w1NlVhTHZBaFZtMU9md3prM3JPdndxcG5zRUk5YmkwdnBDSXpfWEVOV01vdC1abU1fbjdqeEhxOTB2MmVVcVd2X3MxNGVn?oc=5",
+      "business_impact_score": 51
     },
     {
-      "title": "Here is today's weather by province: Severe storms strike Ladysmith, Escourt and Ekuvukeni areas - sapeople.com",
+      "title": "At least 11 people killed in South Africa township shooting - Al Jazeera",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Security and crime",
+      "relevance": "Moderate",
+      "published": "23 Sep 2026, 07:54 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Al Jazeera",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWnBtRFhtcTAtVG1nVVBJNU13TmxLOEJFcExLNlVfYUZnRF9iLTJBNGtqbEhFTnZ5ZHZMeFpHT203WkRPdlFndDZIZDluQVlIejkycVRENk9scVVCOGdNWXllRzk0OW5nZ3NPbVVfQXlTSk10MTZzR25wUmdiaUhwQXlyN1Y5bTFGUDVqRFg3NFRiT1gxdkhOQXhqRFNSRXJwNHfSAacBQVVfeXFMTm9tQ2J3bzFtb0poYmh2MnJtVU1XTTlxT2wzX00xUUdsMlFuZDVKUEkxQzg5Q2pGR0tzNExBczF0LXpqMmxKSkpTMjREUmkzY1RMWjZXWld5Umt5aU9IcTd1NTladG14YjhLb19BSTNNSFl4UGJCY2xJRXhITzZBYVMyNTlmNmwyal9jdHp3dGk4QlBreTVnOXFRUlVaZHkzSUd2aXZqMms?oc=5",
+      "business_impact_score": 47
+    },
+    {
+      "title": "Cape Town data-centre boom brings investment opportunities, infrastructure concerns - EWN",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "22 Sep 2026, 21:38 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNjB1ckVMalB3dzJudnQ2X2RtNGpPdk9vU1VtU2RITUt0X1RIZi0zYk1NaXJRS0kwZklaVW82R1BvZy13a05VYzI2ODhlNm9ybS04MGs4eVRyWEVRNkxHMzdoLXVwZE1OcGlHZ0JOYzF6NExhSEZ0VVVnMUtVWl9lcTlaOVhPTzJacHB4TWxmZEZUV1FmNTNNMWU5Nl9iNVA0eW5ZMmo1ZGhKVHlrWG4w?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Russian strike on foreign-flagged vessel in Black Sea kills captain, Ukraine says - TRT World",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "22 Sep 2026, 04:02 UTC",
+      "published": "23 Sep 2026, 09:13 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (45/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is short-term; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "sapeople.com",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "TRT World",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzF1RFdscFpJcHI0ZGhlMndRVTJzd2NReWtlSUtzeEF0WWl1N0U3OFRpdUhZOGtNMFhHUk5xV1BGWkJuZ29aUFQ4MkNMek9xWjM1YjNRT1RJdmZhLTZ4Z19aSml2c1RmMzVUU1l1bG0zVU9SUmRsbEQtZGU0aXZfbUVnUDdiNWdTa3NCZ1o3Zw?oc=5",
-      "business_impact_score": 45
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUxIVEE1bGs1RzdOc0hpU2lQUi16amVoNXRKbXZ2UC1sTzhBWm5USldwMkl1bFZCdG1CdlI4NF9nUm1nTjhBYUw1bUNVRlJMdzVGZkF3bmlDblNfZ2hzX0d6cXNfeVFMb1drb081alFvdUpfZElGY05ZQnVSUmdzWjJzdFU0Njc1NzlIckE1U3Q0alpodjNsY3pjTkxONEFUWm9IOWtyc2o4Y1JWbjhHT1B4dHRnaGlZRVJYYkFBVXFDSHZnUXNycWIxa0stZw?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "How the Integrated Freight and Logistics Strategy could ease truck congestion in Durban - sundaytribune.co.za",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "22 Sep 2026, 18:29 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "sundaytribune.co.za",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRGlSYVo4U1Z5WS1IbFZUZk1NTGJNSzdESXVybjhvMUd5WjdhanJDcHBfdEpRQ3FqU0FDdzY2b1Q4UVdiYXhMZkotLXlCbWlJS2EzVXlsaHhlRUZiNVNBTVFqcFI2U2hTMnZYZnNVcXJDWFViLVlPdGEzWExlVGd5ZFZ2RHJ4c09pY3NRUmdxQzVEVUFnY3pqTGFrSFBKVWhETUhTX3lhUTV2emg5YjIxRUJGZFRnanlwUTY0ZS1NY045RmhNaTRSV1dPcVBBZUZNOUVVNFlkYWd4RWlFUVYwWGxLa0FJZmpjN3Y1dnhydlA?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Mbalo Brief September 2026",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "22 Sep 2026, 07:46 UTC",
+      "event_date": "Tue, 22 Sep 2026 07:46:16 +0000",
+      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=19931",
+      "business_impact_score": 23
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "afrikaans": {
-      "word": "Baie dankie",
-      "english": "Thank you very much",
-      "pronunciation": "BY-uh DAHN-kee",
-      "example": "Baie dankie vir die vergadering.",
-      "example_english": "Thank you very much for the meeting.",
-      "use_note": "A warmer form of thanks that remains appropriate in professional and hospitality settings."
+      "word": "Asseblief",
+      "english": "Please",
+      "pronunciation": "AH-suh-bleef",
+      "example": "Koffie, asseblief.",
+      "example_english": "Coffee, please.",
+      "use_note": "Useful for polite requests; courtesy is important when dealing with colleagues, hosts and service staff."
     },
     "isixhosa": {
-      "word": "Ndiyabulela",
-      "english": "I thank you",
-      "pronunciation": "n-dee-yah-boo-LEH-lah",
-      "example": "Ndiyabulela.",
-      "example_english": "I thank you.",
-      "use_note": "A fuller expression of gratitude that can add warmth to a courteous interaction."
+      "word": "Ndiphilile",
+      "english": "I am well",
+      "pronunciation": "n-dee-pee-LEE-leh",
+      "example": "Ndiphilile, enkosi.",
+      "example_english": "I am well, thank you.",
+      "use_note": "A useful response when someone asks how you are."
     },
     "rotation": "daily",
     "source_type": "curated"
