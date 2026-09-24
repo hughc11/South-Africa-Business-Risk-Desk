@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-23T12:43:33.384853+01:00",
-    "generated_display": "23 Sep 2026, 12:43",
+    "generated_at": "2026-09-24T12:52:12.474895+01:00",
+    "generated_display": "24 Sep 2026, 12:52",
     "timezone": "Europe/London",
-    "raw_item_count": 601,
-    "normalised_item_count": 60,
-    "final_item_count": 60,
+    "raw_item_count": 611,
+    "normalised_item_count": 78,
+    "final_item_count": 78,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,7 +15,7 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 10
+        "item_count": 20
       },
       "National and city news": {
         "status": "success",
@@ -28,14 +28,14 @@
     }
   },
   "national": {
-    "score": 67,
+    "score": 68,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 37
+        "score": 45
       },
       {
         "name": "Civil unrest",
@@ -47,19 +47,19 @@
       },
       {
         "name": "Transport",
-        "score": 44
+        "score": 45
       },
       {
         "name": "Business environment",
-        "score": 27
+        "score": 29
       }
     ]
   },
   "timeline": [
     {
-      "date": "23 Sep",
-      "score": 67,
-      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "24 Sep",
+      "score": 68,
+      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 35,
+      "score": 34,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by infrastructure."
+      "summary": "Current city risk is being driven by infrastructure, road and transport disruption."
     },
     {
       "id": "cape-town",
@@ -81,7 +81,7 @@
       "default_zoom": 11,
       "score": 46,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption."
+      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 31,
+      "score": 35,
       "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 40,
+      "score": 44,
       "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, road and transport disruption."
     },
@@ -140,44 +140,44 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-23T12:43:33.384853+01:00",
+    "last_checked": "2026-09-24T12:52:12.474895+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "N1-27 North next to Engen, Tweefontein, on the outskirts of Polokwane: The road is partially closed due to a motor vehicle accident - Arrive Alive",
-      "location": "Polokwane",
+      "title": "Joburg motorists warned of major road closures for Absa Run Your City race - Jacaranda FM",
+      "location": "Johannesburg",
       "type": "Road closure",
       "severity": "Low",
       "status": "Active",
-      "time_window": "22 Sep 2026, 07:44 UTC",
-      "summary": "N1-27 North next to Engen, Tweefontein, on the outskirts of Polokwane: The road is partially closed due to a motor vehicle accident Arrive Alive",
+      "time_window": "23 Sep 2026, 16:16 UTC",
+      "summary": "Joburg motorists warned of major road closures for Absa Run Your City race Jacaranda FM",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
-      "source": "Arrive Alive",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPOEZ4SXJFOXZHTGNVVXBuY1NHejI2aXpHX1BlRXNpTUNadWZDUkZZRmI1ckJ3SGxwNGI4em5fUjE4MzE5bVJzcTZxVGNsUXUxWUJSREpRUHQ3ZEF0NlF2bUo3ZFVWWVo4b0RwVEc0Zjlha0Rod0ZiSENhOFF6Zjc4RjRlbUxrWmU4cjh1Mm1vVC1qb2lVUmJOazhKYV9kQ0k1UWRhQ2RvNDI1UGpldVpWeFlHM0oySEtoSVFiZkdITUd1M2JrNWRBSTc0LTFTbDV5VTNaY3VlYjBiZWozUFJzVC0tME9OSWpuWkNYTlJXalVXZGxUTkdmTVdsUnk5LUdOMHdmNUstV0Y1ZTVGN0k2VmpVRQ?oc=5",
-      "business_impact_score": 25
+      "source": "Jacaranda FM",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT05Pajc5OFBhWlpkTjRvZ2pkeXI5bDBJRkM4eFh0NzNWVzA0alZOTVhibG15QWNPNFkxazdBT2s2YWZ3SWw5ZFY2LWhEZVBPeTRGa1AwMWtJVk5OajY1QUVTVGRLU1JJUUUyVzBDeks4MlljbkE0MGVuWFR4RWU4dTBBekVsX0RUbUhMMzV3?oc=5",
+      "business_impact_score": 32
     },
     {
-      "title": "Russian strike on foreign-flagged vessel in Black Sea kills captain, Ukraine says - TRT World",
-      "location": "National",
+      "title": "Cape Town roads blocked in electricity protest - GroundUp",
+      "location": "Cape Town",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "23 Sep 2026, 09:13 UTC",
-      "summary": "Russian strike on foreign-flagged vessel in Black Sea kills captain, Ukraine says TRT World",
+      "time_window": "23 Sep 2026, 14:32 UTC",
+      "summary": "Cape Town roads blocked in electricity protest GroundUp",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "TRT World",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUxIVEE1bGs1RzdOc0hpU2lQUi16amVoNXRKbXZ2UC1sTzhBWm5USldwMkl1bFZCdG1CdlI4NF9nUm1nTjhBYUw1bUNVRlJMdzVGZkF3bmlDblNfZ2hzX0d6cXNfeVFMb1drb081alFvdUpfZElGY05ZQnVSUmdzWjJzdFU0Njc1NzlIckE1U3Q0alpodjNsY3pjTkxONEFUWm9IOWtyc2o4Y1JWbjhHT1B4dHRnaGlZRVJYYkFBVXFDSHZnUXNycWIxa0stZw?oc=5",
-      "business_impact_score": 46
+      "source": "GroundUp",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ0t0X1ZreWQ3UFhZZlZrRzdDN3Y2a0t3VFBpbVlwdy1GWUUzQVdqSDVnZWtsQm12Y2xaZE9WdExITmlfMndxeFluNHNaaXhya1dKLXFZTnZ3ZnBIU2RZTk9BYTBMNVBOMHcxcWZudUR1VlB3Uk5mUFFWWjZpZUpPYUMzQk1hbmpPLXJkUDhWSEI?oc=5",
+      "business_impact_score": 47
     }
   ],
   "news": [
     {
-      "title": "Six suspects arrested in Tshwane after alleged kidnapping, armed robbery and carjacking - citizen.co.za",
+      "title": "Six suspects arrested in Tshwane after alleged kidnapping, armed robbery and carjacking - The Citizen",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
       "category": "Security and crime",
@@ -185,10 +185,52 @@
       "published": "22 Sep 2026, 12:13 UTC",
       "event_date": "",
       "summary": "Moderate business impact (51/100). Assessed as major safety threat, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "citizen.co.za",
+      "source": "The Citizen",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaVdPZDFGZ0FHQVVUQno3V0NhbUs5NjhXT1JVQVlfWTJ4cG1jaTFRem5vaXN4eWxoZ2JEUHI0SjQ4eHNrdjJvNEVZbWx5T0d3a2hNVDRXN2p3OVFrVmE2M3cxWl9NdlQ1Q0x3U2gwUUFra2hzeU9keVpjcktXRU1PRlpFYV8yVDVucUx6V2w1NlVhTHZBaFZtMU9md3prM3JPdndxcG5zRUk5YmkwdnBDSXpfWEVOV01vdC1abU1fbjdqeEhxOTB2MmVVcVd2X3MxNGVn?oc=5",
       "business_impact_score": 51
+    },
+    {
+      "title": "KwaMakhutha residents fear rising crime after 11 killed in mass shooting - EWN",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Security and crime",
+      "relevance": "Moderate",
+      "published": "23 Sep 2026, 16:37 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeDREbGJTUXprelJCNzR4SVBTaUgtZDBiejl5OTdJQWdGNzlHN0tjdktaTmxfeWdwYkZUank2aERIT2FuM3F6YVNaYS0yVGdOeFlYN1ZRSllKYlRHbDVBYUszTFpsSEUzUHVtbUg0dXVBM3pua0VCb2VJYlVRNXo4OEJ1UmRvWDJBdGdxbzdlSklJS2piQTFUSDlWZw?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "Eleven killed in mass shooting at house in South Africa - BBC",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Security and crime",
+      "relevance": "Moderate",
+      "published": "23 Sep 2026, 06:23 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "BBC",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuNjdGSW92NEJ4Ul9oYmRERXFfTlRidkV5VVJOYjdzaFJsR1VEQUQtbXlxRFhDaC16MC1zUGZUUHBRYmhTN2x0WjRVRWwzUHRYcTI2Mk9fc00tMWZlblE?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "Cape Town roads blocked in electricity protest - GroundUp",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "23 Sep 2026, 14:32 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "GroundUp",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ0t0X1ZreWQ3UFhZZlZrRzdDN3Y2a0t3VFBpbVlwdy1GWUUzQVdqSDVnZWtsQm12Y2xaZE9WdExITmlfMndxeFluNHNaaXhya1dKLXFZTnZ3ZnBIU2RZTk9BYTBMNVBOMHcxcWZudUR1VlB3Uk5mUFFWWjZpZUpPYUMzQk1hbmpPLXJkUDhWSEI?oc=5",
+      "business_impact_score": 47
     },
     {
       "title": "At least 11 people killed in South Africa township shooting - Al Jazeera",
@@ -205,6 +247,20 @@
       "business_impact_score": 47
     },
     {
+      "title": "Standards Act: Withdrawal of Ministerial Directive on Pre-Export Verification for Certain Chinese Imports",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "23 Sep 2026, 07:26 UTC",
+      "event_date": "Wed, 23 Sep 2026 07:26:04 +0000",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/standards-act-withdrawal-ministerial-directive-pre-export-verification-certain",
+      "business_impact_score": 46
+    },
+    {
       "title": "Cape Town data-centre boom brings investment opportunities, infrastructure concerns - EWN",
       "location": "Cape Town",
       "city_id": "cape-town",
@@ -219,21 +275,7 @@
       "business_impact_score": 46
     },
     {
-      "title": "Russian strike on foreign-flagged vessel in Black Sea kills captain, Ukraine says - TRT World",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "23 Sep 2026, 09:13 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "TRT World",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUxIVEE1bGs1RzdOc0hpU2lQUi16amVoNXRKbXZ2UC1sTzhBWm5USldwMkl1bFZCdG1CdlI4NF9nUm1nTjhBYUw1bUNVRlJMdzVGZkF3bmlDblNfZ2hzX0d6cXNfeVFMb1drb081alFvdUpfZElGY05ZQnVSUmdzWjJzdFU0Njc1NzlIckE1U3Q0alpodjNsY3pjTkxONEFUWm9IOWtyc2o4Y1JWbjhHT1B4dHRnaGlZRVJYYkFBVXFDSHZnUXNycWIxa0stZw?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "How the Integrated Freight and Logistics Strategy could ease truck congestion in Durban - sundaytribune.co.za",
+      "title": "How the Integrated Freight and Logistics Strategy could ease truck congestion in Durban - Sunday Tribune",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
@@ -241,43 +283,57 @@
       "published": "22 Sep 2026, 18:29 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "sundaytribune.co.za",
+      "source": "Sunday Tribune",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRGlSYVo4U1Z5WS1IbFZUZk1NTGJNSzdESXVybjhvMUd5WjdhanJDcHBfdEpRQ3FqU0FDdzY2b1Q4UVdiYXhMZkotLXlCbWlJS2EzVXlsaHhlRUZiNVNBTVFqcFI2U2hTMnZYZnNVcXJDWFViLVlPdGEzWExlVGd5ZFZ2RHJ4c09pY3NRUmdxQzVEVUFnY3pqTGFrSFBKVWhETUhTX3lhUTV2emg5YjIxRUJGZFRnanlwUTY0ZS1NY045RmhNaTRSV1dPcVBBZUZNOUVVNFlkYWd4RWlFUVYwWGxLa0FJZmpjN3Y1dnhydlA?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "Mbalo Brief September 2026",
+      "title": "Currency and Exchanges Act Notice and Order of Forfeiture: Mr Ndumiso Ndhlovu and Zhazha Projects (Pty) Limited (registration number 2020/537512/07)",
+      "location": "National",
+      "city_id": null,
+      "category": "Economy and business",
+      "relevance": "Guarded",
+      "published": "23 Sep 2026, 07:29 UTC",
+      "event_date": "Wed, 23 Sep 2026 07:29:13 +0000",
+      "summary": "Guarded business impact (28/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is business environment relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/currency-and-exchanges-act-notice-and-order-forfeiture-mr-ndumiso-ndhlovu-and",
+      "business_impact_score": 28
+    },
+    {
+      "title": "Conclusion of Sunset Review on Anti-Dumping Duties for Ropes and Cables from Germany and the UK",
       "location": "National",
       "city_id": null,
       "category": "Government",
       "relevance": "Guarded",
-      "published": "22 Sep 2026, 07:46 UTC",
-      "event_date": "Tue, 22 Sep 2026 07:46:16 +0000",
-      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "Statistics South Africa",
+      "published": "23 Sep 2026, 07:41 UTC",
+      "event_date": "Wed, 23 Sep 2026 07:41:31 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=19931",
-      "business_impact_score": 23
+      "url": "https://www.gov.za/documents/notices/conclusion-sunset-review-anti-dumping-duties-ropes-and-cables-germany-and-uk-22",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "afrikaans": {
-      "word": "Asseblief",
-      "english": "Please",
-      "pronunciation": "AH-suh-bleef",
-      "example": "Koffie, asseblief.",
-      "example_english": "Coffee, please.",
-      "use_note": "Useful for polite requests; courtesy is important when dealing with colleagues, hosts and service staff."
+      "word": "Goeiedag",
+      "english": "Good day / Hello",
+      "pronunciation": "KHOO-ee-dakh",
+      "example": "Goeiedag. Dis goed om jou te ontmoet.",
+      "example_english": "Good day. It is good to meet you.",
+      "use_note": "A useful professional greeting, particularly when meeting someone for the first time."
     },
     "isixhosa": {
-      "word": "Ndiphilile",
-      "english": "I am well",
-      "pronunciation": "n-dee-pee-LEE-leh",
-      "example": "Ndiphilile, enkosi.",
-      "example_english": "I am well, thank you.",
-      "use_note": "A useful response when someone asks how you are."
+      "word": "Kulungile",
+      "english": "It is okay / All right",
+      "pronunciation": "koo-loon-GEE-leh",
+      "example": "Kulungile.",
+      "example_english": "All right.",
+      "use_note": "A useful acknowledgement in everyday conversation."
     },
     "rotation": "daily",
     "source_type": "curated"
