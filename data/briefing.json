@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-25T12:55:36.396715+01:00",
-    "generated_display": "25 Sep 2026, 12:55",
+    "generated_at": "2026-09-26T12:29:54.343318+01:00",
+    "generated_display": "26 Sep 2026, 12:29",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 75,
-    "final_item_count": 74,
+    "normalised_item_count": 71,
+    "final_item_count": 70,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,18 +28,18 @@
     }
   },
   "national": {
-    "score": 66,
+    "score": 67,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime.",
+    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 41
+        "score": 49
       },
       {
         "name": "Civil unrest",
-        "score": 46
+        "score": 41
       },
       {
         "name": "Infrastructure",
@@ -51,15 +51,15 @@
       },
       {
         "name": "Business environment",
-        "score": 28
+        "score": 27
       }
     ]
   },
   "timeline": [
     {
-      "date": "25 Sep",
-      "score": 66,
-      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime."
+      "date": "26 Sep",
+      "score": 67,
+      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 34,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by infrastructure, road and transport disruption."
+      "score": 28,
+      "level": "Low",
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "cape-town",
@@ -81,7 +81,7 @@
       "default_zoom": 11,
       "score": 46,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption."
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,8 +89,8 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 28,
-      "level": "Low",
+      "score": 35,
+      "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 44,
+      "score": 48,
       "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, road and transport disruption."
     },
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 33,
+      "score": 37,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by economy and business."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "bloemfontein",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 36,
+      "score": 37,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,54 +140,40 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-25T12:55:36.396715+01:00",
+    "last_checked": "2026-09-26T12:29:54.343318+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Joburg motorists warned of major road closures for Absa Run Your City race - jacarandafm.com",
-      "location": "Johannesburg",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "23 Sep 2026, 16:16 UTC",
-      "summary": "Joburg motorists warned of major road closures for Absa Run Your City race jacarandafm.com",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "jacarandafm.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT05Pajc5OFBhWlpkTjRvZ2pkeXI5bDBJRkM4eFh0NzNWVzA0alZOTVhibG15QWNPNFkxazdBT2s2YWZ3SWw5ZFY2LWhEZVBPeTRGa1AwMWtJVk5OajY1QUVTVGRLU1JJUUUyVzBDeks4MlljbkE0MGVuWFR4RWU4dTBBekVsX0RUbUhMMzV3?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "‘Dangerous, misleading narrative’: SA envoy Meyer slams white cross protest in Washington - The Citizen",
+      "title": "Gallery: AAD 2026 mini-war demonstration - defenceweb.co.za",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "25 Sep 2026, 10:59 UTC",
-      "summary": "‘Dangerous, misleading narrative’: SA envoy Meyer slams white cross protest in Washington The Citizen",
+      "time_window": "25 Sep 2026, 11:59 UTC",
+      "summary": "Gallery: AAD 2026 mini-war demonstration defenceweb.co.za",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWdaWjNOUlZhOTRMWVJHYlBuejM2RXRsY0xiM3hiTEpGdUlsYWRKMEV0QlgyWkEtaTlXRlpJbkwyQm5tQ1RKR1p1Mm0xVEJ4ZDk4ejdmLTltY2RRYWxhamxDVnBPNlBQWjE4eHQwZVIyYjVuSzVrMVUwRlpvaWJnVXZzV1Fwc21VbGc5X0lZcUtfNW45RGJPQ1hpdWpmcjk5eTczeUczNHhSOHpSRUdnNTRNN2F6SnVBaS1KeC0zU096c1Fmd0E?oc=5",
-      "business_impact_score": 46
+      "source": "defenceweb.co.za",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnJMSUZGTW9vdmxlNFhQd3FURDB0d25yQVVOWDlwNFMyUDhQMmxjdExUeDYzT0o4dmlnQTZhRS1mXzBFeHZTSnFhZHQwN1QxcWFUdFA0Xy1pbThnajNOc2cwWWNMMVZEM04tNzZLWW5xdnUtNU1zbzBIME5ZNTkxanJuaXJ1cnc?oc=5",
+      "business_impact_score": 41
     }
   ],
   "news": [
     {
-      "title": "KwaMakhutha residents fear rising crime after 11 killed in mass shooting - EWN",
+      "title": "Tip-off ends five-year hunt for last suspect in Durban mass shooting that left 9 dead - news24.com",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Security and crime",
       "relevance": "Moderate",
-      "published": "23 Sep 2026, 16:37 UTC",
+      "published": "25 Sep 2026, 12:37 UTC",
       "event_date": "",
       "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "EWN",
+      "source": "news24.com",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR093M2prdW02TnlPeEQzQVpJSGVCRERVaFQ2c3Rxd3ZCRHZnSl9nTVFUay1LRnk0b1dUS1BUdG84dVhiaF9EaTBhUkpBWlA3aDdHc3BBZVNTaHhIT04zUGVZd0REMmV0Z21RMk9LS1pfTjdxUmVOTzJUTkhLeU9uWWl6UDQ2THV2SlcwSlFCUFJ2QWF0b3JFM2tOaVFUeHJqSThRX0lCX2w?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdlkwajVMYTRfdkhxNXdibV9qaXZOMUVSeGF6VWNNN3JjY2l4Y0FOMWNJWC1XbWJGcWlfbmxCRXBCZjdnMkxobTBPdVI3Q0dnSUZsU3k5VFlTSlZxQ092NTN3aGUwLW1KTEIwVWhIRk1xN2E3dE9lamlBYXc2N0dfd01WanBoaDh3bEhuNW9WV2VKTlVvamZGZjI0eGJFS0pCeFFvdHd6dXBPUzE4UDZJNDlGMWphUUgtQ2JIa0NPR1o5Q1RuS2xSSWlaaEpVSmhRLVpkTmZSc2lQLThWZXJFcWhTNHRaQQ?oc=5",
       "business_impact_score": 49
     },
     {
@@ -205,18 +191,32 @@
       "business_impact_score": 46
     },
     {
-      "title": "‘Dangerous, misleading narrative’: SA envoy Meyer slams white cross protest in Washington - The Citizen",
+      "title": "Cape Town's major 10-hour power outage is not tonight: here's when it will happen - IOL",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "26 Sep 2026, 06:58 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (45/100). Assessed as limited disruption, with localised (cape town) scope and local operational disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjNwbXhtMkw4MExEVHlBTHd5TzFkYkpRanMtUlpVc3VWY1lYdWUyTjNhSF81bnI3cHlNNUNxT09SVVZjbEFDajdjN0J1OVdvYVNhLTkzMUJWcG5uQnpTTmZDcHYwR29BWVRDQmFkcFppSFdzRnoyZ1hCRWZYLUloSVlyV1lkSWwwcDlheF8yMXhrM2RzQzNCMVlENHZqWnpDbERRakFoTzZCSXMzQUc4UmZ3VkFyZ0tGYWhSMUdxdFQ?oc=5",
+      "business_impact_score": 45
+    },
+    {
+      "title": "Gallery: AAD 2026 mini-war demonstration - defenceweb.co.za",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "25 Sep 2026, 10:59 UTC",
+      "published": "25 Sep 2026, 11:59 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "defenceweb.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWdaWjNOUlZhOTRMWVJHYlBuejM2RXRsY0xiM3hiTEpGdUlsYWRKMEV0QlgyWkEtaTlXRlpJbkwyQm5tQ1RKR1p1Mm0xVEJ4ZDk4ejdmLTltY2RRYWxhamxDVnBPNlBQWjE4eHQwZVIyYjVuSzVrMVUwRlpvaWJnVXZzV1Fwc21VbGc5X0lZcUtfNW45RGJPQ1hpdWpmcjk5eTczeUczNHhSOHpSRUdnNTRNN2F6SnVBaS1KeC0zU096c1Fmd0E?oc=5",
-      "business_impact_score": 46
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnJMSUZGTW9vdmxlNFhQd3FURDB0d25yQVVOWDlwNFMyUDhQMmxjdExUeDYzT0o4dmlnQTZhRS1mXzBFeHZTSnFhZHQwN1QxcWFUdFA0Xy1pbThnajNOc2cwWWNMMVZEM04tNzZLWW5xdnUtNU1zbzBIME5ZNTkxanJuaXJ1cnc?oc=5",
+      "business_impact_score": 41
     },
     {
       "title": "Competition Act (89/1998), as amended: Competition Tribunal: Notification of decision to approve merger",
@@ -290,22 +290,22 @@
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "afrikaans": {
-      "word": "Goeiemôre",
-      "english": "Good morning",
-      "pronunciation": "KHOO-ee-MOR-ruh",
-      "example": "Goeiemôre. Hoe gaan dit?",
-      "example_english": "Good morning. How are you?",
-      "use_note": "A polite way to open an early meeting or workplace conversation."
+      "word": "Vergadering",
+      "english": "Meeting",
+      "pronunciation": "fur-KHAH-duh-ring",
+      "example": "Hoe laat begin die vergadering?",
+      "example_english": "What time does the meeting start?",
+      "use_note": "Core workplace vocabulary and useful when confirming schedules or meeting arrangements."
     },
     "isixhosa": {
-      "word": "Unjani?",
-      "english": "How are you? (one person)",
-      "pronunciation": "oon-JAH-nee",
-      "example": "Molo, unjani?",
-      "example_english": "Hello, how are you?",
-      "use_note": "A friendly follow-up to a greeting when speaking to one person."
+      "word": "Sala kakuhle",
+      "english": "Goodbye (to one person staying)",
+      "pronunciation": "SAH-lah kah-KOO-hleh",
+      "example": "Sala kakuhle.",
+      "example_english": "Goodbye.",
+      "use_note": "Traditionally said by the person leaving to one person who is staying."
     },
     "rotation": "daily",
     "source_type": "curated"
