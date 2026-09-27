@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-26T12:29:54.343318+01:00",
-    "generated_display": "26 Sep 2026, 12:29",
+    "generated_at": "2026-09-27T13:08:14.219043+01:00",
+    "generated_display": "27 Sep 2026, 13:08",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 71,
-    "final_item_count": 70,
+    "normalised_item_count": 74,
+    "final_item_count": 74,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -39,7 +39,7 @@
       },
       {
         "name": "Civil unrest",
-        "score": 41
+        "score": 45
       },
       {
         "name": "Infrastructure",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Transport",
-        "score": 45
+        "score": 44
       },
       {
         "name": "Business environment",
@@ -57,7 +57,7 @@
   },
   "timeline": [
     {
-      "date": "26 Sep",
+      "date": "27 Sep",
       "score": 67,
       "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime."
     }
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 28,
-      "level": "Low",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "score": 32,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by road and transport disruption."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 46,
+      "score": 36,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "summary": "Current city risk is being driven by infrastructure, road and transport disruption."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 35,
+      "score": 33,
       "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 37,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 28,
+      "level": "Low",
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -140,25 +140,53 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-26T12:29:54.343318+01:00",
+    "last_checked": "2026-09-27T13:08:14.219043+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Gallery: AAD 2026 mini-war demonstration - defenceweb.co.za",
+      "title": "LIVE: Wallabies strike for half-time lead over Springboks in Perth - RUGBY.com.au",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "25 Sep 2026, 11:59 UTC",
-      "summary": "Gallery: AAD 2026 mini-war demonstration defenceweb.co.za",
+      "time_window": "27 Sep 2026, 10:36 UTC",
+      "summary": "LIVE: Wallabies strike for half-time lead over Springboks in Perth RUGBY.com.au",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "defenceweb.co.za",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnJMSUZGTW9vdmxlNFhQd3FURDB0d25yQVVOWDlwNFMyUDhQMmxjdExUeDYzT0o4dmlnQTZhRS1mXzBFeHZTSnFhZHQwN1QxcWFUdFA0Xy1pbThnajNOc2cwWWNMMVZEM04tNzZLWW5xdnUtNU1zbzBIME5ZNTkxanJuaXJ1cnc?oc=5",
-      "business_impact_score": 41
+      "source": "RUGBY.com.au",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV0s3eWRKdkllZFJUek9JYzBzTXJvLUpuZkZBTmNwRlpEWDkzNjZpSjA2RjVyNXNFQ0ZvTkFjU1dzZEtYVjJwTDN0VGoycDN2WDZfbUlJSk5WUWFxcXAxWjVPS1BaT0NEbWd6NzFGTDE2VTEtRUdEcHpwUGJPa3JsSUtXR2JWRGJGRVB5OXF3anJGWnNQQVZwQldlYm4xX2E2QUpJa1hvaTV2OTBqd1cyRnFhVTZpd3VUNHZzYTNjeGFsbU0?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "SU students show up in great numbers to protest GBV in South Africa - Stellenbosch University",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "27 Sep 2026, 00:26 UTC",
+      "summary": "SU students show up in great numbers to protest GBV in South Africa Stellenbosch University",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Stellenbosch University",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTmpfa3Q2OF9HaGhuRFlxeUQzNmstZ1NfcUptV0xfR1hhLURYdW9NWW15MFBZZUkwR3NpaE5BWER5QmZnS09XNWZ4RWFfSV90LVlsYkxfZ1JXXzhYaVE4Y0UyaEltX3JmelBPblV3Tm9PTjlEQk05UXEtSDB3eWtzY3ljMkZYbGs1UC1pdlVMSVREUnRDX3pCOVFTSFJFcXNqY1BxclBxa0tfTTVzWW9Wa3NFQXctM1M2?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Union alerts Nigerians in South Africa ahead Sept 30 protest - Punch Newspapers",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "26 Sep 2026, 21:28 UTC",
+      "summary": "Union alerts Nigerians in South Africa ahead Sept 30 protest Punch Newspapers",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Punch Newspapers",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOUlqOHdqYl80U2VoWVNieG5qNm9JOXpYOGxUQTNOXzhrRTBDaUlfNVRzdjN6STJsRVQyYTlEanA2MFJRY2ViaUNtRUVKOWc4OGVkMzZTRi0xR1lvWWNVMVhCMWFEaDNXZ1RYNElkR1gwaTBuTV9zWTFXbjctSDVUN0VZa3lvUmVu?oc=5",
+      "business_impact_score": 46
     }
   ],
   "news": [
@@ -177,135 +205,107 @@
       "business_impact_score": 49
     },
     {
-      "title": "Special Investigating Units and Special Tribunals Act: Amendment of Proclamation 156 of 2024: Investigating into certain affairs of the KwaZulu-Natal Department of Transport",
+      "title": "LIVE: Wallabies strike for half-time lead over Springboks in Perth - RUGBY.com.au",
       "location": "National",
       "city_id": null,
-      "category": "Road and transport disruption",
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "25 Sep 2026, 09:01 UTC",
-      "event_date": "Fri, 25 Sep 2026 09:01:44 +0000",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/special-investigating-units-and-special-tribunals-act-amendment-proclamation-156",
+      "published": "27 Sep 2026, 10:36 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "RUGBY.com.au",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV0s3eWRKdkllZFJUek9JYzBzTXJvLUpuZkZBTmNwRlpEWDkzNjZpSjA2RjVyNXNFQ0ZvTkFjU1dzZEtYVjJwTDN0VGoycDN2WDZfbUlJSk5WUWFxcXAxWjVPS1BaT0NEbWd6NzFGTDE2VTEtRUdEcHpwUGJPa3JsSUtXR2JWRGJGRVB5OXF3anJGWnNQQVZwQldlYm4xX2E2QUpJa1hvaTV2OTBqd1cyRnFhVTZpd3VUNHZzYTNjeGFsbU0?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Cape Town's major 10-hour power outage is not tonight: here's when it will happen - IOL",
+      "title": "SU students show up in great numbers to protest GBV in South Africa - Stellenbosch University",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "27 Sep 2026, 00:26 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Stellenbosch University",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTmpfa3Q2OF9HaGhuRFlxeUQzNmstZ1NfcUptV0xfR1hhLURYdW9NWW15MFBZZUkwR3NpaE5BWER5QmZnS09XNWZ4RWFfSV90LVlsYkxfZ1JXXzhYaVE4Y0UyaEltX3JmelBPblV3Tm9PTjlEQk05UXEtSDB3eWtzY3ljMkZYbGs1UC1pdlVMSVREUnRDX3pCOVFTSFJFcXNqY1BxclBxa0tfTTVzWW9Wa3NFQXctM1M2?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Union alerts Nigerians in South Africa ahead Sept 30 protest - Punch Newspapers",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "26 Sep 2026, 21:28 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Punch Newspapers",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOUlqOHdqYl80U2VoWVNieG5qNm9JOXpYOGxUQTNOXzhrRTBDaUlfNVRzdjN6STJsRVQyYTlEanA2MFJRY2ViaUNtRUVKOWc4OGVkMzZTRi0xR1lvWWNVMVhCMWFEaDNXZ1RYNElkR1gwaTBuTV9zWTFXbjctSDVUN0VZa3lvUmVu?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Cape Town's major 10-hour power outage is not tonight: here's when it will happen - iol.co.za",
       "location": "Cape Town",
       "city_id": "cape-town",
       "category": "Infrastructure",
       "relevance": "Moderate",
-      "published": "26 Sep 2026, 06:58 UTC",
+      "published": "26 Sep 2026, 07:06 UTC",
       "event_date": "",
       "summary": "Moderate business impact (45/100). Assessed as limited disruption, with localised (cape town) scope and local operational disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
-      "source": "IOL",
+      "source": "iol.co.za",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjNwbXhtMkw4MExEVHlBTHd5TzFkYkpRanMtUlpVc3VWY1lYdWUyTjNhSF81bnI3cHlNNUNxT09SVVZjbEFDajdjN0J1OVdvYVNhLTkzMUJWcG5uQnpTTmZDcHYwR29BWVRDQmFkcFppSFdzRnoyZ1hCRWZYLUloSVlyV1lkSWwwcDlheF8yMXhrM2RzQzNCMVlENHZqWnpDbERRakFoTzZCSXMzQUc4UmZ3VkFyZ0tGYWhSMUdxdFQ?oc=5",
       "business_impact_score": 45
     },
     {
-      "title": "Gallery: AAD 2026 mini-war demonstration - defenceweb.co.za",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
+      "title": "Cape Town traffic arrests: Four drivers nabbed for street racing and drunk driving - Cape Town ETC",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "25 Sep 2026, 11:59 UTC",
+      "published": "26 Sep 2026, 18:00 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "defenceweb.co.za",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Cape Town ETC",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnJMSUZGTW9vdmxlNFhQd3FURDB0d25yQVVOWDlwNFMyUDhQMmxjdExUeDYzT0o4dmlnQTZhRS1mXzBFeHZTSnFhZHQwN1QxcWFUdFA0Xy1pbThnajNOc2cwWWNMMVZEM04tNzZLWW5xdnUtNU1zbzBIME5ZNTkxanJuaXJ1cnc?oc=5",
-      "business_impact_score": 41
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkY4dXl3a2xaZDJFN0xOVTVreVpZUVJyc1ZTaUhzT0pyRVRnNmgyOE5CcGg1YnctSHkwUUxrWWEwc1dVWFduellxOWQyME9aQ0ZiYjFYNC1RdUtwNllKZGY0ZlBkU3Ezalh4NnBzU2twOC1wNDJTd2p0LVpRcGg4WkF5SjJFOEVDS2NxcVY2T1RPYTkxOHl6d1JLbUY0d19uUURKRlRtMUczZkIzN0l6Q085cGtZdw?oc=5",
+      "business_impact_score": 44
     },
     {
-      "title": "Competition Act (89/1998), as amended: Competition Tribunal: Notification of decision to approve merger",
+      "title": "Grid and construction problems delay 427MW of new power in South Africa - MyBroadband",
       "location": "National",
       "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "25 Sep 2026, 09:13 UTC",
-      "event_date": "Fri, 25 Sep 2026 09:13:00 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/competition-act-891998-amended-competition-tribunal-notification-decision-approve",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Marine Pollution (Prevention of Pollution from Ships) Act: Draft Marine Pollution (Prevention of Sewage Pollution from Ships) Regulations, 2026",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
-      "relevance": "Guarded",
-      "published": "25 Sep 2026, 08:13 UTC",
-      "event_date": "Fri, 25 Sep 2026 08:13:05 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/marine-pollution-prevention-pollution-ships-act-draft-marine-pollution-prevention",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Marine Oil Pollution (Preparedness, Response and Cooperation) Act (8/2025): Marine Oil Pollution (Preparedness, Response and Cooperation) Regulations, 2026",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
-      "relevance": "Guarded",
-      "published": "25 Sep 2026, 08:11 UTC",
-      "event_date": "Fri, 25 Sep 2026 08:11:50 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/marine-oil-pollution-preparedness-response-and-cooperation-act-82025-marine-oil",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Independent Commission for the Remuneration of Public Office Bearers Act, 1997: Explanatory Memorandum for Annual Remuneration Recommendations for 2026/27",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "25 Sep 2026, 08:01 UTC",
-      "event_date": "Fri, 25 Sep 2026 08:01:46 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/independent-commission-remuneration-public-office-bearers-act-1997-explanatory",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Labour Relations Act: Extension to non-parties of the Pharmaceutical Sector Collective Amending Agreement: Representations invited",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "25 Sep 2026, 07:58 UTC",
-      "event_date": "Fri, 25 Sep 2026 07:58:08 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/labour-relations-act-extension-non-parties-pharmaceutical-sector-collective",
-      "business_impact_score": 27
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "27 Sep 2026, 10:00 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "MyBroadband",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXR4aHRjdWppR1JCZEdfX0N1emNJbkhnRDA1YjRRNlMzRERoZkg0djduVkltUG1zeEQtSkc0RnpXOU4tNEotREdrd0ZrQkhUcFBiQ1FTcXNZYzROYktXNmxtQ0ROU01rZDBOcDViLXA4MkEzV3U3MVdhd3o5NTRKcFVkdk0yYVlZN3Z2S0JLMkoxT21kOFF2NHRIOU5rVUlGbDgzMXFFWWZiSk9ScGpkc2ctd2Y1M0thRFE1dy1n?oc=5",
+      "business_impact_score": 42
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-26",
+    "date": "2026-09-27",
     "afrikaans": {
-      "word": "Vergadering",
-      "english": "Meeting",
-      "pronunciation": "fur-KHAH-duh-ring",
-      "example": "Hoe laat begin die vergadering?",
-      "example_english": "What time does the meeting start?",
-      "use_note": "Core workplace vocabulary and useful when confirming schedules or meeting arrangements."
+      "word": "Besigheid",
+      "english": "Business",
+      "pronunciation": "buh-SAY-khite",
+      "example": "Ons praat oor besigheid.",
+      "example_english": "We are talking about business.",
+      "use_note": "A common general term for business and commercial discussion."
     },
     "isixhosa": {
-      "word": "Sala kakuhle",
-      "english": "Goodbye (to one person staying)",
-      "pronunciation": "SAH-lah kah-KOO-hleh",
-      "example": "Sala kakuhle.",
-      "example_english": "Goodbye.",
-      "use_note": "Traditionally said by the person leaving to one person who is staying."
+      "word": "Molweni",
+      "english": "Hello (several people)",
+      "pronunciation": "moh-LWEH-nee",
+      "example": "Molweni.",
+      "example_english": "Hello, everyone.",
+      "use_note": "The plural greeting, useful when entering a meeting or greeting a group."
     },
     "rotation": "daily",
     "source_type": "curated"
