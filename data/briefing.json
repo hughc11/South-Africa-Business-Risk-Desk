@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-09-30T13:40:43.255812+01:00",
-    "generated_display": "30 Sep 2026, 13:40",
+    "generated_at": "2026-10-01T14:24:07.908792+01:00",
+    "generated_display": "01 Oct 2026, 14:24",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 89,
-    "final_item_count": 86,
+    "normalised_item_count": 102,
+    "final_item_count": 98,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,22 +28,22 @@
     }
   },
   "national": {
-    "score": 76,
+    "score": 77,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (76/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime.",
+    "summary": "High national business risk (77/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 33
+        "score": 32
       },
       {
         "name": "Civil unrest",
-        "score": 62
+        "score": 63
       },
       {
         "name": "Infrastructure",
-        "score": 40
+        "score": 43
       },
       {
         "name": "Transport",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "30 Sep",
-      "score": 76,
-      "explanation": "High national business risk (76/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime."
+      "date": "01 Oct",
+      "score": 77,
+      "explanation": "High national business risk (77/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 42,
+      "score": 30,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 34,
+      "score": 36,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by infrastructure, security and crime."
+      "summary": "Current city risk is being driven by infrastructure, road and transport disruption."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 35,
+      "score": 38,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "durban-ethekwini",
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 27,
+      "score": 26,
       "level": "Low",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 42,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "east-london",
@@ -140,53 +140,81 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-09-30T13:40:43.255812+01:00",
+    "last_checked": "2026-10-01T14:24:07.908792+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
-      "location": "Durban / eThekwini",
+      "title": "Truck driver dies in N1 accident, road closed due to chemical spillage - novanews.co.za",
+      "location": "Bloemfontein",
       "type": "Road closure",
-      "severity": "Medium",
+      "severity": "Low",
       "status": "Active",
-      "time_window": "29 Sep 2026, 09:54 UTC",
-      "summary": "UPDATE: Traffic backed-up from Richmond Road The Citizen",
+      "time_window": "30 Sep 2026, 06:59 UTC",
+      "summary": "Truck driver dies in N1 accident, road closed due to chemical spillage novanews.co.za",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
-      "source": "The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
-      "business_impact_score": 44
+      "source": "novanews.co.za",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOElqZ0hhY05BZFR5Z3E3U20xdFBkN1loS0J2NUU4OFlMdjRxOXdJUTdIVGdIaTAyaERGa05SQ0RPWU1MVTVjRlE3Rm15M294RlVSdjRnV1RoSjE0YVp1T3Zfa2RjSVlNYXB4ZFlyY0E0UVBhMDd0RTNEdjF1Ry13QUIta19yQ21UT1BkTVNmNnVzSjdCcmliTg?oc=5",
+      "business_impact_score": 25
     },
     {
-      "title": "South Africa braces for another national shutdown - Cape Town ETC",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "High",
-      "status": "Active",
-      "time_window": "29 Sep 2026, 07:00 UTC",
-      "summary": "South Africa braces for another national shutdown Cape Town ETC",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Cape Town ETC",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd3lVYmZLU3g2REVGTjlpYXV5SG1iT0Z6c0Znb3NydnFjTjI4YzZ5N1Bab29VSHdjRjlwWFF2LWJMM1lvd1F4YjVwb1BUS0ZkU0taMXo1LXppeFl1N1FjdnNXVmw2NFVGSFZOVWhuSjNrWVR0UDdCSThoODVRbHB0QkZlZzBta2FRcWFB?oc=5",
-      "business_impact_score": 86
-    },
-    {
-      "title": "Why documentary filmmaker Andy Mundy-Castle turned his lens to SA’s protest legacy - Daily Maverick",
+      "title": "March and March immigration protest: South Africa anti-migrant group protest against gender-based violence and illegal migration - BBC",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "29 Sep 2026, 05:05 UTC",
-      "summary": "Why documentary filmmaker Andy Mundy-Castle turned his lens to SA’s protest legacy Daily Maverick",
+      "time_window": "30 Sep 2026, 15:32 UTC",
+      "summary": "March and March immigration protest: South Africa anti-migrant group protest against gender-based violence and illegal migration BBC",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Daily Maverick",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc2gzcm55NWtWc0R5R1pNejV3WXY0TEZtU3JNNTdUU3NMYnhTdmdad0pHN05WblZWSlFtX2lJOEtXTkpqOVQ3SEwxMENTdzlvMmFWZFBHMWVfSkRSTjdodzBNLUwxSnNFUkRwNXJ6by02MFBqNDAyNGFoQ1pJZVAweGFGYk40YlZWOW5jd0FBY3RYX3haM1VoYnhNZGJzMF85YkVZR3VrVFAwR0NHeldraVBkNURlR3RtWTlFMTRWV21XbVk?oc=5",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40MUZfRVhfb3ZZTjRKNWVqVlBENzlsZlE3Sl9qR0k5Zy01aDNKRl9kMkYwN29OMmM5VWxWMzV3Y3NlVUJ0aXlHYkJFU0JOSXU5MEVrbFlUTVVPMnp0emfSAWNBVV95cUxOM1RickNibTlmSV9YbzMyaHJRTXRIMjN1SXRNSlEwMVAySjNjTnJPNEtHdVRCbGtvekl6cU9jM2lPOEEwbjVQYjV3RGdpRWNpMVc4dTd2bjdtWnhSeHBnaE5DbDA?oc=5",
       "business_impact_score": 48
+    },
+    {
+      "title": "Civil society groups to protest illegal immigration in SA - EWN",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "30 Sep 2026, 04:04 UTC",
+      "summary": "Civil society groups to protest illegal immigration in SA EWN",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMWtlQWNSMHNtc1FvMWJpeGt1TER0X1p1VU4tQlB3UFhWRE5CelNaUWE2THVlNUpwNl8yZHE1aTFFV1ppc2IzUjQ5S2ZjNFpKV3JMb0tVNEU5al93NXFmRldkVV9HUFA0TEM2dUptcTlmLVlYbXk3Z091WlJSOHA5eFc3dVZLQU5HcnpCci1YQmZCU0d3?oc=5",
+      "business_impact_score": 48
+    },
+    {
+      "title": "South Africa lodges fresh diplomatic protest against US ambassador - aa.com.tr",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "30 Sep 2026, 14:52 UTC",
+      "summary": "South Africa lodges fresh diplomatic protest against US ambassador aa.com.tr",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "aa.com.tr",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYVJVWnVsN1Bqa054aTkwa2JTV1BMLWF2cFl1UEloLVRrOHRyUHkzYzhEY1lnV2ZEU2xFZGlIeW5FNGROV3U2bkNuVXljWVdFN2J3cHQzbkFDcGo2TUVOOFl5SWQtSWFHa2d6RUxUeENNZ2s1T3p5TlNiSFJsTlo0ZXUzVmNWckgxWk92RmxMMS00UDRuSHFIQW0zdlhsSnNOSTR1NG9rMDl3Zw?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Hundreds of South Africans protest against undocumented immigrants in Durban - africanews.com",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "30 Sep 2026, 13:19 UTC",
+      "summary": "Hundreds of South Africans protest against undocumented immigrants in Durban africanews.com",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "africanews.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZWR4bUE3V3NlWE40aERhbGwwSDlEaU5hRW96akEtR25UZ2FSc3RQMVZyREZjMkRaRkh0ZG1mNldXMmNwbFRXVUk2QVk1RUdpY2hhc3RFSWtuLWFSbnhEX0JBNklMa0haMVhTbl9weXN1SnM0SWZ6bjIyUE5XMFU4OEVFajRQYjUtVUI1cUtYUVZfbVlUV1FOMzExUHQxbDEwQWRwZFpPbGVzQjYwbG5MbWhGMzRTZ9IBuwFBVV95cUxOeGdFSFJNM1IyR3Uwdnh3ams5UWQ2UVJkeEJuOHZ3S2lVdnc4RC12dFo2Q3paWEgyZlJpb0c0RkVtRFlXbk5IUHRVbmFxQ0lyRkpNdk10OHRIVGp2UkxwYzF1RVZiemsyU3ZQdDROX0c1X1dzSy1zVXBnVGhDeFllUW5FemNKVXhaakdlNjhYd1lMYXJZNWVzdXhLcGpYUDh2WmZzamI5djBlQW5DYjZrNzVZeVdlc2NHMUs0?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "South Africa anti-migrants protests: Nigeria say three citizens killed in SA as September 30 deadline for foreign nationals draw close - BBC",
@@ -203,117 +231,131 @@
       "business_impact_score": 43
     },
     {
-      "title": "Durban refugees on alert as March and March plans September 30 action - IOL",
+      "title": "Protesters against illegal immigration in South Africa call for more deportations - ABC News - Breaking News, Latest News and Videos",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "29 Sep 2026, 11:18 UTC",
-      "summary": "Durban refugees on alert as March and March plans September 30 action IOL",
+      "time_window": "30 Sep 2026, 20:47 UTC",
+      "summary": "Protesters against illegal immigration in South Africa call for more deportations ABC News - Breaking News, Latest News and Videos",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "IOL",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORjZTNEVleTBMWFlPT3doWVBTZl9wM1FHcGwxVklBUGZRZkRETWdoSEVTNEhWLVM3cTBvdGFMRUh5ZlRyU1Zsa3VUeVRIQXBYSTMyeUphRWhSMzAtdkh6M2pfZ3Q4MFREUGZHZ0hvRFRHS0sxMWl5V3pZUXNuTU5GR3JMUTlkWld3VVo5YUNhaHhJUEJVM2gzY1RmcXdLRm01OWFFbTNmZGpEMENoY3VFNHhzMEd2QVpn?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY0daaWNiNkFZZlpnMUF4M0pLbkZyVmhRYVdyVHItMEZfSWhaUG9FRDc4VUdJZHVhMW5PU0lLLXVLejViQUJhcnFzUlBseTBSbGF6R09yWTVYME5xWV9hNkZzaDRWSjlFSWZfaTVkTEFhRi1kWHItZ0Fmcm9QOHBUZVlZNUZmWEFhRjF0RDdXSy1SYm1JM3plbHpqU3c2clBRenc4cUF2amJEYzFZQmFxRVdSUFJBZ9IBuwFBVV95cUxNMjZXUEdqQ3FpTXBnYjhwUUNjWl9Lbi1rOVozSUM1S0hjSHQyTkU4b2Y2c0lWZ3NwQS0ydlJzUWtQclhSZ2Ffa3ZOVG1laGFpOFZ1RW1KZmJoUWpwZHh6MXlrcnQzcG9FUDdmV2hZUVJBOVpsOVVqbjh5OWt0M3JHNVZWMEluNkRKcjQ1Y21NTEVxVEpFSDZkXzdhMDVpUXpXRHhZMVdzQ21uMkJoZllKV3R0Q2FET2MycWF3?oc=5",
       "business_impact_score": 41
     },
     {
-      "title": "Jobs Lost in SA’s Formal Non-Agricultural Sector in the Second Quarter of 2026",
+      "title": "Protesters against illegal immigration in South Africa call for more deportations - Bozeman Daily Chronicle",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "29 Sep 2026, 09:36 UTC",
-      "summary": "According to the Quarterly Employment Statistics (QES, Q2:2026) survey released by Statistics South Africa (Stats SA), total employment in the formal non-agricultural sector decreased by14 000 (-0,1%) in the second quarter of 2026, falling from 10,439 million in March 2026 to 10,425 million by Ju...",
+      "time_window": "30 Sep 2026, 19:58 UTC",
+      "summary": "Protesters against illegal immigration in South Africa call for more deportations Bozeman Daily Chronicle",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Confirmed",
-      "source": "Statistics South Africa",
-      "url": "https://www.statssa.gov.za/?p=19964",
+      "confidence": "Reported",
+      "source": "Bozeman Daily Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOYklwNUFLMWs0Wklsc2gtSnl2N25rNVh4TTdRQXJnczd1OXkyRU1GQmNBbHMyNDY1NVA1Z3A2UTQ1dzNkcS1aWUhYdTgwWTFmZ3FUeUkwRmpLMmFCTWlEZjhLay1jdUVjTndPcGx5bWRXY2MxSnhKc1lhZjRFSXo1SkZ2UUpEajVqRG0xUXZVejN6NElzUVJiTFJNb00tbFcyWVh3M1NjaGMzTF81OTREN3R2LWVaMU9DSFpHejFVT3RONFpmZWlHam9zT3pPb2Zmc0p6RmlZUE5XN29VWTVZUDRnbHp4cTd5ZTJ4ZTRseFJnZ3VvRDhwX3cyY1piVWp5UUNnMFR6OW13QlRwMlpMT0kyZDdfVUk?oc=5",
       "business_impact_score": 41
     }
   ],
   "news": [
     {
-      "title": "South Africa braces for another national shutdown - Cape Town ETC",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Severe",
-      "published": "29 Sep 2026, 07:00 UTC",
-      "event_date": "",
-      "summary": "Severe business impact (86/100). Assessed as critical threat, with national scope and essential systems unavailable. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: major multi area escalation.",
-      "source": "Cape Town ETC",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd3lVYmZLU3g2REVGTjlpYXV5SG1iT0Z6c0Znb3NydnFjTjI4YzZ5N1Bab29VSHdjRjlwWFF2LWJMM1lvd1F4YjVwb1BUS0ZkU0taMXo1LXppeFl1N1FjdnNXVmw2NFVGSFZOVWhuSjNrWVR0UDdCSThoODVRbHB0QkZlZzBta2FRcWFB?oc=5",
-      "business_impact_score": 86
-    },
-    {
-      "title": "Why documentary filmmaker Andy Mundy-Castle turned his lens to SA’s protest legacy - Daily Maverick",
+      "title": "March and March immigration protest: South Africa anti-migrant group protest against gender-based violence and illegal migration - BBC",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "29 Sep 2026, 05:05 UTC",
+      "published": "30 Sep 2026, 15:32 UTC",
       "event_date": "",
       "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "Daily Maverick",
+      "source": "BBC",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc2gzcm55NWtWc0R5R1pNejV3WXY0TEZtU3JNNTdUU3NMYnhTdmdad0pHN05WblZWSlFtX2lJOEtXTkpqOVQ3SEwxMENTdzlvMmFWZFBHMWVfSkRSTjdodzBNLUwxSnNFUkRwNXJ6by02MFBqNDAyNGFoQ1pJZVAweGFGYk40YlZWOW5jd0FBY3RYX3haM1VoYnhNZGJzMF85YkVZR3VrVFAwR0NHeldraVBkNURlR3RtWTlFMTRWV21XbVk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40MUZfRVhfb3ZZTjRKNWVqVlBENzlsZlE3Sl9qR0k5Zy01aDNKRl9kMkYwN29OMmM5VWxWMzV3Y3NlVUJ0aXlHYkJFU0JOSXU5MEVrbFlUTVVPMnp0emfSAWNBVV95cUxOM1RickNibTlmSV9YbzMyaHJRTXRIMjN1SXRNSlEwMVAySjNjTnJPNEtHdVRCbGtvekl6cU9jM2lPOEEwbjVQYjV3RGdpRWNpMVc4dTd2bjdtWnhSeHBnaE5DbDA?oc=5",
       "business_impact_score": 48
     },
     {
-      "title": "Cape Town power outage leaves thousands without electricity across northern and western suburbs - Cape Town ETC",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Infrastructure",
+      "title": "Civil society groups to protest illegal immigration in SA - EWN",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "28 Sep 2026, 20:30 UTC",
+      "published": "30 Sep 2026, 04:04 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (45/100). Assessed as limited disruption, with localised (cape town) scope and local operational disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
-      "source": "Cape Town ETC",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "EWN",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEM0QlV3T3RhTXpXTTVfSTNiRXJqaVBOZ0sxWi1DSktLWmprR2RYeUlSdUdrTHp6aU5iN3lTQmR6RjI1OUZKMHlIcF9FUHRMOUZzWm5BeGNZem9ySGV6Y0E1NjVheHVkVzU1MC0zWFM4OTc1REVnOUp2NkR3NVRzMUdrVUxHUEtMZTVYWDhEVnFrU1g0MWdjNVlKcU5sdmdmSFZzMUVGbElmcFU1T1Y0WTNlVnBFVUhSNE1RdFpFODhYc2FrM2dHQQ?oc=5",
-      "business_impact_score": 45
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMWtlQWNSMHNtc1FvMWJpeGt1TER0X1p1VU4tQlB3UFhWRE5CelNaUWE2THVlNUpwNl8yZHE1aTFFV1ppc2IzUjQ5S2ZjNFpKV3JMb0tVNEU5al93NXFmRldkVV9HUFA0TEM2dUptcTlmLVlYbXk3Z091WlJSOHA5eFc3dVZLQU5HcnpCci1YQmZCU0d3?oc=5",
+      "business_impact_score": 48
     },
     {
-      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
+      "title": "South Africa lodges fresh diplomatic protest against US ambassador - aa.com.tr",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "30 Sep 2026, 14:52 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "aa.com.tr",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYVJVWnVsN1Bqa054aTkwa2JTV1BMLWF2cFl1UEloLVRrOHRyUHkzYzhEY1lnV2ZEU2xFZGlIeW5FNGROV3U2bkNuVXljWVdFN2J3cHQzbkFDcGo2TUVOOFl5SWQtSWFHa2d6RUxUeENNZ2s1T3p5TlNiSFJsTlo0ZXUzVmNWckgxWk92RmxMMS00UDRuSHFIQW0zdlhsSnNOSTR1NG9rMDl3Zw?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Hundreds of South Africans protest against undocumented immigrants in Durban - africanews.com",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "30 Sep 2026, 13:19 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "africanews.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZWR4bUE3V3NlWE40aERhbGwwSDlEaU5hRW96akEtR25UZ2FSc3RQMVZyREZjMkRaRkh0ZG1mNldXMmNwbFRXVUk2QVk1RUdpY2hhc3RFSWtuLWFSbnhEX0JBNklMa0haMVhTbl9weXN1SnM0SWZ6bjIyUE5XMFU4OEVFajRQYjUtVUI1cUtYUVZfbVlUV1FOMzExUHQxbDEwQWRwZFpPbGVzQjYwbG5MbWhGMzRTZ9IBuwFBVV95cUxOeGdFSFJNM1IyR3Uwdnh3ams5UWQ2UVJkeEJuOHZ3S2lVdnc4RC12dFo2Q3paWEgyZlJpb0c0RkVtRFlXbk5IUHRVbmFxQ0lyRkpNdk10OHRIVGp2UkxwYzF1RVZiemsyU3ZQdDROX0c1X1dzSy1zVXBnVGhDeFllUW5FemNKVXhaakdlNjhYd1lMYXJZNWVzdXhLcGpYUDh2WmZzamI5djBlQW5DYjZrNzVZeVdlc2NHMUs0?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Gautrain finally gets new operator. More trains, longer hours promised - news24.com",
+      "location": "National",
+      "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "29 Sep 2026, 09:54 UTC",
+      "published": "30 Sep 2026, 17:13 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "news24.com",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXYyMzNuQy1OMkllRkFRaWdJQk5qcDZSTWo0LTN4QjBiS3pJT1JxNTNCbkhVN2piQnF6Z2ZaeDEzUlRTdWJ1MWhlaUhKdzBBSTg3azhJVjBfQXBpZFE2bHlyejI0dXlGOGUtejI0dktGNVJHaWVTVUpaNHVsTkM1Ull2dGNzcHhuMU9zZVE1S1h6NVNzdXEtNmhRV0k4NHFCWEgtbUxhZ1ZoVnFSbW1Ib2c2LW5aTHVIenlRTmxQMk0xQQ?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "New traffic lights to improve safety at Marabastad Townlands in Tshwane - The Citizen",
+      "title": "Tshwane power crisis continues after explosion at Watloo substation - IOL",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
-      "category": "Road and transport disruption",
+      "category": "Infrastructure",
       "relevance": "Moderate",
-      "published": "28 Sep 2026, 15:22 UTC",
+      "published": "30 Sep 2026, 13:58 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNG00UG5XSWMyMERlNjNJWXVCTUpRNlgySmlNbXZNTU5sRzZNMTVidzJIUHRIblBEaXBYZUNzNC1mclhjQmwzLURGT0QwXzE5ZFZIV0dsQ3N0YkhWZEpvWTR0YUZ1QUJQTVVCQWcxQzcxRTVmdWZEc3dtT2VTVDBKcC1IWnB3SS1QZjluSi1Zc093V0dnejM1dVN6X0FKdlZlRmtrS0dxN0J5cXk1M3Uxb0VaeVFGWHZpZ242Qk9QUWM1RXZfdkFEYlZDTQ?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "KZN Crime Intelligence officers murdered: Five in court for R900,000 robbery from cops - IOL",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Security and crime",
-      "relevance": "Moderate",
-      "published": "28 Sep 2026, 12:47 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as material incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
       "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbGZVSHpIaE1jODB6dl9VX3YwVGRnVEZ1N21XODNCNU53ZEw4TWEtUGF0NzBCOTFyeWZuM1o5MVI3UTFpSDI5NTB3Q1pNMlVRZ21iMmF5LXoyQW1nS2dlZmQ0SVpVdzkzWmw4TnZGSGV5LXhjV3RqNGdyc04wVFFSQmxuVDNJVWhra0g0ak9fZml2TTNFTC1weVpVZDJnU3BIS2d4ZnFjdEJjYXIxR29lTUlISWg4T0JSSEw3OHVlbFdTZGI0NHlLemdvU1lCSFQxMGc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT0M0N1dCalR4S09VNldHWUdid0JDWXp6dDhpczNCQ3ptdVRwdGN6TEFuNnRwX0NLSFBNQUJDczhFdDZqUkFiZXBkeDJqbjdldEJ4QndIc1N6aW1Ba2llWkE4MEN5NkhsNUpqa0tFSW04UVg5ZDEzYlRJdmI3ZDZta2lBTlFFX19vU2RFYkNfdEZITFlwdVM5Ry1fVVNOcGdYRGI5c1Q2cTA4bC0tVldsVGhwV3VPQQ?oc=5",
+      "business_impact_score": 43
+    },
+    {
+      "title": "Large parts of Tshwane without power after explosion, fire at substation - news24.com",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "30 Sep 2026, 09:57 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is indirect traveller relevance.",
+      "source": "news24.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcWhMUjBwSGdpblFxRlZEcXdRRnM0ZXBQSHRhSDJqTkltWlhuRFRQTGxPbWxud3c4a2hIcFNIUmR6UjItQ29mb2lzUmNBR3dod1p5dnBUYWJMNzN5eTF1bklKU1FXMlJpMTA1a3FkUnh6OFBsZHZyVldJV1Znam5PRk1yTmlvb0doeE5CN0pXSnptcmhsd3VuNnJVTXpWb2tqaGxWMk44RGFFVDhRQk9wdjcxXzNrcEE2RzFGZ0Uza0xjUnM?oc=5",
       "business_impact_score": 43
     },
     {
@@ -345,51 +387,37 @@
       "business_impact_score": 43
     },
     {
-      "title": "South Africa Summons US Envoy Again Over Remarks, Reports Says - Bloomberg.com",
+      "title": "Durban port crisis sparks calls for urgent parliament debate - novanews.co.za",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "29 Sep 2026, 19:13 UTC",
+      "published": "01 Oct 2026, 03:20 UTC",
       "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Bloomberg.com",
+      "source": "novanews.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObDd1M3Q3QnNQdjFVZ2pnY2tqUnpXTjU1WXdQdTZpLUJacVhxb2ZvNVQta084dXFfMlFkazl3eTcwSmpmZUk2Ti10V290QTlpWDFGSUpCU013TUMzUFozV1p6b2YxbzNXeTVMdC1LSWVKY0ZkNGVEZzZwcmU1ZlQxOVZJRHVDUVN2bUtWWHNoSFZjdzliS29fM0tFdURXd1E4d0dVSl9iTUdMNVNHTnRneA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMUJ3SDlXZllFSWZGS2h5dGlPSks1aVd6VFkzWEQyRXpHbTJHWDJEeTRLdXpsUGJmNlFBU0JUTXA1eW04SnpUZ1llcERLZ3Z6cWc4RHE4ZUJLTHZXQUNuRWhxMlJFN01wU2ZXMHNEN2dYczUxUlY1clNUM3g5QWFSa2hPOXdZUDJLanYydg?oc=5",
       "business_impact_score": 42
-    },
-    {
-      "title": "Jobs Lost in SA’s Formal Non-Agricultural Sector in the Second Quarter of 2026",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "29 Sep 2026, 09:36 UTC",
-      "event_date": "Tue, 29 Sep 2026 09:36:30 +0000",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "Statistics South Africa",
-      "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=19964",
-      "business_impact_score": 41
     }
   ],
   "daily_language_brief": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "afrikaans": {
-      "word": "Kollega",
-      "english": "Colleague",
-      "pronunciation": "koo-LEH-khah",
-      "example": "Laat ek jou aan my kollega voorstel.",
-      "example_english": "Let me introduce you to my colleague.",
-      "use_note": "Useful when making introductions in meetings or workplace settings."
+      "word": "Kantoor",
+      "english": "Office",
+      "pronunciation": "kahn-TOOR",
+      "example": "Ons ontmoet by die kantoor.",
+      "example_english": "We are meeting at the office.",
+      "use_note": "Useful for confirming a workplace or meeting location."
     },
     "isixhosa": {
-      "word": "Igama",
-      "english": "Name",
-      "pronunciation": "ee-GAH-mah",
-      "example": "Lithini igama lakho?",
-      "example_english": "What is your name?",
-      "use_note": "Useful in introductions; the full phrase is more practical than using the noun on its own."
+      "word": "Nceda",
+      "english": "Please / Help",
+      "pronunciation": "n-CEH-dah",
+      "example": "Nceda.",
+      "example_english": "Please / Help.",
+      "use_note": "A useful polite or assistance-related expression; the precise meaning depends on the sentence around it."
     },
     "rotation": "daily",
     "source_type": "curated"
