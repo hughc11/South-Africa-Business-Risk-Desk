@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-03T12:44:08.230174+01:00",
-    "generated_display": "03 Oct 2026, 12:44",
+    "generated_at": "2026-10-04T13:27:00.291545+01:00",
+    "generated_display": "04 Oct 2026, 13:27",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 99,
-    "final_item_count": 93,
+    "normalised_item_count": 81,
+    "final_item_count": 76,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,14 +28,14 @@
     }
   },
   "national": {
-    "score": 68,
+    "score": 69,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 34
+        "score": 41
       },
       {
         "name": "Civil unrest",
@@ -43,7 +43,7 @@
       },
       {
         "name": "Infrastructure",
-        "score": 43
+        "score": 33
       },
       {
         "name": "Transport",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "03 Oct",
-      "score": 68,
-      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "04 Oct",
+      "score": 69,
+      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 33,
+      "score": 30,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "summary": "Current city risk is being driven by infrastructure, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 37,
+      "score": 45,
       "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime, road and transport disruption."
     },
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 26,
+      "score": 27,
       "level": "Low",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -140,54 +140,12 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-03T12:44:08.230174+01:00",
+    "last_checked": "2026-10-04T13:27:00.291545+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
-    {
-      "title": "Major Cape Town roads reopened after service delivery protests disrupt traffic - news24.com",
-      "location": "Cape Town",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "02 Oct 2026, 07:53 UTC",
-      "summary": "Major Cape Town roads reopened after service delivery protests disrupt traffic news24.com",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "news24.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUjZsSWk3SDMxX0FmUjRtSnh0WXYtWVUxbkxfTnQtazhsWjhkUkpKOTlsUXM1ZnA4UUdvZTA1TWx3Z3A0OUpWZXhfbE5Ma2w5QXJVakFsdmMzVHl6VGFSZEw1UEJLTVlOTkJZV0V5WUJhVlN3dGI5NkV3YU43SGlsZFg0OW9qMjV6UnJtYnVOU29CamxUcjV6Ykw1eGhFS0pqZGdsZzdfNFpIXzZpZ19RRlJhUTdZVFFZaGppOXlNbmdGbVJ0U3g4Q2xpVTQ?oc=5",
-      "business_impact_score": 51
-    },
-    {
-      "title": "N1 through Beaufort West reopens after wind farm worker protest - Cape Town ETC",
-      "location": "Cape Town",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "02 Oct 2026, 14:30 UTC",
-      "summary": "N1 through Beaufort West reopens after wind farm worker protest Cape Town ETC",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Cape Town ETC",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNWNaZ0pNV2hUaC1xWDQ4SXB2NVlTdHEwOFowUlg5VVdKV3A4TlVxUThWWU5TWE40bVBpdHRrMnUwWnpXV1k4NVhqT1ZfWkoyN3BsalYtby1hUGdudDZqcmt3cmlHLVA3RVhfaUF5S01icjRMWEZSMHJGQllCVkg1N0dDV3RWZVRITzVHdENXbWpSLWJPWWozLU9KSEVrQQ?oc=5",
-      "business_impact_score": 47
-    },
-    {
-      "title": "Update: Roads reopen after morning protests cause major N2 and R300 closures - Cape Town ETC",
-      "location": "Cape Town",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "02 Oct 2026, 09:30 UTC",
-      "summary": "Update: Roads reopen after morning protests cause major N2 and R300 closures Cape Town ETC",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Cape Town ETC",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDh6YnBuQXdYTHBmSC1DdFROU21NdzhBSUM5QkJCTTlrN3dDVEN4cldWMC1ucWdSZHNieUNkaHpQX0xIUF9hc1pxenh2TVlxMUxCWnNQak1hTDFyWmp5TU9ZT2tFajZwVWZfNXduUlIxNlNTVUswRUFZNXZOWkpVdjluNWU3cVNJQndZZ3JQMW5nLWJOV0Zvb2VDQjRxaW1o?oc=5",
-      "business_impact_score": 43
-    },
     {
       "title": "March and March announces planned 15 October protest in South Africa - Cape Town ETC",
       "location": "National",
@@ -205,32 +163,18 @@
   ],
   "news": [
     {
-      "title": "Durban CBD shooting leaves four critically injured - The Citizen",
+      "title": "Turkish fugitive arrested in Durban over rape, kidnapping charges - SABC News",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Security and crime",
       "relevance": "Moderate",
-      "published": "02 Oct 2026, 01:25 UTC",
+      "published": "03 Oct 2026, 17:37 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (53/100). Assessed as major safety threat, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "SABC News",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnBLOEFnR1VreUlVWVUyOGlFXzVSelVRZkd5cUdEUnpodnJUM0VZWk5iVzE3UHFWQ3l5Ny1RSUFBRDRWTGo1V1hVWmlIQndUX2xCN2F1ajFTZGNKSTNMN2dMQ3JsOTN3QlFzVUtRblVZeHFsNG03TFZjVF8xcXFDX3p1SXB0ZjdhRVBZcF9ycDFLenRUaERkNU5iZF9haW04NzMzdTJDT1BmQ3U2Qy1NS2JiZVdKa2llX0lkRlN1cGh3WE0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTXk5d1dQTzJiN2xqenM3REtQdWxWdjhQQnFzT2pnLUZnX0Mxc2NPMkExSTluSHhzclRwWnR1ZF9XRUFMMXZ4UFdPUHY1MmZ4XzdYOC05Z3lXaWs0dGQ1LXVnVS1UeUkxUTJ1dWdkRnlNclBnUW5Md0JRcDFvbnZmTEwwZUQ3c0dQeW5ud0NGYnRoNWRYdDdGNGd6MkZCUG5v?oc=5",
       "business_impact_score": 53
-    },
-    {
-      "title": "Major Cape Town roads reopened after service delivery protests disrupt traffic - news24.com",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "02 Oct 2026, 07:53 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (51/100). Assessed as serious disruptive incident, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "news24.com",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUjZsSWk3SDMxX0FmUjRtSnh0WXYtWVUxbkxfTnQtazhsWjhkUkpKOTlsUXM1ZnA4UUdvZTA1TWx3Z3A0OUpWZXhfbE5Ma2w5QXJVakFsdmMzVHl6VGFSZEw1UEJLTVlOTkJZV0V5WUJhVlN3dGI5NkV3YU43SGlsZFg0OW9qMjV6UnJtYnVOU29CamxUcjV6Ykw1eGhFS0pqZGdsZzdfNFpIXzZpZ19RRlJhUTdZVFFZaGppOXlNbmdGbVJ0U3g4Q2xpVTQ?oc=5",
-      "business_impact_score": 51
     },
     {
       "title": "N1 through Beaufort West reopens after wind farm worker protest - Cape Town ETC",
@@ -247,17 +191,17 @@
       "business_impact_score": 47
     },
     {
-      "title": "Johannesburg Metro Police warn of heavy delays as Sandton Drive closes for Red Bull Show Run - The Citizen",
-      "location": "Johannesburg",
-      "city_id": "johannesburg",
+      "title": "Minister of Transport, Barbara Creecy undertook a visit to the Durban Gateway Terminal (DGT) as part of October Transport Month - Arrive Alive",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "01 Oct 2026, 14:57 UTC",
+      "published": "03 Oct 2026, 19:48 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (johannesburg) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Arrive Alive",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQQ09UYzRFWXJKaDhobDBzY19sVDlUYWFaOHppLUEwTGduODBmQ0RJYnpYdF95WmFXeTZyYWlfRGVBT2FKdUZqYVZCNHlxbjBpdEtESTlxVDlzTWwwVFdxcVVPMkhsQW56MG9nQnlFSUp6el8ydU9od1JPSWpzb3g0WFpud1pwV0JPdFFZTVh1R0dIRl9USm9HbVA1VTdaVnVwNU5CaGw5X0JoVndIYWVOakUxRFZPT2J3U0VjN1lRZ1ppcENKdlJwaW9VTWk5OTZTZnlOWUFPTlBoajdBY09MdHpBVlpIeU10OHNiQ05CQ0pOZ21POEpzWm1kc1FZMWRWSXZ1Mw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HZERTNVZhbGRnVEk1TzkyMFE5bG5YOU1RYVl6TVM2U1JSNGQ1Vnc2UHlJSFZ3OFQ2UEltYjdkd29nVTg4ZjdNMjJXT2VJazljajgxTHZlQkJxYWswdVNRQmdB?oc=5",
       "business_impact_score": 44
     },
     {
@@ -266,7 +210,7 @@
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "02 Oct 2026, 17:46 UTC",
+      "published": "03 Oct 2026, 03:32 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "The Citizen",
@@ -275,18 +219,18 @@
       "business_impact_score": 44
     },
     {
-      "title": "Update: Roads reopen after morning protests cause major N2 and R300 closures - Cape Town ETC",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Protests and civil unrest",
+      "title": "STAVROS NICOLAOU | How to fully exploit the Brics opportunity - Business Day",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "02 Oct 2026, 09:30 UTC",
+      "published": "03 Oct 2026, 22:15 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "Cape Town ETC",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "Business Day",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDh6YnBuQXdYTHBmSC1DdFROU21NdzhBSUM5QkJCTTlrN3dDVEN4cldWMC1ucWdSZHNieUNkaHpQX0xIUF9hc1pxenh2TVlxMUxCWnNQak1hTDFyWmp5TU9ZT2tFajZwVWZfNXduUlIxNlNTVUswRUFZNXZOWkpVdjluNWU3cVNJQndZZ3JQMW5nLWJOV0Zvb2VDQjRxaW1o?oc=5",
-      "business_impact_score": 43
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdDhiRi1PdE1mRWhtZjBCNnMwa204SVphWTJpODdqYklPMUF3cS1vRVlvSC1CcVA5YUZGTUVfWFlybGtBS0FrODlWcHhmOWJsRDN2ZFdtTzM2NHZSeGJ0M3NzdVpja09jV0FZME9naGZUYUcteW1nV1pjcVZOaXB3cFJDQWtOd3BMeGYwRjR5cHBmSXdqUWNQd09laURna29STDRpZENlLVI4MElKZnhmckFjbmVyQ3gtczNDX1VfdTRzZw?oc=5",
+      "business_impact_score": 44
     },
     {
       "title": "South Africa’s Transport Chief Meets ICTSI on Durban Port Delays - Bloomberg.com",
@@ -315,39 +259,25 @@
       "confidence": "Confirmed",
       "url": "https://www.statssa.gov.za/?p=20000",
       "business_impact_score": 36
-    },
-    {
-      "title": "Economic wrap-up for September 2026",
-      "location": "National",
-      "city_id": null,
-      "category": "Infrastructure",
-      "relevance": "Guarded",
-      "published": "02 Oct 2026, 09:19 UTC",
-      "event_date": "Fri, 02 Oct 2026 09:19:00 +0000",
-      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "Statistics South Africa",
-      "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=19995",
-      "business_impact_score": 23
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-03",
+    "date": "2026-10-04",
     "afrikaans": {
-      "word": "Skedule",
-      "english": "Schedule",
-      "pronunciation": "skuh-DOO-luh",
-      "example": "Hoe besig is jou skedule?",
-      "example_english": "How busy is your schedule?",
-      "use_note": "Practical vocabulary for arranging meetings and discussing availability."
+      "word": "Begin",
+      "english": "Begin / Start",
+      "pronunciation": "buh-KHIN",
+      "example": "Sal ons begin?",
+      "example_english": "Shall we begin?",
+      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
     },
     "isixhosa": {
-      "word": "Hamba kakuhle",
-      "english": "Goodbye (to one person leaving)",
-      "pronunciation": "HAHM-bah kah-KOO-hleh",
-      "example": "Hamba kakuhle.",
-      "example_english": "Go well / Goodbye.",
-      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
+      "word": "Wamkelekile",
+      "english": "Welcome",
+      "pronunciation": "wahm-keh-LEH-kee-leh",
+      "example": "Wamkelekile.",
+      "example_english": "Welcome.",
+      "use_note": "Useful in hospitality and welcoming contexts; the exact form can vary with who is being addressed."
     },
     "rotation": "daily",
     "source_type": "curated"
