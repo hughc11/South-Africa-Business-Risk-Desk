@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-04T13:27:00.291545+01:00",
-    "generated_display": "04 Oct 2026, 13:27",
+    "generated_at": "2026-10-05T15:52:34.787362+01:00",
+    "generated_display": "05 Oct 2026, 15:52",
     "timezone": "Europe/London",
-    "raw_item_count": 611,
-    "normalised_item_count": 81,
-    "final_item_count": 76,
+    "raw_item_count": 26,
+    "normalised_item_count": 26,
+    "final_item_count": 23,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 585
+        "item_count": 0
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 69,
-    "level": "High",
+    "score": 54,
+    "level": "Moderate",
     "seven_day_change": 0,
-    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "Moderate national business risk (54/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 41
+        "score": 0
       },
       {
         "name": "Civil unrest",
-        "score": 48
+        "score": 41
       },
       {
         "name": "Infrastructure",
-        "score": 33
+        "score": 25
       },
       {
         "name": "Transport",
-        "score": 44
+        "score": 36
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "04 Oct",
-      "score": 69,
-      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "05 Oct",
+      "score": 54,
+      "explanation": "Moderate national business risk (54/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 32,
+      "score": 30,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 42,
+      "score": 30,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, infrastructure."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "pretoria-tshwane",
@@ -91,7 +91,7 @@
       "default_zoom": 11,
       "score": 30,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by infrastructure, unclassified news."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 45,
+      "score": 30,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, road and transport disruption."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 27,
-      "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "score": 30,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "bloemfontein",
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "score": 30,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "east-london",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "score": 30,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     }
   ],
   "travel_advice": {
@@ -140,144 +140,45 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-04T13:27:00.291545+01:00",
+    "last_checked": "2026-10-05T15:52:34.787362+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [
-    {
-      "title": "March and March announces planned 15 October protest in South Africa - Cape Town ETC",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "03 Oct 2026, 08:03 UTC",
-      "summary": "March and March announces planned 15 October protest in South Africa Cape Town ETC",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Cape Town ETC",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2hSMTZhejNFMDFMdEJNUkxUZGF1S1NGWVVuNmlaN2tua1d1T2NwX2h4eWxVMkpFV09EVmZkOC00amxSczNRMHhVb0tVTmFfcUdNTkJ1c2xwd3ltRlNaUWdOV2M4YzNZeWJ4NGJkQ1pyNV94UVR3TjA5REhQbnVySWtMQW1oV21pMDY3OENmOXVjX1FLalI5RHVmWWh4MFAyTy05Rg?oc=5",
-      "business_impact_score": 25
-    }
-  ],
+  "incidents": [],
   "news": [
     {
-      "title": "Turkish fugitive arrested in Durban over rape, kidnapping charges - SABC News",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Security and crime",
-      "relevance": "Moderate",
-      "published": "03 Oct 2026, 17:37 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (53/100). Assessed as major safety threat, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "SABC News",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTXk5d1dQTzJiN2xqenM3REtQdWxWdjhQQnFzT2pnLUZnX0Mxc2NPMkExSTluSHhzclRwWnR1ZF9XRUFMMXZ4UFdPUHY1MmZ4XzdYOC05Z3lXaWs0dGQ1LXVnVS1UeUkxUTJ1dWdkRnlNclBnUW5Md0JRcDFvbnZmTEwwZUQ3c0dQeW5ud0NGYnRoNWRYdDdGNGd6MkZCUG5v?oc=5",
-      "business_impact_score": 53
-    },
-    {
-      "title": "N1 through Beaufort West reopens after wind farm worker protest - Cape Town ETC",
-      "location": "Cape Town",
-      "city_id": "cape-town",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "02 Oct 2026, 14:30 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Cape Town ETC",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNWNaZ0pNV2hUaC1xWDQ4SXB2NVlTdHEwOFowUlg5VVdKV3A4TlVxUThWWU5TWE40bVBpdHRrMnUwWnpXV1k4NVhqT1ZfWkoyN3BsalYtby1hUGdudDZqcmt3cmlHLVA3RVhfaUF5S01icjRMWEZSMHJGQllCVkg1N0dDV3RWZVRITzVHdENXbWpSLWJPWWozLU9KSEVrQQ?oc=5",
-      "business_impact_score": 47
-    },
-    {
-      "title": "Minister of Transport, Barbara Creecy undertook a visit to the Durban Gateway Terminal (DGT) as part of October Transport Month - Arrive Alive",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "03 Oct 2026, 19:48 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Arrive Alive",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HZERTNVZhbGRnVEk1TzkyMFE5bG5YOU1RYVl6TVM2U1JSNGQ1Vnc2UHlJSFZ3OFQ2UEltYjdkd29nVTg4ZjdNMjJXT2VJazljajgxTHZlQkJxYWswdVNRQmdB?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "City rolls out exciting programme for Transport Month - The Citizen",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "03 Oct 2026, 03:32 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNVpUOXhTZHdYc0t3WjFYSWZmWk5FYmxwV0Y3T1pLMDdWX1JORXRvNE96WUFfNlFhUkxLXzFTZGFNT1Jtd0M2clFqTVh1RVVyZVZWMUdLc0loalNjQnFZX2poMHhNNFJ3NEptRGNfM3pLeF9Dc21mUzZ0UDQtTHNTLV9GOTgyaHQtRWVYaXNJdUhiWHhkWWZkMk9yMTJWODI3UmdWYUt5WF9tS3NoenNpdF9wQmdYREVFMmYw?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "STAVROS NICOLAOU | How to fully exploit the Brics opportunity - Business Day",
+      "title": "National Qualifications Framework Act: Amended: Occupational Qualifications Sub-framework for Trades and Occupations: Comments invited",
       "location": "National",
       "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "03 Oct 2026, 22:15 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "Business Day",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdDhiRi1PdE1mRWhtZjBCNnMwa204SVphWTJpODdqYklPMUF3cS1vRVlvSC1CcVA5YUZGTUVfWFlybGtBS0FrODlWcHhmOWJsRDN2ZFdtTzM2NHZSeGJ0M3NzdVpja09jV0FZME9naGZUYUcteW1nV1pjcVZOaXB3cFJDQWtOd3BMeGYwRjR5cHBmSXdqUWNQd09laURna29STDRpZENlLVI4MElKZnhmckFjbmVyQ3gtczNDX1VfdTRzZw?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "South Africa’s Transport Chief Meets ICTSI on Durban Port Delays - Bloomberg.com",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "02 Oct 2026, 15:41 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Bloomberg.com",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYXdsWmdqdkozTElqOTJ2WGw2UVBTWHR3OG9pSUNkcDNaOUtodmlFVVR1Qmg2TGFWTXlwdzdWUkp1MlpzczBNSlR3NXVsbkI4QzRvMEZuZkY5MVcxRk1QWHg1UlNQZWZTbFhDYzlPR0FzSlNSM1NUazNCLWhpa3ZZRFZNNkVMUkNJSVJjYzUwTFZndFE1OGwzOUlPNERtaXJfa3YwaUk1UkVXY3JxVkdIMnJDeHhXdw?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "Stats Biz – September 2026",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
+      "category": "Economy and business",
       "relevance": "Guarded",
-      "published": "02 Oct 2026, 13:00 UTC",
-      "event_date": "Fri, 02 Oct 2026 13:00:18 +0000",
-      "summary": "Guarded business impact (36/100). Assessed as no clear immediate threat, with national scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "Statistics South Africa",
+      "published": "05 Oct 2026, 13:11 UTC",
+      "event_date": "Mon, 05 Oct 2026 13:11:01 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=20000",
-      "business_impact_score": 36
+      "url": "https://www.gov.za/documents/notices/national-qualifications-framework-act-amended-occupational-qualifications-sub",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "afrikaans": {
-      "word": "Begin",
-      "english": "Begin / Start",
-      "pronunciation": "buh-KHIN",
-      "example": "Sal ons begin?",
-      "example_english": "Shall we begin?",
-      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
+      "word": "Saamstem",
+      "english": "Agree",
+      "pronunciation": "SAHM-stem",
+      "example": "Ek stem saam.",
+      "example_english": "I agree.",
+      "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely."
     },
     "isixhosa": {
-      "word": "Wamkelekile",
-      "english": "Welcome",
-      "pronunciation": "wahm-keh-LEH-kee-leh",
-      "example": "Wamkelekile.",
-      "example_english": "Welcome.",
-      "use_note": "Useful in hospitality and welcoming contexts; the exact form can vary with who is being addressed."
+      "word": "Uxolo",
+      "english": "Excuse me / Sorry",
+      "pronunciation": "oo-KHOH-loh",
+      "example": "Uxolo.",
+      "example_english": "Excuse me / Sorry.",
+      "use_note": "Useful for politely getting attention or apologising in everyday interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
