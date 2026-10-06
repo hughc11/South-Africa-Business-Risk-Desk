@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-05T15:52:34.787362+01:00",
-    "generated_display": "05 Oct 2026, 15:52",
+    "generated_at": "2026-10-06T14:23:15.949460+01:00",
+    "generated_display": "06 Oct 2026, 14:23",
     "timezone": "Europe/London",
-    "raw_item_count": 26,
-    "normalised_item_count": 26,
-    "final_item_count": 23,
+    "raw_item_count": 611,
+    "normalised_item_count": 88,
+    "final_item_count": 78,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 0
+        "item_count": 585
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 54,
-    "level": "Moderate",
+    "score": 66,
+    "level": "High",
     "seven_day_change": 0,
-    "summary": "Moderate national business risk (54/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 0
+        "score": 45
       },
       {
         "name": "Civil unrest",
-        "score": 41
+        "score": 39
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 28
       },
       {
         "name": "Transport",
-        "score": 36
+        "score": 46
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "05 Oct",
-      "score": 54,
-      "explanation": "Moderate national business risk (54/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "06 Oct",
+      "score": 66,
+      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 30,
+      "score": 32,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 30,
+      "score": 32,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 30,
+      "score": 39,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 30,
+      "score": 49,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by security and crime, road and transport disruption."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 30,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 26,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -119,7 +119,7 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 30,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 30,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,45 +140,200 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-05T15:52:34.787362+01:00",
+    "last_checked": "2026-10-06T14:23:15.949460+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [],
+  "incidents": [
+    {
+      "title": "City to start roadworks in Fish Hoek and Simon’s Town - falsebayecho.co.za",
+      "location": "Cape Town",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "06 Oct 2026, 07:52 UTC",
+      "summary": "City to start roadworks in Fish Hoek and Simon’s Town falsebayecho.co.za",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "falsebayecho.co.za",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFJVNVBxcWo3eVRMc0diZ2tOanUyUEJ4d0RTTHdWTE5WZXJTM1ppSWFjeXN5SGNSNmtVa3NyazFMWF9RdndINzRPS2NLeE1EVV9YZURYb0hiQ0VzQU92UTRFZ00wUG5zbVlPam9hRHNSblQ2MWVEN2xOTnlXREYyRWxUMGtpYkhGRDdFR29XY2U0U3pRSC1namJrb1Azdw?oc=5",
+      "business_impact_score": 23
+    },
+    {
+      "title": "Cosatu protest: Why saving South African jobs must begin long before retrenchment notices arrive - Bizcommunity",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "05 Oct 2026, 19:45 UTC",
+      "summary": "Cosatu protest: Why saving South African jobs must begin long before retrenchment notices arrive Bizcommunity",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Bizcommunity",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMmRvcUstdU01dVhjV3ZRNjBkTUY2STY0azVwcmNicnpxZTZmOU16YUp0WDJON1JqTFVIY29GYjdVd1VJc2dqTE9mei0yVzZYR3ZqcWNrVG1tOTEzWjlFSmsxRnVfeDNZMnhHajQ5ZE8yb1JUM3hPLTZsR1ZCLUc5amQtb2VyOG9aOWtaV0gtYVFUVWphQ0RHN1F0UzhkWXFzWWRmWFFtTDUzZ0h3TXZaSVI0MXMtWHVReXl3dTUwQkx4bDlzWTJRaEtPMnZNM0UyNzNLMmNrRQ?oc=5",
+      "business_impact_score": 46
+    }
+  ],
   "news": [
     {
-      "title": "National Qualifications Framework Act: Amended: Occupational Qualifications Sub-framework for Trades and Occupations: Comments invited",
+      "title": "eThekwini hits the ground running for Transport Month - South African Government News Agency",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "05 Oct 2026, 09:56 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (47/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
+      "source": "South African Government News Agency",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZG9pbWNqT0sxOWtqNGtrVjdTQmlNRFZiRXhBN0ktcWd3WEZtOGc2NmlLZHkzU2JZWDhXWFpjenRRSEFEZUVpZ0p5ejdkbDdhSExzbG9sNzFCNllUMHZIMTJ2aUxVanN3bTV4N0ltMUhKRlRWZ1VrYW1ZcWZDYUFQYVNyejFqTUZOcnI4dg?oc=5",
+      "business_impact_score": 47
+    },
+    {
+      "title": "Tshwane denies airport neglect claims - newsnote",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "06 Oct 2026, 10:13 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
+      "source": "newsnote",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YYjFMWjQ4WXFpeFQwZjYza2h1MlM0N2MtVmg2czhtekJHUkJrN2NVRS02bkJ6bC01TzlBU2VETzRfVk5HRG9ocksxTUpWdnA0V1dNZHVqdzZBbFBtbWhMRkNkMm4tdUN4SDQ3SDhR?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Durban port crisis: New operator ‘very bad at communication’, says Creecy - news24.com",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "05 Oct 2026, 21:46 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "news24.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS1I2MnRMNFZiaVpkRzUxbDJjUGVrb2tJRWZjeHFTVmdTTlpSc0Jrd2xFQ1pmT05jUlBwclltUmlOWHFhdnZTbkRVemNLcWtUTE1Rc2I2eHdjTHRyZ3d5azlYQmI0ZnU3RC1nX0w1Y3RnWUwzSGktQzdpUlZJajYxWU43Ty1HZ0RYXzl2R3pTZXZMWkxoeFVST09GMGdQbFNTZTJZSXFoU3E2bWhhc2xBQV9jRTVqc0dyTTF1OWZoTDI?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Tshwane leaves Wonderboom Airport wide open: Who is protecting our airport? - dagauteng.org.za",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "05 Oct 2026, 15:11 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
+      "source": "dagauteng.org.za",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc3FlMXdrNEkzbnByTnNLTHRKQ1B0cTlENlZBTUpVXzl1VjJtZmNQT01zRXZXVkVrd1lyeENxQkhqeXNWVUwtNjFPeW15OHFRZ0oxSjRPbklHVWJoRW9sUG5IdGFGZ2RjUENFVTFxTThkaVE0YloyR3lRLXkzblEyekNjbGxDcUtDN25kQWlaaGg5TVlTcko3ODhnWG9lOGhidXJCMnY0RmJQdw?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "DA criticises Tshwane over airport security - newsnote",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "05 Oct 2026, 09:13 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
+      "source": "newsnote",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTWFlRnoyTGx4VDlBQThGZWx6eW8tUjdxSEE4eVNCYUZiUVN2ak9mZ09udk5mcmZ0RURaaDM3VV94Y0JDMnFrOEswcHVMT3ZtQkJjRzYxOUV1QVhSc0I4Rm9FQmlZOFpjUklBU2g2VU8xQmQzTGc?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Cosatu protest: Why saving South African jobs must begin long before retrenchment notices arrive - Bizcommunity",
       "location": "National",
       "city_id": null,
-      "category": "Economy and business",
-      "relevance": "Guarded",
-      "published": "05 Oct 2026, 13:11 UTC",
-      "event_date": "Mon, 05 Oct 2026 13:11:01 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/national-qualifications-framework-act-amended-occupational-qualifications-sub",
-      "business_impact_score": 27
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "05 Oct 2026, 19:45 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Bizcommunity",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMmRvcUstdU01dVhjV3ZRNjBkTUY2STY0azVwcmNicnpxZTZmOU16YUp0WDJON1JqTFVIY29GYjdVd1VJc2dqTE9mei0yVzZYR3ZqcWNrVG1tOTEzWjlFSmsxRnVfeDNZMnhHajQ5ZE8yb1JUM3hPLTZsR1ZCLUc5amQtb2VyOG9aOWtaV0gtYVFUVWphQ0RHN1F0UzhkWXFzWWRmWFFtTDUzZ0h3TXZaSVI0MXMtWHVReXl3dTUwQkx4bDlzWTJRaEtPMnZNM0UyNzNLMmNrRQ?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Lift, transport trouble delays AKA murder trial in Durban - ECR",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "05 Oct 2026, 10:55 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "ECR",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kc0J5MnQ1NEJ4Nm4wY2ZhdS1nTUdkN1FkVXcwU0U4and0ZkpIVjU2VnRBdU1ULURmLUZMVzRBMmt2ZEdtbl9IRkVfZDNCS09LbmktUk8yU2FXRUx4dldfX0xjanc3eFpaSGtDQ2RrTXp6ZzVVT1JWT1Z0ZFIwblk?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "KZN puts transport in gear - Tabloid Newspapers",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "06 Oct 2026, 07:44 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Tabloid Newspapers",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hUDFUcEM1ZmxfMW9NSzl0NFlyN1A0X1RXOW9JMC1NWGlpc0dLc0VjZXJyQUlDQ0RtdVh4NDR2UzZ6SDF2ZzdqYkE1Q00yb0R3Y1lxclRfckJVVWsxaHh1aC1FN0s?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Mobility Infrastructure Summit puts people at the centre of Cape Town’s transport planning - Cape Business News",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "05 Oct 2026, 05:04 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Cape Business News",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTTZsV2JNcG9rM2NkY0VQSXhBOTVGNUNCYnFrcWRScGRNUlVaOGc1MHJSaFpjTzd2N1RMaVBCeHZ5amFTcS1HYVJvTU51LWs2WG1iei1GOUktRGRFUXpqdkZtSlBrdGdteWx4WHA0NnBpdzRXdng4emxPaEhOcTRHbWIzNEFoQnpCU21PWC1VSUtJQi03RnZSeE1Wbnp0bW43S1E4TGFKOHFPVzBMVmNsZUlYVS1meWZuZnprQ1BRRjlrQ1VOem9abGxiVEFZb1RTbF9yMjMzY0JUcFZicU5qakNWQUM3RkoxczBr?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Durban port backlog highlights cost of logistics disruption - EWN",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "05 Oct 2026, 17:51 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOC1tT2txcUJrbFI4Rl9FR3hJZlF3U0FvMUhFQ2k0MlBXd1ByMHdtQ3pQY2d1bzEyZ2NfTXgzbVlpdWZlQnRpMVJpUzNkTDJ4cFdGbU96WFdBQjVRZnFyMnRJTjB3cVV0eklWd1U5VEJFZ2lDZEVWcWFZcmk0aENCT2J4SmdneXctNXdTeUlyaGxZRGN2RTBJ?oc=5",
+      "business_impact_score": 44
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "afrikaans": {
-      "word": "Saamstem",
-      "english": "Agree",
-      "pronunciation": "SAHM-stem",
-      "example": "Ek stem saam.",
-      "example_english": "I agree.",
-      "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely."
+      "word": "Voorstel",
+      "english": "Suggestion / Proposal",
+      "pronunciation": "FOOR-stel",
+      "example": "Wat stel jy voor?",
+      "example_english": "What do you suggest?",
+      "use_note": "Useful for inviting another person's recommendation during a discussion or negotiation."
     },
     "isixhosa": {
-      "word": "Uxolo",
-      "english": "Excuse me / Sorry",
-      "pronunciation": "oo-KHOH-loh",
-      "example": "Uxolo.",
-      "example_english": "Excuse me / Sorry.",
-      "use_note": "Useful for politely getting attention or apologising in everyday interaction."
+      "word": "Molo",
+      "english": "Hello (one person)",
+      "pronunciation": "MOH-loh",
+      "example": "Molo.",
+      "example_english": "Hello.",
+      "use_note": "Use when greeting one person; a simple local greeting can be a respectful way to begin an interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
