@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-11T13:56:52.238432+01:00",
-    "generated_display": "11 Oct 2026, 13:56",
+    "generated_at": "2026-10-12T16:34:24.909015+01:00",
+    "generated_display": "12 Oct 2026, 16:34",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 103,
-    "final_item_count": 98,
+    "normalised_item_count": 104,
+    "final_item_count": 101,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,18 +28,18 @@
     }
   },
   "national": {
-    "score": 69,
+    "score": 70,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (70/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 46
+        "score": 45
       },
       {
         "name": "Civil unrest",
-        "score": 50
+        "score": 51
       },
       {
         "name": "Infrastructure",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "11 Oct",
-      "score": 69,
-      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "12 Oct",
+      "score": 70,
+      "explanation": "High national business risk (70/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 35,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, security and crime."
+      "score": 29,
+      "level": "Low",
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 26,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure."
+      "score": 30,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 46,
+      "score": 39,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, road and transport disruption."
+      "summary": "Current city risk is being driven by security and crime, infrastructure."
     },
     {
       "id": "durban-ethekwini",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 38,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 26,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 38,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     }
   ],
   "travel_advice": {
@@ -140,95 +140,39 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-11T13:56:52.238432+01:00",
+    "last_checked": "2026-10-12T16:34:24.909015+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Ghanaians in Johannesburg, Durban urged to avoid protest areas - Pulse Ghana",
-      "location": "Johannesburg",
-      "type": "Demonstration",
-      "severity": "Medium",
+      "title": "Major road closures for Nelson Mandela Marathon in Cape Town - Cape Town ETC",
+      "location": "Cape Town",
+      "type": "Road closure",
+      "severity": "Low",
       "status": "Active",
-      "time_window": "10 Oct 2026, 19:10 UTC",
-      "summary": "Ghanaians in Johannesburg, Durban urged to avoid protest areas Pulse Ghana",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "time_window": "12 Oct 2026, 10:00 UTC",
+      "summary": "Major road closures for Nelson Mandela Marathon in Cape Town Cape Town ETC",
+      "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
-      "source": "Pulse Ghana",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZl9JM25zWWktUzhMd0pfMXlSaDRTdFJ3MkhJRWVWVFZQUS00dnYyeXhNYm5PVndPUFc3eVFwLXExY29BUGQ4SXhiYlViNUxqQlNDejUtenlVbWVQZGpzQWs2bC03RmhRMUZVWjIyMHRGRUs1S1BUSG9lMkN5ZENRZXJIdFN4SXBJY0ZxaUdaRTFVQmQyczAtV2JOeHZQc2VRS1QxOQ?oc=5",
-      "business_impact_score": 47
+      "source": "Cape Town ETC",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVViNlB5OWdCQ2otaE5sUVBPWlVkT3VpcWZ3ZElpZEZoNTM1Y1J2RURxNmY3eEFna0g3NW9zamMxSFRtUE1udE9PLWFTNEk4Z09TeTlTQ1BlZktGQWZOT2lPZWhPUktTTUNOa2UwYThsbVRtcUlOMVpLVk1LQWc4eXRLNkZPR19waTVUZHF4cnVsX29HaDF6cU13?oc=5",
+      "business_impact_score": 32
     },
     {
-      "title": "WATCH | ‘Security cluster is on top of the situation’: Ramaphosa on Durban unrest - African Insider",
-      "location": "Durban / eThekwini",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "10 Oct 2026, 06:00 UTC",
-      "summary": "WATCH | ‘Security cluster is on top of the situation’: Ramaphosa on Durban unrest African Insider",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "African Insider",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUHppdHppbnN5SWNWamd6alNWRDREcjY5YmRUdldKYmpGTmhhQm5uOFJabDU2dTBLUXpFaGt2N25RZzMzUDVfNDVXZ2JXUTR6cGdsbHpUckRtaDAxQ3F2ODg3T09oNF9rZlRtZUdLMXYyZk1zVjNUTEdMQ3hGV0gwWWlYQTZyZXpnVTVOZDd6aVZ6b0NIX3BwSFFrYjRZWHd3bVZjMVctZDVvcUlqbnRNTUJ6a191TXo0?oc=5",
-      "business_impact_score": 47
-    },
-    {
-      "title": "DAY 2: Australia strike early after Renshaw's 190 against South Africa - SuperSport",
+      "title": "Protest Later Or Push For Better Planning Now? 7 Actions South African Voters Can Take Before Local Elections - Infrastructure News",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "10 Oct 2026, 16:57 UTC",
-      "summary": "DAY 2: Australia strike early after Renshaw's 190 against South Africa SuperSport",
+      "time_window": "12 Oct 2026, 04:46 UTC",
+      "summary": "Protest Later Or Push For Better Planning Now? 7 Actions South African Voters Can Take Before Local Elections Infrastructure News",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "SuperSport",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWlZMQ2pYbWYwdFI5R1VNV2d1TEgybXhkZm9qMXlwdEM0N1J5dkJDbThYSzUtWnYyMmVyaUdVM0lQa0dFcjdxaVp3WENaUlFYbzBhekl1R3NObEdBazFleEJuVE4yRXpaVVFUdk5UWHlWWE1BQzJzb0dGeUxkeU53SHNwemt2NHZuT3JxQ2VvTlF0WVFuSFVUWEwzbmRLczVJbkZ6UjBEYWNNN1h2Ynh6R0J3VGlucWpRMTRodjNvZFBlSEFRbExDWW51MkNQc1pnMjRXNjdtbjJvQQ?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "15 arrested in Durban anti-illegal immigration riots - The Citizen",
-      "location": "Durban / eThekwini",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "11 Oct 2026, 09:07 UTC",
-      "summary": "15 arrested in Durban anti-illegal immigration riots The Citizen",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnRZcXBmWnN4UFdvUkRCTWpIcUwwWjVzSFRFbWpmU0JhdXdaQ091b2dJQ3czRVJSVnFmeEJsLU93Q3hBX2RtaDdyaVVRMVdvbl9pR3JHaVd6UjZJajNvS3B4M2F1Wm1kQnRFdlNHZFB0N0VwM1VOdGRBdVZtcEh1OWQwYzZZM2s2bkstbmJjU29HbVhHdlBMamE0RW5feDVpNGVBZXBLZnM3MWdTWVVtT1pHclNja1E?oc=5",
-      "business_impact_score": 43
-    },
-    {
-      "title": "Police beef manpower after Durban riots - The Citizen",
-      "location": "Durban / eThekwini",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "11 Oct 2026, 09:03 UTC",
-      "summary": "Police beef manpower after Durban riots The Citizen",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ1Y1Q3dPN3FyWW1FUy00b2tZdmRRMTlRVmt3U1BNdFQtSFpnbGRSZ1BkckEtdXlDRk5RbVc4ZTNuSE5yN3UtZUR5Nl8xZlZYbmZ0NkdTSUpiSjVlb0czandBRnE4QTM1amlQTU1YTHFYQ1EzS3dyai1BQ0lLY1FOb2IwWjZWeEZTakd1cGJoMjZzcW40UXZ5UG80VHVpaWJjWW5ubWln?oc=5",
-      "business_impact_score": 43
-    },
-    {
-      "title": "Police Ministry: State cannot afford R600m price tag for anti-illegal immigration protests - EWN",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "10 Oct 2026, 16:48 UTC",
-      "summary": "Police Ministry: State cannot afford R600m price tag for anti-illegal immigration protests EWN",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMlc0RUtnNEY2VVp5TGtVQ0lJZjdoZEtUQW84QTFtbEo3b2dpcEEyRG94RUR5UHk3dzlKVzNVaU80TG5xMnV2VVNKTlFoRThFUXhaNWtUejY0c0gwU2hfQnhLMmNFd0dZUk11NFRsSUlLR3VyWXN4V2I1QkFGRUdGLUk4eENwYTNOWmF6R0xEdVlTYnN4dmZ5YmNOaDFSRURhYllDUTI0TjV6NUJqQTVBdFp0ZW0wN2JLbVV0SWEwZw?oc=5",
-      "business_impact_score": 43
+      "source": "Infrastructure News",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdUg3cllhc1BjVWRoeDc0T1czVXlia1I0cjdjR3YzX0tTdmc3Qy1OZWxXZXdFcEVoMWtwUWxHN3pQQTZ3dGpiTUZMR2JxcjVJcy1wYkFlZ1BobDc0cWYydXJNZFAwb3dxZnRsaFBHS2h3dnZtdXlxb0ZCQlVuMkVsY2NBMmdMdWtwU0VEeTJoWHlTVElxWUFrNVdBRm9tQy1mV1BPLV8wYU15ejE2c0ZESjk2d1Rid2IxcWJkeU1WOFpwZm55Q2ZfbHotaFM2Smg4cjRjNTlIS2JPOTdESENhbjJOc1Vxdmlj?oc=5",
+      "business_impact_score": 47
     },
     {
       "title": "‘A crime is a crime’: Kubayi condemns asylum protest violence - Sowetan",
@@ -247,32 +191,18 @@
   ],
   "news": [
     {
-      "title": "Durban CBD shop owners count cost after March and March protest violence - Sunday Tribune",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "09 Oct 2026, 20:05 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Sunday Tribune",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN3FBSmZyVzNIWkhidnZRUTlFeWdBakFRbDdLNHNjdzdkbzdPcFVrUnhQekZKYlhwQzRGMExMWF9JeE9JYlR1RndiaURzRmo5eDVQYV9RaFNrYmtfX3RnQVNVSVF6cVFJc0NKYl9HOU9kZjBxeHNQcXR5TWMxNDliX2pkcm1ldHFESVhJeEx4QnZlRXdMTFd1VTNEdmh5anJFWFJ4ck84bmpoWldaeFp6R2ZkMkpVY3ZR?oc=5",
-      "business_impact_score": 53
-    },
-    {
-      "title": "Watch: Power outage at OR Tambo airport delays international arrivals for hours - LNN - Network News - The Citizen",
+      "title": "PICS | Durban CBD remains tense after anti-immigration protest violence - IOL",
       "location": "National",
       "city_id": null,
-      "category": "Road and transport disruption",
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "10 Oct 2026, 15:21 UTC",
+      "published": "10 Oct 2026, 21:48 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (50/100). Assessed as limited disruption, with local or unspecified scope and substantial business disruption. Duration is short-term; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRGxCcVE2ODU4UjFoc0txVXR0SUM4NDBMdnZlOUVRSmdGdUdZLWhxQVVJWDZBcWcyUDRfN0R6SExPUlNDaHZ6bm05Wm9rUmZTaFd0VlNKaENaZm9oZXJZenB4MHZxZzZqcWJDc3l6c2l2QW9RNWk2aWNiOXVCV0FrYkZtdnNUdXZfVFVpN2E0bmNvR1k4U3U5WUd4Mlo0V3lDU0RKb2dycERPT2ptY2xaUnJPSmt2eV8zMW5yaUcxMkF6ZzUwSF9abUl3?oc=5",
-      "business_impact_score": 50
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQV25XRFhHSkdIQUttWUNEZTF0dUdIakpEMjVqM2tMMUptdjZhc1VUMTQyVGpuSm5Yc011Yy1KaVdsajZsMnp2WG5STlRrWDNHanFRQm90ZHBmbS1fZDBaLThNOEVZcm0zYU5FNTJiVGdnaTRzYWNmczFXa0V0aF9GaFVwQ3QyN2RiQUxLWW9nWUMtNjQ0cXAwZGVyQS1ITElEQWhBM3RMZmtYWGVldkk4cHN6R0dxMENlRzJCUjgxd2lrUnR4VTd4X3dJMA?oc=5",
+      "business_impact_score": 53
     },
     {
       "title": "Little Britain Pub says no: Biker club patches banned after fatal shooting at Pretoria venue - News24",
@@ -280,7 +210,7 @@
       "city_id": "pretoria-tshwane",
       "category": "Security and crime",
       "relevance": "Moderate",
-      "published": "11 Oct 2026, 11:22 UTC",
+      "published": "11 Oct 2026, 12:51 UTC",
       "event_date": "",
       "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
       "source": "News24",
@@ -289,40 +219,12 @@
       "business_impact_score": 49
     },
     {
-      "title": "Ghanaians in Johannesburg, Durban urged to avoid protest areas - Pulse Ghana",
-      "location": "Johannesburg",
-      "city_id": "johannesburg",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "10 Oct 2026, 19:10 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Pulse Ghana",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZl9JM25zWWktUzhMd0pfMXlSaDRTdFJ3MkhJRWVWVFZQUS00dnYyeXhNYm5PVndPUFc3eVFwLXExY29BUGQ4SXhiYlViNUxqQlNDejUtenlVbWVQZGpzQWs2bC03RmhRMUZVWjIyMHRGRUs1S1BUSG9lMkN5ZENRZXJIdFN4SXBJY0ZxaUdaRTFVQmQyczAtV2JOeHZQc2VRS1QxOQ?oc=5",
-      "business_impact_score": 47
-    },
-    {
-      "title": "Durban steps up security for MTN8 final amid protest concerns - IOL",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "09 Oct 2026, 14:34 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "IOL",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0FmU2Nib1dTenVWaDh3dXo5VVFsX0V5bmEtUUdad0I4QWNmT2Nsa3VFM1YtMnNFT0hZOVBwaGQ0ZkNoVm9nQzVSUVRFRk5EV2JPaWdndzB6cjB2dDMwM0VCbXJDQm5TeVBENG40YXFiS0lOU2hkVTE4UVJvb0E4T0lTVjVvWVZ0TEc3QVVVWHc3NDZudXpqc3JGbGpKalRMcHE5bzRJcVFHU2ZVTlE?oc=5",
-      "business_impact_score": 47
-    },
-    {
       "title": "Pretoria pub bans motorcycle club patches after fatal shooting - The Citizen",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
       "category": "Security and crime",
       "relevance": "Moderate",
-      "published": "11 Oct 2026, 06:15 UTC",
+      "published": "11 Oct 2026, 18:47 UTC",
       "event_date": "",
       "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "The Citizen",
@@ -331,46 +233,32 @@
       "business_impact_score": 47
     },
     {
-      "title": "Biker killed, another injured in Pretoria pub shooting - The Citizen",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "category": "Security and crime",
-      "relevance": "Moderate",
-      "published": "11 Oct 2026, 06:02 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "The Citizen",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN21Cb3NkY0pwTE1VVGl6Z3V3UUZPZkFMa0h4N2tvM2xXVldnQVkwRVk1MXg0Z1E1MXp4cG5QV3dpUXR4UHYxbWdCMUlRX0RmYWpWTGE2MG1oa2NMRzlkeUdFdGhZcXNlUTdyTkstMmNBVU9heFRwUnhNUjB6MjRhcWF4VUV1ajVUV3pranpMU1p1YWJpazduSWVILWRpTnVVcVExRkJiaEFwWTNGVWNMd3hZYw?oc=5",
-      "business_impact_score": 47
-    },
-    {
-      "title": "WATCH | ‘Security cluster is on top of the situation’: Ramaphosa on Durban unrest - African Insider",
+      "title": "US Issues Security Alert Over Unrest in Durban - DNE Africa",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "10 Oct 2026, 06:00 UTC",
+      "published": "10 Oct 2026, 19:50 UTC",
       "event_date": "",
       "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "African Insider",
+      "source": "DNE Africa",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUHppdHppbnN5SWNWamd6alNWRDREcjY5YmRUdldKYmpGTmhhQm5uOFJabDU2dTBLUXpFaGt2N25RZzMzUDVfNDVXZ2JXUTR6cGdsbHpUckRtaDAxQ3F2ODg3T09oNF9rZlRtZUdLMXYyZk1zVjNUTEdMQ3hGV0gwWWlYQTZyZXpnVTVOZDd6aVZ6b0NIX3BwSFFrYjRZWHd3bVZjMVctZDVvcUlqbnRNTUJ6a191TXo0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ2VfWTAzdTlBZWlRTVBCRGhIVUdWSmRkWXpYQ21hSHo2RUhQaF9DYVJ4NjBfSE56ZHpFMEdUM1hjR2RsZTE3UjZtUDlTS3h5WW5taGV4R0stT0NVOHAzN2t4M0FaLWZpUGtMNXFNNHZZODl2QURpMFlaUXluZDcwZGpuNHZzZHVH?oc=5",
       "business_impact_score": 47
     },
     {
-      "title": "Students among 19 arrested as Durban protest violence escalates - The Witness | Your compass in the community",
+      "title": "Protest Later Or Push For Better Planning Now? 7 Actions South African Voters Can Take Before Local Elections - Infrastructure News",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "09 Oct 2026, 22:55 UTC",
+      "published": "12 Oct 2026, 04:46 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "The Witness | Your compass in the community",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Infrastructure News",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdmpHTFo5MlByMTNEOC1LTGp3a1VCSzQzM1ZLbnJGZFFIOUFVRkxLYzB5b0M5Ujc2a21OUUlFN0pKSkZYVXlIdzFGTHRUbGdKRURsSXMyQUJ1V2VJeVlQLUhQQUNXX1hlZVlqS1UzeUFpMWZVZHBHZXZJS2hBSHJHbFdrdDRwWUxoNDltUFRBTjBDNERLd0hVamRxOFJsejFQcHM5eQ?oc=5",
-      "business_impact_score": 46
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdUg3cllhc1BjVWRoeDc0T1czVXlia1I0cjdjR3YzX0tTdmc3Qy1OZWxXZXdFcEVoMWtwUWxHN3pQQTZ3dGpiTUZMR2JxcjVJcy1wYkFlZ1BobDc0cWYydXJNZFAwb3dxZnRsaFBHS2h3dnZtdXlxb0ZCQlVuMkVsY2NBMmdMdWtwU0VEeTJoWHlTVElxWUFrNVdBRm9tQy1mV1BPLV8wYU15ejE2c0ZESjk2d1Rid2IxcWJkeU1WOFpwZm55Q2ZfbHotaFM2Smg4cjRjNTlIS2JPOTdESENhbjJOc1Vxdmlj?oc=5",
+      "business_impact_score": 47
     },
     {
       "title": "DAY 2: Australia strike early after Renshaw's 190 against South Africa - SuperSport",
@@ -385,25 +273,81 @@
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWlZMQ2pYbWYwdFI5R1VNV2d1TEgybXhkZm9qMXlwdEM0N1J5dkJDbThYSzUtWnYyMmVyaUdVM0lQa0dFcjdxaVp3WENaUlFYbzBhekl1R3NObEdBazFleEJuVE4yRXpaVVFUdk5UWHlWWE1BQzJzb0dGeUxkeU53SHNwemt2NHZuT3JxQ2VvTlF0WVFuSFVUWEwzbmRLczVJbkZ6UjBEYWNNN1h2Ynh6R0J3VGlucWpRMTRodjNvZFBlSEFRbExDWW51MkNQc1pnMjRXNjdtbjJvQQ?oc=5",
       "business_impact_score": 46
+    },
+    {
+      "title": "N1 traffic alert: Cape Town motorists warned of severe Monday morning delays - African Insider",
+      "location": "Cape Town",
+      "city_id": "cape-town",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "12 Oct 2026, 05:00 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (cape town) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "African Insider",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUnppbFg4ekNWNUFVTUtacFBqRXdkZTU0TkhHcXlhRnBrN1l2eWJBbEVGblV6dkcyU09rTDhjS25YMWV6VjQ5VDJKZnF2SGVidjNwYUlVUkF5d3UwWE1ZZTRyd0l6TmF3a3ZEOE1xMDhWV2MzRWp0eThqZWtobTItZjcwQW5raWR4d1JEV2xyWDJfNW81bURySjlkRkh2eGtFSmF2ZWVXZ1hwNWxxY0RzUnJ3?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Police Ministry: State cannot afford R600m price tag for anti-illegal immigration protests - EWN",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "10 Oct 2026, 16:48 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is indirect traveller relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMlc0RUtnNEY2VVp5TGtVQ0lJZjdoZEtUQW84QTFtbEo3b2dpcEEyRG94RUR5UHk3dzlKVzNVaU80TG5xMnV2VVNKTlFoRThFUXhaNWtUejY0c0gwU2hfQnhLMmNFd0dZUk11NFRsSUlLR3VyWXN4V2I1QkFGRUdGLUk4eENwYTNOWmF6R0xEdVlTYnN4dmZ5YmNOaDFSRURhYllDUTI0TjV6NUJqQTVBdFp0ZW0wN2JLbVV0SWEwZw?oc=5",
+      "business_impact_score": 43
+    },
+    {
+      "title": "End of Eskom’s monopoly delayed - BusinessTech",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "12 Oct 2026, 08:47 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "BusinessTech",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNFVidXBQOTVnVXdjZVhUSEdGbjk1M0QtUGJ6VzVreHQydDEwanlNOFBfcDBnMldqVFcwZzRZV0JQSnh6RV9ldlNFUlgxdGNQWE5BTFZNN0Z1enQ1R09UT0MyS1NDa2ZxMGtaU3FpTWw1MmtDeDFvejZpdFRWMFZIYUZ4Y3FxLUhkVlBydy13Rk8?oc=5",
+      "business_impact_score": 42
+    },
+    {
+      "title": "‘A crime is a crime’: Kubayi condemns asylum protest violence - Sowetan",
+      "location": "National",
+      "city_id": null,
+      "category": "Security and crime",
+      "relevance": "Moderate",
+      "published": "11 Oct 2026, 11:09 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (41/100). Assessed as material incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "Sowetan",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcmFNVFBzVDdXSWctZVRtRnR6Q1RNcjR3d2JxUUFXeGdfVE5YSE9jMWdSVktDdXFZWU1zdjkzVGcybkdDY0p3NmVDc00yaDR5blJJRUZrQ1NSa1hBdHhlbjVZX3BhWDZ4UENkNkVpbDlxbWJxZ1dmSElhaEFwcEJjV0J6cDBCWGtMYTROVUhxNTBvTWJsM3ZldTNxSWNXb3BoTTBV?oc=5",
+      "business_impact_score": 41
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-11",
+    "date": "2026-10-12",
     "afrikaans": {
-      "word": "Dankie",
-      "english": "Thank you",
-      "pronunciation": "DAHN-kee",
-      "example": "Dankie vir jou tyd.",
-      "example_english": "Thank you for your time.",
-      "use_note": "A simple, widely useful expression of thanks after a meeting, introduction or assistance."
+      "word": "Baie dankie",
+      "english": "Thank you very much",
+      "pronunciation": "BY-uh DAHN-kee",
+      "example": "Baie dankie vir die vergadering.",
+      "example_english": "Thank you very much for the meeting.",
+      "use_note": "A warmer form of thanks that remains appropriate in professional and hospitality settings."
     },
     "isixhosa": {
-      "word": "Unjani?",
-      "english": "How are you? (one person)",
-      "pronunciation": "oon-JAH-nee",
-      "example": "Molo, unjani?",
-      "example_english": "Hello, how are you?",
-      "use_note": "A friendly follow-up to a greeting when speaking to one person."
+      "word": "Sala kakuhle",
+      "english": "Goodbye (to one person staying)",
+      "pronunciation": "SAH-lah kah-KOO-hleh",
+      "example": "Sala kakuhle.",
+      "example_english": "Goodbye.",
+      "use_note": "Traditionally said by the person leaving to one person who is staying."
     },
     "rotation": "daily",
     "source_type": "curated"
