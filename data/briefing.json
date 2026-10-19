@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-18T12:13:58.652122+01:00",
-    "generated_display": "18 Oct 2026, 12:13",
+    "generated_at": "2026-10-19T14:25:29.768326+01:00",
+    "generated_display": "19 Oct 2026, 14:25",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 90,
-    "final_item_count": 88,
+    "normalised_item_count": 89,
+    "final_item_count": 87,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 67,
+    "score": 75,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (75/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 33
+        "score": 30
       },
       {
         "name": "Civil unrest",
-        "score": 46
+        "score": 58
       },
       {
         "name": "Infrastructure",
-        "score": 41
+        "score": 32
       },
       {
         "name": "Transport",
-        "score": 44
+        "score": 45
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "18 Oct",
-      "score": 67,
-      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "19 Oct",
+      "score": 75,
+      "explanation": "High national business risk (75/100). The main current drivers are Protests and civil unrest, Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure."
+      "score": 45,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
     {
       "id": "cape-town",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 29,
+      "score": 27,
       "level": "Low",
-      "summary": "Current city risk is being driven by road and transport disruption, politics and government."
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 43,
+      "score": 41,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 26,
+      "score": 25,
       "level": "Low",
       "summary": "Current city risk is being driven by unclassified news."
     },
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 37,
+      "score": 41,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,26 +140,12 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-18T12:13:58.652122+01:00",
+    "last_checked": "2026-10-19T14:25:29.768326+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
-    {
-      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
-      "location": "Durban / eThekwini",
-      "type": "Road closure",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "17 Oct 2026, 08:20 UTC",
-      "summary": "UPDATE: Traffic backed-up from Richmond Road The Citizen",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
-      "business_impact_score": 44
-    },
     {
       "title": "Major road closures for Nelson Mandela Marathon in Cape Town - Cape Town ETC",
       "location": "Cape Town",
@@ -175,123 +161,249 @@
       "business_impact_score": 32
     },
     {
-      "title": "Cape Town’s inaugural Nelson Mandela Marathon: Routes, cut-off times and road closures - IOL",
+      "title": "Cape Town weekend events: Road closures and traffic guide - Cape Town ETC",
       "location": "Cape Town",
       "type": "Road closure",
       "severity": "Low",
       "status": "Active",
-      "time_window": "17 Oct 2026, 14:35 UTC",
-      "summary": "Cape Town’s inaugural Nelson Mandela Marathon: Routes, cut-off times and road closures IOL",
+      "time_window": "18 Oct 2026, 03:30 UTC",
+      "summary": "Cape Town weekend events: Road closures and traffic guide Cape Town ETC",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
-      "source": "IOL",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ0NGU24wam5pNVZBcm5uOXQwVlU4MjhHLWg0Q29mRFVtNUxaOFBoNVFWdXQ0OXdKRUFQYm10R0RHRy1Yek1ZY3FLYUJiQ0h2NEdQZ2VCVWtlb2ZXbUdNNXVFZzg1WEdyWGs5ZmZYLWZsU1Nfb3lSSS1ncDdVWjBKOXZaVjg0OWIwOC1aUkxRS2JzOV9LRF9MbFBrcmo3ai1HYmNmUU9tNGx4dklOcmZfT2lmNGEwbDU5Nm5WVUdZSUtXOGtkWW40?oc=5",
+      "source": "Cape Town ETC",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTWNqeTdfMjVHWHpHUlBfQ2RMVVlKQVJ3QldpRHcyVEdyWFZZLVpZVHBzZXEzUks0Rlg1cWpsSm9EanNmNkE2bWRSQWt4dUVJQ3ZpcEdyRW5PMzlBMURrel9ONzYtWnd6Z1FBOGVNeGhwOUVKeXc5dW0xd1EwMHpkdlo3MGVIWDdQYUpKWHVEbVdzWG14U21r?oc=5",
       "business_impact_score": 32
     },
     {
-      "title": "Cape Town’s first Nelson Mandela Marathon: Routes, road closures and start times - Getaway Magazine",
-      "location": "Cape Town",
-      "type": "Road closure",
-      "severity": "Low",
+      "title": "National shutdown in South Africa – what to expect - BusinessTech",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "High",
       "status": "Active",
-      "time_window": "17 Oct 2026, 12:16 UTC",
-      "summary": "Cape Town’s first Nelson Mandela Marathon: Routes, road closures and start times Getaway Magazine",
-      "action": "Check the route before departure and allow additional journey time.",
+      "time_window": "19 Oct 2026, 07:52 UTC",
+      "summary": "National shutdown in South Africa – what to expect BusinessTech",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Getaway Magazine",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5INFhEOVZDbTJ6ZHJySFBrU3N2eWVRME9zV0VBYUJsRW9UcGZMMUc3N1pOU2NTUV9jUHluMjUtVVN6MGRKMEVhcDZVN3FOOEJYeGNUSVQycER5Qm11R3ZJMTBpNnczNmJ2QjByZQ?oc=5",
-      "business_impact_score": 32
+      "source": "BusinessTech",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU2FxaHA2aXd3alpSekVOX0dnNUd5SlpZSDNaVFdrdmFoOU56dENYWEYtNlljc2hZRk5RU3ExLW9vMWZfY2EzMUQ3ZUF3YTdXa2NfT21qX001ZXV3TnFEZVh1MFhHNHhGUkVWaTZpaVc4Vlo3dUliczNwRUZKY3JoLU0xQUlJT3V3N1hfMkVGVDU2UWZLS0s5Z0dYMG4zN2s?oc=5",
+      "business_impact_score": 86
     },
     {
-      "title": "Xi Jinping’s principles for settling Africa’s hotspot issues strike a positive chord - Johannesburg Sunday World",
+      "title": "N12 freeway closed in both directions amid service delivery protest in Lenasia - Jacaranda FM",
+      "location": "Johannesburg",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "19 Oct 2026, 04:57 UTC",
+      "summary": "N12 freeway closed in both directions amid service delivery protest in Lenasia Jacaranda FM",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Jacaranda FM",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGloMWwxdW9TR2VUWldkZWlSZVNCb1JTVHliczE1cllfc3dQYnYxNUVOdFZLaHB4SkV6OC1xR3gySWVwSEpGMjJSN2dxVklyVnpNaTZZNUl6cGxhYXo1WGpSay1pcXZiSzZfOWk0YWRScGY0bGJ5SFF2NENVZ3J6LU9kLXpkTnoxWlE2Tzg1SWw0ZmZE?oc=5",
+      "business_impact_score": 56
+    },
+    {
+      "title": "[UPDATE] Traffic resumes on N12 in both directions after protest causes traffic chaos in Lenasia - The Citizen",
+      "location": "Johannesburg",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "19 Oct 2026, 09:20 UTC",
+      "summary": "[UPDATE] Traffic resumes on N12 in both directions after protest causes traffic chaos in Lenasia The Citizen",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlBUQkl0cHNRS0hJWGU3TVVobzFWcHByZzRDU1pwUXhxMWY1aTgtQUtKRllSekp0V1Y1WUxucHdSdnNvbXpIa1NVVTV0MXdxbGR4eEZfZzdhRWtHbThtU0hiR191ZnpydWlxaTRoZnVsTkNJY3R3aDI2SjAzMVEyLVhJZmZ5WWxiaTZTZkRkQzBiYUtGdWJYWGNqbw?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "N12 freeway closed due to protest - TimesLIVE",
+      "location": "Johannesburg",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "19 Oct 2026, 06:06 UTC",
+      "summary": "N12 freeway closed due to protest TimesLIVE",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "TimesLIVE",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWm9ydXczNWdxOWJMTnpIcTZlT0RjaFZETjdnU19LWUFEMVNWSDRvMTludENxT1RxTFVlQ1dUTl81QzhMUGtfOC1EV3RPcGR6cDlUU3ZhekF2SkVRcEp0aXJIVjVUUVZfdVYyWlJRTzJoOU54c215cGY5bUkzWWppejZxZmNqUkRBNXpPQWNxcTBRVHB4YWc?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "Lenasia motorists warned of protest causing disruptions near the N12 freeway - EWN",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "17 Oct 2026, 17:09 UTC",
-      "summary": "Xi Jinping’s principles for settling Africa’s hotspot issues strike a positive chord Johannesburg Sunday World",
+      "time_window": "19 Oct 2026, 05:12 UTC",
+      "summary": "Lenasia motorists warned of protest causing disruptions near the N12 freeway EWN",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Johannesburg Sunday World",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEkwQlFIcElkdmxGaVNUZlprRXRrSk95T0FZd2dFazN2S2pGQldYRFdHeXZXU3FlT0RlT1FEMldreWtlU3B3S3lSblpVYUNNVUFmR0piSUNzeTZnaEw5cEdzSEx5QnBzYV9RYlBEcmNoalI1OUNPMldQeHpyeDZCT0p3cWVTbHR1Z1JySlUxTzBmVlRzYlVlNm5CblVtR1ZueHBudUkyNEtxRUQtdVRFT3l6RGFHXzQ?oc=5",
-      "business_impact_score": 46
+      "source": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXk1c3ZVaks5VzA2YkR6bDhrQjZrT2VCLU8xZDg5MFZreEhnbHpkMWJjV2F5bzRrZUxnaDdsRk56eTY2SnU2NTJ6UllDcWhVN0JCNDd4Z2lzMHZVWU5RZ2o2VWRtbk1FWWdOcGtCY1dZYnZSc0lsMjZ0U0lLQVFpS05LUkVGYTdlY01ldnpfYXNYam1LdkpIMlQ4a29mektvRlRaSmNoNUFpUGZ6VHc?oc=5",
+      "business_impact_score": 49
     }
   ],
   "news": [
     {
-      "title": "Xi Jinping’s principles for settling Africa’s hotspot issues strike a positive chord - Johannesburg Sunday World",
+      "title": "National shutdown in South Africa – what to expect - BusinessTech",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Severe",
+      "published": "19 Oct 2026, 07:52 UTC",
+      "event_date": "",
+      "summary": "Severe business impact (86/100). Assessed as critical threat, with national scope and essential systems unavailable. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: major multi area escalation.",
+      "source": "BusinessTech",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU2FxaHA2aXd3alpSekVOX0dnNUd5SlpZSDNaVFdrdmFoOU56dENYWEYtNlljc2hZRk5RU3ExLW9vMWZfY2EzMUQ3ZUF3YTdXa2NfT21qX001ZXV3TnFEZVh1MFhHNHhGUkVWaTZpaVc4Vlo3dUliczNwRUZKY3JoLU0xQUlJT3V3N1hfMkVGVDU2UWZLS0s5Z0dYMG4zN2s?oc=5",
+      "business_impact_score": 86
+    },
+    {
+      "title": "N12 freeway closed in both directions amid service delivery protest in Lenasia - Jacaranda FM",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "19 Oct 2026, 04:57 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (56/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and local operational disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Jacaranda FM",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGloMWwxdW9TR2VUWldkZWlSZVNCb1JTVHliczE1cllfc3dQYnYxNUVOdFZLaHB4SkV6OC1xR3gySWVwSEpGMjJSN2dxVklyVnpNaTZZNUl6cGxhYXo1WGpSay1pcXZiSzZfOWk0YWRScGY0bGJ5SFF2NENVZ3J6LU9kLXpkTnoxWlE2Tzg1SWw0ZmZE?oc=5",
+      "business_impact_score": 56
+    },
+    {
+      "title": "N12 freeway closed due to protest - TimesLIVE",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "19 Oct 2026, 06:06 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "TimesLIVE",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWm9ydXczNWdxOWJMTnpIcTZlT0RjaFZETjdnU19LWUFEMVNWSDRvMTludENxT1RxTFVlQ1dUTl81QzhMUGtfOC1EV3RPcGR6cDlUU3ZhekF2SkVRcEp0aXJIVjVUUVZfdVYyWlJRTzJoOU54c215cGY5bUkzWWppejZxZmNqUkRBNXpPQWNxcTBRVHB4YWc?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "[UPDATE] Traffic resumes on N12 in both directions after protest causes traffic chaos in Lenasia - The Citizen",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "19 Oct 2026, 09:20 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlBUQkl0cHNRS0hJWGU3TVVobzFWcHByZzRDU1pwUXhxMWY1aTgtQUtKRllSekp0V1Y1WUxucHdSdnNvbXpIa1NVVTV0MXdxbGR4eEZfZzdhRWtHbThtU0hiR191ZnpydWlxaTRoZnVsTkNJY3R3aDI2SjAzMVEyLVhJZmZ5WWxiaTZTZkRkQzBiYUtGdWJYWGNqbw?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "Lenasia motorists warned of protest causing disruptions near the N12 freeway - EWN",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "17 Oct 2026, 17:09 UTC",
+      "published": "19 Oct 2026, 05:12 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Johannesburg Sunday World",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "EWN",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEkwQlFIcElkdmxGaVNUZlprRXRrSk95T0FZd2dFazN2S2pGQldYRFdHeXZXU3FlT0RlT1FEMldreWtlU3B3S3lSblpVYUNNVUFmR0piSUNzeTZnaEw5cEdzSEx5QnBzYV9RYlBEcmNoalI1OUNPMldQeHpyeDZCT0p3cWVTbHR1Z1JySlUxTzBmVlRzYlVlNm5CblVtR1ZueHBudUkyNEtxRUQtdVRFT3l6RGFHXzQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXk1c3ZVaks5VzA2YkR6bDhrQjZrT2VCLU8xZDg5MFZreEhnbHpkMWJjV2F5bzRrZUxnaDdsRk56eTY2SnU2NTJ6UllDcWhVN0JCNDd4Z2lzMHZVWU5RZ2o2VWRtbk1FWWdOcGtCY1dZYnZSc0lsMjZ0U0lLQVFpS05LUkVGYTdlY01ldnpfYXNYam1LdkpIMlQ4a29mektvRlRaSmNoNUFpUGZ6VHc?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "Land Reform (Labour Tenants) Act: Portion 5 of the Farm Goede Hoop 324 IT - Comments Invited",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "19 Oct 2026, 13:15 UTC",
+      "event_date": "Mon, 19 Oct 2026 13:15:27 +0000",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-portion-5-farm-goede-hoop-324-it-comments-invited",
       "business_impact_score": 46
     },
     {
-      "title": "UPDATE: Traffic backed-up from Richmond Road - The Citizen",
+      "title": "Port in peril — former Transnet workers recalled to cover for Durban Gateway Terminal - Daily Maverick",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "17 Oct 2026, 08:20 UTC",
+      "published": "18 Oct 2026, 17:44 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "Daily Maverick",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeHYtZlJKakk0ZW1LcVh3Y1ZtWkZmRVA2b1Fha3RmWU5iT1JkZlROYWJKZmNCVVpLeko1UmkyOV9QQ1E0elV5dE1fQVU2Y0JibkZBTi1IM1VJRG9YTWZxY1dfNXdGOEZZMjlCN29TUUxXZjVQTDBYd1dkcGo2SHU1Ql9mSExVbXBQSTRLQ3ZZbGdEWi12ZllNSWpsc3ZRdkNfM0lZ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZmwzdDFBN1JydElmSmVMRnMzWE56UWJlVV93VkNZWUhQZVlkbkhLanNfTDlxNlp2X2FxTVZKNGlndTd2bHhLTXNEaTl2RF90aFJGNDU1SldjNDc4U2xPRklWbzBUeUFwUUYyWTJ1LU1pRFl2YXgyTEphSDhMN0hKelhGaHk4U29VZ0tWTy11bzVESEJuSlRaaXM2eGFmM05Qbmo1cXBXWld5RTloWDJHVE85OEZZRldoeU9Jd3hPM1lHVGIwUzdwZVlJVEVtR3Ey?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "JMPD warns of delays as N12 closes in both directions - eNCA",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "19 Oct 2026, 04:30 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (johannesburg) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "eNCA",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeF9EaWRodVpQWld3VXpEdXB6bW1RdTFfQlR3WkhUOXlhbUxSY204OHVVMlUzWXFhaUxFTjEyTUZyaTFKQUpPY2FDY2xzc0I0OUNINUZLWWw0aEdRZlFaUmxPeFlvbE1KSlBMUXBidFlUS1lhRWtaYmFLZGJEOHBUOVZ4aGFTV1JvcUE?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "Maersk warns East Africa shippers of port delays through December - Food Business Middle East & Africa",
+      "title": "Afreximbank and partners advance Africa’s automotive investment agenda at Alamein Africa Forum - African Export-Import Bank",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "16 Oct 2026, 11:30 UTC",
+      "published": "19 Oct 2026, 12:58 UTC",
       "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Food Business Middle East & Africa",
+      "source": "African Export-Import Bank",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNkJ3bEtwTTVzNVd4ZDhZQjhZQmlfNHYzc2lTb3hhQk9PN3lyVzZralpBRmEzcUlsOWlkOEFNTGJBUmFTTzNrNGhlVWUwVEViRnlDZEF6TXpJWktjWGsxN01iNVYzRXlET2xwamhSTi1HTjg0UnFJYkp3Y2lvVTlqSjIzeGI1WWdNRHhtMHAxZzVtVm80VzAtODFQNXVQTjg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUHVyNHExWXZ5RlAxdnJZSVJ5cUNwNmNjZERFM09vS0hmdHI5cm5KODFwZTRJNzVUZEwyN3hHMTZtRjdjQWlZRnVmbGVFWEdOcm5SdGpUakxPcVVnTzlRRnkzT3lvcXVlNkpLZ3ZNMnU2SXg2UVBNam5LNzF4WVVlOS1yd1N6VzMyNktoU1huaDZ3d2tFVGk3UWRQNDN0V0ZTcnlHM2VwdkJaaUY1c2pqb2FFTVBITWdqeF9Gd1FqYw?oc=5",
       "business_impact_score": 42
     },
     {
-      "title": "South Africa’s most valuable bank bets R9 billion on the Gautrain - BusinessTech",
+      "title": "Land Reform (Labour Tenants) Act: Weltevreden 104 IT - Comments Invited",
       "location": "National",
       "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "17 Oct 2026, 11:01 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "BusinessTech",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTEw5MUJ0cUxRbW1FX09CS0k0MkI5TVpNejVjTmZoVFl6MldEREZ4aXp1Y3N6Tm9vWWRZcUVhZzk5M08tUzgzUEtsZFhMcnBIYXhSRDV5d1NuZlpBYVpqSzBUU1RTTkViQXFEdURwZFdLcmFJcl9QTGdnc1oyZXhKWnN4QXRGNXVScG1LS1lTdS1vclltRXh1N09Qa1FFdGJod0tocFUzZzdTcHdSbHVselVDYw?oc=5",
-      "business_impact_score": 42
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "19 Oct 2026, 12:03 UTC",
+      "event_date": "Mon, 19 Oct 2026 12:03:33 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-weltevreden-104-it-comments-invited-16-oct-2026",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "afrikaans": {
-      "word": "Ooreenkoms",
-      "english": "Agreement / Deal",
-      "pronunciation": "OO-ruhn-koms",
-      "example": "Ons het 'n ooreenkoms.",
-      "example_english": "We have an agreement.",
-      "use_note": "Useful in negotiation and commercial discussions; context determines whether it means an agreement or deal."
+      "word": "Kontrak",
+      "english": "Contract",
+      "pronunciation": "KON-trak",
+      "example": "Ons bespreek die kontrak.",
+      "example_english": "We are discussing the contract.",
+      "use_note": "Straightforward commercial vocabulary that may be recognised easily by English speakers."
     },
     "isixhosa": {
-      "word": "Ninjani?",
-      "english": "How are you? (several people)",
-      "pronunciation": "neen-JAH-nee",
-      "example": "Molweni, ninjani?",
-      "example_english": "Hello, how are you all?",
-      "use_note": "The plural form, useful when greeting a small group or team."
+      "word": "Hamba kakuhle",
+      "english": "Goodbye (to one person leaving)",
+      "pronunciation": "HAHM-bah kah-KOO-hleh",
+      "example": "Hamba kakuhle.",
+      "example_english": "Go well / Goodbye.",
+      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
     },
     "rotation": "daily",
     "source_type": "curated"
