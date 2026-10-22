@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-21T12:56:34.431584+01:00",
-    "generated_display": "21 Oct 2026, 12:56",
+    "generated_at": "2026-10-22T12:59:02.084814+01:00",
+    "generated_display": "22 Oct 2026, 12:59",
     "timezone": "Europe/London",
-    "raw_item_count": 611,
-    "normalised_item_count": 85,
-    "final_item_count": 79,
+    "raw_item_count": 607,
+    "normalised_item_count": 90,
+    "final_item_count": 87,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 585
+        "item_count": 581
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -35,15 +35,15 @@
     "components": [
       {
         "name": "Security",
-        "score": 29
+        "score": 33
       },
       {
         "name": "Civil unrest",
-        "score": 49
+        "score": 50
       },
       {
         "name": "Infrastructure",
-        "score": 30
+        "score": 32
       },
       {
         "name": "Transport",
@@ -57,7 +57,7 @@
   },
   "timeline": [
     {
-      "date": "21 Oct",
+      "date": "22 Oct",
       "score": 69,
       "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 44,
+      "score": 49,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 31,
+      "score": 35,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, economy and business."
+      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure, unclassified news."
+      "score": 31,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by security and crime, infrastructure."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 35,
+      "score": 32,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "score": 38,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "bloemfontein",
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 38,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "east-london",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 36,
+      "score": 38,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     }
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-21T12:56:34.431584+01:00",
+    "last_checked": "2026-10-22T12:59:02.084814+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -161,89 +161,89 @@
       "business_impact_score": 32
     },
     {
-      "title": "Land Reform (Labour Tenants) Act: Portion 3 (Remaining Extent) of the Farm Protest 485 - Comments invited",
+      "title": "Foreign citizen beaten to death during march in South Africa as anti-immigrant tensions flare - AP News",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "20 Oct 2026, 16:56 UTC",
-      "summary": "Land Reform (Labour Tenants) Act: Portion 3 (Remaining Extent) of the Farm Protest 485 - Comments invited Tsoana Tue, 10/20/2026 - 18:56 Files Attachment Size 55580gon8055.pdf 190.25 KB Comment by Sunday, November 15, 2026 - 12:00",
+      "time_window": "22 Oct 2026, 11:07 UTC",
+      "summary": "Foreign citizen beaten to death during march in South Africa as anti-immigrant tensions flare AP News",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Confirmed",
-      "source": "South African Government",
-      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-portion-3-remaining-extent-farm-protest-485",
-      "business_impact_score": 49
+      "confidence": "Reported",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZlhicWsyQXhFNUlnWDJjOC1CU0JuQjZfTEs1V3lreG1PVVo5Z0lPenI3M181VFhtc1NsRHNrRjhfR01ZdDU4SVlMWkhVaHhfcWFmZ1ZKdHRSOHl0c3JwS1poOERJbXJoZjQ4aFpqQmU4TFJwU0otbXJBV3NybHBRX2kwU3dWQmpkR0NqRDM3R2hzdHR3ZG41dUNHSGwtM29reDZlTXpMc0toQTA?oc=5",
+      "business_impact_score": 41
     }
   ],
   "news": [
     {
-      "title": "Land Reform (Labour Tenants) Act: Portion 3 (Remaining Extent) of the Farm Protest 485 - Comments invited",
-      "location": "National",
-      "city_id": null,
+      "title": "One-man protest brings Adderley Street traffic to standstill - IOL",
+      "location": "Cape Town",
+      "city_id": "cape-town",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "20 Oct 2026, 16:56 UTC",
-      "event_date": "Tue, 20 Oct 2026 16:56:27 +0000",
-      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is operational relevance.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-portion-3-remaining-extent-farm-protest-485",
+      "published": "20 Oct 2026, 13:02 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (cape town) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQTVBU3VpcjNIWVZ2NHFIM2dhVUdDNV9vTVBCRlRhZXlOWHU0WEt2bmNPMUtKTUV6Rk15dW0xOTdxaVJTX21Nc1VydldLNHljYlEwUG5sVFBkLTd1aDlpRVB1bVpQMHFzNEJyTTRKQWFQVnB4dFM1UC1fN2w3UGM4WHNHTW42WjB2T3RORGc1T2kxcjQ1d20yaWpCek9GT0RVU1cxc3ViQkk?oc=5",
       "business_impact_score": 49
     },
     {
-      "title": "Five police officers arrested at the Polokwane International Airport - SABC News",
-      "location": "Polokwane",
-      "city_id": "polokwane",
-      "category": "Road and transport disruption",
+      "title": "Pretoria pub shooting: Exclusive photos emerge amid claims of earlier assault - The Citizen",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Security and crime",
       "relevance": "Moderate",
-      "published": "19 Oct 2026, 19:03 UTC",
+      "published": "22 Oct 2026, 00:47 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as no clear immediate threat, with localised (polokwane) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is direct travel relevance.",
-      "source": "SABC News",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "The Citizen",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSDF4TGdHQlh0OTAxOGVsUVM1eUttOXVKMHVpdmFSTzQ5NXozOFEzclo0TjVTUGV0MW1MbmxINlhzMlRMdzJkTHdxLUhhYktFWGE3aEJVQjdlTzM0WmpTUTNHVS01QjhLSzJkMkdZbU5OWjczeU5JbTd5ckpVUkZoR0dPN0VKWXJMbXdqazBCWDFUMzVnUExOMmdnLWNJMDNyaGdJNGNn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZjJjVmNSUmllTzlSc3FyNUhzOEo0R0UzY3JPUXJDWFphazJPVW4wYTlzeEVXVlZXU2swYmVSYUg2ZHVzZlA3eE56Wm0weGJsVlNaQUdIR0pMYW1ieUlNUUZaVWdPX0tqSUthX3BkLUs0US1KeGJPenNBcUR3ek5abHRsNG1WeTI1R2VLZ0p0NTFTQjVTczExYWFxRjlQb1pMQ1FYeWthdWpnR0I1R21fdTF4b09hTWVBdWZ3OVhJXy1IMXhMRFdqMld6UWRLelM1Tmc?oc=5",
       "business_impact_score": 47
     },
     {
-      "title": "Land Reform (Labour Tenants): Portion 0 of the farm Roodekraal 21 HT - Comments invited",
+      "title": "Land Reform (Labour Tenants) Act, 1996: Portion 6 of the farm Sterkfontein 54 HT - Comments invited",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "20 Oct 2026, 17:43 UTC",
-      "event_date": "Tue, 20 Oct 2026 17:43:52 +0000",
+      "published": "22 Oct 2026, 11:27 UTC",
+      "event_date": "Thu, 22 Oct 2026 11:27:03 +0000",
       "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-portion-0-farm-roodekraal-21-ht-comments-invited-16",
+      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-1996-portion-6-farm-sterkfontein-54-ht-comments",
       "business_impact_score": 46
     },
     {
-      "title": "Land Reform (Labour Tenants) Act: Portion 1 & 0 of the farm Moreson 89 HT - Comments invited",
+      "title": "Land Reform (Labour Tenants) Act: Portion 1 (R/E) of the farm Spitskop No. 41 HT - Comments invited",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "20 Oct 2026, 16:39 UTC",
-      "event_date": "Tue, 20 Oct 2026 16:39:10 +0000",
+      "published": "22 Oct 2026, 11:04 UTC",
+      "event_date": "Thu, 22 Oct 2026 11:04:30 +0000",
       "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-portion-1-0-farm-moreson-89-ht-comments-invited-16",
+      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-portion-1-re-farm-spitskop-no-41-ht-comments",
       "business_impact_score": 46
     },
     {
-      "title": "Land Reform (Labour Tenants): Portion 2 Remaining Extent of the farm Mooiplaats 112 HT – Comments invited",
+      "title": "Land Reform (Labour Tenants) Act: Portion 7 of the farm Rooikraal 173 HT - Comments invited",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "20 Oct 2026, 16:31 UTC",
-      "event_date": "Tue, 20 Oct 2026 16:31:34 +0000",
+      "published": "22 Oct 2026, 10:02 UTC",
+      "event_date": "Thu, 22 Oct 2026 10:02:12 +0000",
       "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-portion-2-remaining-extent-farm-mooiplaats-112-ht-%E2%80%93",
+      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-portion-7-farm-rooikraal-173-ht-comments-invited",
       "business_impact_score": 46
     },
     {
@@ -252,7 +252,7 @@
       "city_id": "east-london",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "21 Oct 2026, 09:11 UTC",
+      "published": "21 Oct 2026, 09:23 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (east london) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
       "source": "The Citizen",
@@ -261,18 +261,18 @@
       "business_impact_score": 46
     },
     {
-      "title": "‘Gone! Durban’: Councillors Slam R9 Billion Transport Project After Decade of Delays and Empty Stations - weekendargus.co.za",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
+      "title": "Bomb threat reported on aircraft at King Phalo Airport in KuGompo, 184 passengers evacuated - IOL",
+      "location": "East London",
+      "city_id": "east-london",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "19 Oct 2026, 14:58 UTC",
+      "published": "21 Oct 2026, 09:16 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "weekendargus.co.za",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (east london) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
+      "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPT1lMU01rWW5VOFFwWWw0QTJGQi0zOG1ieE5aQUdtWldjOHZQWWlzeVI3cmhCUmsyVE9NVXZ1RzBZU1dkRmkySlZ4OWF6ZHVUN0V1eXN6V1dRX0lpVWNqTG4yU2hCU1k5bmJvbW1ERE5ROVNVc0pmTFhuREpybU1qcFh6WmhWWnRLYkQ0UzZWSm8xXzNNN05SbVpOSW1tMXJFUUgtbWNJNGNpc1N6MWtENW4xRm1nYnFodTVpcFprU3dkakVKWEVCaWExdHNmTmEyTWw2Mm1IQTQxdmYwaDhGdk42M0dfZHBG?oc=5",
-      "business_impact_score": 44
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWDFDWC1wQjNwUEdYZy1MWGJEQUtFYkxNZ2NXQml2QzFXU1F4aDQ4cjVCaTRMNnVpWDQ1MjVHZ2labVVsdU5NUFJ6RzNGbXg2bEdUSFczN3JPME1lX1I1ZlE0cWxhZGVGWTFKMVZWNEx2b2t1MlNjc1llaHhGaC1jdHR5d0dzU1Q3Z0drd3hKV0ljclhJLVB0NS1MY3ZJR01seWpLeno3cVpMYUxmcWdTSlhQbFlfU1R1WTNRc3ZzY0VBMkJvdGc?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "Bomb scare at one of South Africa’s major airports - BusinessTech",
@@ -280,7 +280,7 @@
       "city_id": "east-london",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "21 Oct 2026, 09:53 UTC",
+      "published": "21 Oct 2026, 14:33 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (east london) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "BusinessTech",
@@ -289,51 +289,51 @@
       "business_impact_score": 44
     },
     {
-      "title": "Port operational updates from around the world (14 Oct - 20 Oct 2026) - Kuehne+Nagel",
+      "title": "Durban Port, South Africa, congestion forces carriers to adjust vessel operations - Kuehne+Nagel",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "20 Oct 2026, 09:08 UTC",
+      "published": "21 Oct 2026, 13:03 UTC",
       "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "Kuehne+Nagel",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZk10eVBQSnM5ZDVmTlpaYmdYTTlDMmdfQ0w4RXFjNWVaNktFRDJvMnVuZlg3QklSZWJLajNkTlRvWV91YU95VnIzbFlTTFU3QkkwRmtDNXpCVXRfTjBNdFZYWHlUU0d6N2pKb21CTWRHZUtzcG9XQ25GSUE1TkRmUkk3SVpmdWktUWhj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRUdaWFlCeEgxb0QzVS1qSm45YU9LMS1UYjJINWFzWXYwWnczN0lTTGxqMkkyZ0lhMGM2NE5OMDJPaVRnMHdMLWtDMTVvcFdobTBnR21GTDR6Ry1lWV9mZURLX0JlVVgyVU8xRDJGdkI1SlVGU0ZLdHRrOU5ub3drZEVvNGlDMHJHaGgyc1MwRQ?oc=5",
       "business_impact_score": 42
     },
     {
-      "title": "Land Reform (Labour Tenants) Act: Remaining Extent of the farm Rietspruit 437 IS - Comments invited",
+      "title": "Foreign citizen beaten to death during march in South Africa as anti-immigrant tensions flare - AP News",
       "location": "National",
       "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "20 Oct 2026, 17:00 UTC",
-      "event_date": "Tue, 20 Oct 2026 17:00:53 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/land-reform-labour-tenants-act-remaining-extent-farm-rietspruit-437-comments",
-      "business_impact_score": 27
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "22 Oct 2026, 11:07 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "AP News",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZlhicWsyQXhFNUlnWDJjOC1CU0JuQjZfTEs1V3lreG1PVVo5Z0lPenI3M181VFhtc1NsRHNrRjhfR01ZdDU4SVlMWkhVaHhfcWFmZ1ZKdHRSOHl0c3JwS1poOERJbXJoZjQ4aFpqQmU4TFJwU0otbXJBV3NybHBRX2kwU3dWQmpkR0NqRDM3R2hzdHR3ZG41dUNHSGwtM29reDZlTXpMc0toQTA?oc=5",
+      "business_impact_score": 41
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "afrikaans": {
-      "word": "Kantoor",
-      "english": "Office",
-      "pronunciation": "kahn-TOOR",
-      "example": "Ons ontmoet by die kantoor.",
-      "example_english": "We are meeting at the office.",
-      "use_note": "Useful for confirming a workplace or meeting location."
+      "word": "Afspraak",
+      "english": "Appointment",
+      "pronunciation": "AHF-sprahk",
+      "example": "Ek sien uit na ons afspraak.",
+      "example_english": "I am looking forward to our appointment.",
+      "use_note": "Useful when arranging or referring to a scheduled professional meeting."
     },
     "isixhosa": {
-      "word": "Uxolo",
-      "english": "Excuse me / Sorry",
-      "pronunciation": "oo-KHOH-loh",
-      "example": "Uxolo.",
-      "example_english": "Excuse me / Sorry.",
-      "use_note": "Useful for politely getting attention or apologising in everyday interaction."
+      "word": "Molo",
+      "english": "Hello (one person)",
+      "pronunciation": "MOH-loh",
+      "example": "Molo.",
+      "example_english": "Hello.",
+      "use_note": "Use when greeting one person; a simple local greeting can be a respectful way to begin an interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
