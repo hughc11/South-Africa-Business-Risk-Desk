@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-23T12:45:10.462995+01:00",
-    "generated_display": "23 Oct 2026, 12:45",
+    "generated_at": "2026-10-24T12:08:21.153520+01:00",
+    "generated_display": "24 Oct 2026, 12:08",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 107,
-    "final_item_count": 100,
+    "normalised_item_count": 100,
+    "final_item_count": 92,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 70,
+    "score": 68,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (70/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 29
+        "score": 30
       },
       {
         "name": "Civil unrest",
-        "score": 51
+        "score": 48
       },
       {
         "name": "Infrastructure",
-        "score": 35
+        "score": 32
       },
       {
         "name": "Transport",
-        "score": 46
+        "score": 45
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "23 Oct",
-      "score": 70,
-      "explanation": "High national business risk (70/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "24 Oct",
+      "score": 68,
+      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 44,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 26,
-      "level": "Low",
-      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
+      "score": 31,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
     {
       "id": "pretoria-tshwane",
@@ -91,7 +91,7 @@
       "default_zoom": 11,
       "score": 27,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, infrastructure."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 41,
+      "score": 44,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 38,
+      "score": 37,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -140,38 +140,24 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-23T12:45:10.462995+01:00",
+    "last_checked": "2026-10-24T12:08:21.153520+01:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Shops shut in Durban CBD as March and March protest violence and security fears grow - Sunday Tribune",
-      "location": "Durban / eThekwini",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "22 Oct 2026, 14:17 UTC",
-      "summary": "Shops shut in Durban CBD as March and March protest violence and security fears grow Sunday Tribune",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Sunday Tribune",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdnBYQ29WaWZiN1pscG5GU2JWNWhqb19mSTVnaWMzY3c0Nk5BUEVZQjZpN3ZhWXd0MkhUUU9pcG52MF93N2NSbDZDZFAxT012SF9IZU02QWt1ZmdsZW5hZ0FheTMzSEU5NHZyMjlTVXl0aXlfUC0zaHMwbXRCeldXcGJXQ1pJR1JvMlE5X3YxY1BicElZenVpTWtfd2NIY0kxc2VGU2NOX0d1bDlxajBQUjRBMVNWX0xMSUpOY3dQM1gxT29NTjFLdkVybVNBWE00NHY0?oc=5",
-      "business_impact_score": 53
-    },
-    {
-      "title": "Parliament demands action as Legal Aid SA strike disrupts courts - IOL",
+      "title": "When protest turns to intimidation, communities pay the price - IOL",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "23 Oct 2026, 10:58 UTC",
-      "summary": "Parliament demands action as Legal Aid SA strike disrupts courts IOL",
+      "time_window": "24 Oct 2026, 09:30 UTC",
+      "summary": "When protest turns to intimidation, communities pay the price IOL",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
       "source": "IOL",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjNiNmQ4RUpKdFJCa0dmNUREUGdsQlJ6TlU1Q1JpSU5OOFQ0NU4tTFlzTk9hRUFrME5GNXNPZ3hPSEhrUnNxZ2twM1B1U3NSajVob1hmaVlMZmJHZEY1a0puRTh5N2c4WWdnS0dESkRVTG1qS0s1RTJIWXp2U0xyVjNLZktIYzJMYmFlQ25FLU9nbzRjYXFTR1pmMDNNMTVLTVpGUFNwQ2JOWnQ5?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbV9Yb1FDWVQ1QkxBVjZURHZIcHI3cnhQa1lEV0d2S0hueldPSjY3anlzRjd6T3pEV2V2NUk4N3FfdXRBNkFYUVpZdFBmZlNjUnFWTWo0cmptRklsQ3NfaUdiTVA2dWtES2gwc2pHV25NZkN3Y3k2VFVKOWpHSzlDTDZQNVNuWW5Ual9TUTdmNkZiX0ZuTFV5bG5IZjNrMmxhbDFnX19vTTlHZw?oc=5",
       "business_impact_score": 46
     },
     {
@@ -189,18 +175,18 @@
       "business_impact_score": 46
     },
     {
-      "title": "Today in Africa — October 22, 2026: Foreign Man Beaten to Death in South Africa Protest March, Families Fear Ill U.S. Detainees Will Be Deported to Africa - OkayAfrica",
-      "location": "National",
+      "title": "Five held after foreign national beaten to death during Durban march - The Citizen",
+      "location": "Durban / eThekwini",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "22 Oct 2026, 15:29 UTC",
-      "summary": "Today in Africa — October 22, 2026: Foreign Man Beaten to Death in South Africa Protest March, Families Fear Ill U.S. Detainees Will Be Deported to Africa OkayAfrica",
+      "time_window": "23 Oct 2026, 14:45 UTC",
+      "summary": "Five held after foreign national beaten to death during Durban march The Citizen",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "OkayAfrica",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOV0hkMUpxd3R2eHd6WmFJREdVcmVsOWJSZ1lYSlpvUEk0M00yR0luSzRNUTdYc2UyaFlhLXl0WFVwY3Y2QjZmWWNlTW5IOVIxc1R6VUl5UXItaTBkd2E5bUJHV010QkloSEpaZjlkYzBvTGxJdnYtNGdZUVdtbnhmTUlneE5XNnhqdTQySUxmQzRqdEdkaVA3cVp1d1FZb0lLa0UybEpBemVDWmRiZzluZ3V2SDZEQW90cGxnWmRZRVJVSjVTZDJMb3pwdlh1RTNfTGZzTl9MVlY0UVYtaEN3djNmaWJmeHV2Q0RCcFZSQnY1bXF2Y2FvZ0duSjc0RG5namE3MVVVVFp0dks4VTZR?oc=5",
-      "business_impact_score": 45
+      "source": "The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbF9GVmhjUk1WV2VnSS1qMzUzX3Vpc1J5NkJhdUVyMHBadnNhTC0xYXhXWjJ4MmJEY2xnSUpZSUZqeHhIZVNua2xxNDZtRVJUNGtTUW80SENhYVFTajJzNU1fOEhCMDVlNFBvMUhlYmhiTURyaTBacXROaTRxMldEWVQ3eVFHUlNzZXVfSXZ1eXFMYnlEZlhwRW1YeVg1TXh0LVphYk5DTnl6ekJPWVAwM0VQZldMMzhMa1Ew?oc=5",
+      "business_impact_score": 43
     },
     {
       "title": "South Africa: foreign national beaten to death during march in Durban - Bénin Web TV",
@@ -215,20 +201,6 @@
       "source": "Bénin Web TV",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPamtRbjF0TkZ4V250MEpHTWhCTHp4dEl5TDhZMzZpN08xU2llZDAyVFZKa0g3NDBMeXp4SGI1Yy1VeWxJM3U5YnpkVXhlVWVnWFVZeEFwT2c3emlEbk1nY29ENThPaDA3TndjZEhpZ1VSWHNWYTZRU3BGMTVTZF9sVzZqTkV0S3lndU5VSkJVX2E1ai1qQUF2OGZ3?oc=5",
       "business_impact_score": 43
-    },
-    {
-      "title": "Foreign citizen beaten to death during march in South Africa as anti-immigrant tensions flare - AP News",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "22 Oct 2026, 11:07 UTC",
-      "summary": "Foreign citizen beaten to death during march in South Africa as anti-immigrant tensions flare AP News",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZlhicWsyQXhFNUlnWDJjOC1CU0JuQjZfTEs1V3lreG1PVVo5Z0lPenI3M181VFhtc1NsRHNrRjhfR01ZdDU4SVlMWkhVaHhfcWFmZ1ZKdHRSOHl0c3JwS1poOERJbXJoZjQ4aFpqQmU4TFJwU0otbXJBV3NybHBRX2kwU3dWQmpkR0NqRDM3R2hzdHR3ZG41dUNHSGwtM29reDZlTXpMc0toQTA?oc=5",
-      "business_impact_score": 41
     }
   ],
   "news": [
@@ -261,17 +233,17 @@
       "business_impact_score": 46
     },
     {
-      "title": "Parliament demands action as Legal Aid SA strike disrupts courts - IOL",
+      "title": "When protest turns to intimidation, communities pay the price - IOL",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "23 Oct 2026, 10:58 UTC",
+      "published": "24 Oct 2026, 09:30 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjNiNmQ4RUpKdFJCa0dmNUREUGdsQlJ6TlU1Q1JpSU5OOFQ0NU4tTFlzTk9hRUFrME5GNXNPZ3hPSEhrUnNxZ2twM1B1U3NSajVob1hmaVlMZmJHZEY1a0puRTh5N2c4WWdnS0dESkRVTG1qS0s1RTJIWXp2U0xyVjNLZktIYzJMYmFlQ25FLU9nbzRjYXFTR1pmMDNNMTVLTVpGUFNwQ2JOWnQ5?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbV9Yb1FDWVQ1QkxBVjZURHZIcHI3cnhQa1lEV0d2S0hueldPSjY3anlzRjd6T3pEV2V2NUk4N3FfdXRBNkFYUVpZdFBmZlNjUnFWTWo0cmptRklsQ3NfaUdiTVA2dWtES2gwc2pHV25NZkN3Y3k2VFVKOWpHSzlDTDZQNVNuWW5Ual9TUTdmNkZiX0ZuTFV5bG5IZjNrMmxhbDFnX19vTTlHZw?oc=5",
       "business_impact_score": 46
     },
     {
@@ -289,6 +261,20 @@
       "business_impact_score": 46
     },
     {
+      "title": "Joburg CBD residents thanked after weeks-long electricity outage - EWN",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "23 Oct 2026, 13:54 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (45/100). Assessed as no clear immediate threat, with city scope and local operational disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVGpUQzRXWm9MQXlrTl8xZ3IxSm9ydmJ2M0xFNkowOGF3ZTRic3RiTHlhRkt4a2NLQXp2VWlaNVhFVnJ5eHdVQkdfZ3RHekxMRXZBWnFwQzZpeHRTY09mcDFMYm5aTDhOMEJiOUktb3hzOU5oRXBKZFVLdVd2bnZqbE9pZ0RNeFJrcFFrOHlsT1oybmd0Mmt1eFhubTZLZw?oc=5",
+      "business_impact_score": 45
+    },
+    {
       "title": "Today in Africa — October 22, 2026: Foreign Man Beaten to Death in South Africa Protest March, Families Fear Ill U.S. Detainees Will Be Deported to Africa - OkayAfrica",
       "location": "National",
       "city_id": null,
@@ -303,18 +289,18 @@
       "business_impact_score": 45
     },
     {
-      "title": "Bomb scare at one of South Africa’s major airports - BusinessTech",
-      "location": "East London",
-      "city_id": "east-london",
-      "category": "Road and transport disruption",
+      "title": "Five held after foreign national beaten to death during Durban march - The Citizen",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "21 Oct 2026, 14:33 UTC",
+      "published": "23 Oct 2026, 14:45 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (east london) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "BusinessTech",
+      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "The Citizen",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNm44LVZfQTlNakpkazR1THFYQW05cDNOZU9ITk1HZVN3X1lZOVR6ZW10UmI2RlF4OXAyTU5YNXd3dk1YWGVQMm1wUTc2cVltM21sR0I5bEpvdVp3QjZ2ajF2empzOVU0QkpZLUlHYi02R0p0Z2dscmxOWlRIbUd4SV92aWxPNGxpcjA0aWNEUWxKQnBaWG42YVBFYURHMUsz?oc=5",
-      "business_impact_score": 44
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbF9GVmhjUk1WV2VnSS1qMzUzX3Vpc1J5NkJhdUVyMHBadnNhTC0xYXhXWjJ4MmJEY2xnSUpZSUZqeHhIZVNua2xxNDZtRVJUNGtTUW80SENhYVFTajJzNU1fOEhCMDVlNFBvMUhlYmhiTURyaTBacXROaTRxMldEWVQ3eVFHUlNzZXVfSXZ1eXFMYnlEZlhwRW1YeVg1TXh0LVphYk5DTnl6ekJPWVAwM0VQZldMMzhMa1Ew?oc=5",
+      "business_impact_score": 43
     },
     {
       "title": "South Africa: foreign national beaten to death during march in Durban - Bénin Web TV",
@@ -331,65 +317,51 @@
       "business_impact_score": 43
     },
     {
-      "title": "China zero-tariff scheme creates export and job opportunities, says Tau - thenational.co.za",
+      "title": "Power cuts and sleep: Students link load shedding to anxiety, disrupted rest and lower grades - Phys.org",
       "location": "National",
       "city_id": null,
-      "category": "Road and transport disruption",
+      "category": "Infrastructure",
       "relevance": "Moderate",
-      "published": "23 Oct 2026, 02:00 UTC",
+      "published": "23 Oct 2026, 23:40 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "thenational.co.za",
+      "summary": "Moderate business impact (41/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Phys.org",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTlVCT3hCSE9qRy1EVlFtTnNhazFXREZoZS1LNHJHakdDV1YwOG9hT3Y4QXRBNXdxbkR4bXhMWXdfQkQzNHhMbmdMVndVWlExV2xLUHgwZFhYUEFnay1BLVE3UjdRMkpqR1A4RVFfVE9RbWU0TGg2TnozUEtvb0NqY1JoMEVUQkM3QllWMkZqMzM1WXhRQ0RVOUhrbDZCNk9ZeldsbE96OGlHUkttckdfUE1RVQ?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "Durban Port, South Africa, congestion forces carriers to adjust vessel operations - Kuehne+Nagel",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "21 Oct 2026, 13:03 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Kuehne+Nagel",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRUdaWFlCeEgxb0QzVS1qSm45YU9LMS1UYjJINWFzWXYwWnczN0lTTGxqMkkyZ0lhMGM2NE5OMDJPaVRnMHdMLWtDMTVvcFdobTBnR21GTDR6Ry1lWV9mZURLX0JlVVgyVU8xRDJGdkI1SlVGU0ZLdHRrOU5ub3drZEVvNGlDMHJHaGgyc1MwRQ?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "Foreign citizen beaten to death during march in South Africa as anti-immigrant tensions flare - AP News",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "22 Oct 2026, 11:07 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "AP News",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZlhicWsyQXhFNUlnWDJjOC1CU0JuQjZfTEs1V3lreG1PVVo5Z0lPenI3M181VFhtc1NsRHNrRjhfR01ZdDU4SVlMWkhVaHhfcWFmZ1ZKdHRSOHl0c3JwS1poOERJbXJoZjQ4aFpqQmU4TFJwU0otbXJBV3NybHBRX2kwU3dWQmpkR0NqRDM3R2hzdHR3ZG41dUNHSGwtM29reDZlTXpMc0toQTA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yNEo2YURpdGw3Wi1pdTh0dUlObzRrc3BzN0NvMHJSdTR2cXBZQjg1ZHlsWlh1RWlyRDRITktzajRKbTBqcnRJMWVKUzNha2tGeGI1UXhYel8zdmNvNzJfS1pLbjl2SDVoQ0Eta2FxVGgxQnpEZTh0cENmRDI?oc=5",
       "business_impact_score": 41
+    },
+    {
+      "title": "Local Government: Municipal Electoral Act: Correction notice: 2026 Third Amendment to the Municipal Electoral Regulations, 2000",
+      "location": "National",
+      "city_id": null,
+      "category": "Politics and government",
+      "relevance": "Guarded",
+      "published": "23 Oct 2026, 11:32 UTC",
+      "event_date": "Fri, 23 Oct 2026 11:32:43 +0000",
+      "summary": "Guarded business impact (28/100). Assessed as no clear immediate threat, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/local-government-municipal-electoral-act-correction-notice-2026-third-amendment",
+      "business_impact_score": 28
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "afrikaans": {
-      "word": "Skedule",
-      "english": "Schedule",
-      "pronunciation": "skuh-DOO-luh",
-      "example": "Hoe besig is jou skedule?",
-      "example_english": "How busy is your schedule?",
-      "use_note": "Practical vocabulary for arranging meetings and discussing availability."
+      "word": "Begin",
+      "english": "Begin / Start",
+      "pronunciation": "buh-KHIN",
+      "example": "Sal ons begin?",
+      "example_english": "Shall we begin?",
+      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
     },
     "isixhosa": {
-      "word": "Ewe",
-      "english": "Yes",
-      "pronunciation": "EH-weh",
-      "example": "Ewe.",
-      "example_english": "Yes.",
-      "use_note": "A basic affirmative response useful in everyday interaction."
+      "word": "Ndiyabulela",
+      "english": "I thank you",
+      "pronunciation": "n-dee-yah-boo-LEH-lah",
+      "example": "Ndiyabulela.",
+      "example_english": "I thank you.",
+      "use_note": "A fuller expression of gratitude that can add warmth to a courteous interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
