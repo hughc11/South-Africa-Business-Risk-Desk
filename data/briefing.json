@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-24T12:08:21.153520+01:00",
-    "generated_display": "24 Oct 2026, 12:08",
+    "generated_at": "2026-10-25T11:38:04.900437+00:00",
+    "generated_display": "25 Oct 2026, 11:38",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 100,
-    "final_item_count": 92,
+    "normalised_item_count": 89,
+    "final_item_count": 86,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 68,
+    "score": 66,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 30
+        "score": 29
       },
       {
         "name": "Civil unrest",
-        "score": 48
+        "score": 47
       },
       {
         "name": "Infrastructure",
-        "score": 32
+        "score": 36
       },
       {
         "name": "Transport",
-        "score": 45
+        "score": 44
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "24 Oct",
-      "score": 68,
-      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "25 Oct",
+      "score": 66,
+      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 25,
+      "score": 26,
       "level": "Low",
       "summary": "Current city risk is being driven by infrastructure."
     },
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 31,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "score": 26,
+      "level": "Low",
+      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
     },
     {
       "id": "pretoria-tshwane",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 44,
+      "score": 43,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 37,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 38,
+      "score": 36,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     }
@@ -140,124 +140,25 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-24T12:08:21.153520+01:00",
+    "last_checked": "2026-10-25T11:38:04.900437+00:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [
-    {
-      "title": "When protest turns to intimidation, communities pay the price - IOL",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "24 Oct 2026, 09:30 UTC",
-      "summary": "When protest turns to intimidation, communities pay the price IOL",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "IOL",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbV9Yb1FDWVQ1QkxBVjZURHZIcHI3cnhQa1lEV0d2S0hueldPSjY3anlzRjd6T3pEV2V2NUk4N3FfdXRBNkFYUVpZdFBmZlNjUnFWTWo0cmptRklsQ3NfaUdiTVA2dWtES2gwc2pHV25NZkN3Y3k2VFVKOWpHSzlDTDZQNVNuWW5Ual9TUTdmNkZiX0ZuTFV5bG5IZjNrMmxhbDFnX19vTTlHZw?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "South African poet laureate encourages creative protest amid 50th anniversary of Soweto Uprising - The Duke Chronicle",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "23 Oct 2026, 03:33 UTC",
-      "summary": "South African poet laureate encourages creative protest amid 50th anniversary of Soweto Uprising The Duke Chronicle",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "The Duke Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTWdVb002bU1iQkhmbkU5R2ZYZ2FUdjZqZXV3cmRPT19OSHhtbGFsaml3cHRDbkZYS3l2SjUwT2F0TFBVQ29zbVMxa0M4UXZZNEstN0xhVlBVbTk1cjNGSUU1Y2lFWUdUTEMtOEc1WEltZDRiODZObWVRaFVhNGRoRTJfZmJuQnUwWnQ5cEV5dk90QWVzSWUtaTkxUDhPU0FfOG9oSUJxVEZ4YjN1MGxFVnM5SkI0SnJnc2oyZzJWNTVDZnU1dk5BSi1hUkkyOW8yUldSSWw0UnVNUTNzdEdCSURhckZqX2pFM19FbFhWOVlmZzltTnlldUJIM3hRZ29pZUNvbkZjTnNRUQ?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Five held after foreign national beaten to death during Durban march - The Citizen",
-      "location": "Durban / eThekwini",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "23 Oct 2026, 14:45 UTC",
-      "summary": "Five held after foreign national beaten to death during Durban march The Citizen",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbF9GVmhjUk1WV2VnSS1qMzUzX3Vpc1J5NkJhdUVyMHBadnNhTC0xYXhXWjJ4MmJEY2xnSUpZSUZqeHhIZVNua2xxNDZtRVJUNGtTUW80SENhYVFTajJzNU1fOEhCMDVlNFBvMUhlYmhiTURyaTBacXROaTRxMldEWVQ3eVFHUlNzZXVfSXZ1eXFMYnlEZlhwRW1YeVg1TXh0LVphYk5DTnl6ekJPWVAwM0VQZldMMzhMa1Ew?oc=5",
-      "business_impact_score": 43
-    },
-    {
-      "title": "South Africa: foreign national beaten to death during march in Durban - Bénin Web TV",
-      "location": "Durban / eThekwini",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "22 Oct 2026, 23:19 UTC",
-      "summary": "South Africa: foreign national beaten to death during march in Durban Bénin Web TV",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Bénin Web TV",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPamtRbjF0TkZ4V250MEpHTWhCTHp4dEl5TDhZMzZpN08xU2llZDAyVFZKa0g3NDBMeXp4SGI1Yy1VeWxJM3U5YnpkVXhlVWVnWFVZeEFwT2c3emlEbk1nY29ENThPaDA3TndjZEhpZ1VSWHNWYTZRU3BGMTVTZF9sVzZqTkV0S3lndU5VSkJVX2E1ai1qQUF2OGZ3?oc=5",
-      "business_impact_score": 43
-    }
-  ],
+  "incidents": [],
   "news": [
     {
-      "title": "Shops shut in Durban CBD as March and March protest violence and security fears grow - Sunday Tribune",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "22 Oct 2026, 14:17 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Sunday Tribune",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdnBYQ29WaWZiN1pscG5GU2JWNWhqb19mSTVnaWMzY3c0Nk5BUEVZQjZpN3ZhWXd0MkhUUU9pcG52MF93N2NSbDZDZFAxT012SF9IZU02QWt1ZmdsZW5hZ0FheTMzSEU5NHZyMjlTVXl0aXlfUC0zaHMwbXRCeldXcGJXQ1pJR1JvMlE5X3YxY1BicElZenVpTWtfd2NIY0kxc2VGU2NOX0d1bDlxajBQUjRBMVNWX0xMSUpOY3dQM1gxT29NTjFLdkVybVNBWE00NHY0?oc=5",
-      "business_impact_score": 53
-    },
-    {
-      "title": "Government Communication and Information System Annual Report 2025/2026",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "23 Oct 2026, 09:53 UTC",
-      "event_date": "Fri, 23 Oct 2026 09:53:51 +0000",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/annual-reports/government-communication-and-information-system-annual-report-20252026-20",
-      "business_impact_score": 46
-    },
-    {
-      "title": "When protest turns to intimidation, communities pay the price - IOL",
+      "title": "Ethiopian's bail hearing adjourned over alleged Durban protest assault - IOL",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "24 Oct 2026, 09:30 UTC",
+      "published": "23 Oct 2026, 13:42 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbV9Yb1FDWVQ1QkxBVjZURHZIcHI3cnhQa1lEV0d2S0hueldPSjY3anlzRjd6T3pEV2V2NUk4N3FfdXRBNkFYUVpZdFBmZlNjUnFWTWo0cmptRklsQ3NfaUdiTVA2dWtES2gwc2pHV25NZkN3Y3k2VFVKOWpHSzlDTDZQNVNuWW5Ual9TUTdmNkZiX0ZuTFV5bG5IZjNrMmxhbDFnX19vTTlHZw?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "South African poet laureate encourages creative protest amid 50th anniversary of Soweto Uprising - The Duke Chronicle",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "23 Oct 2026, 03:33 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "The Duke Chronicle",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTWdVb002bU1iQkhmbkU5R2ZYZ2FUdjZqZXV3cmRPT19OSHhtbGFsaml3cHRDbkZYS3l2SjUwT2F0TFBVQ29zbVMxa0M4UXZZNEstN0xhVlBVbTk1cjNGSUU1Y2lFWUdUTEMtOEc1WEltZDRiODZObWVRaFVhNGRoRTJfZmJuQnUwWnQ5cEV5dk90QWVzSWUtaTkxUDhPU0FfOG9oSUJxVEZ4YjN1MGxFVnM5SkI0SnJnc2oyZzJWNTVDZnU1dk5BSi1hUkkyOW8yUldSSWw0UnVNUTNzdEdCSURhckZqX2pFM19FbFhWOVlmZzltTnlldUJIM3hRZ29pZUNvbkZjTnNRUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTEFkR0gxbjY0NW8yU0xXUkxLT1V4dXJVVUVxejVrSmJfTWRGZjVNTjhmWTlfWTJKeXViSjJLaFN2X2xZeUU0Mkc3dzBMbkg0Wm1uakZqYmdVRzVPV1JzVzVWYTNjUWFpVzFpdW5ZWTlYVUlIQkFHSnN3aUFCRHlNdXh0X2ZsTkE4UDhaYWxtcEhhdkR5TGZBMmhsYlhtalVnUWh0Q1BrcTFrRzlrdmdkcVZULVdTX0U5?oc=5",
       "business_impact_score": 46
     },
     {
@@ -275,20 +176,6 @@
       "business_impact_score": 45
     },
     {
-      "title": "Today in Africa — October 22, 2026: Foreign Man Beaten to Death in South Africa Protest March, Families Fear Ill U.S. Detainees Will Be Deported to Africa - OkayAfrica",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "22 Oct 2026, 15:29 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (45/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is short-term; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "OkayAfrica",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOV0hkMUpxd3R2eHd6WmFJREdVcmVsOWJSZ1lYSlpvUEk0M00yR0luSzRNUTdYc2UyaFlhLXl0WFVwY3Y2QjZmWWNlTW5IOVIxc1R6VUl5UXItaTBkd2E5bUJHV010QkloSEpaZjlkYzBvTGxJdnYtNGdZUVdtbnhmTUlneE5XNnhqdTQySUxmQzRqdEdkaVA3cVp1d1FZb0lLa0UybEpBemVDWmRiZzluZ3V2SDZEQW90cGxnWmRZRVJVSjVTZDJMb3pwdlh1RTNfTGZzTl9MVlY0UVYtaEN3djNmaWJmeHV2Q0RCcFZSQnY1bXF2Y2FvZ0duSjc0RG5namE3MVVVVFp0dks4VTZR?oc=5",
-      "business_impact_score": 45
-    },
-    {
       "title": "Five held after foreign national beaten to death during Durban march - The Citizen",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
@@ -300,20 +187,6 @@
       "source": "The Citizen",
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbF9GVmhjUk1WV2VnSS1qMzUzX3Vpc1J5NkJhdUVyMHBadnNhTC0xYXhXWjJ4MmJEY2xnSUpZSUZqeHhIZVNua2xxNDZtRVJUNGtTUW80SENhYVFTajJzNU1fOEhCMDVlNFBvMUhlYmhiTURyaTBacXROaTRxMldEWVQ3eVFHUlNzZXVfSXZ1eXFMYnlEZlhwRW1YeVg1TXh0LVphYk5DTnl6ekJPWVAwM0VQZldMMzhMa1Ew?oc=5",
-      "business_impact_score": 43
-    },
-    {
-      "title": "South Africa: foreign national beaten to death during march in Durban - Bénin Web TV",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "22 Oct 2026, 23:19 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "Bénin Web TV",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPamtRbjF0TkZ4V250MEpHTWhCTHp4dEl5TDhZMzZpN08xU2llZDAyVFZKa0g3NDBMeXp4SGI1Yy1VeWxJM3U5YnpkVXhlVWVnWFVZeEFwT2c3emlEbk1nY29ENThPaDA3TndjZEhpZ1VSWHNWYTZRU3BGMTVTZF9sVzZqTkV0S3lndU5VSkJVX2E1ai1qQUF2OGZ3?oc=5",
       "business_impact_score": 43
     },
     {
@@ -331,37 +204,37 @@
       "business_impact_score": 41
     },
     {
-      "title": "Local Government: Municipal Electoral Act: Correction notice: 2026 Third Amendment to the Municipal Electoral Regulations, 2000",
-      "location": "National",
-      "city_id": null,
-      "category": "Politics and government",
+      "title": "R232.6 million stormwater upgrade to reduce flooding in South Durban - ECR",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Infrastructure",
       "relevance": "Guarded",
-      "published": "23 Oct 2026, 11:32 UTC",
-      "event_date": "Fri, 23 Oct 2026 11:32:43 +0000",
-      "summary": "Guarded business impact (28/100). Assessed as no clear immediate threat, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/local-government-municipal-electoral-act-correction-notice-2026-third-amendment",
-      "business_impact_score": 28
+      "published": "25 Oct 2026, 08:34 UTC",
+      "event_date": "",
+      "summary": "Guarded business impact (38/100). Assessed as material incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "ECR",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbk5BWFktSFhmdVhlMFFmaHA2VUJGOXFJYVZqYXNPMy1reTNlQWtmdEtISkpueWJ5WTlSNWJzZERaVXdTelJ1LVRSUEVZakItWW5rbW8xMERFb3UwcTF3eXpoM2psZlhMeVkwVnEwTk5nTTFOc0pmdF9OWDRtT3FfV3gzWDZFcms?oc=5",
+      "business_impact_score": 38
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "afrikaans": {
-      "word": "Begin",
-      "english": "Begin / Start",
-      "pronunciation": "buh-KHIN",
-      "example": "Sal ons begin?",
-      "example_english": "Shall we begin?",
-      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
+      "word": "Saamstem",
+      "english": "Agree",
+      "pronunciation": "SAHM-stem",
+      "example": "Ek stem saam.",
+      "example_english": "I agree.",
+      "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely."
     },
     "isixhosa": {
-      "word": "Ndiyabulela",
-      "english": "I thank you",
-      "pronunciation": "n-dee-yah-boo-LEH-lah",
-      "example": "Ndiyabulela.",
-      "example_english": "I thank you.",
-      "use_note": "A fuller expression of gratitude that can add warmth to a courteous interaction."
+      "word": "Ndiphilile",
+      "english": "I am well",
+      "pronunciation": "n-dee-pee-LEE-leh",
+      "example": "Ndiphilile, enkosi.",
+      "example_english": "I am well, thank you.",
+      "use_note": "A useful response when someone asks how you are."
     },
     "rotation": "daily",
     "source_type": "curated"
