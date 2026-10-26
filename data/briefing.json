@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-25T11:38:04.900437+00:00",
-    "generated_display": "25 Oct 2026, 11:38",
+    "generated_at": "2026-10-26T13:10:49.607758+00:00",
+    "generated_display": "26 Oct 2026, 13:10",
     "timezone": "Europe/London",
     "raw_item_count": 611,
-    "normalised_item_count": 89,
-    "final_item_count": 86,
+    "normalised_item_count": 85,
+    "final_item_count": 83,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 66,
+    "score": 69,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
@@ -39,15 +39,15 @@
       },
       {
         "name": "Civil unrest",
-        "score": 47
+        "score": 50
       },
       {
         "name": "Infrastructure",
-        "score": 36
+        "score": 33
       },
       {
         "name": "Transport",
-        "score": 44
+        "score": 42
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "25 Oct",
-      "score": 66,
-      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "26 Oct",
+      "score": 69,
+      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 26,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure."
+      "score": 43,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by protests and civil unrest, infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 26,
+      "score": 25,
       "level": "Low",
-      "summary": "Current city risk is being driven by road and transport disruption, infrastructure."
+      "summary": "Current city risk is being driven by unclassified news, infrastructure."
     },
     {
       "id": "pretoria-tshwane",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 43,
+      "score": 44,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 36,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 36,
+      "score": 44,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by road and transport disruption."
     }
   ],
   "travel_advice": {
@@ -140,101 +140,158 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-25T11:38:04.900437+00:00",
+    "last_checked": "2026-10-26T13:10:49.607758+00:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [],
+  "incidents": [
+    {
+      "title": "City begins urgent roadworks on Jakes Gerwel Drive due to illegal tunnelling - Cape Town ETC",
+      "location": "Cape Town",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "26 Oct 2026, 06:36 UTC",
+      "summary": "City begins urgent roadworks on Jakes Gerwel Drive due to illegal tunnelling Cape Town ETC",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "Cape Town ETC",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ0hZN1RHUzBELUlxdFFXdFoycDlfMnFaUlI2STNtMlltbWlYZ0NmMElrM0t3Z1VZSU4xeU93NEVyUU8wSFlyTldXVWVzcmh1SHdJMkdoUm1pM2k2ck1qeVZkWjV0dzVNdlFCYk9DU3lMNlpHa2JIbElSOE9TYkdnYzYzcmtuOUVLbUN4TU5wVG1EUUtaT3FGbnM3MW1oR2toUDFiUWdOSzJKeGI0SWVR?oc=5",
+      "business_impact_score": 23
+    },
+    {
+      "title": "M1 closures cause major delays as Samwu protest hits Joburg CBD - Jacaranda FM",
+      "location": "Johannesburg",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "26 Oct 2026, 12:51 UTC",
+      "summary": "M1 closures cause major delays as Samwu protest hits Joburg CBD Jacaranda FM",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Jacaranda FM",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWENiVUFIZ3hsaXd0QkYwdlVnWDF6cVk2Y2dXWi1sSlF4Njhub2daSVBUeHRtRnRKbFNKdFFjWVBZTVdVRFpITjl0QVFuZmVKOUtfQWlQaS1wWmxnczRpZEk2QmZLaXpxUFVDVUpOQUZTSm9CbzN3RF9pZll0WnQ0SExKTmVPYWZ0VkJtT2RMSEJidw?oc=5",
+      "business_impact_score": 53
+    },
+    {
+      "title": "N12 shutdown: Traffic returning to normal after Lenasia protest sparks major chaos - The Citizen",
+      "location": "Johannesburg",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "26 Oct 2026, 08:46 UTC",
+      "summary": "N12 shutdown: Traffic returning to normal after Lenasia protest sparks major chaos The Citizen",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZm0wV3VWSlVGLXVoTmhFM3JvTzI0ekFobEFkNVlhNm0wNmZRc3BCeUF3aHljMDBSQXhia3pKX2lnWkVpZWVXTWJvVFBkODFBX3hqUTVrLUdzUG1ndHEyc25Pam1aTUc4ZjJUMXduTDVfN2pXQmJRTmt1MHA4OFJkcWl5WElBcFZrdklUWUpiZjA3ZXp6cDV2NUpRSQ?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "Road users urged to avoid N12 in Lenasia due to Nana’s Farm protest - EWN",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "26 Oct 2026, 03:47 UTC",
+      "summary": "Road users urged to avoid N12 in Lenasia due to Nana’s Farm protest EWN",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ1lsVEFfZXY3YmU1UU1LYTZ5SFE5TDBZRkxLMHo3TlVvNFUtV19tenpyQWNfNmdtOXVkQ2wzS3hBdWJ3Q1lsYVZRQUlrZ1ZkeEpWb0wxVDc5eG9sd01hbkY0d2wtSWtEWk1iX2Y1VmJGcVFEZmFTelI1X1lrYVJVUnF5a05lRl9JVmdTZV9CNW43NS1IRXNrMHBTZUV4SFUzUEE?oc=5",
+      "business_impact_score": 48
+    }
+  ],
   "news": [
     {
-      "title": "Ethiopian's bail hearing adjourned over alleged Durban protest assault - IOL",
-      "location": "National",
-      "city_id": null,
+      "title": "M1 closures cause major delays as Samwu protest hits Joburg CBD - Jacaranda FM",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "23 Oct 2026, 13:42 UTC",
+      "published": "26 Oct 2026, 12:51 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "IOL",
+      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Jacaranda FM",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTEFkR0gxbjY0NW8yU0xXUkxLT1V4dXJVVUVxejVrSmJfTWRGZjVNTjhmWTlfWTJKeXViSjJLaFN2X2xZeUU0Mkc3dzBMbkg0Wm1uakZqYmdVRzVPV1JzVzVWYTNjUWFpVzFpdW5ZWTlYVUlIQkFHSnN3aUFCRHlNdXh0X2ZsTkE4UDhaYWxtcEhhdkR5TGZBMmhsYlhtalVnUWh0Q1BrcTFrRzlrdmdkcVZULVdTX0U5?oc=5",
-      "business_impact_score": 46
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWENiVUFIZ3hsaXd0QkYwdlVnWDF6cVk2Y2dXWi1sSlF4Njhub2daSVBUeHRtRnRKbFNKdFFjWVBZTVdVRFpITjl0QVFuZmVKOUtfQWlQaS1wWmxnczRpZEk2QmZLaXpxUFVDVUpOQUZTSm9CbzN3RF9pZll0WnQ0SExKTmVPYWZ0VkJtT2RMSEJidw?oc=5",
+      "business_impact_score": 53
     },
     {
-      "title": "Joburg CBD residents thanked after weeks-long electricity outage - EWN",
-      "location": "National",
-      "city_id": null,
-      "category": "Infrastructure",
-      "relevance": "Moderate",
-      "published": "23 Oct 2026, 13:54 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (45/100). Assessed as no clear immediate threat, with city scope and local operational disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "EWN",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVGpUQzRXWm9MQXlrTl8xZ3IxSm9ydmJ2M0xFNkowOGF3ZTRic3RiTHlhRkt4a2NLQXp2VWlaNVhFVnJ5eHdVQkdfZ3RHekxMRXZBWnFwQzZpeHRTY09mcDFMYm5aTDhOMEJiOUktb3hzOU5oRXBKZFVLdVd2bnZqbE9pZ0RNeFJrcFFrOHlsT1oybmd0Mmt1eFhubTZLZw?oc=5",
-      "business_impact_score": 45
-    },
-    {
-      "title": "Five held after foreign national beaten to death during Durban march - The Citizen",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
+      "title": "N12 shutdown: Traffic returning to normal after Lenasia protest sparks major chaos - The Citizen",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "23 Oct 2026, 14:45 UTC",
+      "published": "26 Oct 2026, 08:46 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "The Citizen",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbF9GVmhjUk1WV2VnSS1qMzUzX3Vpc1J5NkJhdUVyMHBadnNhTC0xYXhXWjJ4MmJEY2xnSUpZSUZqeHhIZVNua2xxNDZtRVJUNGtTUW80SENhYVFTajJzNU1fOEhCMDVlNFBvMUhlYmhiTURyaTBacXROaTRxMldEWVQ3eVFHUlNzZXVfSXZ1eXFMYnlEZlhwRW1YeVg1TXh0LVphYk5DTnl6ekJPWVAwM0VQZldMMzhMa1Ew?oc=5",
-      "business_impact_score": 43
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZm0wV3VWSlVGLXVoTmhFM3JvTzI0ekFobEFkNVlhNm0wNmZRc3BCeUF3aHljMDBSQXhia3pKX2lnWkVpZWVXTWJvVFBkODFBX3hqUTVrLUdzUG1ndHEyc25Pam1aTUc4ZjJUMXduTDVfN2pXQmJRTmt1MHA4OFJkcWl5WElBcFZrdklUWUpiZjA3ZXp6cDV2NUpRSQ?oc=5",
+      "business_impact_score": 49
     },
     {
-      "title": "Power cuts and sleep: Students link load shedding to anxiety, disrupted rest and lower grades - Phys.org",
+      "title": "Road users urged to avoid N12 in Lenasia due to Nana’s Farm protest - EWN",
       "location": "National",
       "city_id": null,
-      "category": "Infrastructure",
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "23 Oct 2026, 23:40 UTC",
+      "published": "26 Oct 2026, 03:47 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Phys.org",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "EWN",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yNEo2YURpdGw3Wi1pdTh0dUlObzRrc3BzN0NvMHJSdTR2cXBZQjg1ZHlsWlh1RWlyRDRITktzajRKbTBqcnRJMWVKUzNha2tGeGI1UXhYel8zdmNvNzJfS1pLbjl2SDVoQ0Eta2FxVGgxQnpEZTh0cENmRDI?oc=5",
-      "business_impact_score": 41
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ1lsVEFfZXY3YmU1UU1LYTZ5SFE5TDBZRkxLMHo3TlVvNFUtV19tenpyQWNfNmdtOXVkQ2wzS3hBdWJ3Q1lsYVZRQUlrZ1ZkeEpWb0wxVDc5eG9sd01hbkY0d2wtSWtEWk1iX2Y1VmJGcVFEZmFTelI1X1lrYVJVUnF5a05lRl9JVmdTZV9CNW43NS1IRXNrMHBTZUV4SFUzUEE?oc=5",
+      "business_impact_score": 48
     },
     {
-      "title": "R232.6 million stormwater upgrade to reduce flooding in South Durban - ECR",
+      "title": "PRASA plans billions for Durban rail recovery, including Umlazi corridor - DailyNews.co.za",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
-      "category": "Infrastructure",
-      "relevance": "Guarded",
-      "published": "25 Oct 2026, 08:34 UTC",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "26 Oct 2026, 05:07 UTC",
       "event_date": "",
-      "summary": "Guarded business impact (38/100). Assessed as material incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "ECR",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "DailyNews.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbk5BWFktSFhmdVhlMFFmaHA2VUJGOXFJYVZqYXNPMy1reTNlQWtmdEtISkpueWJ5WTlSNWJzZERaVXdTelJ1LVRSUEVZakItWW5rbW8xMERFb3UwcTF3eXpoM2psZlhMeVkwVnEwTk5nTTFOc0pmdF9OWDRtT3FfV3gzWDZFcms?oc=5",
-      "business_impact_score": 38
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYjVCc2p0M1EwV3dQZmRHUVlCanRwUnZ5VU9lcTJTbWJodXZfZElsdGpVMzZjbG1NTmp1U3Q5TVpueXNmVnMyY3VYaTY4VnJzRVUwYnZXaDRhTF9sQTdwMWJTeVM1eDVYZ2hpOWdlemVYV2pFcGlDRFBoQTcwcG9RUjBmT0lGV3VEazFIQ0kteldPd04tNkZVa2FZay1KQzVOQXlDaHFXRXFRaTA?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "GO! Durban: Connecting people to economic opportunity - IOL",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "25 Oct 2026, 16:00 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDkteERCVFNJTGhHeVQ4emhQUlpwa0FURUVFeWdhSnBnOTZpTW1EaDV3R2xYSnl5Y1pOcnBSWVMtd2R5SHlxa0FDRUZsYWJydGR2VDI5SzVIX2NSY1RZY2tKOW5hbHdzQWxqa3hfa2NiS25UXzItMFB5MjgzSFc0dktoOW1HWXMtVkxQX3IzeEVSSDJJWUt6OEhWdXpZQmE3STNib3hjRQ?oc=5",
+      "business_impact_score": 44
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "afrikaans": {
-      "word": "Saamstem",
-      "english": "Agree",
-      "pronunciation": "SAHM-stem",
-      "example": "Ek stem saam.",
-      "example_english": "I agree.",
-      "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely."
+      "word": "Voorstel",
+      "english": "Suggestion / Proposal",
+      "pronunciation": "FOOR-stel",
+      "example": "Wat stel jy voor?",
+      "example_english": "What do you suggest?",
+      "use_note": "Useful for inviting another person's recommendation during a discussion or negotiation."
     },
     "isixhosa": {
-      "word": "Ndiphilile",
-      "english": "I am well",
-      "pronunciation": "n-dee-pee-LEE-leh",
-      "example": "Ndiphilile, enkosi.",
-      "example_english": "I am well, thank you.",
-      "use_note": "A useful response when someone asks how you are."
+      "word": "Kulungile",
+      "english": "It is okay / All right",
+      "pronunciation": "koo-loon-GEE-leh",
+      "example": "Kulungile.",
+      "example_english": "All right.",
+      "use_note": "A useful acknowledgement in everyday conversation."
     },
     "rotation": "daily",
     "source_type": "curated"
