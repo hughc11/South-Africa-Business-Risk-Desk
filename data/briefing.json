@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-10-26T13:10:49.607758+00:00",
-    "generated_display": "26 Oct 2026, 13:10",
+    "generated_at": "2026-10-27T12:18:46.488087+00:00",
+    "generated_display": "27 Oct 2026, 12:18",
     "timezone": "Europe/London",
-    "raw_item_count": 611,
-    "normalised_item_count": 85,
-    "final_item_count": 83,
+    "raw_item_count": 605,
+    "normalised_item_count": 91,
+    "final_item_count": 87,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 585
+        "item_count": 579
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 69,
+    "score": 71,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (71/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 29
+        "score": 30
       },
       {
         "name": "Civil unrest",
-        "score": 50
+        "score": 51
       },
       {
         "name": "Infrastructure",
-        "score": 33
+        "score": 30
       },
       {
         "name": "Transport",
-        "score": 42
+        "score": 46
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "26 Oct",
-      "score": 69,
-      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "27 Oct",
+      "score": 71,
+      "explanation": "High national business risk (71/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 43,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, infrastructure."
+      "score": 51,
+      "level": "Elevated",
+      "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 25,
+      "score": 29,
       "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news, infrastructure."
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 27,
+      "score": 29,
       "level": "Low",
       "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 44,
+      "score": 43,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
     },
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 25,
+      "score": 26,
       "level": "Low",
       "summary": "Current city risk is being driven by unclassified news."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news, infrastructure."
+      "score": 39,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "east-london",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 44,
+      "score": 39,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     }
   ],
   "travel_advice": {
@@ -140,25 +140,39 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-10-26T13:10:49.607758+00:00",
+    "last_checked": "2026-10-27T12:18:46.488087+00:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "City begins urgent roadworks on Jakes Gerwel Drive due to illegal tunnelling - Cape Town ETC",
-      "location": "Cape Town",
+      "title": "Joburg traffic alert: SAMWU march to trigger road closures and CBD delays - The Citizen",
+      "location": "Johannesburg",
+      "type": "Road closure",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "27 Oct 2026, 10:45 UTC",
+      "summary": "Joburg traffic alert: SAMWU march to trigger road closures and CBD delays The Citizen",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUjVzSmdRZ2JIbXpFRTFGLWljS2Zkdkk3dWJNLWpVcFBoa1pBM1FDZmZTRUREZ2licW1tRHEyT1VjRExpS0xPbUZxYjVudFZFenJTbTlNTjVLUTlBQ2EtLWRmZWVfT3lYaTRfQ0NXWW9hVF9qT1J2T1Z2Vk9DcHFWSHpIbkd3S3J0U0hGUFZUc0Q4ZlY2RGZxNC10UUpIUQ?oc=5",
+      "business_impact_score": 54
+    },
+    {
+      "title": "JMPD warns of traffic disruptions ahead of planned SAMWU march - SABC News",
+      "location": "Johannesburg",
       "type": "Road closure",
       "severity": "Low",
       "status": "Active",
-      "time_window": "26 Oct 2026, 06:36 UTC",
-      "summary": "City begins urgent roadworks on Jakes Gerwel Drive due to illegal tunnelling Cape Town ETC",
+      "time_window": "26 Oct 2026, 15:58 UTC",
+      "summary": "JMPD warns of traffic disruptions ahead of planned SAMWU march SABC News",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
-      "source": "Cape Town ETC",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ0hZN1RHUzBELUlxdFFXdFoycDlfMnFaUlI2STNtMlltbWlYZ0NmMElrM0t3Z1VZSU4xeU93NEVyUU8wSFlyTldXVWVzcmh1SHdJMkdoUm1pM2k2ck1qeVZkWjV0dzVNdlFCYk9DU3lMNlpHa2JIbElSOE9TYkdnYzYzcmtuOUVLbUN4TU5wVG1EUUtaT3FGbnM3MW1oR2toUDFiUWdOSzJKeGI0SWVR?oc=5",
-      "business_impact_score": 23
+      "source": "SABC News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV0duajhiNUZtSnVWSk5xS1lOSExfWlF4X0g2TjEwQ0hsUGVqc3AtOTh1YnVvRmloZmtKdldpVGNRT3BpODNPdlBGbkdnRjRaZGZrMmFDRm9WWU83WHRsbnRkTGRWX1o2czQ2UVRPVHd0NzdieFh4b25YRVJpNnpIbkJGQ1ZNQ29yVUI4LXdkTWFnVGxaeWYwMXVlRU9udw?oc=5",
+      "business_impact_score": 30
     },
     {
       "title": "M1 closures cause major delays as Samwu protest hits Joburg CBD - Jacaranda FM",
@@ -166,7 +180,7 @@
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "26 Oct 2026, 12:51 UTC",
+      "time_window": "26 Oct 2026, 13:20 UTC",
       "summary": "M1 closures cause major delays as Samwu protest hits Joburg CBD Jacaranda FM",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
@@ -175,12 +189,26 @@
       "business_impact_score": 53
     },
     {
+      "title": "M1 freeway reopened to traffic after SAMWU wage protests in Braamfontein - EWN",
+      "location": "Johannesburg",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "26 Oct 2026, 14:57 UTC",
+      "summary": "M1 freeway reopened to traffic after SAMWU wage protests in Braamfontein EWN",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT180bUhOX2p2Y2xfX2Q5WTFnemRta0pkd0tJTEc1TEt6YVptYTRmLUowXzZiZk5nZkd3ZDFuWHNvN0Fwc1h4VFpOTF94SC1ZcWphaEliVjBobVc2M3BkUnc2YlpXSWp1NThUa1dNem5ieEVZQmtpc2ZmQ1ByanBuSDZxdlZoN3ZZU1NOazFrUVY3TnhSZ0JlWThvNXBxR1ZaX2IxWFhvdlY?oc=5",
+      "business_impact_score": 51
+    },
+    {
       "title": "N12 shutdown: Traffic returning to normal after Lenasia protest sparks major chaos - The Citizen",
       "location": "Johannesburg",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "26 Oct 2026, 08:46 UTC",
+      "time_window": "27 Oct 2026, 00:43 UTC",
       "summary": "N12 shutdown: Traffic returning to normal after Lenasia protest sparks major chaos The Citizen",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
@@ -189,28 +217,70 @@
       "business_impact_score": 49
     },
     {
-      "title": "Road users urged to avoid N12 in Lenasia due to Nana’s Farm protest - EWN",
+      "title": "M1 reopened, journalist arrested as protest action sweeps through Joburg - News24",
+      "location": "Johannesburg",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "26 Oct 2026, 15:50 UTC",
+      "summary": "M1 reopened, journalist arrested as protest action sweeps through Joburg News24",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "News24",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTGNPV1piOWpVRGVYRHRGT2lPSmZMNmQ1NzUyNkRLLVdOYTBYRVFrQzFjN1Z1OEtCd1BjdjZWZmJvUDdhb3Rxb1lmc01OSEVTTFAtdWU3M01pSDJWMlRjZTN6LWlmWkdkdl9pblVXQkgyQTNoa0NKaGJuMlFEdEFkSEFuX09fVVo3T0FnaWVobGV5S3JjTlFVd0R1OEhnTmhycmlkRUdBX0F0cDl4U283ZzMzdmFRWUJ2OURrSEhpTEZsekl5OHV5LVVoZW5CREc2bWR3?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "N12 freeway near Lenasia in final stages of re-opening after protest - EWN",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "26 Oct 2026, 03:47 UTC",
-      "summary": "Road users urged to avoid N12 in Lenasia due to Nana’s Farm protest EWN",
+      "time_window": "26 Oct 2026, 06:31 UTC",
+      "summary": "N12 freeway near Lenasia in final stages of re-opening after protest EWN",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
       "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ1lsVEFfZXY3YmU1UU1LYTZ5SFE5TDBZRkxLMHo3TlVvNFUtV19tenpyQWNfNmdtOXVkQ2wzS3hBdWJ3Q1lsYVZRQUlrZ1ZkeEpWb0wxVDc5eG9sd01hbkY0d2wtSWtEWk1iX2Y1VmJGcVFEZmFTelI1X1lrYVJVUnF5a05lRl9JVmdTZV9CNW43NS1IRXNrMHBTZUV4SFUzUEE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkE3ZVpjTkx4U3d1eUlkYk5UQkx3TUVoemx3VHh4NmNBbnBxRmJqeGgyMFBLSjV1aEhQVTNFWWhpQ3R4U2Q3eEpsM3lTYjlFRGNQbnRIR1pIa3U1Y3VrNEpfMjdHN3Q2NllMOUtQOXRpRDBFR3ozWGxVdUh3MENLVUg5cTVVMjdwbkNmaEJRZjJsWWUwTml0Z1RVQnBrZ2dWS0E?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "M1 reopened after SAMWU wage protest - SABC News",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "26 Oct 2026, 15:17 UTC",
+      "summary": "M1 reopened after SAMWU wage protest SABC News",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "SABC News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CaFVrNzJxYmdtcUowZ1BFZ1g2eWo5VkxJdU1oaXpfNVN2ZzhYZHdEdHI0RWViUF9DVEZ3d2tYY01Ud2U0S1dyWl9aaTFlM2Z4bUp6SWhqYzNQbm8xQkZEQkRqUFl4eDBLb0hyZzNxd0x4UVU0Y29nNnV2VQ?oc=5",
       "business_impact_score": 48
     }
   ],
   "news": [
+    {
+      "title": "Joburg traffic alert: SAMWU march to trigger road closures and CBD delays - The Citizen",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "27 Oct 2026, 10:45 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (54/100). Assessed as limited disruption, with city scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUjVzSmdRZ2JIbXpFRTFGLWljS2Zkdkk3dWJNLWpVcFBoa1pBM1FDZmZTRUREZ2licW1tRHEyT1VjRExpS0xPbUZxYjVudFZFenJTbTlNTjVLUTlBQ2EtLWRmZWVfT3lYaTRfQ0NXWW9hVF9qT1J2T1Z2Vk9DcHFWSHpIbkd3S3J0U0hGUFZUc0Q4ZlY2RGZxNC10UUpIUQ?oc=5",
+      "business_impact_score": 54
+    },
     {
       "title": "M1 closures cause major delays as Samwu protest hits Joburg CBD - Jacaranda FM",
       "location": "Johannesburg",
       "city_id": "johannesburg",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "26 Oct 2026, 12:51 UTC",
+      "published": "26 Oct 2026, 13:20 UTC",
       "event_date": "",
       "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "Jacaranda FM",
@@ -219,12 +289,26 @@
       "business_impact_score": 53
     },
     {
+      "title": "M1 freeway reopened to traffic after SAMWU wage protests in Braamfontein - EWN",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "26 Oct 2026, 14:57 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (51/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT180bUhOX2p2Y2xfX2Q5WTFnemRta0pkd0tJTEc1TEt6YVptYTRmLUowXzZiZk5nZkd3ZDFuWHNvN0Fwc1h4VFpOTF94SC1ZcWphaEliVjBobVc2M3BkUnc2YlpXSWp1NThUa1dNem5ieEVZQmtpc2ZmQ1ByanBuSDZxdlZoN3ZZU1NOazFrUVY3TnhSZ0JlWThvNXBxR1ZaX2IxWFhvdlY?oc=5",
+      "business_impact_score": 51
+    },
+    {
       "title": "N12 shutdown: Traffic returning to normal after Lenasia protest sparks major chaos - The Citizen",
       "location": "Johannesburg",
       "city_id": "johannesburg",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "26 Oct 2026, 08:46 UTC",
+      "published": "27 Oct 2026, 00:43 UTC",
       "event_date": "",
       "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "The Citizen",
@@ -233,65 +317,107 @@
       "business_impact_score": 49
     },
     {
-      "title": "Road users urged to avoid N12 in Lenasia due to Nana’s Farm protest - EWN",
+      "title": "M1 reopened, journalist arrested as protest action sweeps through Joburg - News24",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "26 Oct 2026, 15:50 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "News24",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTGNPV1piOWpVRGVYRHRGT2lPSmZMNmQ1NzUyNkRLLVdOYTBYRVFrQzFjN1Z1OEtCd1BjdjZWZmJvUDdhb3Rxb1lmc01OSEVTTFAtdWU3M01pSDJWMlRjZTN6LWlmWkdkdl9pblVXQkgyQTNoa0NKaGJuMlFEdEFkSEFuX09fVVo3T0FnaWVobGV5S3JjTlFVd0R1OEhnTmhycmlkRUdBX0F0cDl4U283ZzMzdmFRWUJ2OURrSEhpTEZsekl5OHV5LVVoZW5CREc2bWR3?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "N12 freeway near Lenasia in final stages of re-opening after protest - EWN",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "26 Oct 2026, 03:47 UTC",
+      "published": "26 Oct 2026, 06:31 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
       "source": "EWN",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ1lsVEFfZXY3YmU1UU1LYTZ5SFE5TDBZRkxLMHo3TlVvNFUtV19tenpyQWNfNmdtOXVkQ2wzS3hBdWJ3Q1lsYVZRQUlrZ1ZkeEpWb0wxVDc5eG9sd01hbkY0d2wtSWtEWk1iX2Y1VmJGcVFEZmFTelI1X1lrYVJVUnF5a05lRl9JVmdTZV9CNW43NS1IRXNrMHBTZUV4SFUzUEE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkE3ZVpjTkx4U3d1eUlkYk5UQkx3TUVoemx3VHh4NmNBbnBxRmJqeGgyMFBLSjV1aEhQVTNFWWhpQ3R4U2Q3eEpsM3lTYjlFRGNQbnRIR1pIa3U1Y3VrNEpfMjdHN3Q2NllMOUtQOXRpRDBFR3ozWGxVdUh3MENLVUg5cTVVMjdwbkNmaEJRZjJsWWUwTml0Z1RVQnBrZ2dWS0E?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "M1 reopened after SAMWU wage protest - SABC News",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "26 Oct 2026, 15:17 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "SABC News",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CaFVrNzJxYmdtcUowZ1BFZ1g2eWo5VkxJdU1oaXpfNVN2ZzhYZHdEdHI0RWViUF9DVEZ3d2tYY01Ud2U0S1dyWl9aaTFlM2Z4bUp6SWhqYzNQbm8xQkZEQkRqUFl4eDBLb0hyZzNxd0x4UVU0Y29nNnV2VQ?oc=5",
       "business_impact_score": 48
     },
     {
-      "title": "PRASA plans billions for Durban rail recovery, including Umlazi corridor - DailyNews.co.za",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
+      "title": "M1 comes to a halt amid SAMWU protest - SABC News",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "26 Oct 2026, 05:07 UTC",
+      "published": "26 Oct 2026, 14:21 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "DailyNews.co.za",
+      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "SABC News",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYjVCc2p0M1EwV3dQZmRHUVlCanRwUnZ5VU9lcTJTbWJodXZfZElsdGpVMzZjbG1NTmp1U3Q5TVpueXNmVnMyY3VYaTY4VnJzRVUwYnZXaDRhTF9sQTdwMWJTeVM1eDVYZ2hpOWdlemVYV2pFcGlDRFBoQTcwcG9RUjBmT0lGV3VEazFIQ0kteldPd04tNkZVa2FZay1KQzVOQXlDaHFXRXFRaTA?oc=5",
-      "business_impact_score": 44
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51bDJQRUphVDc3NkY0a05WOXNYS2N2YTJuS0V0R21MM1ZBTm1rT0oxbHVLX3AwMFFSQlVGSG9uWndYZm04WjROZTFBODF1WG9UNEhqV3Mtc0hkdHI0ZW5Qa1ZNdUNock5ZcFdkdEVocHNqeXZ6ZzdfaG83THM?oc=5",
+      "business_impact_score": 48
     },
     {
-      "title": "GO! Durban: Connecting people to economic opportunity - IOL",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
+      "title": "Restitution of Land Rights Act: Remaining Extent of Portion 13",
+      "location": "National",
+      "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "25 Oct 2026, 16:00 UTC",
+      "published": "26 Oct 2026, 12:14 UTC",
+      "event_date": "Mon, 26 Oct 2026 12:14:43 +0000",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/restitution-land-rights-act-remaining-extent-portion-13-23-oct-2026",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Johannesburg traffic alert: Severe delays after SAMWU workers block M1 highway - IOL",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "26 Oct 2026, 15:50 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (johannesburg) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDkteERCVFNJTGhHeVQ4emhQUlpwa0FURUVFeWdhSnBnOTZpTW1EaDV3R2xYSnl5Y1pOcnBSWVMtd2R5SHlxa0FDRUZsYWJydGR2VDI5SzVIX2NSY1RZY2tKOW5hbHdzQWxqa3hfa2NiS25UXzItMFB5MjgzSFc0dktoOW1HWXMtVkxQX3IzeEVSSDJJWUt6OEhWdXpZQmE3STNib3hjRQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS3NOUFdjNTZCUHU2MFBza3hKdVBfRmdqejFObDRQODBzZktRYjJJVzJseHZqOEs4ejN1OHhLV1FjODZaZ0V1MTV6SlN2eHF4UHBsQjJEZldLSFFFcDZWMFZSY2RwNDdkeVZTbHpEMzRiVUFUclU0LU9Cb1F2MkEyRjJ6ZGloX0dJN2FGVW5qQW1xak9jUE9TRzc2Sk1OUzVGZnJ3ZHJSTEtBWDFBSllHalFCNGgyNFNGcXl1OXBUaE9MTTA?oc=5",
       "business_impact_score": 44
     }
   ],
   "daily_language_brief": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "afrikaans": {
-      "word": "Voorstel",
-      "english": "Suggestion / Proposal",
-      "pronunciation": "FOOR-stel",
-      "example": "Wat stel jy voor?",
-      "example_english": "What do you suggest?",
-      "use_note": "Useful for inviting another person's recommendation during a discussion or negotiation."
+      "word": "Verslag",
+      "english": "Report",
+      "pronunciation": "fur-SLAKH",
+      "example": "Ek het die verslag nodig.",
+      "example_english": "I need the report.",
+      "use_note": "Common workplace vocabulary for written reporting and business information."
     },
     "isixhosa": {
-      "word": "Kulungile",
-      "english": "It is okay / All right",
-      "pronunciation": "koo-loon-GEE-leh",
-      "example": "Kulungile.",
-      "example_english": "All right.",
-      "use_note": "A useful acknowledgement in everyday conversation."
+      "word": "Unjani?",
+      "english": "How are you? (one person)",
+      "pronunciation": "oon-JAH-nee",
+      "example": "Molo, unjani?",
+      "example_english": "Hello, how are you?",
+      "use_note": "A friendly follow-up to a greeting when speaking to one person."
     },
     "rotation": "daily",
     "source_type": "curated"
