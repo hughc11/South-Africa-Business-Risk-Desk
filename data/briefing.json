@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-01T13:31:36.518973+00:00",
-    "generated_display": "01 Nov 2026, 13:31",
+    "generated_at": "2026-11-02T16:04:14.648242+00:00",
+    "generated_display": "02 Nov 2026, 16:04",
     "timezone": "Europe/London",
-    "raw_item_count": 595,
-    "normalised_item_count": 102,
-    "final_item_count": 95,
+    "raw_item_count": 600,
+    "normalised_item_count": 97,
+    "final_item_count": 94,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,11 +15,11 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 10
+        "item_count": 20
       },
       "National and city news": {
         "status": "success",
-        "item_count": 579
+        "item_count": 574
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -35,15 +35,15 @@
     "components": [
       {
         "name": "Security",
-        "score": 33
+        "score": 34
       },
       {
         "name": "Civil unrest",
-        "score": 47
+        "score": 46
       },
       {
         "name": "Infrastructure",
-        "score": 34
+        "score": 30
       },
       {
         "name": "Transport",
@@ -51,13 +51,13 @@
       },
       {
         "name": "Business environment",
-        "score": 28
+        "score": 29
       }
     ]
   },
   "timeline": [
     {
-      "date": "01 Nov",
+      "date": "02 Nov",
       "score": 69,
       "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 36,
+      "score": 39,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by infrastructure, protests and civil unrest."
+      "summary": "Current city risk is being driven by infrastructure, road and transport disruption."
     },
     {
       "id": "cape-town",
@@ -79,7 +79,7 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 36,
+      "score": 37,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 35,
+      "score": 37,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, infrastructure."
+      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
     {
       "id": "durban-ethekwini",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 37,
+      "score": 33,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by protests and civil unrest, road and transport disruption."
+      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
     {
       "id": "gqeberha",
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 38,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 29,
+      "level": "Low",
+      "summary": "Current city risk is being driven by security and crime."
     },
     {
       "id": "east-london",
@@ -140,158 +140,172 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-11-01T13:31:36.518973+00:00",
+    "last_checked": "2026-11-02T16:04:14.648242+00:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "End of an era for Eskom, and tens of thousands protest in Germany - Daily Investor",
+      "title": "SA Siblings Strike Gold and Bronze on the World Dance Stage - Good Things Guy",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "01 Nov 2026, 07:00 UTC",
-      "summary": "End of an era for Eskom, and tens of thousands protest in Germany Daily Investor",
+      "time_window": "02 Nov 2026, 13:00 UTC",
+      "summary": "SA Siblings Strike Gold and Bronze on the World Dance Stage Good Things Guy",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Daily Investor",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbGFBWEhxZEthWFR6RUNFUjFpbUl2bENRS2MyVjdtNUpLcjhwaEVWSFhoVnBmLVZpMlNha08taGgyLUQ5Z2VDNThvejBRU1dPSUxJRFpkRUtPV3V0eUpSVzRKa1dESFNfRGdpVUdoUERxSEE1YVJvRlNhdS1jOGZWY3hySVBPZG54Q0hUZ0Nic2JVdFh6QnBjM2tPRUFxb0YzdTUzU1dicEgtOVUt?oc=5",
+      "source": "Good Things Guy",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDMtdVRRcTJ1SWhpSjdSWFdIYlhDR0FOcmRRQ2hZLTBNUVp4YThVRU9mVTBsYlljQUFSSnd2RXhYQjdpclVTV3JGMHNzb09LRnFqR2s5OTVVelA2ZGtxWGlUZHMwTHhZNHU1SEh0ZlJSdUQ5dVFzdmdSQ3hpSnNVd2lB?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Top South African CEO drove executives into townships to show the impact of job cuts after a six-month mining strike - newsday.co.za",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "02 Nov 2026, 07:53 UTC",
+      "summary": "Top South African CEO drove executives into townships to show the impact of job cuts after a six-month mining strike newsday.co.za",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "newsday.co.za",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc3luZU9ZNVUyWi05OFQxMGRCRXQwWi00V3MzSko5VWVuLVFwR055YVRfUG50dENIaTZYNm8tQVBlRVNQdzNVcURSNHllbHJtbjc0X1k5dmo1UWVqem9VYlFObVgyNUVIYWl6UDRmckV4YkNoazREc3VCVkVfWDZ0TmlHOXJuREdhNjdZVTZDbjNCUHpGUHBKNTZFNlVoamlBU1gzeFExbzNfdHlJakNRQXJXOVRIWkFld2w4c1ZVWGMwVm9IUmMzT1NKczdTMmNBQ0ZsTUlzQXJoejFxM0VQcUswVVEtdXZDUUE?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Amanzi, awethu! Joburg residents protest as water supply is throttled - Moneyweb",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "01 Nov 2026, 16:00 UTC",
+      "summary": "Amanzi, awethu! Joburg residents protest as water supply is throttled Moneyweb",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Moneyweb",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTk9PSGx3VWdFMHBNUElvaFJBWHp4ZDBDSGNHRFlFc2E4OTdIM0VlRzlVcTdjTFhZTjFuQ3o0YUNyZE1USzJCTlJudkNTT2tGcnRFaUNqTmwtaWlVR245S3A5NWtaN2ViV0pHSUt4U1BFN3p3LXNyRERhMXowZ21SSGEzVEd6S2R2REJDbDJxOFFiY1NXX2FzYUFfLWZwMFdr?oc=5",
       "business_impact_score": 46
     }
   ],
   "news": [
     {
-      "title": "UPDATE | Cape Town airport resumes operations after taxi disruption triggers flight delays - News24",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "30 Oct 2026, 15:25 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (53/100). Assessed as limited disruption, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is direct travel relevance.",
-      "source": "News24",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdkU4R3JTcXJFcDRDdUpES0ZCUlNUSzhyTHhSWTI1dkRub09saGV6T0lLUXlvN3g4cnMxbHpxSHRmTGM3ZkNLejlBWHNHU0ktTkhkdWpXNjhFQ252OS1XM2ZaYXc3d2dFZlVTZjB4cTBGelNJRVlQdGQyeEZMNmdVeXZYenUxYnNFNF9qMkttcmk3TzREN2x2c3pIUVRDaWlSUE5CRGZWMTY5d2RfbXpqYmlkdlBETWVac3l5UWhjbkRUVEY5aGxfSXhLNA?oc=5",
-      "business_impact_score": 53
-    },
-    {
-      "title": "Cape Town airport operations ‘have resumed’ after taxi unrest led to flight delays, says ACSA - News24",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "31 Oct 2026, 10:54 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (53/100). Assessed as limited disruption, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is direct travel relevance.",
-      "source": "News24",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObUJ2aW5mV0QtS09xTnVmTzFDcU9RbktVRUM4TVdHa2xiVFBJMnFqTmRKb0p5MU9kWEozRUgzLXE1Z01DQm5KbnN5OG5rWlNPeVlMTm5PelJySUhyRGhnUDcyTHhXQzBTY09BV0I2YWRGNXMzOWQza2hzSkpoUVFRUXpINUtVR2Jtd1dmdUVvOFR2NzZDdUNiMndtMnZhblJDdnU4d0VkcG15SkdpMmNIRWcxdmJLZ3FMdlZmU3NyR19Kd0d4UngxcmVfLXNPYVJTd1ZrTmxjV0gxdzVk?oc=5",
-      "business_impact_score": 53
-    },
-    {
-      "title": "End of an era for Eskom, and tens of thousands protest in Germany - Daily Investor",
+      "title": "Cachalia walks Durban CBD as 14 burnt-out vehicles are removed after anti-immigration protest - IOL",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "01 Nov 2026, 07:00 UTC",
+      "published": "01 Nov 2026, 00:28 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVUlJTGxMOEJacXR3VUdiTnptQmFNTlpBM19ZZ3RNY01VVWZhaVFiMmlIazBENUxlNndCZjgzeTVnd0doSllWX0xUUUNIOFFqcFgtbnYzdm14SmxCV2tmdHZMUGk1WUd0VEgyYnBiVXNXSWFObU9tRDVmUlJ0bnZVYU5Cb0dJald2amIzc1l0NmtjZW9kT3FsNDZzTDVNRi1TWi1rREtybVpvcWdHSzFueXllZEoxMXVzQnhIZUYxYzZaajZSNGRaanpRaEFRMkJYam4tVmk2c0QwY05pQ2NXenQxSk96VnhhZm40?oc=5",
+      "business_impact_score": 53
+    },
+    {
+      "title": "SA Siblings Strike Gold and Bronze on the World Dance Stage - Good Things Guy",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "02 Nov 2026, 13:00 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Daily Investor",
+      "source": "Good Things Guy",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbGFBWEhxZEthWFR6RUNFUjFpbUl2bENRS2MyVjdtNUpLcjhwaEVWSFhoVnBmLVZpMlNha08taGgyLUQ5Z2VDNThvejBRU1dPSUxJRFpkRUtPV3V0eUpSVzRKa1dESFNfRGdpVUdoUERxSEE1YVJvRlNhdS1jOGZWY3hySVBPZG54Q0hUZ0Nic2JVdFh6QnBjM2tPRUFxb0YzdTUzU1dicEgtOVUt?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDMtdVRRcTJ1SWhpSjdSWFdIYlhDR0FOcmRRQ2hZLTBNUVp4YThVRU9mVTBsYlljQUFSSnd2RXhYQjdpclVTV3JGMHNzb09LRnFqR2s5OTVVelA2ZGtxWGlUZHMwTHhZNHU1SEh0ZlJSdUQ5dVFzdmdSQ3hpSnNVd2lB?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "ACSA says contingency measures in place to ease delays at CT airport - EWN",
+      "title": "Top South African CEO drove executives into townships to show the impact of job cuts after a six-month mining strike - newsday.co.za",
       "location": "National",
       "city_id": null,
-      "category": "Road and transport disruption",
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "30 Oct 2026, 14:38 UTC",
+      "published": "02 Nov 2026, 07:53 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is direct travel relevance.",
-      "source": "EWN",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "newsday.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVg3blo3UzA1YU5JS1AyRmNuX3dIX3VSOXNCMHVUM3daNHpsMjkyS1E1ZWR6ZUJoaWd5Tjg3NkNjRm9EZTFvSl9yT2o0TzBMa2Z1bTdxbEkxTGdFN3l6bjNvdklqbEtRNXl3bUx1aHZjS3ZhX3VSbkxwcTd0WHlkZDBJNUZ1N2VzZklEU3hEUWJ3amlxOUozQzFGdElGdVNaMm5V?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc3luZU9ZNVUyWi05OFQxMGRCRXQwWi00V3MzSko5VWVuLVFwR055YVRfUG50dENIaTZYNm8tQVBlRVNQdzNVcURSNHllbHJtbjc0X1k5dmo1UWVqem9VYlFObVgyNUVIYWl6UDRmckV4YkNoazREc3VCVkVfWDZ0TmlHOXJuREdhNjdZVTZDbjNCUHpGUHBKNTZFNlVoamlBU1gzeFExbzNfdHlJakNRQXJXOVRIWkFld2w4c1ZVWGMwVm9IUmMzT1NKczdTMmNBQ0ZsTUlzQXJoejFxM0VQcUswVVEtdXZDUUE?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Travellers urged to get to Cape Town airport 3-4 hours early after huge delays - TimesLIVE",
+      "title": "Amanzi, awethu! Joburg residents protest as water supply is throttled - Moneyweb",
       "location": "National",
       "city_id": null,
-      "category": "Road and transport disruption",
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "30 Oct 2026, 13:40 UTC",
+      "published": "01 Nov 2026, 16:00 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is direct travel relevance.",
-      "source": "TimesLIVE",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Moneyweb",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQekxUcXEySFBnbGFIMjZWbXVvWTVuNkhOeVZ3RXpPZ3JTT0FVdDhoU0oxM2g3Wi1md09VX3FRaExhUG1MN3RNZExSMkdicEZ6ZUxNRW8zWHpaQ2hGRzRDT3hydW9FRWlTMk8ySGZsejBoTEpDZlVxbzY5eHI4ZnAzTlJDWExkaDhlMzJVeWx4YU1Dby1iQk00cjYzNEZhUjdfNE03d182YTk2QkVqMG1FZzlLQ3BWbTVnMElVa1FHMl9fOWtTUmU0YkQ2dzNrelJmM1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTk9PSGx3VWdFMHBNUElvaFJBWHp4ZDBDSGNHRFlFc2E4OTdIM0VlRzlVcTdjTFhZTjFuQ3o0YUNyZE1USzJCTlJudkNTT2tGcnRFaUNqTmwtaWlVR245S3A5NWtaN2ViV0pHSUt4U1BFN3p3LXNyRERhMXowZ21SSGEzVEd6S2R2REJDbDJxOFFiY1NXX2FzYUFfLWZwMFdr?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Operations at Cape Town airport return to normal - EWN",
-      "location": "National",
-      "city_id": null,
+      "title": "Joburg and Tshwane under fire as SAHRC report exposes Gauteng’s deepening water crisis - thenational.co.za",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "30 Oct 2026, 14:18 UTC",
+      "published": "02 Nov 2026, 12:31 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is direct travel relevance.",
-      "source": "EWN",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "thenational.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaHA2MGZSbnZybk5MNE1iMWVPSzdELTloSjE3Vk45N2Z0S1pJRlEwaEpTT3pjcjhtUWtHclNpNS1KSHFIekx3QzV1aXloeW5uSXRKUXlMeDcteWRQcmVMSWxCVWQ1Y2M1N2ZiQ2FJT0hQTjR2a0xRbGEzNE1BbmVVTTdhbVFtY3Vh?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Cape Town airport resumes normal operations after taxi unrest - Bizcommunity",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "30 Oct 2026, 15:40 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
-      "source": "Bizcommunity",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0plYTlZTW9zUDNrRzczLVBGRzlNYkVTZmMxRkxDYkFuWUZyWWtXOFlDclBZTWxTWTRrVXZYc0k1elc4bHBscVNNOHBfQ0lsWVR4RF9FOFdlWTBQRnJjd2ZjbU1vbE5OdmVMU1N2S3FHZmhfaDBUSHdUTGhPSHV3SmlSNlk1eGo2d09YUm5vZHB1czVaalVENmpWS1pKb20xcFZhcFluLWFYdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUmx1dExGLVlLdlFUeEFSeDZjb3l0djFxNl8tVkxfUEVqbnZIS0k3ZnpGR0tsa21Fd3ZmRkluUGp6TEs4aThfRk95cVIwOWZQUUx5RmczUWZvZG1XNkJsdHlhU1RBQmdnTFlxVHZFZGhxWWVyQk56ZUxuM0tsRzBvWnNQWGZHcWllNExvQUw1V1c1TVdpWG5OdkdTS3NrTlZxWXd4WVVLWU0xbnJyNGl1TzBxUTRXVFhmdmhVekswOW5TN1pJaUxaRA?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "South African court sets limits on anti-migrant demonstration - Vanguard News",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
+      "title": "Durban to Host Ports & Rail Week 2026 – Advancing Africa’s Transport Corridors - RAILMARKET.com",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "30 Oct 2026, 16:01 UTC",
+      "published": "01 Nov 2026, 19:30 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "Vanguard News",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "RAILMARKET.com",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd0F6OExnTHVhM09FUEI0dGdLTmFKN2lFUTBEMG5GRmN4WVpNanVyR2tfUENrOGRzS1RXSEdyY3R2MXYtQ1N0QmUwWXU0MjB0MkZGcjR4RXZ0bVYxSG13bEp1MzkxODlLTkx6Q2lMMldYMVhuc0RUVThoMHVJbi0zUDk1bXBna1c5WmNnQVJZOC1zdUJHN2dENUtnd2pVRzjSAaQBQVVfeXFMTjdibE50d0hCWVBWc0N4TzRjQ2JDU1MyVUIzTXF5bnhNWjI1X3BVT055cV9yTWZEeHBCczJpYTZPUVhrMnNRS3JNT2FtOFlKbHhsRnpUMmt3TFNTcmNoSU9SNXBXa09SMVlfZ1gzbWVuVlQ1ckdBakl5QjRJQVRiUHczTEFtdXk2Z0g0Y21EM1ZMNGZkWVg3R3pNdWxvQU5hdFpsT3E?oc=5",
-      "business_impact_score": 41
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVmdGRWdkT1ozOWpWV1UwbVBSU0RTc0IycmUycTdDNkpSTjEwUHpIcVNkNERyUkhoTmFlNHFPT3EwWG1UeUZUU3gzWERHQ1lsZmNCaEdWSExYY3RINFNvLTFwWHN1QV82V1NTZ1drdzdwZ3cxUzVLSjNORUlpZWI1T1hPMUk0X3N0dTh1RGRjUEVJQTl6YzNJQk5tX0RCS0dYSjRxbnBFa1lCMFNpZDh2b3Q3SGhVblFj?oc=5",
+      "business_impact_score": 44
+    },
+    {
+      "title": "Willie Spies writes an open letter to Agriculture Minister Willie Aucamp about long-term food security in Pretoria - newsday.co.za",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Security and crime",
+      "relevance": "Guarded",
+      "published": "02 Nov 2026, 09:38 UTC",
+      "event_date": "",
+      "summary": "Guarded business impact (35/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is prolonged; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "newsday.co.za",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaGJEcGU5X2p6bllUVm43Y1MxUXRELXR0Tk5iZFY1RFJvdlBTaWFFUktzbGRNUnlVeEJ4MzUxSS1ncnBZeWdBaXVYOFBOdzVyLS1ZMU9URWI3QnJHVkw1MHV1aTJBcWhTakNTZXdEbjRGaGFTbzBkYzE2Sjh2alNDZ0k4UEdnanRxcllzeDhzUDRNOUtfYUg3eUNYb3h2dTNOLXRhaGszMmZDTFV2YXhUWVRjeGRtTlBWcU03UFY3STlDR2Nlb2tIeXZpRTBzMzRhN0ZSQVlPazhiNElRWUdPRDNJNjUxRzBlSnhjag?oc=5",
+      "business_impact_score": 35
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "afrikaans": {
-      "word": "Baie dankie",
-      "english": "Thank you very much",
-      "pronunciation": "BY-uh DAHN-kee",
-      "example": "Baie dankie vir die vergadering.",
-      "example_english": "Thank you very much for the meeting.",
-      "use_note": "A warmer form of thanks that remains appropriate in professional and hospitality settings."
+      "word": "Asseblief",
+      "english": "Please",
+      "pronunciation": "AH-suh-bleef",
+      "example": "Koffie, asseblief.",
+      "example_english": "Coffee, please.",
+      "use_note": "Useful for polite requests; courtesy is important when dealing with colleagues, hosts and service staff."
     },
     "isixhosa": {
-      "word": "Igama",
-      "english": "Name",
-      "pronunciation": "ee-GAH-mah",
-      "example": "Lithini igama lakho?",
-      "example_english": "What is your name?",
-      "use_note": "Useful in introductions; the full phrase is more practical than using the noun on its own."
+      "word": "Nceda",
+      "english": "Please / Help",
+      "pronunciation": "n-CEH-dah",
+      "example": "Nceda.",
+      "example_english": "Please / Help.",
+      "use_note": "A useful polite or assistance-related expression; the precise meaning depends on the sentence around it."
     },
     "rotation": "daily",
     "source_type": "curated"
