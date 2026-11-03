@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-02T16:04:14.648242+00:00",
-    "generated_display": "02 Nov 2026, 16:04",
+    "generated_at": "2026-11-03T14:23:24.744535+00:00",
+    "generated_display": "03 Nov 2026, 14:23",
     "timezone": "Europe/London",
-    "raw_item_count": 600,
-    "normalised_item_count": 97,
-    "final_item_count": 94,
+    "raw_item_count": 590,
+    "normalised_item_count": 86,
+    "final_item_count": 81,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,7 +15,7 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 20
+        "item_count": 10
       },
       "National and city news": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 69,
+    "score": 66,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
@@ -39,27 +39,27 @@
       },
       {
         "name": "Civil unrest",
-        "score": 46
+        "score": 44
       },
       {
         "name": "Infrastructure",
-        "score": 30
+        "score": 29
       },
       {
         "name": "Transport",
-        "score": 51
+        "score": 50
       },
       {
         "name": "Business environment",
-        "score": 29
+        "score": 28
       }
     ]
   },
   "timeline": [
     {
-      "date": "02 Nov",
-      "score": 69,
-      "explanation": "High national business risk (69/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "03 Nov",
+      "score": 66,
+      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -79,7 +79,7 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 37,
+      "score": 33,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 33,
+      "score": 31,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 38,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,96 +140,40 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-11-02T16:04:14.648242+00:00",
+    "last_checked": "2026-11-03T14:23:24.744535+00:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "SA Siblings Strike Gold and Bronze on the World Dance Stage - Good Things Guy",
+      "title": "Numsa members protest suspension of regional leaders as union rift deepens - Inside Politic",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "02 Nov 2026, 13:00 UTC",
-      "summary": "SA Siblings Strike Gold and Bronze on the World Dance Stage Good Things Guy",
+      "time_window": "03 Nov 2026, 08:00 UTC",
+      "summary": "Numsa members protest suspension of regional leaders as union rift deepens Inside Politic",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Good Things Guy",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDMtdVRRcTJ1SWhpSjdSWFdIYlhDR0FOcmRRQ2hZLTBNUVp4YThVRU9mVTBsYlljQUFSSnd2RXhYQjdpclVTV3JGMHNzb09LRnFqR2s5OTVVelA2ZGtxWGlUZHMwTHhZNHU1SEh0ZlJSdUQ5dVFzdmdSQ3hpSnNVd2lB?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Top South African CEO drove executives into townships to show the impact of job cuts after a six-month mining strike - newsday.co.za",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "02 Nov 2026, 07:53 UTC",
-      "summary": "Top South African CEO drove executives into townships to show the impact of job cuts after a six-month mining strike newsday.co.za",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "newsday.co.za",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc3luZU9ZNVUyWi05OFQxMGRCRXQwWi00V3MzSko5VWVuLVFwR055YVRfUG50dENIaTZYNm8tQVBlRVNQdzNVcURSNHllbHJtbjc0X1k5dmo1UWVqem9VYlFObVgyNUVIYWl6UDRmckV4YkNoazREc3VCVkVfWDZ0TmlHOXJuREdhNjdZVTZDbjNCUHpGUHBKNTZFNlVoamlBU1gzeFExbzNfdHlJakNRQXJXOVRIWkFld2w4c1ZVWGMwVm9IUmMzT1NKczdTMmNBQ0ZsTUlzQXJoejFxM0VQcUswVVEtdXZDUUE?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Amanzi, awethu! Joburg residents protest as water supply is throttled - Moneyweb",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "01 Nov 2026, 16:00 UTC",
-      "summary": "Amanzi, awethu! Joburg residents protest as water supply is throttled Moneyweb",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Moneyweb",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTk9PSGx3VWdFMHBNUElvaFJBWHp4ZDBDSGNHRFlFc2E4OTdIM0VlRzlVcTdjTFhZTjFuQ3o0YUNyZE1USzJCTlJudkNTT2tGcnRFaUNqTmwtaWlVR245S3A5NWtaN2ViV0pHSUt4U1BFN3p3LXNyRERhMXowZ21SSGEzVEd6S2R2REJDbDJxOFFiY1NXX2FzYUFfLWZwMFdr?oc=5",
+      "source": "Inside Politic",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT2V1Y0JTYkUwY3FBdkRhNzNBam42ZEdQS2xHcEdSSlpvVEFGdmhCZ1Uwdkh1QUpzcTVXTjlhNU9vMFM3d1V3Vk5NaXFPaFZhZ01sdDJfSHB2dlk3OFRPY3BrVGZ4YUhaUFdFUnpHUk80a1dVdTJOdWI1Tlg5alVodnh3aTBHRUNDQldkYkFLWWM1MWtlUGZUbGNFTVdJZU5RbHF4MW93?oc=5",
       "business_impact_score": 46
     }
   ],
   "news": [
     {
-      "title": "Cachalia walks Durban CBD as 14 burnt-out vehicles are removed after anti-immigration protest - IOL",
+      "title": "Numsa members protest suspension of regional leaders as union rift deepens - Inside Politic",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "01 Nov 2026, 00:28 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (53/100). Assessed as serious disruptive incident, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "IOL",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVUlJTGxMOEJacXR3VUdiTnptQmFNTlpBM19ZZ3RNY01VVWZhaVFiMmlIazBENUxlNndCZjgzeTVnd0doSllWX0xUUUNIOFFqcFgtbnYzdm14SmxCV2tmdHZMUGk1WUd0VEgyYnBiVXNXSWFObU9tRDVmUlJ0bnZVYU5Cb0dJald2amIzc1l0NmtjZW9kT3FsNDZzTDVNRi1TWi1rREtybVpvcWdHSzFueXllZEoxMXVzQnhIZUYxYzZaajZSNGRaanpRaEFRMkJYam4tVmk2c0QwY05pQ2NXenQxSk96VnhhZm40?oc=5",
-      "business_impact_score": 53
-    },
-    {
-      "title": "SA Siblings Strike Gold and Bronze on the World Dance Stage - Good Things Guy",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "02 Nov 2026, 13:00 UTC",
+      "published": "03 Nov 2026, 08:00 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Good Things Guy",
+      "source": "Inside Politic",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDMtdVRRcTJ1SWhpSjdSWFdIYlhDR0FOcmRRQ2hZLTBNUVp4YThVRU9mVTBsYlljQUFSSnd2RXhYQjdpclVTV3JGMHNzb09LRnFqR2s5OTVVelA2ZGtxWGlUZHMwTHhZNHU1SEh0ZlJSdUQ5dVFzdmdSQ3hpSnNVd2lB?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Top South African CEO drove executives into townships to show the impact of job cuts after a six-month mining strike - newsday.co.za",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "02 Nov 2026, 07:53 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "newsday.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc3luZU9ZNVUyWi05OFQxMGRCRXQwWi00V3MzSko5VWVuLVFwR055YVRfUG50dENIaTZYNm8tQVBlRVNQdzNVcURSNHllbHJtbjc0X1k5dmo1UWVqem9VYlFObVgyNUVIYWl6UDRmckV4YkNoazREc3VCVkVfWDZ0TmlHOXJuREdhNjdZVTZDbjNCUHpGUHBKNTZFNlVoamlBU1gzeFExbzNfdHlJakNRQXJXOVRIWkFld2w4c1ZVWGMwVm9IUmMzT1NKczdTMmNBQ0ZsTUlzQXJoejFxM0VQcUswVVEtdXZDUUE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT2V1Y0JTYkUwY3FBdkRhNzNBam42ZEdQS2xHcEdSSlpvVEFGdmhCZ1Uwdkh1QUpzcTVXTjlhNU9vMFM3d1V3Vk5NaXFPaFZhZ01sdDJfSHB2dlk3OFRPY3BrVGZ4YUhaUFdFUnpHUk80a1dVdTJOdWI1Tlg5alVodnh3aTBHRUNDQldkYkFLWWM1MWtlUGZUbGNFTVdJZU5RbHF4MW93?oc=5",
       "business_impact_score": 46
     },
     {
@@ -275,6 +219,20 @@
       "business_impact_score": 44
     },
     {
+      "title": "South Africa's AGOA loss: Why the biggest economic risk may lie beyond exports - IOL",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "03 Nov 2026, 09:51 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQzlKbmJISVF6T1UxUm5LcEF2ckNzb2ZZdEp3eGRsVW5fMERLSnpCbEZpdWJwUzFjYmZ6RkRkVjhuSlkxME9jZzJsSHN5MFk4dmh1NHBWMk1wUGdvVGZxZzMxRDNPYktITzBUVGl0NUtTQWo5VmVKZVNOUjR4b3FQTGNEektHbndVOGtNTnpaTEhHeXpWVGgtenJoODFSSzJ5TVphRDZ5U0p2M1pIT2M2LUVFdk53QQ?oc=5",
+      "business_impact_score": 42
+    },
+    {
       "title": "Willie Spies writes an open letter to Agriculture Minister Willie Aucamp about long-term food security in Pretoria - newsday.co.za",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
@@ -287,25 +245,39 @@
       "confidence": "Reported",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaGJEcGU5X2p6bllUVm43Y1MxUXRELXR0Tk5iZFY1RFJvdlBTaWFFUktzbGRNUnlVeEJ4MzUxSS1ncnBZeWdBaXVYOFBOdzVyLS1ZMU9URWI3QnJHVkw1MHV1aTJBcWhTakNTZXdEbjRGaGFTbzBkYzE2Sjh2alNDZ0k4UEdnanRxcllzeDhzUDRNOUtfYUg3eUNYb3h2dTNOLXRhaGszMmZDTFV2YXhUWVRjeGRtTlBWcU03UFY3STlDR2Nlb2tIeXZpRTBzMzRhN0ZSQVlPazhiNElRWUdPRDNJNjUxRzBlSnhjag?oc=5",
       "business_impact_score": 35
+    },
+    {
+      "title": "Municipal infrastructure spending per person",
+      "location": "National",
+      "city_id": null,
+      "category": "Economy and business",
+      "relevance": "Low",
+      "published": "02 Nov 2026, 13:46 UTC",
+      "event_date": "Mon, 02 Nov 2026 13:46:19 +0000",
+      "summary": "Low business impact (17/100). Assessed as planned or routine incident, with local or unspecified scope and planned and manageable disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is business environment relevance. Calibration applied: planned disruption reduction, local impact ceiling.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=20074",
+      "business_impact_score": 17
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "afrikaans": {
-      "word": "Asseblief",
-      "english": "Please",
-      "pronunciation": "AH-suh-bleef",
-      "example": "Koffie, asseblief.",
-      "example_english": "Coffee, please.",
-      "use_note": "Useful for polite requests; courtesy is important when dealing with colleagues, hosts and service staff."
+      "word": "Goeiedag",
+      "english": "Good day / Hello",
+      "pronunciation": "KHOO-ee-dakh",
+      "example": "Goeiedag. Dis goed om jou te ontmoet.",
+      "example_english": "Good day. It is good to meet you.",
+      "use_note": "A useful professional greeting, particularly when meeting someone for the first time."
     },
     "isixhosa": {
-      "word": "Nceda",
-      "english": "Please / Help",
-      "pronunciation": "n-CEH-dah",
-      "example": "Nceda.",
-      "example_english": "Please / Help.",
-      "use_note": "A useful polite or assistance-related expression; the precise meaning depends on the sentence around it."
+      "word": "Ninjani?",
+      "english": "How are you? (several people)",
+      "pronunciation": "neen-JAH-nee",
+      "example": "Molweni, ninjani?",
+      "example_english": "Hello, how are you all?",
+      "use_note": "The plural form, useful when greeting a small group or team."
     },
     "rotation": "daily",
     "source_type": "curated"
