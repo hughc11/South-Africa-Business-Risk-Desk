@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-03T14:23:24.744535+00:00",
-    "generated_display": "03 Nov 2026, 14:23",
+    "generated_at": "2026-11-04T14:38:32.011139+00:00",
+    "generated_display": "04 Nov 2026, 14:38",
     "timezone": "Europe/London",
-    "raw_item_count": 590,
-    "normalised_item_count": 86,
-    "final_item_count": 81,
+    "raw_item_count": 596,
+    "normalised_item_count": 88,
+    "final_item_count": 83,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,11 +15,11 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 10
+        "item_count": 20
       },
       "National and city news": {
         "status": "success",
-        "item_count": 574
+        "item_count": 570
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,38 +28,38 @@
     }
   },
   "national": {
-    "score": 66,
+    "score": 65,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime.",
+    "summary": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 34
+        "score": 33
       },
       {
         "name": "Civil unrest",
-        "score": 44
+        "score": 41
       },
       {
         "name": "Infrastructure",
-        "score": 29
+        "score": 26
       },
       {
         "name": "Transport",
-        "score": 50
+        "score": 48
       },
       {
         "name": "Business environment",
-        "score": 28
+        "score": 27
       }
     ]
   },
   "timeline": [
     {
-      "date": "03 Nov",
-      "score": 66,
-      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime."
+      "date": "04 Nov",
+      "score": 65,
+      "explanation": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 39,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by infrastructure, road and transport disruption."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 33,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "score": 27,
+      "level": "Low",
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 37,
+      "score": 34,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 31,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "score": 28,
+      "level": "Low",
+      "summary": "Current city risk is being driven by security and crime, politics and government."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 26,
+      "score": 27,
       "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -140,83 +140,26 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "08 Jul 2026, 15:36 UTC",
-    "last_checked": "2026-11-03T14:23:24.744535+00:00",
+    "last_checked": "2026-11-04T14:38:32.011139+00:00",
     "summary": "Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel see advice on volunteering and adventure travel abroad Travel insurance If you choose to travel, research your destinations and get appropriate travel insurance . Insurance should cover your itinerary, planned activities...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [
-    {
-      "title": "Numsa members protest suspension of regional leaders as union rift deepens - Inside Politic",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "03 Nov 2026, 08:00 UTC",
-      "summary": "Numsa members protest suspension of regional leaders as union rift deepens Inside Politic",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Inside Politic",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT2V1Y0JTYkUwY3FBdkRhNzNBam42ZEdQS2xHcEdSSlpvVEFGdmhCZ1Uwdkh1QUpzcTVXTjlhNU9vMFM3d1V3Vk5NaXFPaFZhZ01sdDJfSHB2dlk3OFRPY3BrVGZ4YUhaUFdFUnpHUk80a1dVdTJOdWI1Tlg5alVodnh3aTBHRUNDQldkYkFLWWM1MWtlUGZUbGNFTVdJZU5RbHF4MW93?oc=5",
-      "business_impact_score": 46
-    }
-  ],
+  "incidents": [],
   "news": [
     {
-      "title": "Numsa members protest suspension of regional leaders as union rift deepens - Inside Politic",
+      "title": "Important South African city at risk of becoming a ghost town - BusinessTech",
       "location": "National",
       "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "03 Nov 2026, 08:00 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Inside Politic",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT2V1Y0JTYkUwY3FBdkRhNzNBam42ZEdQS2xHcEdSSlpvVEFGdmhCZ1Uwdkh1QUpzcTVXTjlhNU9vMFM3d1V3Vk5NaXFPaFZhZ01sdDJfSHB2dlk3OFRPY3BrVGZ4YUhaUFdFUnpHUk80a1dVdTJOdWI1Tlg5alVodnh3aTBHRUNDQldkYkFLWWM1MWtlUGZUbGNFTVdJZU5RbHF4MW93?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Amanzi, awethu! Joburg residents protest as water supply is throttled - Moneyweb",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "01 Nov 2026, 16:00 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Moneyweb",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTk9PSGx3VWdFMHBNUElvaFJBWHp4ZDBDSGNHRFlFc2E4OTdIM0VlRzlVcTdjTFhZTjFuQ3o0YUNyZE1USzJCTlJudkNTT2tGcnRFaUNqTmwtaWlVR245S3A5NWtaN2ViV0pHSUt4U1BFN3p3LXNyRERhMXowZ21SSGEzVEd6S2R2REJDbDJxOFFiY1NXX2FzYUFfLWZwMFdr?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Joburg and Tshwane under fire as SAHRC report exposes Gauteng’s deepening water crisis - thenational.co.za",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "02 Nov 2026, 12:31 UTC",
+      "published": "04 Nov 2026, 12:03 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "thenational.co.za",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "BusinessTech",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUmx1dExGLVlLdlFUeEFSeDZjb3l0djFxNl8tVkxfUEVqbnZIS0k3ZnpGR0tsa21Fd3ZmRkluUGp6TEs4aThfRk95cVIwOWZQUUx5RmczUWZvZG1XNkJsdHlhU1RBQmdnTFlxVHZFZGhxWWVyQk56ZUxuM0tsRzBvWnNQWGZHcWllNExvQUw1V1c1TVdpWG5OdkdTS3NrTlZxWXd4WVVLWU0xbnJyNGl1TzBxUTRXVFhmdmhVekswOW5TN1pJaUxaRA?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Durban to Host Ports & Rail Week 2026 – Advancing Africa’s Transport Corridors - RAILMARKET.com",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "01 Nov 2026, 19:30 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "RAILMARKET.com",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVmdGRWdkT1ozOWpWV1UwbVBSU0RTc0IycmUycTdDNkpSTjEwUHpIcVNkNERyUkhoTmFlNHFPT3EwWG1UeUZUU3gzWERHQ1lsZmNCaEdWSExYY3RINFNvLTFwWHN1QV82V1NTZ1drdzdwZ3cxUzVLSjNORUlpZWI1T1hPMUk0X3N0dTh1RGRjUEVJQTl6YzNJQk5tX0RCS0dYSjRxbnBFa1lCMFNpZDh2b3Q3SGhVblFj?oc=5",
-      "business_impact_score": 44
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMUp3TzI1ZlZGYlhuVTlvZGV6SHFTOE1XcWFMNVFKRTI5RE1fNlI5SC1SR0ZKdndTT0Fpd1lPQkJVRGttSGNfTWtJdjBkaXhUM0F1NmhXSUJoZ0kxOURMWUJSMmVqVXZFV1huVHYzaW9FY3RUaV9tbjh4cnhqQ0hRWm9seFF0OWxoM3FqV3RzV0ZVbmlwclNVQWZzMUdnUGFtUjNCd2RHOTVZUlNzckVF?oc=5",
+      "business_impact_score": 42
     },
     {
       "title": "South Africa's AGOA loss: Why the biggest economic risk may lie beyond exports - IOL",
@@ -233,51 +176,51 @@
       "business_impact_score": 42
     },
     {
-      "title": "Willie Spies writes an open letter to Agriculture Minister Willie Aucamp about long-term food security in Pretoria - newsday.co.za",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "category": "Security and crime",
-      "relevance": "Guarded",
-      "published": "02 Nov 2026, 09:38 UTC",
-      "event_date": "",
-      "summary": "Guarded business impact (35/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is prolonged; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
-      "source": "newsday.co.za",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaGJEcGU5X2p6bllUVm43Y1MxUXRELXR0Tk5iZFY1RFJvdlBTaWFFUktzbGRNUnlVeEJ4MzUxSS1ncnBZeWdBaXVYOFBOdzVyLS1ZMU9URWI3QnJHVkw1MHV1aTJBcWhTakNTZXdEbjRGaGFTbzBkYzE2Sjh2alNDZ0k4UEdnanRxcllzeDhzUDRNOUtfYUg3eUNYb3h2dTNOLXRhaGszMmZDTFV2YXhUWVRjeGRtTlBWcU03UFY3STlDR2Nlb2tIeXZpRTBzMzRhN0ZSQVlPazhiNElRWUdPRDNJNjUxRzBlSnhjag?oc=5",
-      "business_impact_score": 35
-    },
-    {
-      "title": "Municipal infrastructure spending per person",
+      "title": "Economic wrap-up for October 2026",
       "location": "National",
       "city_id": null,
       "category": "Economy and business",
-      "relevance": "Low",
-      "published": "02 Nov 2026, 13:46 UTC",
-      "event_date": "Mon, 02 Nov 2026 13:46:19 +0000",
-      "summary": "Low business impact (17/100). Assessed as planned or routine incident, with local or unspecified scope and planned and manageable disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is business environment relevance. Calibration applied: planned disruption reduction, local impact ceiling.",
+      "relevance": "Guarded",
+      "published": "03 Nov 2026, 13:20 UTC",
+      "event_date": "Tue, 03 Nov 2026 13:20:03 +0000",
+      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
       "source": "Statistics South Africa",
       "confidence": "Confirmed",
-      "url": "https://www.statssa.gov.za/?p=20074",
-      "business_impact_score": 17
+      "url": "https://www.statssa.gov.za/?p=20087",
+      "business_impact_score": 23
+    },
+    {
+      "title": "Stats Biz – October 2026",
+      "location": "National",
+      "city_id": null,
+      "category": "Economy and business",
+      "relevance": "Guarded",
+      "published": "03 Nov 2026, 13:11 UTC",
+      "event_date": "Tue, 03 Nov 2026 13:11:53 +0000",
+      "summary": "Guarded business impact (23/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=20084",
+      "business_impact_score": 23
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "afrikaans": {
-      "word": "Goeiedag",
-      "english": "Good day / Hello",
-      "pronunciation": "KHOO-ee-dakh",
-      "example": "Goeiedag. Dis goed om jou te ontmoet.",
-      "example_english": "Good day. It is good to meet you.",
-      "use_note": "A useful professional greeting, particularly when meeting someone for the first time."
+      "word": "Goeiemôre",
+      "english": "Good morning",
+      "pronunciation": "KHOO-ee-MOR-ruh",
+      "example": "Goeiemôre. Hoe gaan dit?",
+      "example_english": "Good morning. How are you?",
+      "use_note": "A polite way to open an early meeting or workplace conversation."
     },
     "isixhosa": {
-      "word": "Ninjani?",
-      "english": "How are you? (several people)",
-      "pronunciation": "neen-JAH-nee",
-      "example": "Molweni, ninjani?",
-      "example_english": "Hello, how are you all?",
-      "use_note": "The plural form, useful when greeting a small group or team."
+      "word": "Hamba kakuhle",
+      "english": "Goodbye (to one person leaving)",
+      "pronunciation": "HAHM-bah kah-KOO-hleh",
+      "example": "Hamba kakuhle.",
+      "example_english": "Go well / Goodbye.",
+      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
     },
     "rotation": "daily",
     "source_type": "curated"
