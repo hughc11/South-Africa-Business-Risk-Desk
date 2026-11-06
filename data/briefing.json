@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-05T14:43:22.701874+00:00",
-    "generated_display": "05 Nov 2026, 14:43",
+    "generated_at": "2026-11-06T14:21:11.754753+00:00",
+    "generated_display": "06 Nov 2026, 14:21",
     "timezone": "Europe/London",
-    "raw_item_count": 597,
-    "normalised_item_count": 91,
-    "final_item_count": 88,
+    "raw_item_count": 596,
+    "normalised_item_count": 88,
+    "final_item_count": 83,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 571
+        "item_count": 570
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,22 +28,22 @@
     }
   },
   "national": {
-    "score": 65,
+    "score": 66,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 37
+        "score": 36
       },
       {
         "name": "Civil unrest",
-        "score": 45
+        "score": 47
       },
       {
         "name": "Infrastructure",
-        "score": 27
+        "score": 28
       },
       {
         "name": "Transport",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "05 Nov",
-      "score": 65,
-      "explanation": "High national business risk (65/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "06 Nov",
+      "score": 66,
+      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 28,
+      "score": 26,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, economy and business."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 36,
+      "score": 34,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 32,
+      "score": 31,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 28,
+      "score": 26,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 33,
+      "score": 39,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "Current city risk is being driven by security and crime."
     },
     {
       "id": "east-london",
@@ -140,55 +140,41 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-05T14:43:22.701874+00:00",
+    "last_checked": "2026-11-06T14:21:11.754753+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Npp 'y3gye Y3 Sika' Demonstration Over South Africa Evacuation - Modern Ghana",
+      "title": "Mpumelelo Mkhabela | Voters on strike: What will jolt them into action? - News24",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "04 Nov 2026, 18:25 UTC",
-      "summary": "Npp 'y3gye Y3 Sika' Demonstration Over South Africa Evacuation Modern Ghana",
+      "time_window": "05 Nov 2026, 13:04 UTC",
+      "summary": "Mpumelelo Mkhabela | Voters on strike: What will jolt them into action? News24",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Modern Ghana",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yQkdYTG81N3M1T0E4NGVBZUFGd3A3NDBqTWJKdVhSTVlhTThWYWhNZno4ODRaejljc2V2V1I2dWxnNjg5NzFQQk96b3g3MTZGVU1ZQlRhMVpBMHZSUm5vVjhmdW0xNmZz0gFcQVVfeXFMTzRSbHVuQkJyaWlxTE95TnJlakNTRW9iblhudDZhUEw1eWlwU0lnbE5XaE5peVZ5WjIzT0JSSjJ3Z2lQcGpSWGdXcFRIekZnamU2OTdabmc3c2FxLUM?oc=5",
-      "business_impact_score": 41
+      "source": "News24",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTTN5NVVxQzRCV1Ztb1dHS2dJVjhvWlIxSElHWDFjR081ZmNwaUZJVkVfNlQ4bFBCN1FKOUI2Ry01MU8yTnhydUNFR1NTUUhCRHNyenBZUTVsTG9OZmJfWWp6N1d2YTcwbEZpZHpPUGR6cG0taFIydzVnUllibXgwM1UyYzBaZmpKMGFZR2hmRC1mSU8tVUJoNVNYQ2hWano2OFpXNWRnanF2T1NxcVNyR2lJNHRENEtnSHR6ZlhCUjFPZw?oc=5",
+      "business_impact_score": 48
     }
   ],
   "news": [
     {
-      "title": "Congolese protest ex-president Kabila's new rebel movement - Reuters",
+      "title": "Mpumelelo Mkhabela | Voters on strike: What will jolt them into action? - News24",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "03 Nov 2026, 23:02 UTC",
+      "published": "05 Nov 2026, 13:04 UTC",
       "event_date": "",
       "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "Reuters",
+      "source": "News24",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1NmN2MUl6VzZzOHlCN1Q1b21ZR2Q5QXpYclhLZjgtbHRQdXJHUGlGZkJGSDVpdzRXb2ZRcjB6UHotQ1RBVkQtN25VZHhJemtLX25xY1dxYTJHVm1Penprd3VOVThrdHM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTTN5NVVxQzRCV1Ztb1dHS2dJVjhvWlIxSElHWDFjR081ZmNwaUZJVkVfNlQ4bFBCN1FKOUI2Ry01MU8yTnhydUNFR1NTUUhCRHNyenBZUTVsTG9OZmJfWWp6N1d2YTcwbEZpZHpPUGR6cG0taFIydzVnUllibXgwM1UyYzBaZmpKMGFZR2hmRC1mSU8tVUJoNVNYQ2hWano2OFpXNWRnanF2T1NxcVNyR2lJNHRENEtnSHR6ZlhCUjFPZw?oc=5",
       "business_impact_score": 48
-    },
-    {
-      "title": "Two children among four killed in Bloemfontein house shooting - IOL",
-      "location": "Bloemfontein",
-      "city_id": "bloemfontein",
-      "category": "Security and crime",
-      "relevance": "Moderate",
-      "published": "04 Nov 2026, 11:52 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (bloemfontein) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "IOL",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZnZTWWhvNWlmMjhNZ2tXMlZ3Q0ZfbDEtQ2R2VEt6cWVTSDczN3UxbkFJeU5IM3R6OU5EYzRuVlZNR2d1bHY2M1A5RjZjVEtLQ1NKZjd4b0E3bnpRZC1IYnFBejRSRHE1QzZSS0JETHc5MUdCRkVRY216ZVBqTjAxNFdlZzZycTBpZjM0U3lnR01HNEJ2a1pqbVktZC1JOWRwa3FNeERPdzcyTmZPMDVSbUt3QQ?oc=5",
-      "business_impact_score": 47
     },
     {
       "title": "Skills Development Act: Appointment of Chairpersons of Accounting Authorities for Four Sector Education and Training Authorities for term 2025 to 2030: Nominations invited",
@@ -219,12 +205,26 @@
       "business_impact_score": 46
     },
     {
+      "title": "South Africa's anti-immigration protest dilemma - DW.com",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "04 Nov 2026, 15:13 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "DW.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRVJTYk9QWWFORjR2ZmlyVW1xQ0tBbDVRR0Y1UWlHanRlXy1Dc2JIZHYyU3ZRREFHT0hLTGhKaUgyZGE3TGVfaG11WG5PMlVzZDlJQ2xBYm4tblNNVE4wbmhEU3ZzNC1ZSDJnNzdwVkRleVQ0MW5RMkt6c3RvNnlXb2pIeEhnSXVBV0R3?oc=5",
+      "business_impact_score": 46
+    },
+    {
       "title": "South Africa's AGOA loss: Why the biggest economic risk may lie beyond exports - IOL",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "04 Nov 2026, 12:39 UTC",
+      "published": "04 Nov 2026, 22:05 UTC",
       "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "IOL",
@@ -233,40 +233,12 @@
       "business_impact_score": 42
     },
     {
-      "title": "Important South African city at risk of becoming a ghost town - BusinessTech",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "04 Nov 2026, 12:03 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "BusinessTech",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMUp3TzI1ZlZGYlhuVTlvZGV6SHFTOE1XcWFMNVFKRTI5RE1fNlI5SC1SR0ZKdndTT0Fpd1lPQkJVRGttSGNfTWtJdjBkaXhUM0F1NmhXSUJoZ0kxOURMWUJSMmVqVXZFV1huVHYzaW9FY3RUaV9tbjh4cnhqQ0hRWm9seFF0OWxoM3FqV3RzV0ZVbmlwclNVQWZzMUdnUGFtUjNCd2RHOTVZUlNzckVF?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "Npp 'y3gye Y3 Sika' Demonstration Over South Africa Evacuation - Modern Ghana",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "04 Nov 2026, 18:25 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "Modern Ghana",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yQkdYTG81N3M1T0E4NGVBZUFGd3A3NDBqTWJKdVhSTVlhTThWYWhNZno4ODRaejljc2V2V1I2dWxnNjg5NzFQQk96b3g3MTZGVU1ZQlRhMVpBMHZSUm5vVjhmdW0xNmZz0gFcQVVfeXFMTzRSbHVuQkJyaWlxTE95TnJlakNTRW9iblhudDZhUEw1eWlwU0lnbE5XaE5peVZ5WjIzT0JSSjJ3Z2lQcGpSWGdXcFRIekZnamU2OTdabmc3c2FxLUM?oc=5",
-      "business_impact_score": 41
-    },
-    {
       "title": "Water, electricity failures dominate voters’ concerns across South Africa - IOL",
       "location": "National",
       "city_id": null,
       "category": "Infrastructure",
       "relevance": "Guarded",
-      "published": "05 Nov 2026, 08:50 UTC",
+      "published": "05 Nov 2026, 09:11 UTC",
       "event_date": "",
       "summary": "Guarded business impact (36/100). Assessed as no clear immediate threat, with national scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
       "source": "IOL",
@@ -301,25 +273,53 @@
       "confidence": "Confirmed",
       "url": "https://www.gov.za/documents/notices/currency-and-exchanges-act-notice-and-order-forfeiture-mr-mlungisi-wilfred-cebiso",
       "business_impact_score": 28
+    },
+    {
+      "title": "Petroleum Products Act: Maximum Retail Price for Liquefied Petroleum Gas",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "05 Nov 2026, 10:36 UTC",
+      "event_date": "Thu, 05 Nov 2026 10:36:25 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/petroleum-products-act-maximum-retail-price-liquefied-petroleum-gas-03-nov-2026-0",
+      "business_impact_score": 27
+    },
+    {
+      "title": "International Trade Administration Commission: Notice of initiation on float glass",
+      "location": "National",
+      "city_id": null,
+      "category": "Economy and business",
+      "relevance": "Guarded",
+      "published": "05 Nov 2026, 10:25 UTC",
+      "event_date": "Thu, 05 Nov 2026 10:25:32 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/international-trade-administration-commission-notice-initiation-float-glass-03",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "afrikaans": {
-      "word": "Vergadering",
-      "english": "Meeting",
-      "pronunciation": "fur-KHAH-duh-ring",
-      "example": "Hoe laat begin die vergadering?",
-      "example_english": "What time does the meeting start?",
-      "use_note": "Core workplace vocabulary and useful when confirming schedules or meeting arrangements."
+      "word": "Besigheid",
+      "english": "Business",
+      "pronunciation": "buh-SAY-khite",
+      "example": "Ons praat oor besigheid.",
+      "example_english": "We are talking about business.",
+      "use_note": "A common general term for business and commercial discussion."
     },
     "isixhosa": {
-      "word": "Wamkelekile",
-      "english": "Welcome",
-      "pronunciation": "wahm-keh-LEH-kee-leh",
-      "example": "Wamkelekile.",
-      "example_english": "Welcome.",
-      "use_note": "Useful in hospitality and welcoming contexts; the exact form can vary with who is being addressed."
+      "word": "Uxolo",
+      "english": "Excuse me / Sorry",
+      "pronunciation": "oo-KHOH-loh",
+      "example": "Uxolo.",
+      "example_english": "Excuse me / Sorry.",
+      "use_note": "Useful for politely getting attention or apologising in everyday interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
