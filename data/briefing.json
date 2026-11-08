@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-07T13:09:51.507410+00:00",
-    "generated_display": "07 Nov 2026, 13:09",
+    "generated_at": "2026-11-08T13:31:03.359162+00:00",
+    "generated_display": "08 Nov 2026, 13:31",
     "timezone": "Europe/London",
-    "raw_item_count": 596,
-    "normalised_item_count": 77,
-    "final_item_count": 72,
+    "raw_item_count": 592,
+    "normalised_item_count": 73,
+    "final_item_count": 69,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 570
+        "item_count": 566
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -35,7 +35,7 @@
     "components": [
       {
         "name": "Security",
-        "score": 34
+        "score": 33
       },
       {
         "name": "Civil unrest",
@@ -57,7 +57,7 @@
   },
   "timeline": [
     {
-      "date": "07 Nov",
+      "date": "08 Nov",
       "score": 64,
       "explanation": "High national business risk (64/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure."
+      "score": 35,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "cape-town",
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 28,
+      "score": 24,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 25,
+      "score": 27,
       "level": "Low",
-      "summary": "Current city risk is being driven by politics and government, unclassified news."
+      "summary": "Current city risk is being driven by security and crime, politics and government."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 30,
+      "score": 31,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 39,
+      "score": 34,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "east-london",
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-07T13:09:51.507410+00:00",
+    "last_checked": "2026-11-08T13:31:03.359162+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -148,22 +148,22 @@
   "incidents": [],
   "news": [],
   "daily_language_brief": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "afrikaans": {
-      "word": "Ooreenkoms",
-      "english": "Agreement / Deal",
-      "pronunciation": "OO-ruhn-koms",
-      "example": "Ons het 'n ooreenkoms.",
-      "example_english": "We have an agreement.",
-      "use_note": "Useful in negotiation and commercial discussions; context determines whether it means an agreement or deal."
+      "word": "Kontrak",
+      "english": "Contract",
+      "pronunciation": "KON-trak",
+      "example": "Ons bespreek die kontrak.",
+      "example_english": "We are discussing the contract.",
+      "use_note": "Straightforward commercial vocabulary that may be recognised easily by English speakers."
     },
     "isixhosa": {
-      "word": "Molo",
-      "english": "Hello (one person)",
-      "pronunciation": "MOH-loh",
-      "example": "Molo.",
-      "example_english": "Hello.",
-      "use_note": "Use when greeting one person; a simple local greeting can be a respectful way to begin an interaction."
+      "word": "Ewe",
+      "english": "Yes",
+      "pronunciation": "EH-weh",
+      "example": "Ewe.",
+      "example_english": "Yes.",
+      "use_note": "A basic affirmative response useful in everyday interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
