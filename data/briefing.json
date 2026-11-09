@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-08T13:31:03.359162+00:00",
-    "generated_display": "08 Nov 2026, 13:31",
+    "generated_at": "2026-11-09T16:29:10.639770+00:00",
+    "generated_display": "09 Nov 2026, 16:29",
     "timezone": "Europe/London",
-    "raw_item_count": 592,
-    "normalised_item_count": 73,
-    "final_item_count": 69,
+    "raw_item_count": 595,
+    "normalised_item_count": 67,
+    "final_item_count": 64,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 566
+        "item_count": 569
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,26 +28,26 @@
     }
   },
   "national": {
-    "score": 64,
-    "level": "High",
+    "score": 56,
+    "level": "Moderate",
     "seven_day_change": 0,
-    "summary": "High national business risk (64/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "Moderate national business risk (56/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 33
+        "score": 29
       },
       {
         "name": "Civil unrest",
-        "score": 47
+        "score": 48
       },
       {
         "name": "Infrastructure",
-        "score": 27
+        "score": 25
       },
       {
         "name": "Transport",
-        "score": 44
+        "score": 37
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "08 Nov",
-      "score": 64,
-      "explanation": "High national business risk (64/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "09 Nov",
+      "score": 56,
+      "explanation": "Moderate national business risk (56/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,7 +69,7 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 35,
+      "score": 31,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 24,
+      "score": 29,
       "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "summary": "Current city risk is being driven by security and crime."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 27,
+      "score": 28,
       "level": "Low",
       "summary": "Current city risk is being driven by security and crime, politics and government."
     },
@@ -99,8 +99,8 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 31,
-      "level": "Guarded",
+      "score": 28,
+      "level": "Low",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
     {
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 26,
+      "score": 25,
       "level": "Low",
       "summary": "Current city risk is being driven by unclassified news."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 34,
+      "score": 31,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "Current city risk is being driven by security and crime."
     },
     {
       "id": "east-london",
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 35,
+      "score": 31,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,30 +140,74 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-08T13:31:03.359162+00:00",
+    "last_checked": "2026-11-09T16:29:10.639770+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
-  "incidents": [],
-  "news": [],
+  "incidents": [
+    {
+      "title": "Temporary full road closures on N3 between Cato Ridge & Hammarsdale interchange to accommodate bridge demolition - SANRAL Stop Over",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "09 Nov 2026, 14:07 UTC",
+      "summary": "Temporary full road closures on N3 between Cato Ridge & Hammarsdale interchange to accommodate bridge demolition SANRAL Stop Over",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "SANRAL Stop Over",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQX2Jnc3VwZWdqSU9JN0FodkJEcS1HNnhaaVdUdWVZSDBiUEFWSHlhR1FHYm44dWdMWkJsVUJ4MzhScDFoVUdZOXdKWFBjVkVOdGRRN2VGTGNYMnQzclB3VFVkUGtCNXVFNGRCRmxuVlkzaUVjOU00M2J3LVQ5T2pNdkU4blZ1RElrbG1laGxXcng4WUdZRVdOVGdsU0VhYTQ1VnJyZWpmVWlYdXE0UDRjUkRHOTNORFYyME9aTzA3UUljdG1kMVhPUjEtLUlhVEZS?oc=5",
+      "business_impact_score": 32
+    }
+  ],
+  "news": [
+    {
+      "title": "Public Finance Management Act: CSIR: Authorisation to issue guarantee instruments",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "09 Nov 2026, 09:04 UTC",
+      "event_date": "Mon, 09 Nov 2026 09:04:59 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/public-finance-management-act-csir-authorisation-issue-guarantee-instruments-06",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Marketing of Agricultural Products Act: Potato Industry: Application for the continuation of statutory measures",
+      "location": "National",
+      "city_id": null,
+      "category": "Economy and business",
+      "relevance": "Guarded",
+      "published": "09 Nov 2026, 09:02 UTC",
+      "event_date": "Mon, 09 Nov 2026 09:02:27 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/marketing-agricultural-products-act-potato-industry-application-continuation",
+      "business_impact_score": 27
+    }
+  ],
   "daily_language_brief": {
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "afrikaans": {
-      "word": "Kontrak",
-      "english": "Contract",
-      "pronunciation": "KON-trak",
-      "example": "Ons bespreek die kontrak.",
-      "example_english": "We are discussing the contract.",
-      "use_note": "Straightforward commercial vocabulary that may be recognised easily by English speakers."
+      "word": "Kollega",
+      "english": "Colleague",
+      "pronunciation": "koo-LEH-khah",
+      "example": "Laat ek jou aan my kollega voorstel.",
+      "example_english": "Let me introduce you to my colleague.",
+      "use_note": "Useful when making introductions in meetings or workplace settings."
     },
     "isixhosa": {
-      "word": "Ewe",
-      "english": "Yes",
-      "pronunciation": "EH-weh",
-      "example": "Ewe.",
-      "example_english": "Yes.",
-      "use_note": "A basic affirmative response useful in everyday interaction."
+      "word": "Ndiyabulela",
+      "english": "I thank you",
+      "pronunciation": "n-dee-yah-boo-LEH-lah",
+      "example": "Ndiyabulela.",
+      "example_english": "I thank you.",
+      "use_note": "A fuller expression of gratitude that can add warmth to a courteous interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
