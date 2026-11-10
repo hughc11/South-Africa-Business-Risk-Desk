@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-09T16:29:10.639770+00:00",
-    "generated_display": "09 Nov 2026, 16:29",
+    "generated_at": "2026-11-10T14:57:42.980428+00:00",
+    "generated_display": "10 Nov 2026, 14:57",
     "timezone": "Europe/London",
     "raw_item_count": 595,
-    "normalised_item_count": 67,
-    "final_item_count": 64,
+    "normalised_item_count": 72,
+    "final_item_count": 65,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -28,18 +28,18 @@
     }
   },
   "national": {
-    "score": 56,
+    "score": 53,
     "level": "Moderate",
     "seven_day_change": 0,
-    "summary": "Moderate national business risk (56/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "Moderate national business risk (53/100). The main current drivers are Road and transport disruption, Security and crime.",
     "components": [
       {
         "name": "Security",
-        "score": 29
+        "score": 30
       },
       {
         "name": "Civil unrest",
-        "score": 48
+        "score": 0
       },
       {
         "name": "Infrastructure",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "09 Nov",
-      "score": 56,
-      "explanation": "Moderate national business risk (56/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "10 Nov",
+      "score": 53,
+      "explanation": "Moderate national business risk (53/100). The main current drivers are Road and transport disruption, Security and crime."
     }
   ],
   "cities": [
@@ -69,8 +69,8 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 31,
-      "level": "Guarded",
+      "score": 29,
+      "level": "Low",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 29,
+      "score": 24,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime."
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 28,
+      "score": 29,
       "level": "Low",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by security and crime, road and transport disruption."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 25,
+      "score": 26,
       "level": "Low",
-      "summary": "Current city risk is being driven by unclassified news."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 31,
-      "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "east-london",
@@ -129,8 +129,8 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 31,
-      "level": "Guarded",
+      "score": 29,
+      "level": "Low",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
   ],
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-09T16:29:10.639770+00:00",
+    "last_checked": "2026-11-10T14:57:42.980428+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -163,51 +163,107 @@
   ],
   "news": [
     {
-      "title": "Public Finance Management Act: CSIR: Authorisation to issue guarantee instruments",
+      "title": "Security forces deployed after reported attacks and looting in Durban CBD - IOL",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Security and crime",
+      "relevance": "Guarded",
+      "published": "09 Nov 2026, 17:24 UTC",
+      "event_date": "",
+      "summary": "Guarded business impact (35/100). Assessed as no clear immediate threat, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON2E1c2d4WlpFU0NydW9abzNjejYza0JubW43NlZPZndDRkRGTi1vbDlWTEVkancwNEtHRWNWbW5jM2pBRTZ6RWYyY3gyeEVpUW50WWIzbTZRdUJXelVCQjNzcF9iNzQyMTM3VHBnV1p4N2xFazFIMXd0LVRoT3VaS2hWM0hTamZQQmdGR0owTWVQZWhmZTFIUlRZQWpKbmJxT1J3cl8zSjg3N2NQUVpWbVZ1Zk5CMGdNSEVFQ3J2SXM?oc=5",
+      "business_impact_score": 35
+    },
+    {
+      "title": "Customs and Excise Act: Amendment to Part 1 of Schedule No. 1 (No. 1/1/1980) (English/ Afrikaans)",
       "location": "National",
       "city_id": null,
       "category": "Government",
       "relevance": "Guarded",
-      "published": "09 Nov 2026, 09:04 UTC",
-      "event_date": "Mon, 09 Nov 2026 09:04:59 +0000",
+      "published": "09 Nov 2026, 10:02 UTC",
+      "event_date": "Mon, 09 Nov 2026 10:02:59 +0000",
       "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/public-finance-management-act-csir-authorisation-issue-guarantee-instruments-06",
+      "url": "https://www.gov.za/documents/notices/customs-and-excise-act-amendment-part-1-schedule-no-1-no-111980-english-afrikaans",
       "business_impact_score": 27
     },
     {
-      "title": "Marketing of Agricultural Products Act: Potato Industry: Application for the continuation of statutory measures",
+      "title": "Promotion of Access to Information Act: Rules of Procedure for Application to Court",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "09 Nov 2026, 09:46 UTC",
+      "event_date": "Mon, 09 Nov 2026 09:46:28 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/promotion-access-information-act-rules-procedure-application-court-06-nov-2026",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Public Finance Management Act (“PFMA”): RE: Services SETA—Termination/Cancellation of prescribed, Domant and Lapsed Discretionary Grant Projects with Public Institutions",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "09 Nov 2026, 09:44 UTC",
+      "event_date": "Mon, 09 Nov 2026 09:44:40 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/public-finance-management-act-%E2%80%9Cpfma%E2%80%9D-re-services-seta%E2%80%94terminationcancellation",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Labour Relations Act: Bargaining Council for the Furniture Manufacturing Industry KwaZulu-Natal: Extension to Non-Parties of the Main Collective Amending Agreement",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "09 Nov 2026, 09:41 UTC",
+      "event_date": "Mon, 09 Nov 2026 09:41:43 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/labour-relations-act-bargaining-council-furniture-manufacturing-industry-61",
+      "business_impact_score": 27
+    },
+    {
+      "title": "Financial Markets Act: Approved amendments to JSE Listing Requirements: Corporate Governance",
       "location": "National",
       "city_id": null,
       "category": "Economy and business",
       "relevance": "Guarded",
-      "published": "09 Nov 2026, 09:02 UTC",
-      "event_date": "Mon, 09 Nov 2026 09:02:27 +0000",
+      "published": "09 Nov 2026, 09:15 UTC",
+      "event_date": "Mon, 09 Nov 2026 09:15:07 +0000",
       "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/marketing-agricultural-products-act-potato-industry-application-continuation",
+      "url": "https://www.gov.za/documents/notices/financial-markets-act-approved-amendments-jse-listing-requirements-corporate",
       "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "afrikaans": {
-      "word": "Kollega",
-      "english": "Colleague",
-      "pronunciation": "koo-LEH-khah",
-      "example": "Laat ek jou aan my kollega voorstel.",
-      "example_english": "Let me introduce you to my colleague.",
-      "use_note": "Useful when making introductions in meetings or workplace settings."
+      "word": "Kantoor",
+      "english": "Office",
+      "pronunciation": "kahn-TOOR",
+      "example": "Ons ontmoet by die kantoor.",
+      "example_english": "We are meeting at the office.",
+      "use_note": "Useful for confirming a workplace or meeting location."
     },
     "isixhosa": {
-      "word": "Ndiyabulela",
-      "english": "I thank you",
-      "pronunciation": "n-dee-yah-boo-LEH-lah",
-      "example": "Ndiyabulela.",
-      "example_english": "I thank you.",
-      "use_note": "A fuller expression of gratitude that can add warmth to a courteous interaction."
+      "word": "Ndiphilile",
+      "english": "I am well",
+      "pronunciation": "n-dee-pee-LEE-leh",
+      "example": "Ndiphilile, enkosi.",
+      "example_english": "I am well, thank you.",
+      "use_note": "A useful response when someone asks how you are."
     },
     "rotation": "daily",
     "source_type": "curated"
