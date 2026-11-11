@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-10T14:57:42.980428+00:00",
-    "generated_display": "10 Nov 2026, 14:57",
+    "generated_at": "2026-11-11T14:28:43.474825+00:00",
+    "generated_display": "11 Nov 2026, 14:28",
     "timezone": "Europe/London",
-    "raw_item_count": 595,
-    "normalised_item_count": 72,
-    "final_item_count": 65,
+    "raw_item_count": 596,
+    "normalised_item_count": 86,
+    "final_item_count": 79,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 569
+        "item_count": 570
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,10 +28,10 @@
     }
   },
   "national": {
-    "score": 53,
-    "level": "Moderate",
+    "score": 61,
+    "level": "High",
     "seven_day_change": 0,
-    "summary": "Moderate national business risk (53/100). The main current drivers are Road and transport disruption, Security and crime.",
+    "summary": "High national business risk (61/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
@@ -39,15 +39,15 @@
       },
       {
         "name": "Civil unrest",
-        "score": 0
+        "score": 46
       },
       {
         "name": "Infrastructure",
-        "score": 25
+        "score": 43
       },
       {
         "name": "Transport",
-        "score": 37
+        "score": 40
       },
       {
         "name": "Business environment",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "10 Nov",
-      "score": 53,
-      "explanation": "Moderate national business risk (53/100). The main current drivers are Road and transport disruption, Security and crime."
+      "date": "11 Nov",
+      "score": 61,
+      "explanation": "High national business risk (61/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 29,
-      "level": "Low",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 43,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by infrastructure."
     },
     {
       "id": "cape-town",
@@ -101,7 +101,7 @@
       "default_zoom": 11,
       "score": 29,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, road and transport disruption."
+      "summary": "Current city risk is being driven by security and crime, politics and government."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 26,
+      "score": 27,
       "level": "Low",
-      "summary": "Current city risk is being driven by security and crime, unclassified news."
+      "summary": "Current city risk is being driven by infrastructure, security and crime."
     },
     {
       "id": "bloemfontein",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 29,
-      "level": "Low",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 46,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by road and transport disruption."
     }
   ],
   "travel_advice": {
@@ -140,35 +140,147 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-10T14:57:42.980428+00:00",
+    "last_checked": "2026-11-11T14:28:43.474825+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
-      "title": "Temporary full road closures on N3 between Cato Ridge & Hammarsdale interchange to accommodate bridge demolition - SANRAL Stop Over",
-      "location": "Durban / eThekwini",
-      "type": "Road closure",
-      "severity": "Low",
+      "title": "Astral Foods plant workers continue protected strike over pay and safety demands in South Africa - Traders Union",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
       "status": "Active",
-      "time_window": "09 Nov 2026, 14:07 UTC",
-      "summary": "Temporary full road closures on N3 between Cato Ridge & Hammarsdale interchange to accommodate bridge demolition SANRAL Stop Over",
-      "action": "Check the route before departure and allow additional journey time.",
+      "time_window": "11 Nov 2026, 02:25 UTC",
+      "summary": "Astral Foods plant workers continue protected strike over pay and safety demands in South Africa Traders Union",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "SANRAL Stop Over",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQX2Jnc3VwZWdqSU9JN0FodkJEcS1HNnhaaVdUdWVZSDBiUEFWSHlhR1FHYm44dWdMWkJsVUJ4MzhScDFoVUdZOXdKWFBjVkVOdGRRN2VGTGNYMnQzclB3VFVkUGtCNXVFNGRCRmxuVlkzaUVjOU00M2J3LVQ5T2pNdkU4blZ1RElrbG1laGxXcng4WUdZRVdOVGdsU0VhYTQ1VnJyZWpmVWlYdXE0UDRjUkRHOTNORFYyME9aTzA3UUljdG1kMVhPUjEtLUlhVEZS?oc=5",
-      "business_impact_score": 32
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEhXZmJqS0VDTm5BZUN6UzdWTHl4YlJBb3FIZ1JpbDNZQkFHLURLRGlHSy1ZMDd2S1BGZUFwSkwyVFdSVURUUTJaLUU2NnRqd1A2X1MzR3ZhdXRWZnA2cU5KUFYxTEZ3aVFuTm0zQmpQN3FSUmVUTjRIMExwVlBSVlNjU2RObmdkTEhwQTVoaw?oc=5",
+      "business_impact_score": 46
     }
   ],
   "news": [
+    {
+      "title": "Air Tanzania announces eight-day flight disruption as Airbus fleet grounded - The EastAfrican",
+      "location": "East London",
+      "city_id": "east-london",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "10 Nov 2026, 09:30 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (east london) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is direct travel relevance.",
+      "source": "The EastAfrican",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVXdIVXdEQkc2dzNYY2kyVzBBUzRhNUxndU9GQ3JlWFhpc0VPT0NicEhyQnpxS3N2akxUSlJPLUhFSkNkM1lGQzYxQVFmM2RiMldsOThrWU1ERzJxWHdjdGszbS13RWZCelNWMWhOSEtjMDI1ZWIxbk9yc282dXd2elA5aXg1UV9Ob3R0cGY2NEJ0akg2SDRjS2hQNzI1VWRnaTh0NHZKamp4ekE2VkQ4RzRGMnM?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Astral Foods plant workers continue protected strike over pay and safety demands in South Africa - Traders Union",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "11 Nov 2026, 02:25 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Traders Union",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEhXZmJqS0VDTm5BZUN6UzdWTHl4YlJBb3FIZ1JpbDNZQkFHLURLRGlHSy1ZMDd2S1BGZUFwSkwyVFdSVURUUTJaLUU2NnRqd1A2X1MzR3ZhdXRWZnA2cU5KUFYxTEZ3aVFuTm0zQmpQN3FSUmVUTjRIMExwVlBSVlNjU2RObmdkTEhwQTVoaw?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Malatsi assures uninterrupted SABC broadcasts despite power outage - SABC News",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "11 Nov 2026, 11:16 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (45/100). Assessed as limited disruption, with local or unspecified scope and local operational disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "SABC News",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONkdxNV9HM3F2elVlT0pWR09ydzc0UkhYOHpIR2RLSGEtSUFTdHIycnpBNmExNUhZR25LaERXVWg3ZThaSDZOMW1CRlZ6YXJXY0dqSWdTVWRBT2E1czFIY2t4NnhpcmRMc3lNakVWSnRrZVMxaDQ1TnBYcl96NkVXc2dSTGdtTTd1NnozbDQyQm1OVUhudWQ4dGkzSVVNallZaGZB?oc=5",
+      "business_impact_score": 45
+    },
+    {
+      "title": "SABC warns of broadcast disruptions due to prolonged power outage - Channel Africa",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "11 Nov 2026, 05:32 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (43/100). Assessed as limited disruption, with local or unspecified scope and local operational disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance. Calibration applied: local impact ceiling.",
+      "source": "Channel Africa",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY05FLUF6c3JqOHo0RDBONGhFQWhIV0I5Ulh6dzBnRDh5MmFiazNmSVc3ejZLU0V1MjluZG5LWlVQZ3Z0UW1NQUpST3d3b0dvdUt0OU9ackxGdjhlZWRObW9iMWlGUWVjRG1ubWdfOVJCTC1rZFoybDk5N3ZvR3d5aHpYbi0xajhYdGVlLXNGcndkN2lCTW9iNjRkWHJGem9jclY4NmFmVUJ5ZjM1Z2J2X2d6aGMteERY?oc=5",
+      "business_impact_score": 43
+    },
+    {
+      "title": "Thousands remain without power after second explosion at Joburg substation - African Insider",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "11 Nov 2026, 09:30 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "African Insider",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYS1xZGJvUUNLdFpaTmlQMHBKX0U1Nmk0YTI2dHRLdjU4VkRUTWpOX1NhLS1sTnlZOTdaNWFHbW96NDhWYjZCME1kaHFZb2dEVWZjYm5Tc19CR2tHdWhVa3ZGZ3FCaU1RejloZnhnYkZTNnRvZkFONk5jbzlqLWtvcnZZeDdsQkk1Rzg3OFIwQXNId2pLZlJYel9OU0puWWlCMmk5NDR0OGVJOUh3ZjZYN0UwZ190dw?oc=5",
+      "business_impact_score": 43
+    },
+    {
+      "title": "Port Delays As SA Shippers Prepare For Life After AGOA - 2oceansvibe News",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "11 Nov 2026, 10:10 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "2oceansvibe News",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdnhwa3dFdGtJblRDX1Nab3dmcEU1ZC1MQ3lYVFk4YXV3Ny1DWkR4RlU1dmJIQW9JdFkzV2RMeGFzTnQ2LTl3MDR3YVI0cDFYbVROc1RxUDVsdXR5a1k5MFI1SlJadjZTRjN0azg5QXp2NzR0UXNMNm9zX21NUy1iaUp4WXBYcG90Tk1oVFdwaDQyOEZwSzdEdGpGXy03a0ZiQ0tNNDhqSnFSRU5ieHZJY1ZCZHBkWm5WemQ0YVZjWWN5UExlM0RVT0h1R0dyVFZoM1JuVXh2TUdmY2duNXlmODNHSWllQQ?oc=5",
+      "business_impact_score": 42
+    },
+    {
+      "title": "Second explosion leaves thousands in Joburg without electricity - Scrolla.Africa",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "11 Nov 2026, 06:53 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "Scrolla.Africa",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSk5FR2lKUThoXzdiR1BmU0NjdGlRLUY5enViZ1pnd19GZl9IMEFKMlQzZWFJNk9DRWlEVXJaaVdxQkF0aDBuZlVuTERXckRQZkZ6UndpRnVJbEtYZFNjM0w5RmlhNU5raDE0SG8zaWFiTGdNaXNHX3poenlTbWZFazMwU29pdUw4dkdoZjBnYXY?oc=5",
+      "business_impact_score": 41
+    },
+    {
+      "title": "Second explosion at Joburg substation leaves thousands without electricity - IOL",
+      "location": "National",
+      "city_id": null,
+      "category": "Infrastructure",
+      "relevance": "Moderate",
+      "published": "11 Nov 2026, 06:07 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (41/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "IOL",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNHJmLUpuQ0RTZ2h6Y19yazV5ZmJZVDJOUXZ6ZS1sXzR3RzF0OU03Mk9KWVJyTkdNOWlJNUx5dlRHMXZNS2Vha28xVWNpc1VBVHRCYThuT3ZyYzNJLW5oRllob2tBYS1vZVpESEVQbDVVMU15TlB3Z21XbmVrMVJIWDBuZDNBZ2o3azkzVUwtZGhWdjJ6VTM1dEduYVVNZFRvLUpnNXdqSDBLR05DMFV5YkhRQTR0bGt0QVZqN0xRaw?oc=5",
+      "business_impact_score": 41
+    },
     {
       "title": "Security forces deployed after reported attacks and looting in Durban CBD - IOL",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Security and crime",
       "relevance": "Guarded",
-      "published": "09 Nov 2026, 17:24 UTC",
+      "published": "09 Nov 2026, 17:27 UTC",
       "event_date": "",
       "summary": "Guarded business impact (35/100). Assessed as no clear immediate threat, with city scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "IOL",
@@ -177,93 +289,37 @@
       "business_impact_score": 35
     },
     {
-      "title": "Customs and Excise Act: Amendment to Part 1 of Schedule No. 1 (No. 1/1/1980) (English/ Afrikaans)",
+      "title": "Independent Communications Authority of South Africa Act and the Electronic Communications Act: Hereby issues a notice regarding a Questionnaire on Assignment of High-Demand Radio Frequency Spectrum",
       "location": "National",
       "city_id": null,
       "category": "Government",
       "relevance": "Guarded",
-      "published": "09 Nov 2026, 10:02 UTC",
-      "event_date": "Mon, 09 Nov 2026 10:02:59 +0000",
+      "published": "11 Nov 2026, 09:46 UTC",
+      "event_date": "Wed, 11 Nov 2026 09:46:56 +0000",
       "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
       "source": "South African Government",
       "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/customs-and-excise-act-amendment-part-1-schedule-no-1-no-111980-english-afrikaans",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Promotion of Access to Information Act: Rules of Procedure for Application to Court",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "09 Nov 2026, 09:46 UTC",
-      "event_date": "Mon, 09 Nov 2026 09:46:28 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/promotion-access-information-act-rules-procedure-application-court-06-nov-2026",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Public Finance Management Act (“PFMA”): RE: Services SETA—Termination/Cancellation of prescribed, Domant and Lapsed Discretionary Grant Projects with Public Institutions",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "09 Nov 2026, 09:44 UTC",
-      "event_date": "Mon, 09 Nov 2026 09:44:40 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/public-finance-management-act-%E2%80%9Cpfma%E2%80%9D-re-services-seta%E2%80%94terminationcancellation",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Labour Relations Act: Bargaining Council for the Furniture Manufacturing Industry KwaZulu-Natal: Extension to Non-Parties of the Main Collective Amending Agreement",
-      "location": "National",
-      "city_id": null,
-      "category": "Government",
-      "relevance": "Guarded",
-      "published": "09 Nov 2026, 09:41 UTC",
-      "event_date": "Mon, 09 Nov 2026 09:41:43 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/labour-relations-act-bargaining-council-furniture-manufacturing-industry-61",
-      "business_impact_score": 27
-    },
-    {
-      "title": "Financial Markets Act: Approved amendments to JSE Listing Requirements: Corporate Governance",
-      "location": "National",
-      "city_id": null,
-      "category": "Economy and business",
-      "relevance": "Guarded",
-      "published": "09 Nov 2026, 09:15 UTC",
-      "event_date": "Mon, 09 Nov 2026 09:15:07 +0000",
-      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
-      "source": "South African Government",
-      "confidence": "Confirmed",
-      "url": "https://www.gov.za/documents/notices/financial-markets-act-approved-amendments-jse-listing-requirements-corporate",
+      "url": "https://www.gov.za/documents/notices/independent-communications-authority-south-africa-act-and-electronic-3",
       "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "afrikaans": {
-      "word": "Kantoor",
-      "english": "Office",
-      "pronunciation": "kahn-TOOR",
-      "example": "Ons ontmoet by die kantoor.",
-      "example_english": "We are meeting at the office.",
-      "use_note": "Useful for confirming a workplace or meeting location."
+      "word": "Afspraak",
+      "english": "Appointment",
+      "pronunciation": "AHF-sprahk",
+      "example": "Ek sien uit na ons afspraak.",
+      "example_english": "I am looking forward to our appointment.",
+      "use_note": "Useful when arranging or referring to a scheduled professional meeting."
     },
     "isixhosa": {
-      "word": "Ndiphilile",
-      "english": "I am well",
-      "pronunciation": "n-dee-pee-LEE-leh",
-      "example": "Ndiphilile, enkosi.",
-      "example_english": "I am well, thank you.",
-      "use_note": "A useful response when someone asks how you are."
+      "word": "Kulungile",
+      "english": "It is okay / All right",
+      "pronunciation": "koo-loon-GEE-leh",
+      "example": "Kulungile.",
+      "example_english": "All right.",
+      "use_note": "A useful acknowledgement in everyday conversation."
     },
     "rotation": "daily",
     "source_type": "curated"
