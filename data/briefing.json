@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-13T14:39:29.640361+00:00",
-    "generated_display": "13 Nov 2026, 14:39",
+    "generated_at": "2026-11-14T13:36:41.485655+00:00",
+    "generated_display": "14 Nov 2026, 13:36",
     "timezone": "Europe/London",
-    "raw_item_count": 593,
-    "normalised_item_count": 91,
-    "final_item_count": 84,
+    "raw_item_count": 586,
+    "normalised_item_count": 90,
+    "final_item_count": 81,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 567
+        "item_count": 560
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,18 +28,18 @@
     }
   },
   "national": {
-    "score": 64,
+    "score": 66,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (64/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 33
+        "score": 31
       },
       {
         "name": "Civil unrest",
-        "score": 48
+        "score": 46
       },
       {
         "name": "Infrastructure",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "13 Nov",
-      "score": 64,
-      "explanation": "High national business risk (64/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "14 Nov",
+      "score": 66,
+      "explanation": "High national business risk (66/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -89,7 +89,7 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 31,
+      "score": 34,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, security and crime."
     },
@@ -99,9 +99,9 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 33,
+      "score": 37,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
     {
       "id": "gqeberha",
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 27,
-      "level": "Low",
-      "summary": "Current city risk is being driven by infrastructure, unclassified news."
+      "score": 31,
+      "level": "Guarded",
+      "summary": "Current city risk is being driven by security and crime, infrastructure."
     },
     {
       "id": "bloemfontein",
@@ -119,7 +119,7 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 35,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     },
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 35,
+      "score": 36,
       "level": "Guarded",
       "summary": "No strong city-specific incidents were identified in the current collection period."
     }
@@ -140,26 +140,12 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-13T14:39:29.640361+00:00",
+    "last_checked": "2026-11-14T13:36:41.485655+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
-    {
-      "title": "N3 Northbound closed near London Road after fatal crash - Jacaranda FM",
-      "location": "Pretoria / Tshwane",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "11 Nov 2026, 14:40 UTC",
-      "summary": "N3 Northbound closed near London Road after fatal crash Jacaranda FM",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "Jacaranda FM",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVC1IcEZFZkNEeWo4TkhhVi1hRmIteWdXZm1WWFlFNTE3LXVFWkphaG1RNzZnM2kza3U4a096bUxvbUFGWnFIckJ3OE1ONkJobExJb2QyVlhpck5Nazh2MUQtd18xMVJ4YmlCdXhUZC0wOGI3NHlON0Jyai1zQjY0LWFENkxKWGhjZHJxVmNVVjRlSVU?oc=5",
-      "business_impact_score": 24
-    },
     {
       "title": "Cape Town roadworks: Drivers warned of disruptions across the metro into December - Cape Town ETC",
       "location": "Cape Town",
@@ -175,35 +161,63 @@
       "business_impact_score": 23
     },
     {
-      "title": "Newlands M3 roadworks: What changes on Monday and who will notice - Cape Town ETC",
-      "location": "Cape Town",
-      "type": "Road closure",
-      "severity": "Low",
+      "title": "South Africa releases Fani-Kayode’s speech in new video after protest over livestream omission - TheCable",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
       "status": "Active",
-      "time_window": "12 Nov 2026, 05:50 UTC",
-      "summary": "Newlands M3 roadworks: What changes on Monday and who will notice Cape Town ETC",
-      "action": "Check the route before departure and allow additional journey time.",
+      "time_window": "13 Nov 2026, 22:07 UTC",
+      "summary": "South Africa releases Fani-Kayode’s speech in new video after protest over livestream omission TheCable",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Cape Town ETC",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GTHJ3N1dDUC1PUjZHb1V3YzlBNTB1S1Zqa2VqeDVxcWxYSmxhOEJPR1hVR1c2bHpmRHJyZG1CaDEyQWwxMk5uNEZOVVA3UElyOTZHQTJ3VENtckFmc0ZrUVVDZlhHaVVKNGlrQ2FMRGhsazVWYncxWFRB?oc=5",
-      "business_impact_score": 23
+      "source": "TheCable",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa2ZldnFzRDUteXc3dVgzamJDajVybU4xUFVXbVgyM0k2QnhnQVFOcWFHYnN0M204QzdMdWJSWWdhUUpyck9McTdoaVUwZmZOMk1YT3pYRzZ1V19TNEdMVUVfd05qUGpXT2tqS3NncVgyT25seWJVRWRIU1N4TmtpMmhkRXVmVFBLSmJEQlBQbVFsakREVjB1OVNGQ1BWVVNIZDJ4U2c4bVJyS0tvRXg2VjdNVnVvejRoa0E?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Kenya strike late to peg back Bafana Bafana - SuperSport",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "13 Nov 2026, 19:34 UTC",
+      "summary": "Kenya strike late to peg back Bafana Bafana SuperSport",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "SuperSport",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOEpBMy1iMS1LZmFnVDRXMllwdGZBdWlvbGlOTGhGS2hIN3VzUDZvclJkX0F0TnlQV2VraVZfLWJwQkM4bGs2WVZLRTNfYndIN1ZPd0U4a1FvVXFQU1R6ZEhhZ01BcHd5Z1hpVllaaFRtQk1pNzB3a2ZMQzRKMzJtWThINV9IUmhsa2VzbXFYTTBBcWE2MDRhTjVSRnBfYzZPbVR2SkxYcVBkSnNXQkRwQmNCV3djcDZH?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "South Africa releases Fani-Kayode’s speech after protest - Punch Newspapers",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "13 Nov 2026, 16:48 UTC",
+      "summary": "South Africa releases Fani-Kayode’s speech after protest Punch Newspapers",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Punch Newspapers",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOXlTcWtwUUhhcnJuRXRBaEV5MlpacVAxNU1CY2dQLXk5V2dWNk9zSTFGenBOQjFYUERyaVVHYmczdmd5a05sT3J5QlJtVk9RWVY5VEJtdHkzZklvbkdsTTNFeGFxdTdxYktnNnFyVTkwU05RakpuLXRoRngyX3dmMkd3?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "N3 shutdown to disrupt weekend travel between PMB, Durban - The Witness | Your compass in the community",
+      "location": "Durban / eThekwini",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "13 Nov 2026, 07:54 UTC",
+      "summary": "N3 shutdown to disrupt weekend travel between PMB, Durban The Witness | Your compass in the community",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "The Witness | Your compass in the community",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUWExTjliS0lad3VuWXN6N3JmTTlsWUU4RVprUTNPQmVSb1VnOHRraTBxa3dMU19wWnZLNXVuVkNfSldScVpYX2NUNDFNVHdOb2Z0dlJ3RlVPM2FlZGdkVW5rNnd1U3d4NEdReUxtOFJTVTMzUG4tSHVQbk5xYXBsVi1iMG9hcU5wZHQ3WFhYcW5FbkNINkZMampIOA?oc=5",
+      "business_impact_score": 43
     }
   ],
   "news": [
-    {
-      "title": "Gauteng intensifies stop-and-search operations to take unsafe public transport vehicles off the road - South African Government News Agency",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "12 Nov 2026, 06:13 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is movement relevance.",
-      "source": "South African Government News Agency",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOUpKVklmS01kbV9vaEdZNXhlODd3QVlDZ1VMcnFWSWlvNnFGekswV1NNYzRPTkZkU2I0T0tWTGF3ZlctR2tsdEpvc2REeEF2cDJHR0RudHVtdm10R25GR29WQmpuV0RxejFHMHU1SVVyMGxqdUhnR3lacmVfZVRhUlR5bDFSZHhNM2dEZW1fV29Ydk15OE1jNTNKN191VENrYWZzd041dkVSX2Vnb0laMmJlU0pSLXMyMGxZcjdBVG4?oc=5",
-      "business_impact_score": 47
-    },
     {
       "title": "Restitution of Land Rights Act 1994: Amendment: Portion 11, Droogefontein 242 IR: Comments invited",
       "location": "National",
@@ -233,18 +247,46 @@
       "business_impact_score": 46
     },
     {
-      "title": "MTA: Port disruption drives FY2026 costs estimated at 20%-25% of FY2025 reported EBITDA - TradingView",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
+      "title": "South Africa releases Fani-Kayode’s speech in new video after protest over livestream omission - TheCable",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "13 Nov 2026, 06:42 UTC",
+      "published": "13 Nov 2026, 22:07 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "TradingView",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "TheCable",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOR0tJZ0RpRG55bTVtMElHelJCZ2JweXlpTUJuOTJrWl9MdzdZWjd2RWpfNDI5dUotQ21mZlhudWRnMlNhUkVzN1dDODk0d19DenFuWmV4NktDa3BLRk5Rc0FaWGd6eERxWDlGTThiMTBha1dhSTlaOGxDem1nUmZ5UkRYSHZLOWwxUlhqcjZrclcxWERiM0JHQk52X0N1NmFfbkNnVVk2YW5MalgtUjhqaDR3M1RPclEwOFFCRE9qekJ5eVktTkJUeE1JR2lHMkJuZnpTZE1GVlI0OFlaNDFlZHpYVVE4QzE4WmxZOTBoRkdDbzczVnJtandwOA?oc=5",
-      "business_impact_score": 44
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa2ZldnFzRDUteXc3dVgzamJDajVybU4xUFVXbVgyM0k2QnhnQVFOcWFHYnN0M204QzdMdWJSWWdhUUpyck9McTdoaVUwZmZOMk1YT3pYRzZ1V19TNEdMVUVfd05qUGpXT2tqS3NncVgyT25seWJVRWRIU1N4TmtpMmhkRXVmVFBLSmJEQlBQbVFsakREVjB1OVNGQ1BWVVNIZDJ4U2c4bVJyS0tvRXg2VjdNVnVvejRoa0E?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Kenya strike late to peg back Bafana Bafana - SuperSport",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "13 Nov 2026, 19:34 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "SuperSport",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOEpBMy1iMS1LZmFnVDRXMllwdGZBdWlvbGlOTGhGS2hIN3VzUDZvclJkX0F0TnlQV2VraVZfLWJwQkM4bGs2WVZLRTNfYndIN1ZPd0U4a1FvVXFQU1R6ZEhhZ01BcHd5Z1hpVllaaFRtQk1pNzB3a2ZMQzRKMzJtWThINV9IUmhsa2VzbXFYTTBBcWE2MDRhTjVSRnBfYzZPbVR2SkxYcVBkSnNXQkRwQmNCV3djcDZH?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "South Africa releases Fani-Kayode’s speech after protest - Punch Newspapers",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "13 Nov 2026, 16:48 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Punch Newspapers",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOXlTcWtwUUhhcnJuRXRBaEV5MlpacVAxNU1CY2dQLXk5V2dWNk9zSTFGenBOQjFYUERyaVVHYmczdmd5a05sT3J5QlJtVk9RWVY5VEJtdHkzZklvbkdsTTNFeGFxdTdxYktnNnFyVTkwU05RakpuLXRoRngyX3dmMkd3?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "Metair shares tumble as Port of Durban delays take toll - Business Day",
@@ -261,93 +303,79 @@
       "business_impact_score": 44
     },
     {
-      "title": "Business casts a wary eye on Port of Durban as delays persist - Daily Maverick",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
+      "title": "N3 shutdown to disrupt weekend travel between PMB, Durban - The Witness | Your compass in the community",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "11 Nov 2026, 17:47 UTC",
+      "published": "13 Nov 2026, 07:54 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "Daily Maverick",
+      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (durban / ethekwini) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
+      "source": "The Witness | Your compass in the community",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZnFZNWF0bjZPNlh1WXBOSzdOaUtGUVZRX1M2NmJqalA1ZndmdWVHZGItakVpRW1tZVBmY3BEeU0tTU5PSDdmdFhkLU4tSTlRVktrekg4OV8zaUF4allEZWltVzdoNDB4V2Vpek1nSzltT1BBUmtKb1lWckVwTml4TTRLZU5OanpMbkpNSV9sd092SlVUSHg5RGVZa1hJRUZzR1dzVmZUVjdPQ3dqNlJPVmJrTGhSRnZKeFFZ?oc=5",
-      "business_impact_score": 44
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUWExTjliS0lad3VuWXN6N3JmTTlsWUU4RVprUTNPQmVSb1VnOHRraTBxa3dMU19wWnZLNXVuVkNfSldScVpYX2NUNDFNVHdOb2Z0dlJ3RlVPM2FlZGdkVW5rNnd1U3d4NEdReUxtOFJTVTMzUG4tSHVQbk5xYXBsVi1iMG9hcU5wZHQ3WFhYcW5FbkNINkZMampIOA?oc=5",
+      "business_impact_score": 43
     },
     {
-      "title": "Metair warns of earnings hit as Durban port delays drive up costs - Engineering News",
+      "title": "Billionaire Patrice Motsepe's nickel mine accused of excluding local communities from jobs and business opportunities despite operating in their backyard - Business Insider Africa",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "13 Nov 2026, 07:51 UTC",
+      "published": "13 Nov 2026, 14:58 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Engineering News",
+      "summary": "Moderate business impact (43/100). Assessed as no clear immediate threat, with local scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Business Insider Africa",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUDhfRUlTX1lNRldhdHd4ZGFxbzNsUXdBUDZlQ2dlNVJrUXctc2tKa2VTeTFyUmszMUdWNy04MFhDVVBhNGp2NFdOQUNlLWo0b1Jvc0xZQThseDg5ejZaM2xJX1hmVWpCQ25ONlk3MEkweHdSLU9GOFU1RnZEYTE1SGFtQUVPcGFwY0IxZHBqckpOb0FzaVlha3htQkxzbHpmakdGSW9uUzY2aEdhR0dNRVQydUZqVmRVel9pSkRZY2VkeVV1XzRFemszZzNJYUhCbXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcnEzY2VMUXhnTm8tSWFBa3Jzd1ctQ1dUWmFJcWVjX1VKTnpTb05UQXNzdnMtelNZMFdUNzBfMmZOYTVrdjJ4cnlMQkpGeGZDMFBVbG9TeHM4Mk92ZlFvbmZXVzVMT0N4T3kxT3BMMVBUYTZfM1NjZE5tbzc1TUZ6bG5kZWZhSFVwRGZmS2dHT1dDZlpnTERQZUc1YWxhSXR1clJweUFvQXlDMW95dVlQa0FoUnJUSlpvTmcwRzVwVGpNeFc0TG5EQnFCWGlmTFByT25STFEtVXE?oc=5",
+      "business_impact_score": 43
+    },
+    {
+      "title": "Perinatal Deaths: What the Latest Statistics Reveal",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "13 Nov 2026, 12:22 UTC",
+      "event_date": "Fri, 13 Nov 2026 12:22:04 +0000",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Statistics South Africa",
+      "confidence": "Confirmed",
+      "url": "https://www.statssa.gov.za/?p=20096",
       "business_impact_score": 42
     },
     {
-      "title": "Port delays and war squeeze citrus export returns - Freight News",
+      "title": "South Africa’s Auto Industry Threatened by Worsening Port Delays - Bloomberg",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "12 Nov 2026, 12:51 UTC",
+      "published": "14 Nov 2026, 11:02 UTC",
       "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Freight News",
+      "source": "Bloomberg",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdGtWWXBlVnpDSUlqYW1aZnlFYjZrbENjdWVacVcxMzRBc1h6QXh4YTM4YmxBcGVxa0c2NS15aDNjTEd5ZDBkVUgtNFhjMUtHLVo3ZnF1VUlfNC05VW01RHVvV1NBM0ZtUmVUeE1ScDBoVjFSNTcyd3YyYllZdTZfVkt2UWdkc05KNUs4?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "DA reports Ottosdal water crisis to SAHRC and Public Protector following prolonged water disruptions - Democratic Alliance",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "12 Nov 2026, 11:21 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Democratic Alliance",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOGdSVWNJWVh1bXlncFdzbTdVUzVidHhtUFZIaVFwclE2M3BDcWItN1dMeE5qQUs4aXNueDdqRTNQY3JIMW9YV0poejc4SXI5djl3Zk5aMXQ0SzVEUHJWUGRlaUxSZ1Z6TVRjS1pwSnZPYThpUHVKekN5em5tSDlkNjN2czNYT1FPeGd1QVJBVDZtY0tvU3pnZzVOSk84VEd4MG5lNHdhY2Zid2NrQmJCUEc3U0VlMzU4YmdPVVRPbk5RdGZjSm1BTA?oc=5",
-      "business_impact_score": 42
-    },
-    {
-      "title": "ECIC marks 25 years of supporting South Africa’s export ambitions - South African Daily",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "12 Nov 2026, 07:16 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "South African Daily",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcFMyaXJIX1lKMG1pV3FoTFJqVm1BempJZXRyalZqOUtxb0ZJeHVTQm5PYmpZUHpwSW5BSkdOQlNpR1lpWGRXcUlaT1hlREJreFh4R3p2bWdTdXB6S244NUs3dWE0b3ppSU9BaFg5M3JsZVJjdF85Ty1TRHptbC1XbGpRX2luNjdUdTBXcmNOSDh5dUJLdkJrV0pCanBTOWtsT05qMEV4RnhOUU51NThHNUo3a2U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNblhveHVDWGZLMV81NGZtX2RybDRmY1F3dmt5UExWOEhBU2RES3VoRGlJMmdNenZKaUxXSXpFYUFJbGZQWFVfX0kteHlMOGx0UGpBMHNITk9xbHdHRTNtRHlOYVJFMXc5dlkxXzJqMzY3ZElPa0xGbDZZa0J5Z2FVRnM0UlpiN3M0eWNvTUdLdGVTVmstRnNHVWVfSU1iYlZncHptSmFWcWtucWlDb3J0VGduN2tndw?oc=5",
       "business_impact_score": 42
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "afrikaans": {
-      "word": "Begin",
-      "english": "Begin / Start",
-      "pronunciation": "buh-KHIN",
-      "example": "Sal ons begin?",
-      "example_english": "Shall we begin?",
-      "use_note": "A concise and useful phrase for opening a meeting once everyone is ready."
+      "word": "Saamstem",
+      "english": "Agree",
+      "pronunciation": "SAHM-stem",
+      "example": "Ek stem saam.",
+      "example_english": "I agree.",
+      "use_note": "Useful in meetings and negotiations when expressing agreement clearly and politely."
     },
     "isixhosa": {
-      "word": "Sala kakuhle",
-      "english": "Goodbye (to one person staying)",
-      "pronunciation": "SAH-lah kah-KOO-hleh",
-      "example": "Sala kakuhle.",
-      "example_english": "Goodbye.",
-      "use_note": "Traditionally said by the person leaving to one person who is staying."
+      "word": "Molweni",
+      "english": "Hello (several people)",
+      "pronunciation": "moh-LWEH-nee",
+      "example": "Molweni.",
+      "example_english": "Hello, everyone.",
+      "use_note": "The plural greeting, useful when entering a meeting or greeting a group."
     },
     "rotation": "daily",
     "source_type": "curated"
