@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-16T15:55:08.352816+00:00",
-    "generated_display": "16 Nov 2026, 15:55",
+    "generated_at": "2026-11-17T16:06:34.888670+00:00",
+    "generated_display": "17 Nov 2026, 16:06",
     "timezone": "Europe/London",
-    "raw_item_count": 578,
-    "normalised_item_count": 93,
-    "final_item_count": 83,
+    "raw_item_count": 593,
+    "normalised_item_count": 104,
+    "final_item_count": 94,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -15,11 +15,11 @@
       },
       "South African Government": {
         "status": "success",
-        "item_count": 10
+        "item_count": 20
       },
       "National and city news": {
         "status": "success",
-        "item_count": 562
+        "item_count": 567
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -35,15 +35,15 @@
     "components": [
       {
         "name": "Security",
-        "score": 34
+        "score": 37
       },
       {
         "name": "Civil unrest",
-        "score": 46
+        "score": 47
       },
       {
         "name": "Infrastructure",
-        "score": 23
+        "score": 25
       },
       {
         "name": "Transport",
@@ -51,13 +51,13 @@
       },
       {
         "name": "Business environment",
-        "score": 26
+        "score": 27
       }
     ]
   },
   "timeline": [
     {
-      "date": "16 Nov",
+      "date": "17 Nov",
       "score": 68,
       "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -69,9 +69,9 @@
       "latitude": -26.2041,
       "longitude": 28.0473,
       "default_zoom": 11,
-      "score": 44,
+      "score": 41,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
+      "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
     {
       "id": "cape-town",
@@ -91,7 +91,7 @@
       "default_zoom": 11,
       "score": 37,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, road and transport disruption."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 40,
+      "score": 43,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 25,
-      "level": "Low",
-      "summary": "Current city risk is being driven by economy and business, unclassified news."
+      "score": 37,
+      "level": "Guarded",
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "east-london",
@@ -129,9 +129,9 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 37,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 25,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     }
   ],
   "travel_advice": {
@@ -140,7 +140,7 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-16T15:55:08.352816+00:00",
+    "last_checked": "2026-11-17T16:06:34.888670+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
@@ -180,7 +180,7 @@
       "type": "Road closure",
       "severity": "Low",
       "status": "Active",
-      "time_window": "16 Nov 2026, 05:41 UTC",
+      "time_window": "16 Nov 2026, 06:41 UTC",
       "summary": "N3 Durban-bound closed after bus crash near Pietermaritzburg The Mercury.co.za",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
@@ -189,12 +189,26 @@
       "business_impact_score": 24
     },
     {
+      "title": "N3 Durban-bound closed after bus crash near Pietermaritzburg - IOL",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "16 Nov 2026, 06:03 UTC",
+      "summary": "N3 Durban-bound closed after bus crash near Pietermaritzburg IOL",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZVRhU2wyM01Dd1pVT19GVVA0ZVhZQnRoTk44cXBzMUxvSWZBMEVzYmhlekN4VFNFTF9zT0h0Um94ZzFGRmE2eWZqWmM3ZWk0djU2OFdwWVJpYWRzd0VfMlY2MENDRUFBY0l2dXFjcmowLUMwZ3paOEp5T0RkclpmeFhWRV92ZzRGVVI5UDZ5TXcxSUNRelNjYXJVUzhqa1V3dkNsWFNR?oc=5",
+      "business_impact_score": 24
+    },
+    {
       "title": "WATCH: N3 closed towards Durban after bus crash near New England Road - IOL",
       "location": "Durban / eThekwini",
       "type": "Road closure",
       "severity": "Low",
       "status": "Active",
-      "time_window": "16 Nov 2026, 04:24 UTC",
+      "time_window": "16 Nov 2026, 04:23 UTC",
       "summary": "WATCH: N3 closed towards Durban after bus crash near New England Road IOL",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
@@ -203,59 +217,45 @@
       "business_impact_score": 24
     },
     {
-      "title": "Simon's Town community protest over capture of baboons - EWN",
-      "location": "National",
+      "title": "Motorists warned to avoid Heidelberg Road amid protest - SABC News",
+      "location": "Johannesburg",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "15 Nov 2026, 12:48 UTC",
-      "summary": "Simon's Town community protest over capture of baboons EWN",
+      "time_window": "17 Nov 2026, 08:44 UTC",
+      "summary": "Motorists warned to avoid Heidelberg Road amid protest SABC News",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN21iS0diNUp1djRZOXJwTjRLSzdySEdrN3JJaW8wWWNKdkd0bG1wcFltNVRDTGNscE1KaWxZV0RfQTZqN29yYkphTHpBcG5JVzVoWEIyX1VHXzhxeWdnU19rZEs0ZVlCYVRCaXpyNkFMcFlFc0tjM29YZjB6MkdHQmZTbno1bXlCbV9XZFpJWQ?oc=5",
-      "business_impact_score": 48
+      "source": "SABC News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeDVuSnFQaFRyQ0hrcWQxM3Y5QTh0MENsNzIyZUFiczNNSmVOU2hyc2hLSWZsaExZaTJvbVpRN0ZmYUh0NmVGUFJ2S2plUjZXclZ0ME14eGQ5bkdnbzV1eml5Vl9zbTZfZTNMWGtmN29maVZyZ08zSlhmMWlfQ1VLOGlHdHN2czE0Sm5WRGk3RTdOcEk?oc=5",
+      "business_impact_score": 49
     },
     {
-      "title": "Hasan's early strike quickly forgotten as South Africa dominate post-Lunch - The Daily Star",
+      "title": "Bangladesh strike back before rain halts play in Johannesburg - The Daily Star",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "16 Nov 2026, 12:58 UTC",
-      "summary": "Hasan's early strike quickly forgotten as South Africa dominate post-Lunch The Daily Star",
+      "time_window": "17 Nov 2026, 12:56 UTC",
+      "summary": "Bangladesh strike back before rain halts play in Johannesburg The Daily Star",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
       "source": "The Daily Star",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYUQ5TDNqS1A3SElkbEhEU21GVXpMUFZaRnVCcnFPVmFWYzFSckhtS2hzaDJJN3NKaFNkMzIwaXNSMHVVSHFfaEdOa0MtTW96czNkOXpQS3ZvQnR1d1NYTGV0TmlpbjJlaU45TllENFhaVU1KREt5M3Z0d1FGaXQ5VFJGUzBNWmdlblpManRBTlV6NGZGSmF0YXprTzJKWjJPVWE2akc5YjRlcEN4VlRSZ2pPNWxVeHBnb1ExbEZ2azVEcXhVSHc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNHd1VUFOOFhNRDZISEF6TUh0b1J1QnpQY0lOSzh2dFNpMFFDVWJ2ZWdaMVZldlZjbFNUM3dIZWZKVGs3Y2RsQll4ejZwbXpfLTBiZTN3ZlFSLTlrVUw4RGtycm5LekNKd1dGYnIyMzByUEhfNnlrXzdHQV9Hbk4yQ0tnTDFFS3ZiWE9Obkk3NUN5Wkk?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Poultry worker strike expands to Krugersdorp - GroundUp",
+      "title": "Hasan Mahmud celebrates a late strike before lunch - Cricinfo",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "16 Nov 2026, 12:38 UTC",
-      "summary": "Poultry worker strike expands to Krugersdorp GroundUp",
+      "time_window": "17 Nov 2026, 12:40 UTC",
+      "summary": "Hasan Mahmud celebrates a late strike before lunch Cricinfo",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "GroundUp",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa2ppcEpaMENuY040S2l2ekxJMGh5NjVoZFlvUHdDRjhObzFBWFZVVFg1UzBGSE81eWU0dnBoLWRpemVUczBmSllpNVJZRW1aUkEyY0JoR0VkU2VaNmI0eXI3emhycHFDX0JiVXVUXzRhZWpiRzdZYnRKTjlmakstZVVWOA?oc=5",
-      "business_impact_score": 46
-    },
-    {
-      "title": "Barcelona strike deal worth 300 million euros - Goal.com",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "16 Nov 2026, 10:52 UTC",
-      "summary": "Barcelona strike deal worth 300 million euros Goal.com",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Goal.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQm5RS1VnSE05RHV3SnlLUkNfZjZSZi1fenVYS1B3OGxXTGptdVNxWWhiQk1Ueno0MXJ4eFRmdGhLaW9MbnFHZEwzLXAxYWdrVVp2dUhhMkJIRDJoUU1PZmE4UEM3dEpVaS0yb0VfdXFlNWNISi16VXg0OWFwcEszd0kxZmMwTkRZeWNadXNXeHpmZUtGdUh3azg5WjB5Zw?oc=5",
+      "source": "Cricinfo",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2tUQlhEV3FBekw1OURZUGRjWEtBZ2t3cUtPUWZ6NVFjTENyRWtDdTI2d1c0STJ3ZTF4ZzJXYlJQNGpiMlJCdWpTM2RxODdIb2EyWEgxMXNvTko1VXJlZjhHNVEzMmNnd1Z5NnVBaEJDYVVNcG1PQWNmbzBnLWg0bm90MXJHWEczZkJVYU9UZVZKT1E?oc=5",
       "business_impact_score": 46
     }
   ],
@@ -289,18 +289,32 @@
       "business_impact_score": 54
     },
     {
-      "title": "Simon's Town community protest over capture of baboons - EWN",
-      "location": "National",
-      "city_id": null,
+      "title": "Motorists warned to avoid Heidelberg Road amid protest - SABC News",
+      "location": "Johannesburg",
+      "city_id": "johannesburg",
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "15 Nov 2026, 12:48 UTC",
+      "published": "17 Nov 2026, 08:44 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "EWN",
+      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "source": "SABC News",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN21iS0diNUp1djRZOXJwTjRLSzdySEdrN3JJaW8wWWNKdkd0bG1wcFltNVRDTGNscE1KaWxZV0RfQTZqN29yYkphTHpBcG5JVzVoWEIyX1VHXzhxeWdnU19rZEs0ZVlCYVRCaXpyNkFMcFlFc0tjM29YZjB6MkdHQmZTbno1bXlCbV9XZFpJWQ?oc=5",
-      "business_impact_score": 48
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeDVuSnFQaFRyQ0hrcWQxM3Y5QTh0MENsNzIyZUFiczNNSmVOU2hyc2hLSWZsaExZaTJvbVpRN0ZmYUh0NmVGUFJ2S2plUjZXclZ0ME14eGQ5bkdnbzV1eml5Vl9zbTZfZTNMWGtmN29maVZyZ08zSlhmMWlfQ1VLOGlHdHN2czE0Sm5WRGk3RTdOcEk?oc=5",
+      "business_impact_score": 49
+    },
+    {
+      "title": "South Africa: 17 killed in separate mass shooting incidents in Gauteng and KwaZulu-Natal - DW.com",
+      "location": "Pretoria / Tshwane",
+      "city_id": "pretoria-tshwane",
+      "category": "Security and crime",
+      "relevance": "Moderate",
+      "published": "17 Nov 2026, 01:43 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "DW.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMmhYSXVUcWwzdGZrZUlxRFVxbnlZLUdBRE82QnRORTBkdTJRQTNSblc3MGt6QTBvZFBuZzRaSS1Zb192Rm1lQkdsd0x3Nzlxc251YnNTWTZIaW1NNTEyeDhUcUNkNVo1REZBVnpDUTdUZ1R4bG5BbTlUdFBiT24zVXhlcjlqV1g4Ykx0eEdxUlJHY0x1aGfSAZYBQVVfeXFMT0JIaVNHYnl0XzBkMVdVWDZxZXJMeTZEZk93dnlWcUtRTFA1Z2JjQ3AxYmxXRnFlTEtDd3RycXl4TmROV3lDX3RGV1BZd0F1V3dUSEQ0UFRaVERyMGxqOWdZb0FmSGRmZjFlN2NQbDJ5MkZiOFFaQ1RoRHV1aC1VLVgycmNrX1F4MGRUQXFwNEJ6OXJUN3pn?oc=5",
+      "business_impact_score": 47
     },
     {
       "title": "Nine killed in mass shooting at Pretoria informal settlement - IOL",
@@ -308,7 +322,7 @@
       "city_id": "pretoria-tshwane",
       "category": "Security and crime",
       "relevance": "Moderate",
-      "published": "16 Nov 2026, 07:24 UTC",
+      "published": "16 Nov 2026, 08:11 UTC",
       "event_date": "",
       "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "IOL",
@@ -317,107 +331,93 @@
       "business_impact_score": 47
     },
     {
-      "title": "SA car industry threatened by Durban port delays - News24",
+      "title": "Freight forwarders warn Durban crisis is choking South Africa’s supply chains - EWN",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "16 Nov 2026, 09:39 UTC",
+      "published": "17 Nov 2026, 09:43 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "News24",
+      "source": "EWN",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZjdRZ3JlUEFSV1R0Q3I2N3VkUnJuUk5TWmpDaTBvX0hqUEhpY1BPekZOQjUzLU5DZXNvN2VVbktlWC1XY1IzZkZleDNuRHFudExkVzlXdjdfNTVmUXJPTGhPa3ZjZUxMaWhjS1l1S0VrWjhJczBjazVmNC0tX3RJSFdwSXgyX0c4cmJIdV9FTE9iQzU2bWxtVnpQcTZLX096VlBYRA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa2I5N3J6QWoydkdSd2ZBbUxPeFYxUjVRcEcxdWhnbjN5bEp0SlY3aVRhWmFYeXRXbWUwa2lWQklDSkF5N3ZHU3ZjZDdFNEJsemF3SWlBVFU1dGNocDNFYnYzbWU3RTZOUzVRMUhIWHNqMmx4dG96RFJWeDNvaFRrOTRwdHdrZnpVS2R6dFBxM2wxeXdDYjRqOVZKMjdySWMycXc?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Hasan's early strike quickly forgotten as South Africa dominate post-Lunch - The Daily Star",
+      "title": "Bangladesh strike back before rain halts play in Johannesburg - The Daily Star",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "16 Nov 2026, 12:58 UTC",
+      "published": "17 Nov 2026, 12:56 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "The Daily Star",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYUQ5TDNqS1A3SElkbEhEU21GVXpMUFZaRnVCcnFPVmFWYzFSckhtS2hzaDJJN3NKaFNkMzIwaXNSMHVVSHFfaEdOa0MtTW96czNkOXpQS3ZvQnR1d1NYTGV0TmlpbjJlaU45TllENFhaVU1KREt5M3Z0d1FGaXQ5VFJGUzBNWmdlblpManRBTlV6NGZGSmF0YXprTzJKWjJPVWE2akc5YjRlcEN4VlRSZ2pPNWxVeHBnb1ExbEZ2azVEcXhVSHc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNHd1VUFOOFhNRDZISEF6TUh0b1J1QnpQY0lOSzh2dFNpMFFDVWJ2ZWdaMVZldlZjbFNUM3dIZWZKVGs3Y2RsQll4ejZwbXpfLTBiZTN3ZlFSLTlrVUw4RGtycm5LekNKd1dGYnIyMzByUEhfNnlrXzdHQV9Hbk4yQ0tnTDFFS3ZiWE9Obkk3NUN5Wkk?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Poultry worker strike expands to Krugersdorp - GroundUp",
+      "title": "Hasan Mahmud celebrates a late strike before lunch - Cricinfo",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "16 Nov 2026, 12:38 UTC",
+      "published": "17 Nov 2026, 12:40 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "GroundUp",
+      "source": "Cricinfo",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa2ppcEpaMENuY040S2l2ekxJMGh5NjVoZFlvUHdDRjhObzFBWFZVVFg1UzBGSE81eWU0dnBoLWRpemVUczBmSllpNVJZRW1aUkEyY0JoR0VkU2VaNmI0eXI3emhycHFDX0JiVXVUXzRhZWpiRzdZYnRKTjlmakstZVVWOA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2tUQlhEV3FBekw1OURZUGRjWEtBZ2t3cUtPUWZ6NVFjTENyRWtDdTI2d1c0STJ3ZTF4ZzJXYlJQNGpiMlJCdWpTM2RxODdIb2EyWEgxMXNvTko1VXJlZjhHNVEzMmNnd1Z5NnVBaEJDYVVNcG1PQWNmbzBnLWg0bm90MXJHWEczZkJVYU9UZVZKT1E?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Barcelona strike deal worth 300 million euros - Goal.com",
+      "title": "Hasan Mahmud, Taskin strike as South Africa reach 386-7 at lunch - Jagonews24",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "16 Nov 2026, 10:52 UTC",
+      "published": "17 Nov 2026, 11:56 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Goal.com",
+      "source": "Jagonews24",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQm5RS1VnSE05RHV3SnlLUkNfZjZSZi1fenVYS1B3OGxXTGptdVNxWWhiQk1Ueno0MXJ4eFRmdGhLaW9MbnFHZEwzLXAxYWdrVVp2dUhhMkJIRDJoUU1PZmE4UEM3dEpVaS0yb0VfdXFlNWNISi16VXg0OWFwcEszd0kxZmMwTkRZeWNadXNXeHpmZUtGdUh3azg5WjB5Zw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BOU5WaEtOWHJBb1hzZ0tpTy1iLXZxeWt4UFhmXzhFTE9HVVNmeE15cDIyVkN3RjJTN1A4YXhnQ2loeXo3bkR0MjNwUFRlUDFDdjgyVUoxamR2bXM?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Hasan’s early strike after Litton’s hundred gives Bangladesh a perfect lunch break - The Daily Star",
+      "title": "Hasan, Taskin strike as South Africa reach 386-7 at lunch - Bangladesh Sangbad Sangstha (BSS)",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "16 Nov 2026, 10:12 UTC",
+      "published": "17 Nov 2026, 11:26 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "The Daily Star",
+      "source": "Bangladesh Sangbad Sangstha (BSS)",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ0hSSWpVbDB3Yll2S0xsSUtUSU9fTU94dFRBZFNCQ1Y2aEtjLS1rWm5rXzVyOWdFa3dEZnNUUlc1Mm16SnBsOTFXc19ZZ0xMVXFKdTlhS3ByUWsyYlhReGd3OXpQYXhiM2VBNFhNV2xNOF9UcjItOGxPNHRwcXA0ZVh1Zm1VV0FaUHFONy1Md1dCclZzMHNBZlcwa0YtMldKSkw4WnowMU1lMHZJNnV3MndZdk5lWkVvNXd2d1JCYXR5MEhVR25icFpwN2NfYlht?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85SFNWTHpoWkJrTXJoYng5Y0p1YkxHQjlEclMzOHF4VDZXMFMyUk9ZeHk4SERRQkk4ZTFTdEZ6U3ZVS28zN3RkVDdtVW1vUQ?oc=5",
       "business_impact_score": 46
-    },
-    {
-      "title": "South Africa's port delays continue to weigh on supply chains - CNBC Africa",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "16 Nov 2026, 11:36 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "CNBC Africa",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbnlheUJVZWY4c01WT0k2SVJvUk5nMDlTSUxUa25PNTJpSy13NWc4STlObVNPcGk4bjNCaE1jQUVKOVpCVTQ5akR3WnVxamt0dFcyV2xSTkR6SENIVV9OUHFmeGNwNlpsNEZiVmFhdTloMTJHLWxGdFZFNEVMU3p1eVRfS2pnaXduS000amV2aFB5NHc5VTNKTV9pdDYyRTNtZENOWlVNVWZTM2M?oc=5",
-      "business_impact_score": 42
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "afrikaans": {
-      "word": "Verslag",
-      "english": "Report",
-      "pronunciation": "fur-SLAKH",
-      "example": "Ek het die verslag nodig.",
-      "example_english": "I need the report.",
-      "use_note": "Common workplace vocabulary for written reporting and business information."
+      "word": "Aanbieding",
+      "english": "Presentation",
+      "pronunciation": "AHN-bee-ding",
+      "example": "Dankie vir die aanbieding.",
+      "example_english": "Thank you for the presentation.",
+      "use_note": "Useful around briefings, pitches and formal business presentations."
     },
     "isixhosa": {
-      "word": "Enkosi",
-      "english": "Thank you",
-      "pronunciation": "en-KOH-see",
-      "example": "Enkosi.",
-      "example_english": "Thank you.",
-      "use_note": "One of the most useful isiXhosa expressions for polite professional, hospitality and everyday interaction."
+      "word": "Igama",
+      "english": "Name",
+      "pronunciation": "ee-GAH-mah",
+      "example": "Lithini igama lakho?",
+      "example_english": "What is your name?",
+      "use_note": "Useful in introductions; the full phrase is more practical than using the noun on its own."
     },
     "rotation": "daily",
     "source_type": "curated"
