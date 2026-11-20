@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-19T15:49:29.167396+00:00",
-    "generated_display": "19 Nov 2026, 15:49",
+    "generated_at": "2026-11-20T15:31:43.124123+00:00",
+    "generated_display": "20 Nov 2026, 15:31",
     "timezone": "Europe/London",
-    "raw_item_count": 548,
-    "normalised_item_count": 120,
-    "final_item_count": 114,
+    "raw_item_count": 560,
+    "normalised_item_count": 111,
+    "final_item_count": 110,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 522
+        "item_count": 534
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -35,19 +35,19 @@
     "components": [
       {
         "name": "Security",
-        "score": 43
+        "score": 36
       },
       {
         "name": "Civil unrest",
-        "score": 47
+        "score": 48
       },
       {
         "name": "Infrastructure",
-        "score": 24
+        "score": 25
       },
       {
         "name": "Transport",
-        "score": 47
+        "score": 48
       },
       {
         "name": "Business environment",
@@ -57,7 +57,7 @@
   },
   "timeline": [
     {
-      "date": "19 Nov",
+      "date": "20 Nov",
       "score": 68,
       "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 37,
-      "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "score": 28,
+      "level": "Low",
+      "summary": "Current city risk is being driven by unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -89,9 +89,9 @@
       "latitude": -25.7479,
       "longitude": 28.2293,
       "default_zoom": 11,
-      "score": 41,
+      "score": 35,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime, protests and civil unrest."
+      "summary": "Current city risk is being driven by road and transport disruption, protests and civil unrest."
     },
     {
       "id": "durban-ethekwini",
@@ -99,7 +99,7 @@
       "latitude": -29.8587,
       "longitude": 31.0218,
       "default_zoom": 11,
-      "score": 44,
+      "score": 45,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
@@ -109,9 +109,9 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 37,
+      "score": 34,
       "level": "Guarded",
-      "summary": "No strong city-specific incidents were identified in the current collection period."
+      "summary": "Current city risk is being driven by security and crime, unclassified news."
     },
     {
       "id": "bloemfontein",
@@ -119,7 +119,7 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 39,
+      "score": 47,
       "level": "Guarded",
       "summary": "Current city risk is being driven by security and crime."
     },
@@ -129,7 +129,7 @@
       "latitude": -33.0153,
       "longitude": 27.9116,
       "default_zoom": 11,
-      "score": 36,
+      "score": 30,
       "level": "Guarded",
       "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     }
@@ -140,19 +140,47 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-19T15:49:29.167396+00:00",
+    "last_checked": "2026-11-20T15:31:43.124123+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
+      "title": "Durban motorists advised of road closures for Carling Knockout clash - ECR",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "20 Nov 2026, 14:54 UTC",
+      "summary": "Durban motorists advised of road closures for Carling Knockout clash ECR",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "ECR",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5YzFWZm5LeVNtUkF1V0h3VUJ6ZXBBUURpcXpVbFlPVDcwQk8tdFJaOXRpb3BHb0QwaXMxMVR5dVQwOEVWeVFJR19tVU0wWmNsb2tVbWNXYXlnVWkzZ3dSdWRnMkxFQVhNbFU4V0NwbEs3N0FwWkZsNkZ5dEpGQQ?oc=5",
+      "business_impact_score": 32
+    },
+    {
+      "title": "Durban road closures announced for Carling Knockout semi-final - IOL",
+      "location": "Durban / eThekwini",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "20 Nov 2026, 04:16 UTC",
+      "summary": "Durban road closures announced for Carling Knockout semi-final IOL",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVjFPbUF4cXhGQ1U4R0RISWN1bDNCMS1WakFPcEtJZl9FZk0tM3lrM0VRSDlFSDI3NjBpZHI3OHVWV0dpdU1hTlcwZkdoeHg5aEtTM29PREJBVnRCUlpuX0IwWHhrU253REcwRzJNMXZjZDRLbHZVSXRuN3MtWmwtTFEwcWlhWjlBNURWNEJDVElhN1JzQkZ3RHJMbGFOcVpFUWlLblVFMndGZzFVejhxYWs1Yw?oc=5",
+      "business_impact_score": 32
+    },
+    {
       "title": "Ride Joburg: Road closures and alternative routes for November 22 - IOL",
       "location": "Johannesburg",
       "type": "Road closure",
       "severity": "Low",
       "status": "Active",
-      "time_window": "18 Nov 2026, 08:00 UTC",
+      "time_window": "19 Nov 2026, 13:49 UTC",
       "summary": "Ride Joburg: Road closures and alternative routes for November 22 IOL",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
@@ -161,18 +189,46 @@
       "business_impact_score": 32
     },
     {
-      "title": "Housing activists protest AI data centre developments in Western Cape - EWN",
+      "title": "South Africa anti migrants protest: Home Affairs Department deport nearly 39,000 undocumented foreign nationals amidst SARS warning to travellers - BBC",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "19 Nov 2026, 11:49 UTC",
-      "summary": "Housing activists protest AI data centre developments in Western Cape EWN",
+      "time_window": "20 Nov 2026, 13:50 UTC",
+      "summary": "South Africa anti migrants protest: Home Affairs Department deport nearly 39,000 undocumented foreign nationals amidst SARS warning to travellers BBC",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGxBSnRrQS1VZ3MtY2p1WTFHVXdFSFFidTVjUlNGZ2pWSVVIOGFmdU1lRjRuNFM5WUV4U2s5Y0wzcWtTVWh2ZzRPSHJaUTNfUml6V0U4a3B1RmJzbWI3eW1MS1hzdk1DZWVpbWhiWHV3dUZmQ21lTU1vd1otb042ckk0YWFIQ3dQLUMwVk9FeTVGd3Nva0R6Vl9EOUFONE1QWGNkcg?oc=5",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1aRWluaURjbHJCZXF2YVpPdUl3UGk3cy13YXNqa2VSVUNNZGlXejZpNUttUnZUNTZJM285Sk5HaFo2VjB1X29aU0dLbnNsa3YwRWNLWWtPVVdneGVja3fSAWNBVV95cUxNaXd6aEpDYmNIZVV1RFptUXo2V05PT2U4cXQtSkI1TU1YZlI3ekNSaWZZWUxWTl9WOEVqa0R1VjVfYUY5RVJyTUxLcktSdjJnclFRSm5EQkRlYmNsTXdLa2tXNm8?oc=5",
       "business_impact_score": 48
+    },
+    {
+      "title": "South Africans march through Pretoria neighbourhood, protest against Nigerians calling it 'Little Lagos' - Pulse Nigeria",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "20 Nov 2026, 11:41 UTC",
+      "summary": "South Africans march through Pretoria neighbourhood, protest against Nigerians calling it 'Little Lagos' Pulse Nigeria",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Pulse Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ2Rfek9RZ1RiWHo2VmNqRzM4ZUVXUFFRVW55TE55dmZ4QzNKRm1HQmw4dXY0Zk0yVWxfdUs4cHdFeUFwTXp0anJZY3V1cFFTbGJfWWxGdGNGVTY2MlJuQ1JPY0tiU3lJYk1yR0djdTNobkhRQnhYNVVuZHEyRkgxVHpOemFCYUJuaWExdW9Od2hjQWpKQmxxSUlURkV6NFNvSFd5NGQxSQ?oc=5",
+      "business_impact_score": 47
+    },
+    {
+      "title": "Barcelona vs Villarreal predictions: Fermin to strike in home win - Goal.com",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "19 Nov 2026, 16:16 UTC",
+      "summary": "Barcelona vs Villarreal predictions: Fermin to strike in home win Goal.com",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "Goal.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3U2dFVJN3dmbFhBNzFCbU1yZjU3NGRUaWJVb3l1ZFpVNWlYTmtKMFhCQTBXLWY3RTZWSkNFeFBROWp2Q0xsd1l4NzUxVXdJTG5wVlg5WUdXRWtoQXBPV1hhbDlKQjUzN2xNZmlJNkVUc2YybXd2Nk11c3ZoUEdGcUYtdGhmTEE3cVVOTUZmQ2VyVWt5aWlaTUhVSEk0dmdyVHVLc1FlaTdqd0hLcXNJ?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "VIDEO: South Africans protest Nigerians calling Pretoria community ‘Little Lagos’ - Punch Newspapers",
@@ -180,7 +236,7 @@
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "19 Nov 2026, 13:40 UTC",
+      "time_window": "19 Nov 2026, 13:54 UTC",
       "summary": "VIDEO: South Africans protest Nigerians calling Pretoria community ‘Little Lagos’ Punch Newspapers",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
@@ -201,92 +257,78 @@
       "source": "TheCable",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMF82Tnl4OEJVbnBuZmYwNmJTX29jdm1FS0c3WGpCMFM4VktPUGhRVWRMUVdoRG42TGRVUXA3Ykxxd2wxVlFSYW9XV0ZFN2FzZDhZNzNocFVkTDdkdmgzOElZT3VUYW5JZF9LUFFSajlFUmhlS1NROEIwanM3bFBxS25lWnZMd05UcEUyQXdjUUpDSFZsbVRMemRFWk5QOEZqWEE?oc=5",
       "business_impact_score": 46
-    },
-    {
-      "title": "March and March takes anti-illegal immigration campaign to Pretoria - eNCA",
-      "location": "Pretoria / Tshwane",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "18 Nov 2026, 08:19 UTC",
-      "summary": "March and March takes anti-illegal immigration campaign to Pretoria eNCA",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "eNCA",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMGszOVUwYmtRZ3l6U2pvMnNDVkllaW9IQTZSQzhZZ2hYWnAzdzJBR19KV2JSU3A1NW5pN0luNGNZYUg3VFFvc3ZtVUloZ1FXU3RoZGZmNmE3YkMtQUFEUFpQRFE0QTlwMWpzUGxOTzVFZUtsMXcwWnZWQWVrdmtLb0N1LWFyUWV0bXQzY1Nramh6bjI1NjZ3Yks2R055X0wtdEt0QQ?oc=5",
-      "business_impact_score": 43
-    },
-    {
-      "title": "South African Protesters Demand Ban On Nigerians Entering Country - Arise News",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "19 Nov 2026, 14:42 UTC",
-      "summary": "South African Protesters Demand Ban On Nigerians Entering Country Arise News",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "Arise News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWlZSd0FUZXhvVDlyUTBoMnZDZW5MNEd5bTMwQ2cySVdQeHVmRWF4OEh0bmpjZHZQVUw3V2lLSWtqajU3NzFtUGt1Ty1yc2htbkV4SVdDNWVPd3EyM2wxR3EzeENoYmZMdmNVYmJFcG9PTGk3emNTeEU0U2FGN2ZTNm16bzdDZXR4blh0Q1VNTlE?oc=5",
-      "business_impact_score": 41
-    },
-    {
-      "title": "South African Protesters Demand Ban On Nigerians - The Whistler Newspaper",
-      "location": "National",
-      "type": "Demonstration",
-      "severity": "Medium",
-      "status": "Active",
-      "time_window": "19 Nov 2026, 12:48 UTC",
-      "summary": "South African Protesters Demand Ban On Nigerians The Whistler Newspaper",
-      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
-      "confidence": "Reported",
-      "source": "The Whistler Newspaper",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43Zk9UZ0sxOFpOeDB4dVNKS2lyNVFHaHJRNFFpUEdFTFJicG1oM0FUcnVHd0Q3anBwaGNraDNOY2lGcVB6RnF3dTVBQXYwTWRuOG0xZzBYMG5MYlpQdjZVWlpnc0FITHotUnRfemN6RWQyVy1NQnE5SWVhc1k?oc=5",
-      "business_impact_score": 41
     }
   ],
   "news": [
     {
-      "title": "Housing activists protest AI data centre developments in Western Cape - EWN",
+      "title": "South Africa anti migrants protest: Home Affairs Department deport nearly 39,000 undocumented foreign nationals amidst SARS warning to travellers - BBC",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "19 Nov 2026, 11:49 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "EWN",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGxBSnRrQS1VZ3MtY2p1WTFHVXdFSFFidTVjUlNGZ2pWSVVIOGFmdU1lRjRuNFM5WUV4U2s5Y0wzcWtTVWh2ZzRPSHJaUTNfUml6V0U4a3B1RmJzbWI3eW1MS1hzdk1DZWVpbWhiWHV3dUZmQ21lTU1vd1otb042ckk0YWFIQ3dQLUMwVk9FeTVGd3Nva0R6Vl9EOUFONE1QWGNkcg?oc=5",
-      "business_impact_score": 48
-    },
-    {
-      "title": "Senegal and Morocco lead Afcon qualifiers but Tunisia protest - BBC",
-      "location": "National",
-      "city_id": null,
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "17 Nov 2026, 16:18 UTC",
+      "published": "20 Nov 2026, 13:50 UTC",
       "event_date": "",
       "summary": "Moderate business impact (48/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
       "source": "BBC",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXWm1McHpNb1lQUUYzQnJsN0Zxb0VqQzZkN2F1T0xzWVpDelh1M2QzR0I5UmxQVW5wWmlvYWhKOGYwRHNXSDAwTXNKTWpzMHJHWHZiOVhaU3Y2dXJjcXN6ZVNkbDdLc1Zp?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1aRWluaURjbHJCZXF2YVpPdUl3UGk3cy13YXNqa2VSVUNNZGlXejZpNUttUnZUNTZJM285Sk5HaFo2VjB1X29aU0dLbnNsa3YwRWNLWWtPVVdneGVja3fSAWNBVV95cUxNaXd6aEpDYmNIZVV1RFptUXo2V05PT2U4cXQtSkI1TU1YZlI3ekNSaWZZWUxWTl9WOEVqa0R1VjVfYUY5RVJyTUxLcktSdjJnclFRSm5EQkRlYmNsTXdLa2tXNm8?oc=5",
       "business_impact_score": 48
     },
     {
-      "title": "Security guard shot in buttocks and stomach in Pretoria shooting - The Citizen",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "category": "Security and crime",
+      "title": "Durban Port Crisis Sparks New Road Safety Measures Across KZN’s Major Routes - Newcastillian News",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "18 Nov 2026, 11:45 UTC",
+      "published": "20 Nov 2026, 06:39 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "The Citizen",
+      "summary": "Moderate business impact (47/100). Assessed as no clear immediate threat, with city scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "Newcastillian News",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN1E1NDhrR2FfemlqSUtEZ05jc0VURGJkTVFPYm84WGdWaElQU2EtQ3ZxQWlyWldXcFRtMmoxaWx5ejhnSTEwcXNRUU9jc09Nak5UNnZ3cEtCMzNSeGVMS1hsSXR3UFY2VjFRRS1uUVJna0RRTjdENml6ZmZiNUt4RVJpc1ZHVGxUMjRLWjM0dGowUm10enF4dlBXQWJfblV3VjFhYld0TjFIQ0xIT3F2SWlCdmlfektjZnpmZXBhUW1vUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTy1paEljTE92ODc2UkI0WlJJVkdGc3UyMmpCMUY1REZfLVBDcEtzYS0xRFU4ckVYOEdxczh2RV9SNEJ0YnVZLU9vMkFKRnB4emxoSVE0VS1iZFVBWWNrVUlVOHRhcE9zMmRlOXVIeWRNaXNoaWF5cWxNNEZoQkxjdGxDQzhyRTJm?oc=5",
       "business_impact_score": 47
+    },
+    {
+      "title": "South Africans march through Pretoria neighbourhood, protest against Nigerians calling it 'Little Lagos' - Pulse Nigeria",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "20 Nov 2026, 11:41 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with local scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Pulse Nigeria",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ2Rfek9RZ1RiWHo2VmNqRzM4ZUVXUFFRVW55TE55dmZ4QzNKRm1HQmw4dXY0Zk0yVWxfdUs4cHdFeUFwTXp0anJZY3V1cFFTbGJfWWxGdGNGVTY2MlJuQ1JPY0tiU3lJYk1yR0djdTNobkhRQnhYNVVuZHEyRkgxVHpOemFCYUJuaWExdW9Od2hjQWpKQmxxSUlURkV6NFNvSFd5NGQxSQ?oc=5",
+      "business_impact_score": 47
+    },
+    {
+      "title": "'I won't stop until it gets resolved': Creecy outlines interventions at crisis-hit Durban Port - EWN",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "19 Nov 2026, 01:27 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
+      "source": "EWN",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSXRYVW1RTC12UGxfMWNpQzhvREZsOXplS0FIVTBfbWhPd1JuX2s5dDB1OUJCX1BXS3RSTWw4Mks0SkVZb2ZlU3lLbDcwUXFuRkFKek5jUG9lSUM5UFZBdjFLUGNlNDdDU19MdUc4SUI3NDVDQ0ZIb3kwTC1hM1g0a0RzZkNRWjlQclNCTHRFX3VzQ05WdU1YYlozOUF5QldhY05KcUVGaGR6RV9CYWpMdXlETQ?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Barcelona vs Villarreal predictions: Fermin to strike in home win - Goal.com",
+      "location": "National",
+      "city_id": null,
+      "category": "Protests and civil unrest",
+      "relevance": "Moderate",
+      "published": "19 Nov 2026, 16:16 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "Goal.com",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3U2dFVJN3dmbFhBNzFCbU1yZjU3NGRUaWJVb3l1ZFpVNWlYTmtKMFhCQTBXLWY3RTZWSkNFeFBROWp2Q0xsd1l4NzUxVXdJTG5wVlg5WUdXRWtoQXBPV1hhbDlKQjUzN2xNZmlJNkVUc2YybXd2Nk11c3ZoUEdGcUYtdGhmTEE3cVVOTUZmQ2VyVWt5aWlaTUhVSEk0dmdyVHVLc1FlaTdqd0hLcXNJ?oc=5",
+      "business_impact_score": 46
     },
     {
       "title": "VIDEO: South Africans protest Nigerians calling Pretoria community ‘Little Lagos’ - Punch Newspapers",
@@ -294,7 +336,7 @@
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "19 Nov 2026, 13:40 UTC",
+      "published": "19 Nov 2026, 13:54 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
       "source": "Punch Newspapers",
@@ -322,7 +364,7 @@
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "19 Nov 2026, 02:04 UTC",
+      "published": "20 Nov 2026, 12:17 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
       "source": "Moneyweb",
@@ -331,79 +373,51 @@
       "business_impact_score": 44
     },
     {
-      "title": "Ferrel Govender dies, family calls for inquest — report - The Witness | Your compass in the community",
+      "title": "Durban port congestion worsens medicine shortages - IOL",
       "location": "Durban / eThekwini",
       "city_id": "durban-ethekwini",
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "18 Nov 2026, 15:58 UTC",
+      "published": "20 Nov 2026, 10:20 UTC",
       "event_date": "",
       "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "The Witness | Your compass in the community",
+      "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNanRIdUpod2JFX0lOZk5DNWduSHQ5cVhHTTlxRzdOZGJNMXZOSVpsQUM4cmdScHYxMnI1NUoyNVR5eUpiVlI2dUpmSFRVS3lsTU5YdnpWNjFqNW5LRVFfZHhsaS00MXlWc3IycmVWVjZmU1VJOEx2SldZRTJtc2I5N3pwcEh4Q01Ob1c2LXFISzJuTFdnb1FEMjJMVnVWeE01SUpJUGhBa3ZiWC1O?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNGlfMjdQRVZrSEE4WjBSMnNwUHVfb2Q1eVl2X0dWbHVBQm8yaE1DcGpOVTE4cE9QTDhOeHZhWkhjMlR1c0xYUlZlS1VzY2NaTUlpYU55dUhzRE5nLTlNZmVvQ1h4b0tjSmFxVUt0Z3V5LUc0d05meUFqR3o3T0QtbFBGck9HWlFsaFRKMjhudmhud2x2UlNyVUtoS0VjeUVQ?oc=5",
       "business_impact_score": 44
     },
     {
-      "title": "GO! Durban to train taxi drivers for bus operations - Sunday Tribune",
-      "location": "Durban / eThekwini",
-      "city_id": "durban-ethekwini",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "17 Nov 2026, 21:23 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "Sunday Tribune",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbXpqZmp3V2ZFcGRpYlZoeU1kOWVyV0hqUHJQbUJ3aDVzeVBxRWRGUzk0Tnlla00xYnJiendGZUtyTzQxOVdQZWcxa0VQdFRRV1lFNkk5OTZHWDNucFlDLU1KcGlUOHlwWEhLZnNBdjBoYkltbDFxVi1SQWtCOTFCelU3cU53b2ZBTFZkeVI1TmZQQ0NPQ2J3MmhHaw?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "Port delays deepen South Africa’s mounting medicine shortages - TimesLIVE",
-      "location": "National",
-      "city_id": null,
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "19 Nov 2026, 02:30 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "TimesLIVE",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTGh5YkZMUnRNMVh1Tl9rMHpCNGIwaXNleUN3X2ZYOXUwbTRwakpXMmtOOHpTbFZnNVg0RXRMSE04cTR2Xy1pZjBUSWR0YmNKbXgzT1g5ZFM4ZldvR1FKeDdUZjkzUWxmV1JRRG95RUMzMkNlU1VRSkZ5OUg2cVU1NlFvNF9uWFZnTXZTSHJ4dHc1alpfR0VwNjE3UVhIVWlDelRDWlg3THd6T1h4Q2s4LVpOMm1aY0pP?oc=5",
-      "business_impact_score": 44
-    },
-    {
-      "title": "March and March takes anti-illegal immigration campaign to Pretoria - eNCA",
+      "title": "Gauteng and Tshwane target traffic light theft with smart surveillance - The Citizen",
       "location": "Pretoria / Tshwane",
       "city_id": "pretoria-tshwane",
-      "category": "Protests and civil unrest",
+      "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "18 Nov 2026, 08:19 UTC",
+      "published": "20 Nov 2026, 00:17 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (pretoria / tshwane) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "eNCA",
+      "summary": "Moderate business impact (44/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Citizen",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMGszOVUwYmtRZ3l6U2pvMnNDVkllaW9IQTZSQzhZZ2hYWnAzdzJBR19KV2JSU3A1NW5pN0luNGNZYUg3VFFvc3ZtVUloZ1FXU3RoZGZmNmE3YkMtQUFEUFpQRFE0QTlwMWpzUGxOTzVFZUtsMXcwWnZWQWVrdmtLb0N1LWFyUWV0bXQzY1Nramh6bjI1NjZ3Yks2R055X0wtdEt0QQ?oc=5",
-      "business_impact_score": 43
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbVFlbW90Y1BHRFhBbkVkakFQSzRmX2FVWlBHVFU0Y2dkd0J0MUczR0hURUhpQjVHV281TEtvV2JhNnp2UkNaY3JqV2o5Tnp5dXJDOExLcUVfX0JoUTRCalc3V0FRRlR0ZS0wMklwLVlYa1ZJX2F2UDRLaVU5RjZfQ1BoVVRaWXNlaUhPcmVtZ2hqTVlvdkh6S3pZelhaUXZtZ0RkSFVsdW1nWjZURy14cmEwU0NlZHQ4YzZ5QzNNeHF6QXFnc1I1UDdB?oc=5",
+      "business_impact_score": 44
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "afrikaans": {
-      "word": "Produktief",
-      "english": "Productive",
-      "pronunciation": "pro-duk-TEEF",
-      "example": "Dit was baie produktief.",
-      "example_english": "That was very productive.",
-      "use_note": "A positive, professional way to describe a useful meeting or discussion."
+      "word": "Dankie",
+      "english": "Thank you",
+      "pronunciation": "DAHN-kee",
+      "example": "Dankie vir jou tyd.",
+      "example_english": "Thank you for your time.",
+      "use_note": "A simple, widely useful expression of thanks after a meeting, introduction or assistance."
     },
     "isixhosa": {
-      "word": "Ninjani?",
-      "english": "How are you? (several people)",
-      "pronunciation": "neen-JAH-nee",
-      "example": "Molweni, ninjani?",
-      "example_english": "Hello, how are you all?",
-      "use_note": "The plural form, useful when greeting a small group or team."
+      "word": "Hamba kakuhle",
+      "english": "Goodbye (to one person leaving)",
+      "pronunciation": "HAHM-bah kah-KOO-hleh",
+      "example": "Hamba kakuhle.",
+      "example_english": "Go well / Goodbye.",
+      "use_note": "Traditionally said to one person who is leaving; useful when ending an interaction courteously."
     },
     "rotation": "daily",
     "source_type": "curated"
