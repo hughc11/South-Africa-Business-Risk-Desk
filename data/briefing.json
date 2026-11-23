@@ -2,12 +2,12 @@
   "metadata": {
     "project": "South Africa Business Risk Desk",
     "data_status": "live intelligence",
-    "generated_at": "2026-11-22T14:39:31.048363+00:00",
-    "generated_display": "22 Nov 2026, 14:39",
+    "generated_at": "2026-11-23T18:18:10.176071+00:00",
+    "generated_display": "23 Nov 2026, 18:18",
     "timezone": "Europe/London",
-    "raw_item_count": 588,
-    "normalised_item_count": 112,
-    "final_item_count": 108,
+    "raw_item_count": 598,
+    "normalised_item_count": 106,
+    "final_item_count": 101,
     "collector_results": {
       "FCDO travel advice": {
         "status": "success",
@@ -19,7 +19,7 @@
       },
       "National and city news": {
         "status": "success",
-        "item_count": 562
+        "item_count": 572
       },
       "i-TRAFFIC": {
         "status": "success",
@@ -28,14 +28,14 @@
     }
   },
   "national": {
-    "score": 68,
+    "score": 67,
     "level": "High",
     "seven_day_change": 0,
-    "summary": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
+    "summary": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest.",
     "components": [
       {
         "name": "Security",
-        "score": 34
+        "score": 32
       },
       {
         "name": "Civil unrest",
@@ -57,9 +57,9 @@
   },
   "timeline": [
     {
-      "date": "22 Nov",
-      "score": 68,
-      "explanation": "High national business risk (68/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
+      "date": "23 Nov",
+      "score": 67,
+      "explanation": "High national business risk (67/100). The main current drivers are Road and transport disruption, Security and crime, Protests and civil unrest."
     }
   ],
   "cities": [
@@ -79,9 +79,9 @@
       "latitude": -33.9249,
       "longitude": 18.4241,
       "default_zoom": 11,
-      "score": 25,
+      "score": 29,
       "level": "Low",
-      "summary": "Current city risk is being driven by politics and government."
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "pretoria-tshwane",
@@ -101,7 +101,7 @@
       "default_zoom": 11,
       "score": 45,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by road and transport disruption, security and crime."
+      "summary": "Current city risk is being driven by road and transport disruption, unclassified news."
     },
     {
       "id": "gqeberha",
@@ -109,7 +109,7 @@
       "latitude": -33.9608,
       "longitude": 25.6022,
       "default_zoom": 11,
-      "score": 42,
+      "score": 40,
       "level": "Guarded",
       "summary": "Current city risk is being driven by protests and civil unrest, security and crime."
     },
@@ -119,9 +119,9 @@
       "latitude": -29.0852,
       "longitude": 26.1596,
       "default_zoom": 11,
-      "score": 42,
+      "score": 37,
       "level": "Guarded",
-      "summary": "Current city risk is being driven by security and crime."
+      "summary": "No strong city-specific incidents were identified in the current collection period."
     },
     {
       "id": "east-london",
@@ -140,19 +140,61 @@
     "status": "Official travel advice available",
     "section": "Warnings and insurance",
     "last_updated": "05 Nov 2026, 11:07 UTC",
-    "last_checked": "2026-11-22T14:39:31.048363+00:00",
+    "last_checked": "2026-11-23T18:18:10.176071+00:00",
     "summary": "Local government elections Local government elections are scheduled in South Africa on 4 November 2026. There may be an increase in political activity, including rallies and demonstrations, around the election period. Before you travel No travel can be guaranteed safe. Read all the advice in this guide. You may also find it helpful to: see general advice for women travellers read our guide on disability and travel abroad see general advice for LGBT+ travellers read about safety for solo and independent travel se...",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa/warnings-and-insurance",
     "confidence": "Confirmed"
   },
   "incidents": [
     {
+      "title": "Ride Joburg cycling race: Motorists warned of extensive road closures, traffic disruptions - EWN",
+      "location": "Johannesburg",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "23 Nov 2026, 07:20 UTC",
+      "summary": "Ride Joburg cycling race: Motorists warned of extensive road closures, traffic disruptions EWN",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYjZubGE0SFpLQjNmc2RNUlBaOTQ3MnNQVGEzenFPTUhSdEZlRVUzNFN5NktlSDNvbzFyQTdtdURTeTRKc2N6cVRIOGFiQlBuZGNFbHhsWUkzM1o0RHpDLXowNXlSRC1zTlN2SUdxOWdudl9RNF9nVXdQS2V1REtFNWRoQ0VtdHYtQVlzZGxrSFZndnFwYzBadC1ZSjltRjlaVk1Jb29XS3VtVThfWE9tbQ?oc=5",
+      "business_impact_score": 32
+    },
+    {
+      "title": "Cape Town Festive Lights switch-on: Road closures and transport changes to know - Getaway Magazine",
+      "location": "Cape Town",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "23 Nov 2026, 05:57 UTC",
+      "summary": "Cape Town Festive Lights switch-on: Road closures and transport changes to know Getaway Magazine",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "Getaway Magazine",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY3dLQndpWWswQ2RZeFNKWmJ6a1VRRmJSMHhjNkhhV0kzT1BvaGZhSHplRGdob3ZrT0FJblFGRU1wUEJ0aVJ5bmhMNnQxdXdTU1R1Ylp4YTB3YTJvSjczcGVVRzY1U1BZazhMTE1wVEVzLWtNTVgyZW9sR2lpOWtQY1R6cmtoTmdFbGMwT0lxb3hFU0F3ZzVnWG4xdmZWVGRkTGxxbXl2NEtURzlIenNn?oc=5",
+      "business_impact_score": 32
+    },
+    {
+      "title": "Cape Town Festive Lights: Road closures and travel changes revealed - Cape Town ETC",
+      "location": "Cape Town",
+      "type": "Road closure",
+      "severity": "Low",
+      "status": "Active",
+      "time_window": "22 Nov 2026, 16:01 UTC",
+      "summary": "Cape Town Festive Lights: Road closures and travel changes revealed Cape Town ETC",
+      "action": "Check the route before departure and allow additional journey time.",
+      "confidence": "Reported",
+      "source": "Cape Town ETC",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT01sbzBnN3lFeW9IM3BXbWduMGtpQ0c5dHJRc2VQem5CaWdvMnBaMlExUFRYbWNzYmVtd3lmQmZxZm5EMjVEbm1XSFFRRnE1N1VXMWRpQjJnWGd6NEFKbFdUUV9TY1VaU0N5ZGNmcGRET2E2Mi05aDJPYXdNUk9Uc05ZbHBJQUozM2p4dV9KMHM0RWhNeGFta2VVMDNrRndpZFE?oc=5",
+      "business_impact_score": 32
+    },
+    {
       "title": "Loftus Stadium road closures: Streets to avoid during Sundowns and Chiefs match - The Citizen",
       "location": "Pretoria / Tshwane",
       "type": "Road closure",
       "severity": "Low",
       "status": "Active",
-      "time_window": "22 Nov 2026, 08:39 UTC",
+      "time_window": "22 Nov 2026, 15:47 UTC",
       "summary": "Loftus Stadium road closures: Streets to avoid during Sundowns and Chiefs match The Citizen",
       "action": "Check the route before departure and allow additional journey time.",
       "confidence": "Reported",
@@ -161,187 +203,117 @@
       "business_impact_score": 32
     },
     {
-      "title": "Ride Joburg cycling race: Motorists warned of extensive road closures, traffic disruptions - EWN",
-      "location": "Johannesburg",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "22 Nov 2026, 03:42 UTC",
-      "summary": "Ride Joburg cycling race: Motorists warned of extensive road closures, traffic disruptions EWN",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "EWN",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZTQyUGtiTGxBaUVZOVhucF9LY3dZMmZibUVSaEVHakE5NGIyUHpQYVB6S2tVd1BUcExPUmN5M2ZfMUlvSXlOc1JGWmFLVzEyTkVueVU5QTExOHFkNFVqWnl4dFZDbGdYQkR5b3NoYmduUEZsNER4Q01nT0wzTFVVRGZ4TXhURGZUVDlXemVBb1U2LTVhakxFSkt5LVNadEtxaGd2c1gwQUNUcnFsWk96bXZOMWRoVzNldloyWHV3?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "Motorists warned as Ride Joburg triggers major road closures across Joburg: These routes will be affected - The Citizen",
-      "location": "Johannesburg",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "21 Nov 2026, 16:36 UTC",
-      "summary": "Motorists warned as Ride Joburg triggers major road closures across Joburg: These routes will be affected The Citizen",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "The Citizen",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMEJjRkFqQndHYzktSDh4Wktac1NOSTBTVW93Uk1UNDZVUkZOZFJTekdrM1RTejdmQXlnOFNiWFQwX0s5VmUwZlVPRDhtVlVzQ0RQYlJMWU9SNVJlYkJjT2g0d3k2U0V1amJneDJLaVNjUGFNY0JCaTE0a3dJUTF0VjF6eXN2VWN0T2ptUVlUbE1iS0dfWVFPd1g3UXItM0ZzU2ZkUC1Bak81djFMd1lDWkVwaWplV1A5cWhnQ0JsdjFia0k?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "City warns of road closures as 40 000 fans attend Carling Knockout semi-final - IOL",
-      "location": "Durban / eThekwini",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "21 Nov 2026, 08:00 UTC",
-      "summary": "City warns of road closures as 40 000 fans attend Carling Knockout semi-final IOL",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "IOL",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWdWVFhCUUpEMEw2Ni1nd0xWdG9iLUozT3dHbWF2Xzc3VmVXVlQ3TkZJeWVHT0lWdU0zNmJHcGYwSEQ4QTRtRzJac0t6REYzYTFENU8xYWd5WkVqX3FjMzJTWDlQSUVwYmVwb1QzUV83S2U5eVlKQUJsM09iSW9yMHJKOFVrNkNTZjd3b2drNl92dHVDWWFPODNzcHJheGJlUDNnbG0zbV93RHpSdXowUTJDa0ZicllQVmlPcQ?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "Durban motorists advised of road closures for Carling Knockout clash - ECR",
-      "location": "Durban / eThekwini",
-      "type": "Road closure",
-      "severity": "Low",
-      "status": "Active",
-      "time_window": "20 Nov 2026, 14:54 UTC",
-      "summary": "Durban motorists advised of road closures for Carling Knockout clash ECR",
-      "action": "Check the route before departure and allow additional journey time.",
-      "confidence": "Reported",
-      "source": "ECR",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5YzFWZm5LeVNtUkF1V0h3VUJ6ZXBBUURpcXpVbFlPVDcwQk8tdFJaOXRpb3BHb0QwaXMxMVR5dVQwOEVWeVFJR19tVU0wWmNsb2tVbWNXYXlnVWkzZ3dSdWRnMkxFQVhNbFU4V0NwbEs3N0FwWkZsNkZ5dEpGQQ?oc=5",
-      "business_impact_score": 32
-    },
-    {
-      "title": "Hundreds stage 15-minute GBV protest on Cape Town’s Sea Point Promenade - Cape Times",
+      "title": "Manchester City vs Napoli predictions: Haaland to strike late - Goal.com",
       "location": "National",
       "type": "Demonstration",
       "severity": "Medium",
       "status": "Active",
-      "time_window": "22 Nov 2026, 11:02 UTC",
-      "summary": "Hundreds stage 15-minute GBV protest on Cape Town’s Sea Point Promenade Cape Times",
+      "time_window": "23 Nov 2026, 14:30 UTC",
+      "summary": "Manchester City vs Napoli predictions: Haaland to strike late Goal.com",
       "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
       "confidence": "Reported",
-      "source": "Cape Times",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXdUU2lKc29yQnZ5dW05YXBzXzdfcDB0bGFCTFI2MHRlcHNqT2NaVENqbmg4bFhLZWpDQlRiTnpZREo1Qm9iQWM3dkNUTVpXYW1ZTDd5MWF0eXZNWllHUzlUTGFRaS05V1o3WlVESXo4ZnZXSm15T3ZXM0VLek9fRnkzR3p1RTVPRzgyangzNlVaRk9WdEVUWXJOdHdrUEd4dmhJel9XWjJ3dw?oc=5",
+      "source": "Goal.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQTdyTkR1MjlzcXU0NTNOLThnNHhOaVZaU29PcWxzT2FwRE5Cbzh6TEZlYzNtNmxLZ3pSUWtjTkNfQ2ZDa0kwSGhMeW1KendZejFTdmNDRERXZDl3c3FkZHdGTV9sdGsyMmV0R29DT3g1WlZtYTUtR0hNU2IxLUhWa1hEZkYzUnNkYVBlWjM5d3VNQlVHbDVDeXZZNmcwUEtXTnptTkVvWlRZaVpRbjNOclBn?oc=5",
+      "business_impact_score": 46
+    },
+    {
+      "title": "Hundreds stage 15-minute GBV protest on Cape Town’s Sea Point Promenade - IOL",
+      "location": "National",
+      "type": "Demonstration",
+      "severity": "Medium",
+      "status": "Active",
+      "time_window": "22 Nov 2026, 11:00 UTC",
+      "summary": "Hundreds stage 15-minute GBV protest on Cape Town’s Sea Point Promenade IOL",
+      "action": "Avoid the affected area, confirm meeting access and allow additional travel time.",
+      "confidence": "Reported",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEtRaDMyRzZSbzR5WHppcjNBaEdMWkU3RWM3enFwZjVHU3lyY2czekdqMUZ2blJJWUtLQmJQNnJhR1dqM2pkM2pSRTlrNFNfWVgzS3J3SWZEOHJrMzRCUkhkQTVsaDYwZmNudUNsTjJkYjhoU0FLLXpvNXVVUV9JTFdwa3gwVXQxOExWYktRLTYwN2tRaURxX3B2OVN4ZldNXzBYV1ZaOUN2WXZrelow?oc=5",
       "business_impact_score": 46
     }
   ],
   "news": [
     {
-      "title": "Two arrested in Gqeberha protest as Jacinta Ngobese-Zuma vows to fight police - Daily Maverick",
-      "location": "Gqeberha",
-      "city_id": "gqeberha",
-      "category": "Protests and civil unrest",
+      "title": "Durban port peril and debt hurdles test SA’s private rail overhaul journey - Daily Maverick",
+      "location": "Durban / eThekwini",
+      "city_id": "durban-ethekwini",
+      "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "20 Nov 2026, 17:08 UTC",
+      "published": "22 Nov 2026, 22:15 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (gqeberha) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
+      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (durban / ethekwini) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
       "source": "Daily Maverick",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUmx1Qk9OVmJ3WDVsRnJkZ0prR3V3UndnUHRVWVRCTUdUYkNTOG1VRnQ2MHVycW1Db19zNVRKbm03aERoY0w1YjJpZmd4N1lZU2YyREtGQkR4UE1ETGxfMmpWSEJTSEtjYnR4akJ0V2dWNGRVWmlwbW1rNFRrM253bDZlRXlUYm9fZGs0NVFYejJIM19kTGxQU1l5V1F3V2FRYjVfNDhQZHh6QXpEQmFqZUs0M1ZSUUFiV3I0cUZMeGRLRXFQSFFDSQ?oc=5",
-      "business_impact_score": 49
-    },
-    {
-      "title": "Pool protest: Joburg residents fume over chlorine shortage - News24",
-      "location": "Johannesburg",
-      "city_id": "johannesburg",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "20 Nov 2026, 16:16 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (49/100). Assessed as serious disruptive incident, with localised (johannesburg) scope and limited immediate disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is operational relevance.",
-      "source": "News24",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeTJvazJBWUdQaHVlcHcyMlpGNW51eHNQZDFKZEpQRjlNVmhCRmR5UnhHX3FjS0tFZGw2eGJWM2xUMzFlVDVUQWs1UkFPS0ZuaWJCcF9QZDVVS3NjUWhCTlVvOU1QODdFRTZIV3dTdTBhVWl0bGlGSmh5U1VLQlNGMUVMcUp3MmhYVGN0T2hPb21KQnZrSXhxR1hHU0lqTzVBWVk4dHAtWnl1LXZpR2lPRw?oc=5",
-      "business_impact_score": 49
-    },
-    {
-      "title": "March and March threatens bigger Gqeberha protest - Algoa FM",
-      "location": "Gqeberha",
-      "city_id": "gqeberha",
-      "category": "Protests and civil unrest",
-      "relevance": "Moderate",
-      "published": "20 Nov 2026, 15:32 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (47/100). Assessed as serious disruptive incident, with localised (gqeberha) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Algoa FM",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOakxtMXc5ZU83ZDVRWnpfRk9hRzltb1dCc2lFdWU4VzBfNk9aaUFpYlVXZzUwX0oyZEVMRTFHY1RIQ0E1SWk5b21YcTRrZVQyNWQ0d21EX1BlOXdMRXNPbXhkNWRkOXRhR3BrWEFpWm9jT2ZuVXFjbHRCNXlSMnpjaFNyREFHZkRr?oc=5",
-      "business_impact_score": 47
-    },
-    {
-      "title": "R14 million traffic fines in Joburg, Tshwane to be refunded - SABC News",
-      "location": "Pretoria / Tshwane",
-      "city_id": "pretoria-tshwane",
-      "category": "Road and transport disruption",
-      "relevance": "Moderate",
-      "published": "20 Nov 2026, 16:26 UTC",
-      "event_date": "",
-      "summary": "Moderate business impact (46/100). Assessed as no clear immediate threat, with localised (pretoria / tshwane) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance.",
-      "source": "SABC News",
-      "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeXZDWTVGNXFaYnRpLXV4ejJTMXdIOXVXU0otTkhnRDR1TVJQVjVPR1dWLWVWby1NOVIzdzRFb0h0RFpJbUxscU03cUFOcFU1dGpxQXdxRnZkNGt0VDc5bHFuT19PNWdqS1RQWGxDOUlsR3FOTmk4c0MyQmlOQTQ4Q2dSVmlGU3hKUHV0NkxJRU4wTmVURVdhNQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUENQMEtqUG9yVGsxbWVkOUJBUHVtbDNGUVV0OGl1X0pXMThXeW1oemthNHBPbVZtN0xBZ1Z4WmphbEhhWFRMT2ZCdUNEOUI0a1BWRzZfTE5IdjBEVjhnX0tqTzctbzJhRVIyaFBzZi1PRk9QZklGcjIxY0FmWmlSX3ZJUEczbE93bUQxcjl2dUhQd1BKaEF5WjFIRWc2UHBhaTNfVmVydUVtc1R5aDlrVEJxeE93WUZ2LVl6M001TUkxRTg?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Hundreds stage 15-minute GBV protest on Cape Town’s Sea Point Promenade - Cape Times",
+      "title": "Manchester City vs Napoli predictions: Haaland to strike late - Goal.com",
       "location": "National",
       "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "22 Nov 2026, 11:02 UTC",
+      "published": "23 Nov 2026, 14:30 UTC",
       "event_date": "",
       "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
-      "source": "Cape Times",
+      "source": "Goal.com",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXdUU2lKc29yQnZ5dW05YXBzXzdfcDB0bGFCTFI2MHRlcHNqT2NaVENqbmg4bFhLZWpDQlRiTnpZREo1Qm9iQWM3dkNUTVpXYW1ZTDd5MWF0eXZNWllHUzlUTGFRaS05V1o3WlVESXo4ZnZXSm15T3ZXM0VLek9fRnkzR3p1RTVPRzgyangzNlVaRk9WdEVUWXJOdHdrUEd4dmhJel9XWjJ3dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQTdyTkR1MjlzcXU0NTNOLThnNHhOaVZaU29PcWxzT2FwRE5Cbzh6TEZlYzNtNmxLZ3pSUWtjTkNfQ2ZDa0kwSGhMeW1KendZejFTdmNDRERXZDl3c3FkZHdGTV9sdGsyMmV0R29DT3g1WlZtYTUtR0hNU2IxLUhWa1hEZkYzUnNkYVBlWjM5d3VNQlVHbDVDeXZZNmcwUEtXTnptTkVvWlRZaVpRbjNOclBn?oc=5",
       "business_impact_score": 46
     },
     {
-      "title": "Stun grenades and water cannon fired as Gqeberha anti-immigration march turns chaotic - HeraldLIVE",
-      "location": "Gqeberha",
-      "city_id": "gqeberha",
+      "title": "Hundreds stage 15-minute GBV protest on Cape Town’s Sea Point Promenade - IOL",
+      "location": "National",
+      "city_id": null,
       "category": "Protests and civil unrest",
       "relevance": "Moderate",
-      "published": "20 Nov 2026, 15:56 UTC",
+      "published": "22 Nov 2026, 11:00 UTC",
       "event_date": "",
-      "summary": "Moderate business impact (43/100). Assessed as serious disruptive incident, with localised (gqeberha) scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is indirect traveller relevance.",
-      "source": "HeraldLIVE",
+      "summary": "Moderate business impact (46/100). Assessed as serious disruptive incident, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is operational relevance.",
+      "source": "IOL",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUUtOSmRyY3NpaG80akJRZWJBVWhpa3dvTFZUblNPeEVCMWo1anY1LVd5dFIzN19YX0hQZkJkNTJPaDdjN0YxMjZfaEpvb1h5Ql85ejFGTFpEMkxvR3JkZXJmZTN2ZXNOSFphUEdqR1NNVmhpWmNhRUdCS1lnZ0MyWDVKdkRkaHdLMEFwcWlOd1lPMTdpY0w5MG5uWXdpekd3RlJOS1I0dkVScE9ZeW9RVGk2RHlOTWdJMUIxQVFzbDJaMmJpalRrS2hn?oc=5",
-      "business_impact_score": 43
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEtRaDMyRzZSbzR5WHppcjNBaEdMWkU3RWM3enFwZjVHU3lyY2czekdqMUZ2blJJWUtLQmJQNnJhR1dqM2pkM2pSRTlrNFNfWVgzS3J3SWZEOHJrMzRCUkhkQTVsaDYwZmNudUNsTjJkYjhoU0FLLXpvNXVVUV9JTFdwa3gwVXQxOExWYktRLTYwN2tRaURxX3B2OVN4ZldNXzBYV1ZaOUN2WXZrelow?oc=5",
+      "business_impact_score": 46
     },
     {
-      "title": "Durban Port delays leave truckers stranded and South African factories under pressure - IOL",
+      "title": "Mr Price warns Durban port delays risk Christmas retail stock flow - Traders Union",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "20 Nov 2026, 22:07 UTC",
+      "published": "23 Nov 2026, 02:25 UTC",
       "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "IOL",
+      "source": "Traders Union",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS18wSXp6TVJxdy1Nc2NhX1ZhNEY0b2ktZUFiZ0tOOWlTaTNlZk9aVVNVVTNDWF93ZkoteHVnb0xlbEJqazhaelktS1RQWjZEZVNvaFdwZ04wR0VUcmVVbzZ5MkRaRmpUNTRxOV92TGZlcFB0MHhQd3ZTbUNsYlMzbUlGUk9yWXFyc2xnQ2phSDI4MDdBOS1LZTlfNHRfMnB3Q2ZCWVBfZkxwT0p5d2N3ZGc2QTcxejNYbC10SFVqdk83UXlWY3ljZnZ0Uks?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaG93eTdSTzhRdmpnR0NhczkxbHBGSnk5TUk1UlN3NkpMMktaeWhwcVhJS3dyNS1NTzlEaVBJY3VBcmlmQ0I4UnNrQ2RMUi1Cd3hBMDJubHVjM1Vlb3ZkbzRnQzV1Sk13Umg0MlNsVDR2WWp3dlZTMXd2VzRxS0VJaWJCVzR3TWdPNDMwMGVNR0JKTmNWa2c?oc=5",
       "business_impact_score": 42
     },
     {
-      "title": "Steenhuisen urges SA businesses to tap into China’s zero-tariff export opportunities - South African Daily",
+      "title": "CEO: Lewis Group stocked up early, dodging Durban port delays - thenational.co.za",
       "location": "National",
       "city_id": null,
       "category": "Road and transport disruption",
       "relevance": "Moderate",
-      "published": "21 Nov 2026, 12:06 UTC",
+      "published": "22 Nov 2026, 11:00 UTC",
       "event_date": "",
       "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
-      "source": "South African Daily",
+      "source": "thenational.co.za",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb2JGM1MxcUNQbC1ER0ZfS2wwc1Ria2ozZjhyNUNUZ2JGMlZQeGhVSGptM005b2ZMa0hud0d0MzkxRy1JcHV3UFBxX0Z5Vi1scHRvRUpJU0xReFNvUk15TEc5LUZQY2Vodm9idHN5cF9WdWFZSGh1WVRJVi1kT21fTnJnTzVvT29OSmZzUlRRYUlqRXVfMEc1dnp3LTZwM08zLTEtVHY2bVZMY1kwNWpzT0tuU3N2elVOTFctSVd2Z3VfOFlNeE50VTRUQUQ3Zw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb0JONTJJWXNfU0I5R0RYQlJzendNaDVieTBFR2xlWU15bnJpUHJ5NlpUWDJPTDU1WEtXMW40U3NZUy1VOW1fUFFQNS1raklueV84d1RnWnVqNzBXWG43OWRIaDNvNEdzY3Z6cG5BeldEN0RrY0VvZEhtdm9nQ0hpbERNZDhjc2JXdnJrOGcyVUI2d3pMUnhOeVpJX01oT0tRR3hTZQ?oc=5",
+      "business_impact_score": 42
+    },
+    {
+      "title": "Durban Port Congestion Becomes Headache for the Auto Industry - The Maritime Executive",
+      "location": "National",
+      "city_id": null,
+      "category": "Road and transport disruption",
+      "relevance": "Moderate",
+      "published": "22 Nov 2026, 18:08 UTC",
+      "event_date": "",
+      "summary": "Moderate business impact (42/100). Assessed as no clear immediate threat, with local or unspecified scope and substantial business disruption. Duration is duration unclear; source assessment is source confidence not independently confirmed; traveller relevance is movement relevance.",
+      "source": "The Maritime Executive",
+      "confidence": "Reported",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdzlxcW8yNG14ZkJBZHBGSU51REJGQkF0dEVJSHRCNFRkYTVhSHJXV3VSVUc4UTAwbW1GQ2JEU0E3dm9BRDlYZUFhQ19xQ1hEMlM1eGNOWXRMLTNQTjVXeEdtd1FfRDlHdVhzRlRLQUdKSU8yazcyYVBKbjZjYUZJLVZwUjNvMTBFMjFFdExBRmlvelRzdmNoNnZ3RWozSE5sV1E?oc=5",
       "business_impact_score": 42
     },
     {
@@ -350,32 +322,46 @@
       "city_id": "johannesburg",
       "category": "Road and transport disruption",
       "relevance": "Guarded",
-      "published": "22 Nov 2026, 03:42 UTC",
+      "published": "23 Nov 2026, 07:20 UTC",
       "event_date": "",
       "summary": "Guarded business impact (32/100). Assessed as limited disruption, with localised (johannesburg) scope and substantial business disruption. Duration is duration unclear; source assessment is established news source; traveller relevance is movement relevance. Calibration applied: minor road disruption ceiling.",
       "source": "EWN",
       "confidence": "Reported",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZTQyUGtiTGxBaUVZOVhucF9LY3dZMmZibUVSaEVHakE5NGIyUHpQYVB6S2tVd1BUcExPUmN5M2ZfMUlvSXlOc1JGWmFLVzEyTkVueVU5QTExOHFkNFVqWnl4dFZDbGdYQkR5b3NoYmduUEZsNER4Q01nT0wzTFVVRGZ4TXhURGZUVDlXemVBb1U2LTVhakxFSkt5LVNadEtxaGd2c1gwQUNUcnFsWk96bXZOMWRoVzNldloyWHV3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYjZubGE0SFpLQjNmc2RNUlBaOTQ3MnNQVGEzenFPTUhSdEZlRVUzNFN5NktlSDNvbzFyQTdtdURTeTRKc2N6cVRIOGFiQlBuZGNFbHhsWUkzM1o0RHpDLXowNXlSRC1zTlN2SUdxOWdudl9RNF9nVXdQS2V1REtFNWRoQ0VtdHYtQVlzZGxrSFZndnFwYzBadC1ZSjltRjlaVk1Jb29XS3VtVThfWE9tbQ?oc=5",
       "business_impact_score": 32
+    },
+    {
+      "title": "National Environmental Management: Decision on appeals lodged against a decision to grant. English/Afrikaans",
+      "location": "National",
+      "city_id": null,
+      "category": "Government",
+      "relevance": "Guarded",
+      "published": "23 Nov 2026, 12:15 UTC",
+      "event_date": "Mon, 23 Nov 2026 12:15:47 +0000",
+      "summary": "Guarded business impact (27/100). Assessed as no clear immediate threat, with local or unspecified scope and limited immediate disruption. Duration is duration unclear; source assessment is official or primary source; traveller relevance is indirect traveller relevance. Calibration applied: local impact ceiling.",
+      "source": "South African Government",
+      "confidence": "Confirmed",
+      "url": "https://www.gov.za/documents/notices/national-environmental-management-decision-appeals-lodged-against-decision-grant",
+      "business_impact_score": 27
     }
   ],
   "daily_language_brief": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "afrikaans": {
-      "word": "Asseblief",
-      "english": "Please",
-      "pronunciation": "AH-suh-bleef",
-      "example": "Koffie, asseblief.",
-      "example_english": "Coffee, please.",
-      "use_note": "Useful for polite requests; courtesy is important when dealing with colleagues, hosts and service staff."
+      "word": "Goeiedag",
+      "english": "Good day / Hello",
+      "pronunciation": "KHOO-ee-dakh",
+      "example": "Goeiedag. Dis goed om jou te ontmoet.",
+      "example_english": "Good day. It is good to meet you.",
+      "use_note": "A useful professional greeting, particularly when meeting someone for the first time."
     },
     "isixhosa": {
-      "word": "Uxolo",
-      "english": "Excuse me / Sorry",
-      "pronunciation": "oo-KHOH-loh",
-      "example": "Uxolo.",
-      "example_english": "Excuse me / Sorry.",
-      "use_note": "Useful for politely getting attention or apologising in everyday interaction."
+      "word": "Molo",
+      "english": "Hello (one person)",
+      "pronunciation": "MOH-loh",
+      "example": "Molo.",
+      "example_english": "Hello.",
+      "use_note": "Use when greeting one person; a simple local greeting can be a respectful way to begin an interaction."
     },
     "rotation": "daily",
     "source_type": "curated"
